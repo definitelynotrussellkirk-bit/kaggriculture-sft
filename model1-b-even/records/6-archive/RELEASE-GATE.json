@@ -1,0 +1,48 @@
+{
+  "archive_bytes": 94080075,
+  "archive_sha256": "932bb45d7fe9f0ebb486356285b43c5d079761c3905ce650d2e99c9c77986952",
+  "builder_audit_scope": "heuristic_text_only",
+  "builder_verified": true,
+  "complete": true,
+  "declared": {
+    "decode": {
+      "mode": "greedy"
+    },
+    "device": "cpu",
+    "fallback": "PASS on any exception",
+    "seed": 0,
+    "temperature": 0.0,
+    "threads": 1
+  },
+  "declared_contract_verified": {
+    "decode": {
+      "mode": "greedy"
+    },
+    "device": "cpu",
+    "entrypoint": "main.py:agent",
+    "fallback": "PASS on any exception",
+    "seed": 0,
+    "temperature": 0.0,
+    "threads": 1
+  },
+  "entrypoint": "main.py:agent",
+  "hub_verified": true,
+  "legacy_step0_allowed": false,
+  "manifest_members": 35,
+  "parameters": 54639683,
+  "schema": "plain-v9-release-gate-v1",
+  "source_pins_verified": 34,
+  "step0_bound_to_archive": true,
+  "step0_probe_verified": true,
+  "step0_replay_verified": true,
+  "step0_structured": true,
+  "upload_authorized": false,
+  "verify": {
+    "fallbacks": 0,
+    "games": 2,
+    "max_first_step_ms": 1219.425,
+    "max_used_bank_ms": 223.16097404109314,
+    "pairs": 1
+  },
+  "warnings": []
+}

@@ -1,0 +1,819 @@
+{
+ "built_utc": "2026-09-29T06:29:55Z",
+ "seats_parquet_mtime_utc": "2026-09-29T06:24:44Z",
+ "out": "/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/rows-c7.tsv",
+ "seed": "rows-c7-20260929",
+ "recent_days": [
+  "2026-09-25",
+  "2026-09-26",
+  "2026-09-27",
+  "2026-09-28",
+  "2026-09-29"
+ ],
+ "anchor_days": [
+  "2026-09-07",
+  "< 2026-09-25"
+ ],
+ "rows": 9271,
+ "weighted_mass": 12957,
+ "nominal_total": 17000,
+ "cap_fixed_point_T": 12957,
+ "components": {
+  "hard": {
+   "target_mass": 3400,
+   "mass": 3399,
+   "rows": 1522,
+   "eligible_rows": 2110,
+   "eligible_mass": 4736,
+   "skipped": {
+    "target": 588
+   },
+   "shortfall_mass": 1
+  },
+  "league": {
+   "target_mass": 647,
+   "mass": 647,
+   "rows": 647,
+   "eligible_rows": 1017,
+   "eligible_mass": 1017,
+   "skipped": {},
+   "shortfall_mass": 0
+  },
+  "core": {
+   "target_mass": 8500,
+   "mass": 4478,
+   "rows": 2669,
+   "eligible_rows": 4586,
+   "eligible_mass": 7044,
+   "skipped": {
+    "overlap": 1522,
+    "day_cap": 217,
+    "team_cap": 178
+   },
+   "shortfall_mass": 4022
+  },
+  "lbonly": {
+   "target_mass": 647,
+   "mass": 183,
+   "rows": 183,
+   "eligible_rows": 247,
+   "eligible_mass": 247,
+   "skipped": {
+    "team_cap": 64
+   },
+   "shortfall_mass": 464
+  },
+  "anchor": {
+   "target_mass": 4250,
+   "mass": 4250,
+   "rows": 4250,
+   "eligible_rows": 23355,
+   "eligible_mass": 23355,
+   "skipped": {
+    "team_cap": 418
+   },
+   "shortfall_mass": 0
+  }
+ },
+ "component_share": {
+  "hard": 0.2623,
+  "league": 0.0499,
+  "core": 0.3456,
+  "lbonly": 0.0141,
+  "anchor": 0.328
+ },
+ "checks": {
+  "no_duplicate_seat": true,
+  "team_le_10pct": true,
+  "league_le_5pct": true,
+  "submission_le_5pct": true,
+  "day_le_25pct": true,
+  "lbonly_le_5pct": true,
+  "all_train_split": true,
+  "no_sealed": true,
+  "no_practice_val": true,
+  "policy_score_coverage_public": 0.9851340373679935
+ },
+ "mass_by_day": {
+  "2026-09-07": {
+   "mass": 10,
+   "share": 0.0008
+  },
+  "2026-09-08": {
+   "mass": 27,
+   "share": 0.0021
+  },
+  "2026-09-09": {
+   "mass": 72,
+   "share": 0.0056
+  },
+  "2026-09-10": {
+   "mass": 174,
+   "share": 0.0134
+  },
+  "2026-09-11": {
+   "mass": 194,
+   "share": 0.015
+  },
+  "2026-09-12": {
+   "mass": 194,
+   "share": 0.015
+  },
+  "2026-09-13": {
+   "mass": 204,
+   "share": 0.0157
+  },
+  "2026-09-14": {
+   "mass": 250,
+   "share": 0.0193
+  },
+  "2026-09-15": {
+   "mass": 293,
+   "share": 0.0226
+  },
+  "2026-09-16": {
+   "mass": 331,
+   "share": 0.0255
+  },
+  "2026-09-17": {
+   "mass": 398,
+   "share": 0.0307
+  },
+  "2026-09-18": {
+   "mass": 406,
+   "share": 0.0313
+  },
+  "2026-09-19": {
+   "mass": 363,
+   "share": 0.028
+  },
+  "2026-09-20": {
+   "mass": 342,
+   "share": 0.0264
+  },
+  "2026-09-21": {
+   "mass": 322,
+   "share": 0.0249
+  },
+  "2026-09-22": {
+   "mass": 304,
+   "share": 0.0235
+  },
+  "2026-09-23": {
+   "mass": 224,
+   "share": 0.0173
+  },
+  "2026-09-24": {
+   "mass": 142,
+   "share": 0.011
+  },
+  "2026-09-25": {
+   "mass": 740,
+   "share": 0.0571
+  },
+  "2026-09-26": {
+   "mass": 1658,
+   "share": 0.128
+  },
+  "2026-09-27": {
+   "mass": 2809,
+   "share": 0.2168
+  },
+  "2026-09-28": {
+   "mass": 3239,
+   "share": 0.25
+  },
+  "2026-09-29": {
+   "mass": 261,
+   "share": 0.0201
+  }
+ },
+ "mass_by_day_component": {
+  "hard": {
+   "2026-09-26": {
+    "mass": 442,
+    "share": 0.0341
+   },
+   "2026-09-27": {
+    "mass": 1303,
+    "share": 0.1006
+   },
+   "2026-09-28": {
+    "mass": 1479,
+    "share": 0.1141
+   },
+   "2026-09-29": {
+    "mass": 175,
+    "share": 0.0135
+   }
+  },
+  "league": {
+   "2026-09-27": {
+    "mass": 114,
+    "share": 0.0088
+   },
+   "2026-09-28": {
+    "mass": 484,
+    "share": 0.0374
+   },
+   "2026-09-29": {
+    "mass": 49,
+    "share": 0.0038
+   }
+  },
+  "core": {
+   "2026-09-25": {
+    "mass": 582,
+    "share": 0.0449
+   },
+   "2026-09-26": {
+    "mass": 1191,
+    "share": 0.0919
+   },
+   "2026-09-27": {
+    "mass": 1392,
+    "share": 0.1074
+   },
+   "2026-09-28": {
+    "mass": 1276,
+    "share": 0.0985
+   },
+   "2026-09-29": {
+    "mass": 37,
+    "share": 0.0029
+   }
+  },
+  "lbonly": {
+   "2026-09-25": {
+    "mass": 158,
+    "share": 0.0122
+   },
+   "2026-09-26": {
+    "mass": 25,
+    "share": 0.0019
+   }
+  },
+  "anchor": {
+   "2026-09-07": {
+    "mass": 10,
+    "share": 0.0008
+   },
+   "2026-09-08": {
+    "mass": 27,
+    "share": 0.0021
+   },
+   "2026-09-09": {
+    "mass": 72,
+    "share": 0.0056
+   },
+   "2026-09-10": {
+    "mass": 174,
+    "share": 0.0134
+   },
+   "2026-09-11": {
+    "mass": 194,
+    "share": 0.015
+   },
+   "2026-09-12": {
+    "mass": 194,
+    "share": 0.015
+   },
+   "2026-09-13": {
+    "mass": 204,
+    "share": 0.0157
+   },
+   "2026-09-14": {
+    "mass": 250,
+    "share": 0.0193
+   },
+   "2026-09-15": {
+    "mass": 293,
+    "share": 0.0226
+   },
+   "2026-09-16": {
+    "mass": 331,
+    "share": 0.0255
+   },
+   "2026-09-17": {
+    "mass": 398,
+    "share": 0.0307
+   },
+   "2026-09-18": {
+    "mass": 406,
+    "share": 0.0313
+   },
+   "2026-09-19": {
+    "mass": 363,
+    "share": 0.028
+   },
+   "2026-09-20": {
+    "mass": 342,
+    "share": 0.0264
+   },
+   "2026-09-21": {
+    "mass": 322,
+    "share": 0.0249
+   },
+   "2026-09-22": {
+    "mass": 304,
+    "share": 0.0235
+   },
+   "2026-09-23": {
+    "mass": 224,
+    "share": 0.0173
+   },
+   "2026-09-24": {
+    "mass": 142,
+    "share": 0.011
+   }
+  }
+ },
+ "mass_by_team_top25": {
+  "DSM (tid:16732748)": {
+   "mass": 1295,
+   "share": 0.0999
+  },
+  "M & M & P & Q (tid:16681125)": {
+   "mass": 1283,
+   "share": 0.099
+  },
+  "DECEM (tid:16623559)": {
+   "mass": 1254,
+   "share": 0.0968
+  },
+  "Unknown Mother-Goose (tid:16730612)": {
+   "mass": 1187,
+   "share": 0.0916
+  },
+  "Vadim Vasilenko (tid:16770421)": {
+   "mass": 943,
+   "share": 0.0728
+  },
+  "Majkel1337 (tid:16718819)": {
+   "mass": 821,
+   "share": 0.0634
+  },
+  "league(all SELF) (league(all SELF))": {
+   "mass": 647,
+   "share": 0.0499
+  },
+  "🐚seek inspiration🐚 (tid:16793083)": {
+   "mass": 337,
+   "share": 0.026
+  },
+  "Boey (tid:16915014)": {
+   "mass": 313,
+   "share": 0.0242
+  },
+  "Fourth Quadrant (tid:16667959)": {
+   "mass": 302,
+   "share": 0.0233
+  },
+  "mtmr_s1 (tid:16758882)": {
+   "mass": 283,
+   "share": 0.0218
+  },
+  "Anton Tikhonov (tid:16628664)": {
+   "mass": 278,
+   "share": 0.0215
+  },
+  "ymg_aq (tid:16732403)": {
+   "mass": 277,
+   "share": 0.0214
+  },
+  "Azat Akhtyamov (tid:16743356)": {
+   "mass": 238,
+   "share": 0.0184
+  },
+  "THIRD FARM CLUB (tid:16730524)": {
+   "mass": 231,
+   "share": 0.0178
+  },
+  "HowardLeeTW (tid:16690867)": {
+   "mass": 212,
+   "share": 0.0164
+  },
+  "SpaTaro (tid:16640510)": {
+   "mass": 207,
+   "share": 0.016
+  },
+  "Just A game on your lips (tid:16657750)": {
+   "mass": 161,
+   "share": 0.0124
+  },
+  "Otter Vibe (tid:16760569)": {
+   "mass": 157,
+   "share": 0.0121
+  },
+  "Orbital Terraformer (tid:16675778)": {
+   "mass": 156,
+   "share": 0.012
+  },
+  "Sida Zuo (tid:16664246)": {
+   "mass": 133,
+   "share": 0.0103
+  },
+  "feel the agi (tid:16805699)": {
+   "mass": 116,
+   "share": 0.009
+  },
+  "Victor @ Tufa Labs (tid:16621497)": {
+   "mass": 115,
+   "share": 0.0089
+  },
+  "Kaggledew Valley 🏆 (tid:16633132)": {
+   "mass": 106,
+   "share": 0.0082
+  },
+  "TheEggman (tid:16887437)": {
+   "mass": 97,
+   "share": 0.0075
+  }
+ },
+ "distinct_teams": 167,
+ "mass_by_submission_top15": {
+  "sub:56577255": {
+   "mass": 230,
+   "share": 0.0178
+  },
+  "sub:56553720": {
+   "mass": 209,
+   "share": 0.0161
+  },
+  "sub:56615031": {
+   "mass": 194,
+   "share": 0.015
+  },
+  "sub:56570008": {
+   "mass": 193,
+   "share": 0.0149
+  },
+  "sub:56602695": {
+   "mass": 192,
+   "share": 0.0148
+  },
+  "sub:56614976": {
+   "mass": 189,
+   "share": 0.0146
+  },
+  "sub:56619539": {
+   "mass": 178,
+   "share": 0.0137
+  },
+  "sub:56610947": {
+   "mass": 173,
+   "share": 0.0134
+  },
+  "sub:56624842": {
+   "mass": 170,
+   "share": 0.0131
+  },
+  "sub:56521745": {
+   "mass": 169,
+   "share": 0.013
+  },
+  "sub:56612150": {
+   "mass": 158,
+   "share": 0.0122
+  },
+  "sub:56587629": {
+   "mass": 156,
+   "share": 0.012
+  },
+  "sub:56216119": {
+   "mass": 156,
+   "share": 0.012
+  },
+  "sub:56640167": {
+   "mass": 151,
+   "share": 0.0117
+  },
+  "sub:56614434": {
+   "mass": 145,
+   "share": 0.0112
+  }
+ },
+ "distinct_submissions": 613,
+ "mass_by_rating_from": {
+  "game_score": {
+   "mass": 4185,
+   "share": 0.323
+  },
+  "lb_only": {
+   "mass": 183,
+   "share": 0.0141
+  },
+  "league": {
+   "mass": 647,
+   "share": 0.0499
+  },
+  "sub_score": {
+   "mass": 7942,
+   "share": 0.613
+  }
+ },
+ "mass_by_margin_bin": {
+  "10000-19999": {
+   "mass": 3310,
+   "share": 0.2555
+  },
+  "2500-4999": {
+   "mass": 3136,
+   "share": 0.242
+  },
+  "5000-9999": {
+   "mass": 3610,
+   "share": 0.2786
+  },
+  ">=20000": {
+   "mass": 2901,
+   "share": 0.2239
+  }
+ },
+ "mass_by_weight": {
+  "1": {
+   "mass": 5940,
+   "share": 0.4584
+  },
+  "2": {
+   "mass": 5952,
+   "share": 0.4594
+  },
+  "3": {
+   "mass": 1065,
+   "share": 0.0822
+  }
+ },
+ "mass_by_final_quadrants": {
+  "2": {
+   "mass": 1,
+   "share": 0.0001
+  },
+  "3": {
+   "mass": 9028,
+   "share": 0.6968
+  },
+  "4": {
+   "mass": 3928,
+   "share": 0.3032
+  }
+ },
+ "league_by_tier": {
+  "1": {
+   "mass": 95,
+   "share": 0.0073
+  },
+  "2": {
+   "mass": 7,
+   "share": 0.0005
+  },
+  "3": {
+   "mass": 181,
+   "share": 0.014
+  },
+  "4": {
+   "mass": 364,
+   "share": 0.0281
+  }
+ },
+ "league_eligible_by_tier": {
+  "1": 95,
+  "2": 7,
+  "3": 181,
+  "4": 706,
+  "5": 28
+ },
+ "league_by_day": {
+  "2026-09-27": {
+   "mass": 114,
+   "share": 0.0088
+  },
+  "2026-09-28": {
+   "mass": 484,
+   "share": 0.0374
+  },
+  "2026-09-29": {
+   "mass": 49,
+   "share": 0.0038
+  }
+ },
+ "league_by_winner_version_top15": {
+  "v4b-g2-48236": {
+   "mass": 130,
+   "share": 0.01
+  },
+  "v5w-pB-48456": {
+   "mass": 86,
+   "share": 0.0066
+  },
+  "v1sft-g1-49236": {
+   "mass": 65,
+   "share": 0.005
+  },
+  "fwd1-46236": {
+   "mass": 37,
+   "share": 0.0029
+  },
+  "v4c-g2-49236": {
+   "mass": 37,
+   "share": 0.0029
+  },
+  "v5w-pA-48456": {
+   "mass": 34,
+   "share": 0.0026
+  },
+  "v5w-pC-48456": {
+   "mass": 27,
+   "share": 0.0021
+  },
+  "v3ref-54236": {
+   "mass": 26,
+   "share": 0.002
+  },
+  "ctrl04qland-48236": {
+   "mass": 23,
+   "share": 0.0018
+  },
+  "arm-v6-s0-48706": {
+   "mass": 18,
+   "share": 0.0014
+  },
+  "v4b-g1-47236": {
+   "mass": 18,
+   "share": 0.0014
+  },
+  "v1sft-g4-52236": {
+   "mass": 16,
+   "share": 0.0012
+  },
+  "ctrl0land-47236": {
+   "mass": 13,
+   "share": 0.001
+  },
+  "v1sft-g7-55236": {
+   "mass": 13,
+   "share": 0.001
+  },
+  "v1sft-g5-53236": {
+   "mass": 13,
+   "share": 0.001
+  }
+ },
+ "league_dropped": {
+  "base1_vs_base1": 124,
+  "weight_twins": 12,
+  "eligible_after_drop": 1017
+ },
+ "hard_beatus_rows": 36,
+ "built": {
+  "rows": 8638,
+  "mass": 11946,
+  "unbuilt_rows": 633,
+  "unbuilt_mass": 1011,
+  "unbuilt_by_component": {
+   "hard": 116,
+   "league": 232,
+   "core": 285
+  },
+  "unbuilt_by_day": {
+   "2026-09-27": 57,
+   "2026-09-28": 507,
+   "2026-09-29": 69
+  }
+ },
+ "passes": {
+  "steps_per_seat_exposure": 719,
+  "scored_steps_per_chunk": 12500000.0,
+  "seat_exposures_per_chunk": 17385.3,
+  "passes_per_chunk_if_all_built": 1.342,
+  "passes_per_chunk_built_only_now": 1.455
+ },
+ "exclusions": {
+  "split": "data.in_split(eid, \"train\")",
+  "sealed": 16,
+  "practice_val_episodes": 300,
+  "trainer_data_py": "/mnt/ai/scratch/farmNEAT/base-v1-pack/nfs/primitive-bc-v6-20260927/work/runs/maintainer/primitive-bc/data.py"
+ },
+ "seconds": 12.6,
+ "opening": {
+  "rows_file": "/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/rows-c7.tsv",
+  "parsed_now": 0,
+  "parse_errors": {},
+  "mass_unparsed": 0,
+  "all": {
+   "mass": 12957,
+   "cow_first": 0.6955,
+   "WH13": 0.0366,
+   "CO1_WH5_exact": 0.2212,
+   "CO1_WH5_prefix": 0.5366
+  },
+  "by_component": {
+   "anchor": {
+    "mass": 4250,
+    "cow_first": 0.2972,
+    "WH13": 0.1111,
+    "CO1_WH5_exact": 0.2219,
+    "CO1_WH5_prefix": 0.2525
+   },
+   "core": {
+    "mass": 4478,
+    "cow_first": 0.8819,
+    "WH13": 0.0,
+    "CO1_WH5_exact": 0.1816,
+    "CO1_WH5_prefix": 0.659
+   },
+   "hard": {
+    "mass": 3399,
+    "cow_first": 0.8747,
+    "WH13": 0.0,
+    "CO1_WH5_exact": 0.0977,
+    "CO1_WH5_prefix": 0.6187
+   },
+   "lbonly": {
+    "mass": 183,
+    "cow_first": 0.9891,
+    "WH13": 0.0,
+    "CO1_WH5_exact": 0.7322,
+    "CO1_WH5_prefix": 0.9891
+   },
+   "league": {
+    "mass": 647,
+    "cow_first": 0.9969,
+    "WH13": 0.0031,
+    "CO1_WH5_exact": 0.9954,
+    "CO1_WH5_prefix": 0.9969
+   }
+  },
+  "first_order_family": {
+   "CO": 0.6955,
+   "WH": 0.2095,
+   "H": 0.0901,
+   "-": 0.0023,
+   "sW": 0.0022,
+   "sM": 0.0005
+  },
+  "top_openings": [
+   [
+    "CO1 WH5 SH1 SH1 SH1",
+    3245,
+    0.2504
+   ],
+   [
+    "CO1 WH5",
+    2866,
+    0.2212
+   ],
+   [
+    "CO1 SH1 SH1 SH1 WH5",
+    860,
+    0.0664
+   ],
+   [
+    "WH13",
+    474,
+    0.0366
+   ],
+   [
+    "WH5 CO1",
+    421,
+    0.0325
+   ],
+   [
+    "WH3 H H H H H sWH3 sWH4 SH1",
+    356,
+    0.0275
+   ],
+   [
+    "CO1 WH5 SH1",
+    328,
+    0.0253
+   ],
+   [
+    "CO1 CO1 CO1 CO1 H H H SH1 H SH1",
+    296,
+    0.0228
+   ],
+   [
+    "CO1 WH10",
+    293,
+    0.0226
+   ],
+   [
+    "H H H H H CO1 SH1 WH10",
+    230,
+    0.0178
+   ],
+   [
+    "CO1 SH3 WH5",
+    207,
+    0.016
+   ],
+   [
+    "WH3 H H H H CO2 SH3 sME6 sWH10",
+    174,
+    0.0134
+   ]
+  ],
+  "seconds": 0.1
+ }
+}

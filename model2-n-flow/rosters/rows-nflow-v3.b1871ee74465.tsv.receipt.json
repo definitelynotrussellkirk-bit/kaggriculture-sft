@@ -1,0 +1,103 @@
+{
+ "source_rows": "/mnt/ai/scratch/farmNEAT/broad/buckets/b1871ee74465/A.tsv",
+ "source_sha256": "30b71811e1607992274891ddf4388fa1756ec818927771a2f175091741a120d9",
+ "out": "/mnt/ai/scratch/farmNEAT/n-flow/roster/rows-nflow-v3.b1871ee74465.tsv",
+ "out_sha256": "7e4b788ac7a63a518fc1f451dc76f6fc988d248e636b2f677eae4c9ef28f2652",
+ "catalog": "/mnt/ai/scratch/farmNEAT/primitive-bc-data/catalog/SEATS.parquet",
+ "groups": {
+  "act:tier1": {
+   "rows": 4231,
+   "mass": 4231.0,
+   "share": 0.3437
+  },
+  "wdl-loser:tier1": {
+   "rows": 1260,
+   "mass": 1260.0
+  },
+  "act:tier2": {
+   "rows": 2152,
+   "mass": 2152.0,
+   "share": 0.1748
+  },
+  "wdl-loser:tier2": {
+   "rows": 2087,
+   "mass": 2087.0
+  },
+  "act:tier3": {
+   "rows": 1157,
+   "mass": 1157.0,
+   "share": 0.094
+  },
+  "wdl-loser:tier3": {
+   "rows": 148,
+   "mass": 148.0
+  },
+  "act:tier4": {
+   "rows": 4771,
+   "mass": 4771.0,
+   "share": 0.3875
+  },
+  "own-loss:tier2": {
+   "rows": 14,
+   "mass": 14.0
+  }
+ },
+ "kinds": {
+  "act": 12311,
+  "wdl-loser": 3495,
+  "own-loss": 14
+ },
+ "refused": 0,
+ "refused_sample": [],
+ "own_loss": {
+  "teams": [
+   "有辣条有权",
+   "Russell Kirk"
+  ],
+  "catalog_L_seats": 694,
+  "kept": 14,
+  "dropped": {
+   "day not 09-29/09-30": 515,
+   "already a row": 141,
+   "excluded: leak": 5,
+   "excluded: heldout split": 17,
+   "excluded: leak,mmpq_val": 2
+  },
+  "sampling_weight": 1.0,
+  "days": [
+   "2026-09-29",
+   "2026-09-30"
+  ],
+  "unbuilt_listed": 0
+ },
+ "wdl_labels": {
+  "L": 3509,
+  "D": 0,
+  "W": 12311
+ },
+ "buckets": {
+  "A": 4231,
+  "BC": 2152,
+  "D": 1157,
+  "E": 4771
+ },
+ "bucket_probs_arg": "A=0.3684,BC=0.4211,D=0.1579,E=0.0526",
+ "margin_abs": {
+  "median_M": 4655.0,
+  "q1": 1962.0,
+  "q2": 4655.0,
+  "q3": 9510.75,
+  "min": 1.0,
+  "max": 199080.0,
+  "share_lt_2000": 0.2532,
+  "share_gt_20000": 0.1071
+ },
+ "wdl_weight": {
+  "rule": "w = 1/(1+|margin|/M), M = median |margin| of all rows, mean-normalised to 1",
+  "min": 0.044445,
+  "max": 1.944786,
+  "mean": 1.0,
+  "ess": 12890.7,
+  "rows": 15820
+ }
+}

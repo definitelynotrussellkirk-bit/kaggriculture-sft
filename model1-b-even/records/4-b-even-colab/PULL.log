@@ -1,0 +1,80 @@
+2026-09-30T16:40:56Z pulled ckpt-0042500.pt sha256 d9c2827889a7eef72d8c4faa50eab0227d662b6fe6533f530e2f929e5296e201 (/content/results/n1-beven-colab/pull)
+2026-09-30T16:53:31Z pulled ckpt-0043000.pt sha256 bb4d69185bdaa0f74703c8114c3eec78a52441b517aa4b2f1ab5c30ed4c9c8d8 (/content/results/n1-beven-colab/pull)
+2026-09-30T16:54:31Z pulled ckpt-0042000.pt sha256 9f26af4ef0bcfed0a3bf4bfe467125c89d84013bdd4b930ea85f69bc5f48bfae (/content/results/n1-beven-colab/pull1k/ckpt-0042000.pt)
+2026-09-30T16:54:32Z freed VM pull1k/ckpt-0042000.pt
+2026-09-30T16:54:44Z freed VM pull1k/ckpt-0043000.pt
+2026-09-30T17:12:49Z pulled ckpt-0043500.pt sha256 42e052f567c031d7d81dda8a0649def31910fb03fe6771ded9cfaf3fc6e756ac (/content/results/n1-beven-colab/pull)
+2026-09-30T17:25:29Z pulled ckpt-0044000.pt sha256 18a3cc9b62e9681a8145470669c9d9700f18ff4cab73f0584eb11fbf8ccf256e (/content/results/n1-beven-colab/pull)
+2026-09-30T17:25:46Z freed VM pull1k/ckpt-0044000.pt
+2026-09-30T17:25:47Z retention: removed ckpt-0042500.pt
+2026-09-30T17:42:05Z pulled ckpt-0044500.pt sha256 ba3c805a7e3f1b2562b9eccd5489ef083240616449695e1150875704cf75e973 (/content/results/n1-beven-colab/pull)
+2026-09-30T17:59:35Z pulled ckpt-0045000.pt sha256 bea380179d76d6441cbe93a18b3db9ea4945107131d0eca15b0a8db3b20672a0 (/content/results/n1-beven-colab/pull)
+2026-09-30T17:59:59Z freed VM pull1k/ckpt-0045000.pt
+2026-09-30T18:00:00Z retention: removed ckpt-0043500.pt
+2026-09-30T18:10:54Z pulled ckpt-0045500.pt sha256 6907fafa9a21e3fdf1359603c14c6bbc364b6e7732e4e477fe73cb2779ae302f (/content/results/n1-beven-colab/pull)
+2026-09-30T18:23:08Z pulled ckpt-0045520.pt sha256 564c4414d67fe7b20f0eaa0fe25bc0398df5b841ecde64562d94c380907638fe (/content/results/n1-beven-colab/pull)
+2026-09-30T18:23:14Z retention: removed ckpt-0044500.pt
+2026-09-30T18:29:39Z pulled ckpt-0045560.pt sha256 7e5ff415e80379e9dce0ec9a48af8b81facb05035a6e5925c2977b509ad71dad (/content/results/n1-beven-colab/pull)
+2026-09-30T18:36:02Z pulled ckpt-0045600.pt sha256 19ec78a0faf36499d80f7763105e6f6c39cf89513a4a49725d397415e348988e (/content/results/n1-beven-colab/pull)
+2026-09-30T18:36:07Z retention: removed ckpt-0045500.pt
+2026-09-30T18:47:10Z pulled ckpt-0045640.pt sha256 8d3aafe3c718c36d6e002d37d78ea8cb5c7a75bce9af613fb28c4473c811984a (/content/results/n1-beven-colab/pull)
+2026-09-30T18:47:13Z retention: removed ckpt-0045520.pt
+2026-09-30T18:59:24Z pulled ckpt-0045680.pt sha256 983c9315a1000710f080b3720c4bda37b41fd04887dc351bbd5394d61cd03ffa (/content/results/n1-beven-colab/pull)
+2026-09-30T18:59:28Z retention: removed ckpt-0045560.pt
+2026-09-30T19:46:42Z pulled ckpt-0045720.pt sha256 dde557cd81452afc3fa79e9aa280c8777b226fcf1e58831ae5cb25f08dc47724 (/content/results/n1-beven-colab/pull)
+2026-09-30T19:46:44Z retention: removed ckpt-0045600.pt
+2026-09-30T19:53:38Z pulled ckpt-0045760.pt sha256 e4c7c18f5af8a125a6d610c7554ce74f7c2b7393114b130d5e409449d0e964e9 (/content/results/n1-beven-colab/pull)
+2026-09-30T19:53:38Z retention: removed ckpt-0045640.pt
+2026-09-30T20:04:58Z pulled ckpt-0045800.pt sha256 c592141c35ed0a67deab7c40cc9877525a4b1e66d56a3edd95d9491aa31ad4aa (/content/results/n1-beven-colab/pull)
+2026-09-30T20:04:59Z retention: removed ckpt-0045680.pt
+2026-09-30T20:11:12Z pulled ckpt-0045840.pt sha256 91bf0a4348f1156a77d18892dd9ec45947f65349d976e31c21a848217fe6d801 (/content/results/n1-beven-colab/pull)
+2026-09-30T20:11:13Z retention: removed ckpt-0045720.pt
+2026-09-30T20:17:53Z pulled ckpt-0045880.pt sha256 9a6355cc394cc3a9195ff3708bdbd7e4f9666075324fbe04c2cb3284e0924436 (/content/results/n1-beven-colab/pull)
+2026-09-30T20:17:54Z retention: removed ckpt-0045760.pt
+2026-09-30T20:29:19Z pulled ckpt-0045920.pt sha256 cc45bc83ccd14c8735e3d9dd8d28b4aaeafb355944b019330a2f451025a3f299 (/content/results/n1-beven-colab/pull)
+2026-09-30T20:29:20Z retention: removed ckpt-0045800.pt
+2026-09-30T20:59:57Z pulled ckpt-0045960.pt sha256 a3f7d3991768e52db53c40466708ecf5087e8eb2de5b0124ceaa0fd4bf200134 (/content/results/n1-beven-colab/pull)
+2026-09-30T20:59:58Z retention: removed ckpt-0045840.pt
+2026-09-30T21:09:21Z pulled ckpt-0046000.pt sha256 50bcdb46ce93b4093a6f4b85c33642c7ded1774662ecbd4478b36c24d40dfda3 (/content/results/n1-beven-colab/pull)
+2026-09-30T21:09:33Z freed VM pull1k/ckpt-0046000.pt
+2026-09-30T21:09:34Z retention: removed ckpt-0045880.pt
+2026-09-30T21:18:46Z pulled ckpt-0046040.pt sha256 0b2d7859d38c63ef42101b9a0604c5f401ca48ded2990a503791fc9d9ddbff05 (/content/results/n1-beven-colab/pull)
+2026-09-30T21:18:55Z retention: removed ckpt-0045920.pt
+2026-09-30T21:26:03Z pulled ckpt-0046080.pt sha256 f2119d3f0f62c1031c69a7be31e8aeed23472c7c052192df0f8a24f98da9f629 (/content/results/n1-beven-colab/pull)
+2026-09-30T21:26:04Z retention: removed ckpt-0045960.pt
+2026-09-30T21:35:34Z pulled ckpt-0046120.pt sha256 12de8eb0dde76cd4f00cf105991f199611eb446a3a8e052a3e18815033b7046a (/content/results/n1-beven-colab/pull)
+2026-09-30T21:43:01Z pulled ckpt-0046160.pt sha256 13085463ceb5ba5ed5013a2afcb3516ca40442f5991ef723cb6e2176e304e3a5 (/content/results/n1-beven-colab/pull)
+2026-09-30T21:43:03Z retention: removed ckpt-0046040.pt
+2026-09-30T21:52:23Z pulled ckpt-0046200.pt sha256 8b6e1bbdb0850e6ae164a26f40ecbab3171a2bc1a7ec9b3a0ab12c1dcedeadd0 (/content/results/n1-beven-colab/pull)
+2026-09-30T21:52:43Z retention: removed ckpt-0046080.pt
+2026-09-30T22:00:31Z pulled ckpt-0046240.pt sha256 d9078cc9c9c5f808c542b5368f6e0922004a777f2cd3b6316aead1b619b4618a (/content/results/n1-beven-colab/pull)
+2026-09-30T22:00:34Z retention: removed ckpt-0046120.pt
+2026-09-30T22:09:54Z pulled ckpt-0046280.pt sha256 d4c1321ca3eec8c5968d3880f34d6ab204a8ff8597610d5a5c45b6d7d866ce28 (/content/results/n1-beven-colab/pull)
+2026-09-30T22:09:55Z retention: removed ckpt-0046160.pt
+2026-09-30T22:23:36Z pulled ckpt-0046320.pt sha256 80077f761fc5f140a8c024b609882719afc1a54ac9045b680af3bff89f98d382 (/content/results/n1-beven-colab/pull)
+2026-09-30T22:23:37Z retention: removed ckpt-0046200.pt
+2026-09-30T22:31:11Z pulled ckpt-0046360.pt sha256 74d7e92c14cd41eeb3fcbed43f22bec15bb9c11fa055ace7b5821b9ec7b17807 (/content/results/n1-beven-colab/pull)
+2026-09-30T22:31:13Z retention: removed ckpt-0046240.pt
+2026-09-30T22:41:52Z pulled ckpt-0046400.pt sha256 cc05bbb1568392702d98d2a1cd579bfe43032e1a783e651c20f090d3299a9d14 (/content/results/n1-beven-colab/pull)
+2026-09-30T22:41:54Z retention: removed ckpt-0046280.pt
+2026-09-30T22:49:19Z pulled ckpt-0046440.pt sha256 2e701e21b88041d95b5e4ab9e1e89b952814dcdbb18ca526a3058bb788769e84 (/content/results/n1-beven-colab/pull)
+2026-09-30T22:49:20Z retention: removed ckpt-0046320.pt
+2026-09-30T22:58:42Z pulled ckpt-0046480.pt sha256 abd33c912886e5efc10f501b62197b78cecdd9b62540178e158d8d491507a523 (/content/results/n1-beven-colab/pull)
+2026-09-30T22:58:43Z retention: removed ckpt-0046360.pt
+2026-09-30T23:06:18Z pulled ckpt-0046520.pt sha256 824b13d0127218b00e52b7bb650938842d47ed8661e84a32ea9cad1cea335cf6 (/content/results/n1-beven-colab/pull)
+2026-09-30T23:06:19Z retention: removed ckpt-0046400.pt
+2026-09-30T23:15:54Z pulled ckpt-0046560.pt sha256 05e02d3bda4a99025db1279c112ca055fa5e03cbd4f485b182e5fd0e5511acde (/content/results/n1-beven-colab/pull)
+2026-09-30T23:15:56Z retention: removed ckpt-0046440.pt
+2026-09-30T23:23:39Z pulled ckpt-0046600.pt sha256 c65dc46980f9a7d260c8720e794099ef4a2b714e012b8900ba41ae46159e676c (/content/results/n1-beven-colab/pull)
+2026-09-30T23:23:42Z retention: removed ckpt-0046480.pt
+2026-09-30T23:32:59Z pulled ckpt-0046640.pt sha256 59f8cb2425c41fb409fe939040eaae513e22a2650a64202bc90670c1c3374f7f (/content/results/n1-beven-colab/pull)
+2026-09-30T23:33:00Z retention: removed ckpt-0046520.pt
+2026-09-30T23:40:30Z pulled ckpt-0046680.pt sha256 f02e9e009ec85a3129c179c2cf536d8e27ead0f2ecfe1ab38a99b806c9e66817 (/content/results/n1-beven-colab/pull)
+2026-09-30T23:40:31Z retention: removed ckpt-0046560.pt
+2026-09-30T23:49:40Z pulled ckpt-0046720.pt sha256 67c3075513e2be06f45fb23269759268d60cf50d1c80d69c55d4b60407c91759 (/content/results/n1-beven-colab/pull)
+2026-09-30T23:49:41Z retention: removed ckpt-0046600.pt
+2026-09-30T23:59:02Z pulled ckpt-0046760.pt sha256 380a57e092ddae565414b96197c939c999a249f1c8232494aa1c3996bba25cdc (/content/results/n1-beven-colab/pull)
+2026-09-30T23:59:03Z retention: removed ckpt-0046640.pt
+2026-10-01T00:10:13Z pulled ckpt-0046800.pt sha256 cda125f321e54071c7657d6f4286073b39da17eb50079851bdadf42b3a557349 (/content/results/n1-beven-colab/pull)
+2026-10-01T00:10:14Z retention: removed ckpt-0046680.pt
+2026-10-01T00:10:14Z done (DONE.json, last ckpt-0046800.pt)

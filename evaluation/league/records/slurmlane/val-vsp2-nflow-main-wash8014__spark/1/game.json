@@ -1,0 +1,122 @@
+{
+ "schema": "league-episode-v1",
+ "episode_id": 998700000002,
+ "labels": [
+  "nflow-u16000-t4",
+  "nflow-main-wash8014"
+ ],
+ "archives": [
+  "/mnt/ai/scratch/farmNEAT/pbc-deploy/nflow-u16000-t4/nflow-u16000-t4.tar.gz",
+  "/mnt/ai/scratch/farmNEAT/pbc-deploy/nflow-main-wash8014/nflow-main-wash8014.tar.gz"
+ ],
+ "world_seed": 586401714,
+ "sampler_seed": 7100,
+ "game": {
+  "seats": [
+   "nflow-u16000-t4",
+   "nflow-main-wash8014"
+  ],
+  "world_seed": 586401714,
+  "cash": [
+   122348.0,
+   128105.0
+  ],
+  "steps": 719,
+  "fallbacks": [
+   0,
+   0
+  ],
+  "seconds": 404.1,
+  "ms_p50": [
+   279.88660079427063,
+   278.0983750708401
+  ],
+  "score": [
+   0.0,
+   1.0
+  ],
+  "status": [
+   "DONE",
+   "DONE"
+  ],
+  "failed_step": null,
+  "sampler_seed": 7100,
+  "temperature": 1.0,
+  "hosted": null,
+  "seat_stats": [
+   {
+    "status": "DONE",
+    "fallbacks": 0,
+    "hard_errors": 0,
+    "cold": true,
+    "calls": 719,
+    "step_log": {
+     "parser": "ladder",
+     "lines": 719,
+     "fallback_lines": 0,
+     "loading_lines": 0,
+     "deadline_hit_lines": 0,
+     "cut_lines": 0,
+     "load_ms": 1593.0,
+     "wait_ms": null,
+     "load_error": null
+    },
+    "log_lines": 719,
+    "log_fallback_lines": 0,
+    "log_loading_lines": 0,
+    "log_load_ms": 1593.0,
+    "ms_first": 2093.6,
+    "ms_p99": 332.2,
+    "ms_max": 2093.6
+   },
+   {
+    "status": "DONE",
+    "fallbacks": 0,
+    "hard_errors": 0,
+    "cold": true,
+    "calls": 719,
+    "step_log": {
+     "parser": "ladder",
+     "lines": 719,
+     "fallback_lines": 0,
+     "loading_lines": 0,
+     "deadline_hit_lines": 0,
+     "cut_lines": 0,
+     "load_ms": 1677.0,
+     "wait_ms": null,
+     "load_error": null
+    },
+    "log_lines": 719,
+    "log_fallback_lines": 0,
+    "log_loading_lines": 0,
+    "log_load_ms": 1677.0,
+    "ms_first": 2159.3,
+    "ms_p99": 330.9,
+    "ms_max": 2159.3
+   }
+  ],
+  "sources_changed": []
+ },
+ "actions_recorded": 719,
+ "replay": "replay.json.gz",
+ "replay_cash": [
+  122348.0,
+  128105.0
+ ],
+ "replay_rewards": [
+  122348.0,
+  128105.0
+ ],
+ "replay_verified": true,
+ "runtime": {
+  "python": "3.12.3",
+  "executable": "/usr/bin/python3",
+  "torch": "2.10.0+cu128",
+  "host": "spark-bfbd",
+  "hosted_rules": false,
+  "crn_rng": true
+ },
+ "ladder_sha256": "fb2a09af436511e8abb19b1f97a0ec915795d990c2e0b98531bb9bfe2c4d57f0",
+ "wall_seconds": 410.2,
+ "crn_rng": true
+}

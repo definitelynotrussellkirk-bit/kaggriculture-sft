@@ -1,0 +1,137 @@
+{
+ "schema": "effective-shares/v1",
+ "generation": "d59302cd963a",
+ "recipe_sha256": "bc602462daf1043533b3aa00968008c99b2b496e3b0a68e543419e0ce5c15d95",
+ "rule": "r_A = share_A/n_A (recipe shares normalised over A..E, S excluded; n = cached seats); for k != A: share_k <= 4*r_A*n_k; all excess share goes to A; one pass from pre-cap r_A; recomputed every build",
+ "dynamic_shares": {
+  "L": {
+   "rule": "cap_max_vs_A",
+   "multiplier": 4.0,
+   "n": 234,
+   "n_A": 6317,
+   "share": 0.051764
+  }
+ },
+ "shares_incl_S_reserve": {
+  "A": 0.637834,
+  "BC": 0.073343,
+  "D": 0.142235,
+  "E": 0.047412,
+  "L": 0.049176,
+  "S_RAND": 0.0,
+  "S_BEST": 0.0,
+  "S": 0.05
+ },
+ "lineage_views": {
+  "B": {
+   "bucket": "W_B",
+   "n": 135,
+   "share": 0.05,
+   "rate_vs_A": 3.6681,
+   "effective_shares": {
+    "A": 0.637834,
+    "BC": 0.073343,
+    "D": 0.142235,
+    "E": 0.047412,
+    "L": 0.049176,
+    "S_RAND": 0.0,
+    "S_BEST": 0.0,
+    "W_B": 0.05
+   }
+  },
+  "N": {
+   "bucket": "W_N",
+   "n": 58,
+   "share": 0.024065,
+   "rate_vs_A": 4.0,
+   "effective_shares": {
+    "A": 0.655247,
+    "BC": 0.075345,
+    "D": 0.058467,
+    "E": 0.019579,
+    "L": 0.050518,
+    "S_RAND": 0.0,
+    "S_BEST": 0.0,
+    "W_N": 0.024065,
+    "N_D": 0.087651,
+    "N_E": 0.029127
+   }
+  },
+  "O": {
+   "bucket": "W_O",
+   "n": 81,
+   "share": 0.03329,
+   "rate_vs_A": 4.0,
+   "effective_shares": {
+    "A": 0.649053,
+    "BC": 0.074633,
+    "D": 0.144737,
+    "E": 0.048246,
+    "L": 0.050041,
+    "S_RAND": 0.0,
+    "S_BEST": 0.0,
+    "W_O": 0.03329
+   }
+  }
+ },
+ "base_shares_normalised_A_to_E": {
+  "A": 0.34935,
+  "BC": 0.399257,
+  "D": 0.149722,
+  "E": 0.049907,
+  "L": 0.051764
+ },
+ "effective_shares": {
+  "A": 0.671404,
+  "BC": 0.077203,
+  "D": 0.149722,
+  "E": 0.049907,
+  "L": 0.051764,
+  "S_RAND": 0.0,
+  "S_BEST": 0.0
+ },
+ "capped": {
+  "BC": {
+   "base": 0.399257,
+   "cap": 0.077203
+  }
+ },
+ "per_seat_draw_rate_relative_to_A": {
+  "A": 1.0,
+  "BC": 2.0813,
+  "D": 1.2186,
+  "E": 0.0993,
+  "L": 2.0813,
+  "S_RAND": null,
+  "S_BEST": null
+ },
+ "cached_seats": {
+  "A": 6317,
+  "L": 234,
+  "BC": 349,
+  "D": 1156,
+  "E": 4727,
+  "W_B": 135,
+  "W_N": 58,
+  "W_O": 81,
+  "S_RAND": 0,
+  "S_BEST": 0,
+  "N_D": 1733,
+  "N_E": 7032
+ },
+ "files": [
+  "A.tsv",
+  "L.tsv",
+  "BC.tsv",
+  "D.tsv",
+  "E.tsv",
+  "W_B.tsv",
+  "W_N.tsv",
+  "W_O.tsv",
+  "S_RAND.tsv",
+  "S_BEST.tsv",
+  "N_D.tsv",
+  "N_E.tsv"
+ ],
+ "note": "trainers sample buckets by effective_shares (not the raw recipe), then a seat uniformly within the bucket"
+}

@@ -1,0 +1,41 @@
+{
+ "_doc": "owner 09-30 12:4x: 'allocate a bigger chunk of our replay budget to [today's replays]', 'make the others more both scarce and selective'. today_first: today's (UTC) games first, newest first across submissions; older games: only the team's WINS, at most old_max per call (per-team override). Read by save_team.py on every call; edit to change without restarting the downloader. max_by_team (owner 12:4x 'sample a little bit', 'for the lower ones to give more diversity', 'some in the top 20'): ranks 11-21 (ours excluded) capped at 2 new games per call; ranks 1-10 uncapped. Games where anyone beat US come via own_step (our losses first) + beaters.py. losses_first_teams: MMPQ's losses (games someone beat them) fetched before its wins. front_teams (owner 13:0x, CDE = NVIDIA team, not fetched since 06:57 under strict order): fetched right after #1 each cycle, front_max each. 13:1x owner 'we may need to just sample some games': new/climbing agents Anton Tikhonov 16628664 (new upload ~12:5x) and Christoffer Thimsen 16717665 (#24 -> #18) sampled right after #1 and CDE, 3 newest games each per cycle. 13:1x: ranks 11-31 sampled (2 random teams x 2 games per cycle), each capped 2/call. 13:1x owner 'focusing on 30-14', 'cuz that's where we're currently stuck at': ranks 14-30 sampled 3 random teams x 3 games per cycle (9 of 28). 14:1x owner 'start collecting 30-18 peoples right now', 'not many people have resubmitted', 'they may have just finished for the day': ranks 18-30 (4 random teams x 3 per cycle) + up to 3 OLDER wins per call from their newest submission (their agents are likely final). 14:1x owner (Unknown Mother-Goose #5, subs 2838.6 @4h + 2883.1 @19h) 'like that one', 'we want all that one': 16730612 first among front teams, all its games (wins and losses, today and older) up to 10 per call. 14:2x owner 'just for today*': Mother-Goose = all of TODAY's games (wins and losses, both subs), no older games. 14:2x owner 'we ONLY CARE ABOUT TODAY*!!': downloads fetch today's (UTC 09-30) games only; every older-game cap is 0 (MMPQ and ranks 18-30 included). 15:2x owner (TKNP #8 16684994 uploaded a new agent 14:00 EDT, 'make sure we're getting them'; not fetched since 04:43 EDT because the 35/cycle target ran out before it): TKNP first in front_teams. 15:5x: Gemini IS ALL YOU NEED (#7, 16698308, new upload 15:41 EDT, never reached today at position 10) added to front_teams after TKNP. 16:0x owner 'CDE 600.0 10m, we'll definitely want that too': CDE (NVIDIA, 16736435) new upload ~15:5x EDT -> first in front_teams (newest updater first). 16:1x owner (one training pool: WINS ONLY, 09-30 only, each team's HIGHEST-RATED live submission; bins #1 MMPQ .60, #2 Victor .15, #3 DECEM .15, ranks 4-20 .10; 'efficiency') -> gpu-scout R-FETCH-EFFICIENCY: pool_only: save_team fetches only today's (UTC) wins of the higher-publicScore of the 2 newest submissions, newest first, then at most rest_max other today games (0); teams ranked > pool_rank_max (20) are skipped with no API call. Script restart (R-DATA-RESTART): TOP 20, LOW sample off, beaters off, own step 1 submission listing-only per cycle. 16:4x coordinator (R-FETCH-MMPQ-LOSSES): losses_all_teams = MMPQ 16681125: every 09-30 game of any listed MMPQ submission (56701470, 56711476, any new one) that MMPQ lost or that is MMPQ vs MMPQ (mirror/validation) is fetched before its pool wins, no cap (BEAT1 bucket). 17:0x owner 'for sampling, strictly prefer 1,2,3, and then top 12' (R-FETCH-TOP12): pool_rank_max 12 (ranks 13+ skipped with 0 calls), front_teams [] and max_by_team {} so the ORDERED script fetches strictly by live rank: #1 MMPQ (losses/mirrors first, then best-sub wins), #2, #3 with the whole remaining target each, then ranks 4-12 best-sub 09-30 wins newest first; own step (listing only) stays at OWN_RANK 4; target 35/cycle and 429 backoff unchanged. 17:3x owner 'did you grab from DECEM's new submission too', 'just in case' (R-FETCH-TOP3-ALLSUBS): allsubs_rank_max 3: for live ranks 1-3, after the pinned-best pool games (MMPQ losses first), ALL 09-30 games of every live submission (the 2 newest) are downloaded, wins first then the rest, newest first, no cap; ranks 4-12 follow in rank order. Download only: the pool keeps its pinned subs. 17:4x coordinator (R-FETCH-TOP5-ALLSUBS): allsubs_rank_max 5: for live ranks 1-5, every 09-30 game of every live submission (2 newest), newest submission first, then wins before losses, newest game first; MMPQ losses/mirrors always first; listings for ranks 1-5 are refreshed at least every allsubs_reuse_min (11) minutes so a new upload's games are local within one cycle; ranks 6-12 pool wins follow. 17:5x owner 'we want marvin's games too' (R-FETCH-MARVIN): allsubs_teams = MarvinTMB 16714162 (live #5, snapshot #6): every 09-30 game of both live subs (56712801, 56700754), newest sub first, wins before losses, regardless of rank until the end (bypasses pool_rank_max, 11-min listing refresh); front_teams = [16714162] with front_max 35 places it right after live #1-#3 each cycle. 17:5x coordinator (owner screenshot, MarvinTMB 2870.2 vs 2635.5): allsubs_max_gap 150: an all-subs team's live submission rated more than 150 below that team's best live submission is skipped (unscored subs kept). 17:5x owner/coordinator (R-FETCH-ANTON, R-FETCH-ANACONDA, R-FETCH-EVERYCYCLE): allsubs_teams + front_teams = MarvinTMB 16714162, Anton Tikhonov 16628664, anaconda 16736838 (by team id, until the end); gap-guard exemption for submissions uploaded < allsubs_young_h (3) h ago; allsubs_reuse_min 5 so ranks 1-5 and the allsubs teams are re-listed every cycle; fetch_top_slow15.sh orders #1-#3, then live #4-#5, then front_teams, then ranks 6-12, and refreshes the leaderboard every cycle (LB_EVERY 300). 18:0x owner (R-FETCH-CDE): CDE 16736435 (dropped to #6; new upload ~17:4x) added to allsubs_teams and first in front_teams, so it is listed every cycle right after live #1-#5. 18:2x owner 'lets keep downloading just in case, to use surprise checks', 'from just top 4', 'until 19:30' (R-DOWNLOADS-TOP4): pool_rank_max 4 and allsubs_rank_max 4 (only live #1-#4; ranks 5+ 0 calls), allsubs_teams [] and front_teams [] (CDE/Marvin/Anton/anaconda dropped), gap guard off (every live sub), MMPQ losses/mirrors first; script run with TOP=4 until 19:30 EDT; games for surprise checks only, not the pool.",
+ "today_first": true,
+ "old_wins_only": true,
+ "old_max": 0,
+ "old_max_by_team": {
+  "16681125": 0,
+  "16760699": 0,
+  "16623716": 0,
+  "16751828": 0,
+  "16758882": 0,
+  "16709492": 0,
+  "16657750": 0,
+  "16730326": 0,
+  "16695046": 0,
+  "16634580": 0,
+  "16623697": 0,
+  "16621799": 0,
+  "16736838": 0,
+  "16866398": 0,
+  "16730612": 0
+ },
+ "max_by_team": {},
+ "losses_first_teams": [
+  "16681125"
+ ],
+ "front_teams": [],
+ "front_max": 35,
+ "all_games_teams": [],
+ "pool_only": true,
+ "pool_rank_max": 4,
+ "rest_max": 0,
+ "losses_all_teams": [
+  "16681125"
+ ],
+ "allsubs_rank_max": 4,
+ "allsubs_reuse_min": 5,
+ "allsubs_teams": [],
+ "allsubs_max_gap": 1000000000.0,
+ "allsubs_young_h": 3
+}

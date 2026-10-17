@@ -1,0 +1,29 @@
+{
+ "name": "n1-main-sprinkle",
+ "checkpoint": "/mnt/ai/scratch/farmNEAT/t4w/runs/n1-main-sprinkle/raw/ckpt-0046484.pt",
+ "archive_sha256": "932bb45d7fe9f0ebb486356285b43c5d079761c3905ce650d2e99c9c77986952",
+ "archive_bytes": 94080075,
+ "checkpoint_sha256": "6f1eeff16fa52fdb6fa8cf98476408532450b9e6fc05d6509059ec173bd47092",
+ "effective": {
+  "line": "winner wash (MMPQ winning seats, mirror 4x)",
+  "base": "/mnt/ai/scratch/farmNEAT/pbc-colab-v6-results/colab-n1-beven-colab/ckpt-0046480.pt",
+  "base_sha256": "abd33c912886e5efc10f501b62197b78cecdd9b62540178e158d8d491507a523",
+  "roster": "/mnt/ai/scratch/farmNEAT/broad/t1/wash/rows-b-newonly-1905.tsv",
+  "roster_sha256": "4763fbf59299ad2121c2edb2311648dbe5c83300771bb8c4ab4279864bdf8201",
+  "lr": "1e-5",
+  "cap_s": 900,
+  "trainer": "base-v1-pack run_arm base1-b (t4w-bn-skynet.sbatch)",
+  "final_checkpoint": "/mnt/ai/scratch/farmNEAT/t4w/runs/n1-main-sprinkle/ckpt-0046484.pt",
+  "final_checkpoint_sha256": "d48090512209daebf27a9c410f5bb34e5f948fdfc17a8cb41b305c71ea40c513",
+  "raw_export": "/mnt/ai/scratch/farmNEAT/t4w/runs/n1-main-sprinkle/raw/ckpt-0046484.pt",
+  "raw_export_sha256": "6f1eeff16fa52fdb6fa8cf98476408532450b9e6fc05d6509059ec173bd47092"
+ },
+ "links": {
+  "archive": true,
+  "hub_done": true,
+  "cold": true,
+  "export": true,
+  "effective": true,
+  "policy_fp16_ema": true
+ }
+}

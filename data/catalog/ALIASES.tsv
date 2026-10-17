@@ -1,0 +1,16 @@
+# Owner shorthand -> exact team name(s) as they appear in the replays / leaderboards ("|" separates several).
+# Matching is case-insensitive on the whole alias. `find` and every query filter (--team/--beat/--vs) resolve these first.
+# Only add a target that appears in TEAMS.tsv (test_catalog.py checks this).
+alias	team_names	note
+us	Russell Kirk|有辣条有权|怎么做热干面?	our team (id 16624026; renamed 有辣条有权 on 2026-09-27)
+ours	Russell Kirk|有辣条有权|怎么做热干面?	our team
+russell	Russell Kirk|有辣条有权|怎么做热干面?	our team
+boey	Boey	team 16915014
+dsm	DSM	team 16732748 (substring "dsm" also hits Aldibek [dsmlkz], YoungDSML [dsml.kz], ...)
+chakraborty	Dipam Chakraborty	team 16811917
+d chakraborty	Dipam Chakraborty	owner shorthand
+dipam	Dipam Chakraborty	team 16811917
+chunky	Dipam Chakraborty	owner shorthand (no team name contains "chunky")
+vadim	Vadim Vasilenko	substring "vadim" also hits Vadim Demchuk
+vasilenko	Vadim Vasilenko
+kigasu	kigasudayooo	team 16734966 (gold policy 56557183)

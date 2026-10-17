@@ -1,0 +1,106 @@
+{
+ "name": "nflow-main-wash8014",
+ "all_pass": true,
+ "links": {
+  "archive": {
+   "pass": true,
+   "detail": {
+    "archive_sha256": "7661782af4ca815585945b019963b86586dbae490ba2554b592fdb080f0f4b3e",
+    "archive_bytes": 13605819
+   }
+  },
+  "hub_done": {
+   "pass": true,
+   "detail": {
+    "name": "nflow-main-wash8014",
+    "checkpoint": "/mnt/ai/scratch/farmNEAT/n-flow/release-ckpts/nflow-main-wash8014/ckpt-0056559.pt",
+    "checkpoint_sha256": "7dacc5983b96f5b68526bf4b6c8c55e71bb1455dbb3c4662157150e88f836953",
+    "archive_sha256": "7661782af4ca815585945b019963b86586dbae490ba2554b592fdb080f0f4b3e",
+    "complete": true,
+    "fallbacks": 0,
+    "sha_match": true,
+    "lineage": "checkpoint-bound",
+    "checkpoint_update": 56559,
+    "fresh_init_run": false,
+    "base_checkpoint": "/mnt/ai/scratch/farmNEAT/n-flow/keeps/ckpt-0056259.pt",
+    "base_checkpoint_sha256": "c27324605a88e3b4a754b1f31877041a1c95b5b6ab3740db09bd49ec0f08188e",
+    "seed_raw_from": "ema"
+   }
+  },
+  "cold": {
+   "pass": true,
+   "detail": {
+    "issues": [],
+    "waived_no_budget_receipt": false,
+    "games": [
+     {
+      "world_seed": 20260923,
+      "our_seat": 0,
+      "calls": 719,
+      "raw_used_bank_ms": 0.0,
+      "raw_remaining_bank_ms": 60000.0,
+      "warm_max_ms": 66.203,
+      "first_step_ms": 756.633
+     },
+     {
+      "world_seed": 20260923,
+      "our_seat": 1,
+      "calls": 719,
+      "raw_used_bank_ms": 0.0,
+      "raw_remaining_bank_ms": 60000.0,
+      "warm_max_ms": 67.284,
+      "first_step_ms": 763.192
+     }
+    ]
+   }
+  },
+  "export": {
+   "pass": true,
+   "detail": {
+    "tensors": 127,
+    "ema_tensors": 127,
+    "missing": [],
+    "extra": [],
+    "mismatched": [],
+    "checkpoint_sha256": "7dacc5983b96f5b68526bf4b6c8c55e71bb1455dbb3c4662157150e88f836953"
+   }
+  },
+  "effective": {
+   "pass": true,
+   "detail": {
+    "effective": "/mnt/ai/scratch/farmNEAT/pbc-deploy/nflow-main-wash8014/EFFECTIVE-RELEASE.json",
+    "sha256": "cbca1e3a839e72106ff677b22df90753a859a601bd05c339cbbb0c3521ffdbf2",
+    "keys": [
+     "cmd",
+     "final_checkpoint",
+     "final_checkpoint_sha256",
+     "release_checkpoint",
+     "release_checkpoint_sha256",
+     "roster",
+     "roster_receipt",
+     "roster_sha256",
+     "run",
+     "seed_checkpoint",
+     "seed_checkpoint_sha256",
+     "source_effective",
+     "source_effective_sha256"
+    ]
+   }
+  },
+  "policy_fp16_ema": {
+   "pass": true,
+   "detail": {
+    "policy_sha256": "56fdb45068d8f1ab26fa8bb22f57c4bdb7d090f0fff6428a5867c1ee827d08a6",
+    "tensors": 127,
+    "ema_tensors": 127,
+    "dtypes": [
+     "torch.float16"
+    ],
+    "stripped_ema_keys": 0,
+    "missing": [],
+    "extra": [],
+    "mismatched": []
+   }
+  }
+ }
+}

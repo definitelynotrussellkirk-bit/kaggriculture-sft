@@ -1,0 +1,13 @@
+2026-09-30 18:05:08 waiting for seats: missing 126 of 404
+2026-09-30 18:05:40 waiting for seats: missing 75 of 404
+2026-09-30 18:06:12 waiting for seats: missing 30 of 404
+2026-09-30 18:06:44 roster rows-n-d2d605843046.tsv (d2d6058430465a239a337c5cc11df8716f5156bd5617e3e30eace1402ecfb7e1) fully cached: missing 0 of 404
+2026-09-30 18:06:45 current LATEST ckpt-0046240.pt; waiting for the next checkpoint
+2026-09-30 18:10:04 ckpt-0046280.pt is on the NAS (d4c1321ca3eec8c5); stopping train.py
+2026-09-30 18:10:41 stop: 2444845 python3 -B /content/bcode/primitive-bc-v6-20260927/work/runs/maintainer/ stopped ckpt-0046280.pt 
+2026-09-30 18:10:45 relaunch from ckpt-0046280.pt (u46280); old trainer's last logged update 46280
+N roster d2d605843046 rows 404 cached on VM 404
+Running as unit: nx1-exec-181048.service; invocation ID: da29454ff9654d24a41bdc7c23180c0e
+Running as unit: nx1-pull.service; invocation ID: a12f3f61aab14bc2a7d28b7982bd5dea
+2026-09-30T22:11:18Z launched n1-beven-colab on nflow-x1: rows rows-n-d2d605843046.tsv (d2d605843046), workers 16, max-seconds 6852, exec pid 478824
+2026-09-30 18:14:35 FIRST-UPDATE u46290 (> 46280) on rows-n-d2d605843046.tsv; downtime 270 s; draws since relaunch: drawn 308 in-roster 308

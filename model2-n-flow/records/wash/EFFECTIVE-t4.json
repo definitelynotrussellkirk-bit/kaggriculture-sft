@@ -1,0 +1,581 @@
+{
+ "cmd": [
+  "/mnt/ai/scratch/farmNEAT/runtime/python/bin/python3.12 -B train.py --roster /mnt/ai/scratch/farmNEAT/n-flow/t4f/nflow-u56259-w8014/rows.tsv --shards /mnt/ai/scratch/farmNEAT/n-flow/shards-v1 --stp-dir /mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11 --out /mnt/ai/scratch/farmNEAT/n-flow/runs/nflow-u56259-w8014 --max-seconds 840 --updates 200000 --lr 3e-5 --warmup 0 --schedule wsd --decay-updates 0 --workers 4 --streams 5 --chunk 24 --accum 3 --grad-clip 10 --ema 0.999 --ckpt-every 250 --ckpt-minutes 5 --keep-ckpts 3 --log-every 10 --new-seed 41 --stop-at 56559 --bucket-probs T1W=0.717949,BEAT1=0.082051,T2W=0.140000,T3W=0.060000 --allow-recipe-change lr,warmup,schedule,decay_updates,decay_start_utc,stop_utc,accum,streams_total,bucket_probs,roster_sha256,wdl_frac,ema,grad_clip,chunk,min_lr_frac,weight_decay,beta2,optimizer,muon_momentum,muon_ns_steps,adamw_lr_mult,w_wdl,w_next,w_opp  # base /mnt/ai/scratch/farmNEAT/n-flow/keeps/ckpt-0056259.pt (raw := EMA); code c488dbbea06f 53065aa2b6a3 70f351af3000 ff16ef1624d3 "
+ ],
+ "run": {
+  "schema": "nflow-policy-v1",
+  "args": {
+   "roster": "/mnt/ai/scratch/farmNEAT/n-flow/t4f/nflow-u56259-w8014/rows.tsv",
+   "out": "/mnt/ai/scratch/farmNEAT/n-flow/runs/nflow-u56259-w8014",
+   "shards": "/mnt/ai/scratch/farmNEAT/n-flow/shards-v1",
+   "stp_dir": "/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11",
+   "bucket_probs": "T1W=0.717949,BEAT1=0.082051,T2W=0.140000,T3W=0.060000",
+   "columns": "/mnt/ai/scratch/farmNEAT/n-flow/code/COLUMNS.json",
+   "codec_dir": "/mnt/ai/scratch/farmNEAT/n-flow/code/pbc/work/runs/maintainer",
+   "max_seconds": 840.0,
+   "stop_utc": "",
+   "decay_start_utc": "",
+   "updates": 200000,
+   "stop_at": 56559,
+   "streams": 5,
+   "workers": 4,
+   "chunk": 24,
+   "accum": 3,
+   "wdl_frac": 0.1,
+   "lr": 3e-05,
+   "min_lr_frac": 0.1,
+   "warmup": 0,
+   "schedule": "wsd",
+   "decay_updates": 0,
+   "weight_decay": 0.05,
+   "beta2": 0.95,
+   "grad_clip": 10.0,
+   "adamw_lr_mult": 1.0,
+   "optimizer": "muon",
+   "muon_momentum": 0.95,
+   "muon_ns_steps": 5,
+   "ema": 0.999,
+   "compile": "",
+   "ckpt_every": 250,
+   "ckpt_minutes": 5.0,
+   "keep_ckpts": 3,
+   "log_every": 10,
+   "profile_at": 0,
+   "seed": 41,
+   "new_seed": 41,
+   "width": 256,
+   "blocks": 4,
+   "heads": 8,
+   "rel_heads": 4,
+   "fast": 128,
+   "slow": 256,
+   "worker": 64,
+   "dec_layers": 2,
+   "w_wdl": 0.2,
+   "w_next": 0.1,
+   "w_opp": 0.1,
+   "allow_recipe_change": "lr,warmup,schedule,decay_updates,decay_start_utc,stop_utc,accum,streams_total,bucket_probs,roster_sha256,wdl_frac,ema,grad_clip,chunk,min_lr_frac,weight_decay,beta2,optimizer,muon_momentum,muon_ns_steps,adamw_lr_mult,w_wdl,w_next,w_opp",
+   "stop_ts": null,
+   "decay_ts": null
+  },
+  "params": 7252244,
+  "config": {
+   "width": 256,
+   "blocks": 4,
+   "heads": 8,
+   "rel_heads": 4,
+   "ffn_hidden": 0,
+   "fast": 128,
+   "slow": 256,
+   "worker": 64,
+   "dec_layers": 2,
+   "dropout": 0.0,
+   "type_widths": {
+    "GLOBAL": 180,
+    "FARM": 47,
+    "TILE": 168,
+    "CARRIER": 67,
+    "STOCK": 19,
+    "MARKET": 182,
+    "SHOP": 9,
+    "CONSTANT": 33,
+    "CONTROL": 1
+   },
+   "columns_sha256": "24b403d2ba5e3d3625d68cc09ee0aff4b40977f0ecd17510cd575fdafa2261d7",
+   "n_unit_tokens": 44,
+   "n_order_tokens": 23,
+   "n_qty": 75,
+   "max_units": 25,
+   "max_orders": 10,
+   "stop_index": 0,
+   "unit_has_qty": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "order_has_qty": [
+    false,
+    false,
+    false,
+    false,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "x8_token_width": 354,
+   "x8_unit_width": 41,
+   "lattice_channels": 0,
+   "v6_prev": true,
+   "feature_schema": "legacy",
+   "schema": "nflow-policy-v1"
+  },
+  "roster_sha256": "aa146612b035728c1d5d6695acf9a0e1a4e1fe0a3d73841b24eacf0299218381",
+  "recipe": {
+   "lr": 3e-05,
+   "min_lr_frac": 0.1,
+   "warmup": 0,
+   "schedule": "wsd",
+   "decay_updates": 0,
+   "decay_start_utc": "",
+   "stop_utc": "",
+   "weight_decay": 0.05,
+   "beta2": 0.95,
+   "grad_clip": 10.0,
+   "optimizer": "muon",
+   "muon_momentum": 0.95,
+   "muon_ns_steps": 5,
+   "adamw_lr_mult": 1.0,
+   "ema": 0.999,
+   "chunk": 24,
+   "accum": 3,
+   "wdl_frac": 0.1,
+   "bucket_probs": "T1W=0.717949,BEAT1=0.082051,T2W=0.140000,T3W=0.060000",
+   "w_wdl": 0.2,
+   "w_next": 0.1,
+   "w_opp": 0.1,
+   "streams_total": 20,
+   "roster_sha256": "aa146612b035728c1d5d6695acf9a0e1a4e1fe0a3d73841b24eacf0299218381"
+  },
+  "declared_recipe_changes": {
+   "lr": {
+    "from": 0.0003,
+    "to": 3e-05
+   },
+   "warmup": {
+    "from": 300,
+    "to": 0
+   },
+   "schedule": {
+    "from": "cosine",
+    "to": "wsd"
+   },
+   "decay_start_utc": {
+    "from": "2026-09-30T22:15:00Z",
+    "to": ""
+   },
+   "stop_utc": {
+    "from": "2026-09-30T23:45:00Z",
+    "to": ""
+   },
+   "ema": {
+    "from": 0.992,
+    "to": 0.999
+   },
+   "accum": {
+    "from": 8,
+    "to": 3
+   },
+   "bucket_probs": {
+    "from": "A=0.6897,BC=0.1460,L=0.1143,W_N=0.0500",
+    "to": "T1W=0.717949,BEAT1=0.082051,T2W=0.140000,T3W=0.060000"
+   },
+   "streams_total": {
+    "from": 128,
+    "to": 20
+   },
+   "roster_sha256": {
+    "from": "c9ba2405537f1c2ea60ef64dba7c6d598c54b30658553e62f2901ec10acb19bf",
+    "to": "aa146612b035728c1d5d6695acf9a0e1a4e1fe0a3d73841b24eacf0299218381"
+   }
+  },
+  "forked_seed": 41,
+  "columns_sha256": "24b403d2ba5e3d3625d68cc09ee0aff4b40977f0ecd17510cd575fdafa2261d7",
+  "start_update": 56259,
+  "device": "cuda",
+  "torch": "2.10.0+cu128",
+  "gpu": "NVIDIA GeForce RTX 4090",
+  "fresh_init": false,
+  "started": "2026-09-30T18:30:36-0400",
+  "code_sha256": {
+   "train.py": "c488dbbea06ff3a5a4a29f114e9cc23c38089efb5b647723a7fbbc22b064db15",
+   "nf_model.py": "ff16ef1624d30ab66681a383d7ec8a0b160d6802dac6504da7941d00dbbe88f1",
+   "nf_data.py": "53065aa2b6a346c421c4f65dc5b8f8b192c42b914f3c1d78bba7c38cbc3ba341",
+   "nf_format.py": "70f351af30004ba8bfdbd0463e9571645263d9696315ba2bab852a1fb498f2fe",
+   "COLUMNS.json": "fa2c826a6deaef8d0b426bc0a1f01dfe2112ad5fefcf3e1320835997cd56f26b"
+  }
+ },
+ "roster": "/mnt/ai/scratch/farmNEAT/n-flow/t4f/nflow-u56259-w8014/rows.tsv",
+ "roster_sha256": "aa146612b035728c1d5d6695acf9a0e1a4e1fe0a3d73841b24eacf0299218381",
+ "roster_receipt": {
+  "schema": "t1wash-nflow/v3",
+  "final": false,
+  "mix": {
+   "T1": 0.8,
+   "T2W": 0.14,
+   "T3W": 0.06,
+   "T4X": 0.0
+  },
+  "best_submissions": {
+   "M & M & P & Q": {
+    "team_id": 16681125,
+    "submission": 56701470,
+    "score": 3063.0,
+    "listing": "/mnt/ai/scratch/farmNEAT/primitive-bc-data/extra/copy-mmpq/LISTINGS-20260930T2200.json",
+    "included_subs": [
+     56701470
+    ]
+   },
+   "DECEM": {
+    "team_id": 16623559,
+    "submission": 56705174,
+    "score": 2947.0,
+    "listing": "/mnt/ai/scratch/farmNEAT/primitive-bc-data/extra/copy-decem/LISTINGS-20260930T2200.json",
+    "included_subs": [
+     56705174,
+     56716576
+    ]
+   },
+   "Victor @ Tufa Labs": {
+    "team_id": 16621497,
+    "submission": 56710008,
+    "score": 2941.5,
+    "listing": "/mnt/ai/scratch/farmNEAT/primitive-bc-data/extra/copy-team-16621497/LISTINGS-20260930T2156.json",
+    "included_subs": [
+     56704120,
+     56710008
+    ]
+   },
+   "DSM": {
+    "team_id": 16732748,
+    "submission": 56709623,
+    "score": 2900.7,
+    "listing": "/mnt/ai/scratch/farmNEAT/primitive-bc-data/extra/copy-dsm/LISTINGS-20260930T2159.json",
+    "included_subs": [
+     56709623
+    ]
+   },
+   "MarvinTMB": {
+    "team_id": 16714162,
+    "submission": 56712801,
+    "score": 2870.2,
+    "listing": "/mnt/ai/scratch/farmNEAT/primitive-bc-data/extra/copy-team-16714162/LISTINGS-20260930T2158.json",
+    "included_subs": [
+     56712801
+    ]
+   },
+   "Anton Tikhonov": {
+    "team_id": 16628664,
+    "submission": 56713726,
+    "score": 2828.2,
+    "listing": "/mnt/ai/scratch/farmNEAT/primitive-bc-data/extra/copy-team-16628664/LISTINGS-20260930T2103.json",
+    "included_subs": [
+     56713726
+    ]
+   },
+   "Unknown Mother-Goose": {
+    "team_id": 16730612,
+    "submission": 56689315,
+    "score": 2847.5,
+    "listing": "/mnt/ai/scratch/farmNEAT/primitive-bc-data/extra/copy-umg/LISTINGS-20260930T2102.json",
+    "included_subs": [
+     56689315
+    ]
+   },
+   "KawattaTaido": {
+    "team_id": 16654697,
+    "submission": 56590457,
+    "score": 2846.0,
+    "listing": "/mnt/ai/scratch/farmNEAT/primitive-bc-data/extra/copy-team-16654697/LISTINGS-20260928T0117.json",
+    "included_subs": [
+     56590457
+    ]
+   },
+   "Farmcore": {
+    "team_id": 16891902,
+    "submission": null,
+    "score": null,
+    "listing": null,
+    "included_subs": []
+   },
+   "Vadim Vasilenko": {
+    "team_id": 16770421,
+    "submission": 56678397,
+    "score": 2874.5,
+    "listing": "/mnt/ai/scratch/farmNEAT/primitive-bc-data/extra/copy-vadim/LISTINGS-20260930T0950.json",
+    "included_subs": [
+     56678397
+    ]
+   },
+   "TKNP": {
+    "team_id": 16684994,
+    "submission": 56704652,
+    "score": 2832.0,
+    "listing": "/mnt/ai/scratch/farmNEAT/primitive-bc-data/extra/copy-team-16684994/LISTINGS-20260930T2101.json",
+    "included_subs": [
+     56704652
+    ]
+   },
+   "Gemini IS ALL YOU NEED": {
+    "team_id": 16698308,
+    "submission": 56708721,
+    "score": 2844.5,
+    "listing": "/mnt/ai/scratch/farmNEAT/primitive-bc-data/extra/copy-team-16698308/LISTINGS-20260930T2102.json",
+    "included_subs": [
+     56708721
+    ]
+   }
+  },
+  "best_changed": [],
+  "rule_d1604": "winning seats only from each team's highest-rated live submission (newest listing scores); mirror 4x only for #1 best",
+  "leaderboard": "LEADERBOARD-20260930T2200.csv",
+  "top3": [
+   [
+    16681125,
+    "M & M & P & Q",
+    3063.0
+   ],
+   [
+    16623559,
+    "DECEM",
+    2947.0
+   ],
+   [
+    16621497,
+    "Victor @ Tufa Labs",
+    2941.5
+   ],
+   [
+    16732748,
+    "DSM",
+    2900.7
+   ],
+   [
+    16714162,
+    "MarvinTMB",
+    2873.4
+   ],
+   [
+    16628664,
+    "Anton Tikhonov",
+    2869.5
+   ],
+   [
+    16730612,
+    "Unknown Mother-Goose",
+    2854.7
+   ],
+   [
+    16654697,
+    "KawattaTaido",
+    2848.0
+   ],
+   [
+    16891902,
+    "Farmcore",
+    2847.9
+   ],
+   [
+    16770421,
+    "Vadim Vasilenko",
+    2843.6
+   ],
+   [
+    16684994,
+    "TKNP",
+    2837.1
+   ],
+   [
+    16698308,
+    "Gemini IS ALL YOU NEED",
+    2833.7
+   ],
+   [
+    16712258,
+    "Yizhou",
+    2831.2
+   ],
+   [
+    16718819,
+    "Majkel1337",
+    2805.7
+   ],
+   [
+    16760699,
+    "Luca",
+    2801.6
+   ],
+   [
+    16854176,
+    "\u5403\u767d\u996d\u7684\u5927\u80a5\u9c7c",
+    2789.4
+   ],
+   [
+    16736838,
+    "\ud83d\ude17\u30a2\u30ca\u30b3\u30f3\u30c0\ud83e\udd2d",
+    2779.4
+   ],
+   [
+    16623716,
+    "tetsuya & yuanzhe & guoqin",
+    2779.1
+   ],
+   [
+    16717665,
+    "Christoffer Thimsen",
+    2775.1
+   ],
+   [
+    16804022,
+    "monsaraida",
+    2771.0
+   ]
+  ],
+  "mix_flag": [],
+  "beat1": [
+   115669607,
+   115838526,
+   115935708
+  ],
+  "seats_by_submission": {
+   "BEAT1:56701470": 1,
+   "BEAT1:56705174": 1,
+   "BEAT1:56711476": 1,
+   "T1W:56701470": 105,
+   "T2W:56705174": 84,
+   "T2W:56716576": 38,
+   "T3W:56704120": 91,
+   "T3W:56710008": 83
+  },
+  "new_subs": [],
+  "newsub_rule": {
+   "M & M & P & Q": {
+    "56711476": {
+     "rated_games": 87,
+     "score": 2986.1,
+     "pin_score": 3063.0,
+     "in": false
+    }
+   },
+   "DECEM": {
+    "56716576": {
+     "rated_games": 47,
+     "score": 2852.8,
+     "pin_score": 2947.0,
+     "in": true
+    }
+   },
+   "Victor @ Tufa Labs": {},
+   "DSM": {},
+   "MarvinTMB": {}
+  },
+  "team_seats": {
+   "#1 M & M & P & Q": 105,
+   "BEAT1 (winners over MMPQ live subs, mirrors incl.)": 3,
+   "#2 DECEM": 122,
+   "#3 Victor @ Tufa Labs": 174,
+   "ranks 4-12": 0
+  },
+  "days": [
+   "2026-09-30"
+  ],
+  "ranks_4_12_by_team": {
+   "DSM": 0,
+   "MarvinTMB": 0,
+   "Anton Tikhonov": 0,
+   "Unknown Mother-Goose": 0,
+   "KawattaTaido": 0,
+   "Farmcore": 0,
+   "Vadim Vasilenko": 0,
+   "TKNP": 0,
+   "Gemini IS ALL YOU NEED": 0
+  },
+  "held_out_sets": {},
+  "held_out_included": [],
+  "val_mmpq10_included": [],
+  "rule": "owner 14:2x: MMPQ own winning seats only (act), his losing seats wdl-only; T1W-BEST 4x = mirror wins involving best sub",
+  "team_id": 16681125,
+  "best_submission": 56701470,
+  "best_score": 3063.0,
+  "listing": "/mnt/ai/scratch/farmNEAT/primitive-bc-data/extra/copy-mmpq/LISTINGS-20260930T2200.json",
+  "rows": 806,
+  "act_rows": 404,
+  "wdl_rows": 402,
+  "wdl_rule": "losing seats of the act games only (09-30)",
+  "wdl_uncached": 2,
+  "bucket_rows": {
+   "T1W": 105,
+   "BEAT1": 3,
+   "T2W": 122,
+   "T3W": 174,
+   "T25": 0
+  },
+  "multipliers": {
+   "T1W": 1.0,
+   "BEAT1": 4.0
+  },
+  "bucket_probs": {
+   "T1W": 0.717949,
+   "BEAT1": 0.082051,
+   "T2W": 0.14,
+   "T3W": 0.06
+  },
+  "bucket_probs_arg": "T1W=0.717949,BEAT1=0.082051,T2W=0.140000,T3W=0.060000",
+  "uncached_seats": 0,
+  "excluded_val_mmpq": [],
+  "built_utc": "2026-09-30T22:03:06Z",
+  "t1w_best_episodes": [],
+  "out": "/mnt/ai/scratch/farmNEAT/broad/t1/wash/rows-t1wash-nflow.aa146612b035.tsv",
+  "out_sha256": "aa146612b035728c1d5d6695acf9a0e1a4e1fe0a3d73841b24eacf0299218381"
+ },
+ "seed_checkpoint": "/mnt/ai/scratch/farmNEAT/n-flow/t4f/nflow-u56259-w8014/seed/ckpt-0056259.pt",
+ "seed_checkpoint_sha256": "b93b5f091b9090ebaee947821ef6473af6c9be1e81598643f94a067971010efc",
+ "final_checkpoint": "/mnt/ai/scratch/farmNEAT/n-flow/runs/nflow-main-wash8014/ckpt-0056559.pt",
+ "final_checkpoint_sha256": "7dacc5983b96f5b68526bf4b6c8c55e71bb1455dbb3c4662157150e88f836953"
+}

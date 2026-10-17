@@ -1,0 +1,1 @@
+base1-b 1c331996774bb9c3 rows:data/rows.tsv --grad-checkpoint false --compile-model true --eval-every 0 --batch-windows 128 --warmup 300 --grow-lr-mult 1 --lr-schedule wsd --mask-unit-noops true

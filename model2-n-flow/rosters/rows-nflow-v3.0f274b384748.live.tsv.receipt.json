@@ -1,0 +1,6 @@
+{
+ "roster": "/mnt/ai/scratch/farmNEAT/n-flow/roster/rows-nflow-v3.0f274b384748.live.tsv",
+ "sha256": "eaa15a278ec9ac2a635f38e04cd40259d92d9f299a77d0653894cf0d7dbd4af6",
+ "note": "exact bytes the live N flow main run read (fetched from Colab #2 /content/code/data at 09:22; = RUN-0033000 roster_sha256); built by roster.py at 08:36 for generation 0f274b384748 (the NAS file was rewritten at 08:38 by a dry run: +8 wdl-loser rows)",
+ "generation": "0f274b384748"
+}

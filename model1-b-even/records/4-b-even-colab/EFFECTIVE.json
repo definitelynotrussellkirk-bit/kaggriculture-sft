@@ -1,0 +1,68 @@
+{
+ "model": "N = B-even (B u31047 EMA, encoder heads 36 -> 18)",
+ "init": "/mnt/ai/scratch/farmNEAT/b-even/beven-h18-init.pt",
+ "init_sha256": "9ee7a6713df9c1f7a9ffa77e74034dfb2f358320ff5a339c5c5b4429fd63755e",
+ "teacher": "/mnt/ai/scratch/farmNEAT/base-v1/runs/b/chunks/chunk9-ckpt-0031047.pt",
+ "teacher_sha256": "08a058abd9b807e02be6505dab2f42277222020a3cea9ea489d153385f1117a9",
+ "phase1": {
+  "runner": "/mnt/ai/scratch/farmNEAT/oa3-astra/tools-cont/oa3/cache_train.py",
+  "runner_sha256": "621f26151956b42e54c5dd2ceb778890f9c857c9df8536ccc29b6e1c023b3aa5",
+  "trainer_model_sha256": "21ad7872ceed789fb0b3958d1f724ff9f6074b122cc65fc492795ff92f402675",
+  "frozen_train_sha256": "3491da7e50691afbb3a28aeb1a8eb430ac8fb98df8de0f992c2725c853742460",
+  "step_w": "/mnt/ai/scratch/farmNEAT/oa3-astra/cont-step-w.94bc8331b271.tsv",
+  "step_w_sha256": "94bc8331b2715962bd24abd4948544c44f9c458ac5c36fa6fc62c3ee241907e8",
+  "loss": "0.5 BC + 0.5 KD(B31 EMA, T 1.5), unit mask",
+  "lr": "3e-5 flat (100 warmup)",
+  "updates": 1000
+ },
+ "phase2": {
+  "trainer_train_sha256": "1a5e83d2b921b9377461a3a7590c4a7ec8bff1722ce599d54eb5aa7ad73de31a",
+  "trainer_model_sha256": "21ad7872ceed789fb0b3958d1f724ff9f6074b122cc65fc492795ff92f402675",
+  "roster": "/mnt/ai/scratch/farmNEAT/broad/rows-buckets.426f06385d73.tsv",
+  "roster_sha256": "426f06385d73f43acf73df18fdedafa12b4e6f9e26bc0370d3e1699c4e36a99f",
+  "step_w": null,
+  "lr": "3e-5",
+  "recipe": "chunk-10 (RUN-10 PBC env), pack 256, batch 128 windows, ckpt 500, trainer u = N u + 30000",
+  "executed_pack": "/home/russ/farmneat-local/fs/base-v1-pack-draws",
+  "pack": "base-v1-pack-draws",
+  "bucket_mode": true,
+  "executed_sha256": {
+   "train.py": "1a5e83d2b921b9377461a3a7590c4a7ec8bff1722ce599d54eb5aa7ad73de31a",
+   "model.py": "21ad7872ceed789fb0b3958d1f724ff9f6074b122cc65fc492795ff92f402675",
+   "step_cache.py": "8ff9bc0df948d0e351db4ff5c992878c7fb6bd6ef8281e61e8a3858f01a167c3",
+   "data.py": "99157088ee4fa4cdca78216be96ea93cb873e535eb2c60de2027fb1b812bb94f",
+   "draw_log.py": "870831d20806e8670dcf457aeee631c89ed8654066ca0b0bb87c21faf9798198",
+   "run_arm.sh": "e309bebabc5195f628f0cb8b12833e7aeeebc7bb330e48a7c50f9cb7015ef01e"
+  },
+  "worker_w_tsv": null,
+  "draw_log": "/mnt/ai/scratch/farmNEAT/b-even/run/draws"
+ },
+ "archives": "n1-u<N> greedy EMA via hub_deploy_v9f (fail-closed, plain v9 repo-snap) from hourly/dense/n1 read-only keeps",
+ "skip_state": "none (no annealed skip in B-even)",
+ "inherited_env_phase2": {},
+ "step_multiplier_check": {
+  "table": null,
+  "bad_values": 0
+ },
+ "phase2_colab": {
+  "host": "Colab #1 oldarch-g4 (G4 RTX PRO 6000), run n1-beven-colab, launched 2026-09-30T16:19:25Z",
+  "seed": "ckpt-0042000.pt (hourly/PROTECTED/NBEVEN-final4090b-u42000.pt)",
+  "seed_sha256": "9f26af4ef0bcfed0a3bf4bfe467125c89d84013bdd4b930ea85f69bc5f48bfae",
+  "trainer_train_sha256": "ca9c9f78a79555a2 (VM /content/code; = 1a5e83d2 + fail-closed roster completeness check + reseed-only step-cache resume)",
+  "model_sha256": "21ad7872ceed789fb0b3958d1f724ff9f6074b122cc65fc492795ff92f402675",
+  "recipe": "unchanged: lr 3e-5, EMA 0.999, aux 2.8, pack 256, batch 128 windows, wsd, warmup 300, mask-unit-noops, compile on; RUN-10 env minus PBC_COS_ORIGIN; 16 workers",
+  "rosters": [
+   {
+    "from_update": 42000,
+    "roster": "rows-buckets.426f06385d73.tsv",
+    "sha256": "426f06385d73f43acf73df18fdedafa12b4e6f9e26bc0370d3e1699c4e36a99f"
+   },
+   {
+    "from_update": "switch 12:55 (SWITCH-1255.log)",
+    "roster": "rows-buckets.d4623759c8fe.tsv (generation 575616a83f15, LINEAGE=B)",
+    "sha256": "d4623759c8fef2d79b45269b10f28ec28535e701cac567d5366c961366dc5bff"
+   }
+  ],
+  "preflight": "launch-ncolab: bpreflight ok (cache manifest ca925aa7, code ce0ba972)"
+ }
+}

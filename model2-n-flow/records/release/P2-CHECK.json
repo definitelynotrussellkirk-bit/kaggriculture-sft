@@ -1,0 +1,38 @@
+{
+ "archive": "/mnt/ai/scratch/farmNEAT/pbc-deploy/nflow-main-wash8014/nflow-main-wash8014.tar.gz",
+ "checkpoint": "/mnt/ai/scratch/farmNEAT/n-flow/release-ckpts/nflow-main-wash8014/ckpt-0056559.pt",
+ "effective": "/mnt/ai/scratch/farmNEAT/pbc-deploy/nflow-main-wash8014/EFFECTIVE-RELEASE.json",
+ "effective_nonempty": true,
+ "policy_pt_sha256": "56fdb45068d8f1ab26fa8bb22f57c4bdb7d090f0fff6428a5867c1ee827d08a6",
+ "checkpoint_sha256": "7dacc5983b96f5b68526bf4b6c8c55e71bb1455dbb3c4662157150e88f836953",
+ "checkpoint_update": 56559,
+ "effective_checkpoint_declared": true,
+ "effective_checkpoint_identities": {
+  "release": {
+   "path": "/mnt/ai/scratch/farmNEAT/n-flow/release-ckpts/nflow-main-wash8014/ckpt-0056559.pt",
+   "sha256": "7dacc5983b96f5b68526bf4b6c8c55e71bb1455dbb3c4662157150e88f836953"
+  },
+  "final": {
+   "path": "/mnt/ai/scratch/farmNEAT/n-flow/runs/nflow-main-wash8014/ckpt-0056559.pt",
+   "sha256": "7dacc5983b96f5b68526bf4b6c8c55e71bb1455dbb3c4662157150e88f836953"
+  }
+ },
+ "effective_checkpoint_path": "/mnt/ai/scratch/farmNEAT/n-flow/release-ckpts/nflow-main-wash8014/ckpt-0056559.pt",
+ "effective_checkpoint_sha256": "7dacc5983b96f5b68526bf4b6c8c55e71bb1455dbb3c4662157150e88f836953",
+ "effective_binds_checkpoint": true,
+ "policy_config_equals_checkpoint": true,
+ "checkpoint_schema_valid": true,
+ "effective_checkpoint_matches": true,
+ "effective_binding_required": true,
+ "storage": "fp16",
+ "tensors": 127,
+ "ema_tensors": 127,
+ "missing": [],
+ "extra": [],
+ "mismatched": [],
+ "policy_equals_fp16_ema": true,
+ "nonfinite_ema": [],
+ "nonfinite_policy": [],
+ "weights_finite": true,
+ "pass": true
+}

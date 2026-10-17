@@ -1,0 +1,122 @@
+{
+ "schema": "league-episode-v1",
+ "episode_id": 998900002007,
+ "labels": [
+  "n1-main-sprinkle",
+  "b-colab-u38760-d30-v9gsafe"
+ ],
+ "archives": [
+  "/mnt/ai/scratch/farmNEAT/pbc-deploy/n1-main-sprinkle/n1-main-sprinkle.tar.gz",
+  "/mnt/ai/scratch/farmNEAT/pbc-deploy/b-colab-u38760-d30-v9gsafe/b-colab-u38760-d30-v9gsafe.tar.gz"
+ ],
+ "world_seed": 1211693881,
+ "sampler_seed": 7100,
+ "game": {
+  "seats": [
+   "n1-main-sprinkle",
+   "b-colab-u38760-d30-v9gsafe"
+  ],
+  "world_seed": 1211693881,
+  "cash": [
+   101278.0,
+   94104.0
+  ],
+  "steps": 719,
+  "fallbacks": [
+   0,
+   0
+  ],
+  "seconds": 405.2,
+  "ms_p50": [
+   281.202015998133,
+   297.3813629942015
+  ],
+  "score": [
+   1.0,
+   0.0
+  ],
+  "status": [
+   "DONE",
+   "DONE"
+  ],
+  "failed_step": null,
+  "sampler_seed": 7100,
+  "temperature": 1.0,
+  "hosted": null,
+  "seat_stats": [
+   {
+    "status": "DONE",
+    "fallbacks": 0,
+    "hard_errors": 0,
+    "cold": true,
+    "calls": 719,
+    "step_log": {
+     "parser": "ladder",
+     "lines": 719,
+     "fallback_lines": 0,
+     "loading_lines": 0,
+     "deadline_hit_lines": 0,
+     "cut_lines": 0,
+     "load_ms": 1349.0,
+     "wait_ms": null,
+     "load_error": null
+    },
+    "log_lines": 719,
+    "log_fallback_lines": 0,
+    "log_loading_lines": 0,
+    "log_load_ms": 1349.0,
+    "ms_first": 1775.4,
+    "ms_p99": 311.8,
+    "ms_max": 1775.4
+   },
+   {
+    "status": "DONE",
+    "fallbacks": 0,
+    "hard_errors": 0,
+    "cold": true,
+    "calls": 719,
+    "step_log": {
+     "parser": "ladder",
+     "lines": 719,
+     "fallback_lines": 0,
+     "loading_lines": 0,
+     "deadline_hit_lines": 0,
+     "cut_lines": 0,
+     "load_ms": 1301.0,
+     "wait_ms": null,
+     "load_error": null
+    },
+    "log_lines": 719,
+    "log_fallback_lines": 0,
+    "log_loading_lines": 0,
+    "log_load_ms": 1301.0,
+    "ms_first": 1711.3,
+    "ms_p99": 334.9,
+    "ms_max": 1711.3
+   }
+  ],
+  "sources_changed": []
+ },
+ "actions_recorded": 719,
+ "replay": "replay.json.gz",
+ "replay_cash": [
+  101278.0,
+  94104.0
+ ],
+ "replay_rewards": [
+  101278.0,
+  94104.0
+ ],
+ "replay_verified": true,
+ "runtime": {
+  "python": "3.11.13",
+  "executable": "/mnt/ai/scratch/farmNEAT/runtime-hosted-py311/venv/bin/python",
+  "torch": "2.6.0+cpu",
+  "host": "ccf1d36a65e6",
+  "hosted_rules": false,
+  "crn_rng": true
+ },
+ "ladder_sha256": "fb2a09af436511e8abb19b1f97a0ec915795d990c2e0b98531bb9bfe2c4d57f0",
+ "wall_seconds": 411.2,
+ "crn_rng": true
+}

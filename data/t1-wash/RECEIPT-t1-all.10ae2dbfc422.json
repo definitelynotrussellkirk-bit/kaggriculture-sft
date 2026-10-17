@@ -1,0 +1,58 @@
+{
+ "schema": "t1-all/v1",
+ "roster": "/mnt/ai/scratch/farmNEAT/broad/t1/rows-t1-all.10ae2dbfc422.tsv",
+ "sha256": "10ae2dbfc422877bf74e57fb06f2528b9b13cfdb9488d4ab0e81c595d709da3d",
+ "built_utc": "2026-09-30T13:24:42Z",
+ "leaderboard": "LEADERBOARD-20260930T1317.csv",
+ "top1": {
+  "team_id": 16681125,
+  "name": "M & M & P & Q",
+  "score": 3111.4
+ },
+ "gap_rule_points": 50.0,
+ "second": {
+  "team_id": 16623559,
+  "name": "DECEM",
+  "score": 2973.3,
+  "gap": 138.1
+ },
+ "teams": [
+  {
+   "team_id": 16681125,
+   "name": "M & M & P & Q",
+   "score": 3111.4
+  }
+ ],
+ "seats": 2850,
+ "top_wins": 2376,
+ "beaters_of_top": 474,
+ "uncached": 11,
+ "days": {
+  "2026-09-07": 21,
+  "2026-09-09": 69,
+  "2026-09-12": 90,
+  "2026-09-13": 116,
+  "2026-09-15": 173,
+  "2026-09-16": 239,
+  "2026-09-17": 8,
+  "2026-09-19": 25,
+  "2026-09-20": 111,
+  "2026-09-21": 68,
+  "2026-09-22": 143,
+  "2026-09-23": 191,
+  "2026-09-24": 153,
+  "2026-09-25": 284,
+  "2026-09-26": 246,
+  "2026-09-27": 351,
+  "2026-09-28": 243,
+  "2026-09-29": 248,
+  "2026-09-30": 71
+ },
+ "candidates": 3315,
+ "excluded_our_seat": 0,
+ "excluded_static": 1,
+ "excluded_not_tsv_ready": 0,
+ "excluded_exclusion_union": 454,
+ "exclusion_union_sha256": "59d8c4e9ee6f5784b60b31d3ca2b4b2ef6ed14d094dca5ad1a6de58aca2aec7e",
+ "seconds": 2.8
+}

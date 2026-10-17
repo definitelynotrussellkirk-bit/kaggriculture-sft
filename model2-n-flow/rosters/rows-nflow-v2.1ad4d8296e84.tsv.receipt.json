@@ -1,0 +1,193 @@
+{
+ "source_rows": "/mnt/ai/scratch/farmNEAT/broad/rows-broad.1ad4d8296e84.tsv",
+ "source_sha256": "1ad4d8296e845f7624ec53f0857696dbd343fda4d4f156ed0dec96d5ef67c478",
+ "out": "/tmp/claude-1000/rows-nflow-v2.tsv",
+ "out_sha256": "3c711095effb36a5bb4844664c3d535e522f4aa8c8b02ec4e527609ca2b11baf",
+ "catalog": "/mnt/ai/scratch/farmNEAT/primitive-bc-data/catalog/SEATS.parquet",
+ "groups": {
+  "act:tier1": {
+   "rows": 6476,
+   "mass": 17419.0,
+   "share": 0.241
+  },
+  "wdl-loser:tier1": {
+   "rows": 653,
+   "mass": 1741.0
+  },
+  "act:tier2": {
+   "rows": 2919,
+   "mass": 25995.0,
+   "share": 0.3596
+  },
+  "wdl-loser:tier2": {
+   "rows": 842,
+   "mass": 7479.0
+  },
+  "act:tier3": {
+   "rows": 2463,
+   "mass": 28868.0,
+   "share": 0.3994
+  },
+  "wdl-loser:tier3": {
+   "rows": 1377,
+   "mass": 16168.0
+  },
+  "own-loss:tier2": {
+   "rows": 7,
+   "mass": 61.88000000000001
+  }
+ },
+ "kinds": {
+  "act": 11858,
+  "wdl-loser": 2872,
+  "own-loss": 7
+ },
+ "refused": 338,
+ "refused_sample": [
+  {
+   "eid": 114339370,
+   "seat": 0,
+   "why": "own loss before 09-29 (wdl-loser dropped)"
+  },
+  {
+   "eid": 114145015,
+   "seat": 1,
+   "why": "own loss before 09-29 (wdl-loser dropped)"
+  },
+  {
+   "eid": 113922798,
+   "seat": 1,
+   "why": "own loss before 09-29 (wdl-loser dropped)"
+  },
+  {
+   "eid": 113925261,
+   "seat": 1,
+   "why": "own loss before 09-29 (wdl-loser dropped)"
+  },
+  {
+   "eid": 114009587,
+   "seat": 1,
+   "why": "own loss before 09-29 (wdl-loser dropped)"
+  },
+  {
+   "eid": 114099919,
+   "seat": 1,
+   "why": "own loss before 09-29 (wdl-loser dropped)"
+  },
+  {
+   "eid": 114013414,
+   "seat": 1,
+   "why": "own loss before 09-29 (wdl-loser dropped)"
+  },
+  {
+   "eid": 114245919,
+   "seat": 0,
+   "why": "own loss before 09-29 (wdl-loser dropped)"
+  },
+  {
+   "eid": 114262952,
+   "seat": 0,
+   "why": "own loss before 09-29 (wdl-loser dropped)"
+  },
+  {
+   "eid": 114226646,
+   "seat": 0,
+   "why": "own loss before 09-29 (wdl-loser dropped)"
+  },
+  {
+   "eid": 114397428,
+   "seat": 0,
+   "why": "own loss before 09-29 (wdl-loser dropped)"
+  },
+  {
+   "eid": 114200229,
+   "seat": 0,
+   "why": "own loss before 09-29 (wdl-loser dropped)"
+  },
+  {
+   "eid": 114304148,
+   "seat": 0,
+   "why": "own loss before 09-29 (wdl-loser dropped)"
+  },
+  {
+   "eid": 114138821,
+   "seat": 0,
+   "why": "own loss before 09-29 (wdl-loser dropped)"
+  },
+  {
+   "eid": 113978231,
+   "seat": 1,
+   "why": "own loss before 09-29 (wdl-loser dropped)"
+  },
+  {
+   "eid": 113919873,
+   "seat": 1,
+   "why": "own loss before 09-29 (wdl-loser dropped)"
+  },
+  {
+   "eid": 114391290,
+   "seat": 1,
+   "why": "own loss before 09-29 (wdl-loser dropped)"
+  },
+  {
+   "eid": 113947910,
+   "seat": 1,
+   "why": "own loss before 09-29 (wdl-loser dropped)"
+  },
+  {
+   "eid": 113923002,
+   "seat": 1,
+   "why": "own loss before 09-29 (wdl-loser dropped)"
+  },
+  {
+   "eid": 113986015,
+   "seat": 1,
+   "why": "own loss before 09-29 (wdl-loser dropped)"
+  }
+ ],
+ "own_loss": {
+  "teams": [
+   "有辣条有权",
+   "Russell Kirk"
+  ],
+  "catalog_L_seats": 681,
+  "kept": 7,
+  "dropped": {
+   "day not 09-29/09-30": 515,
+   "no v11 .stp (listed for build)": 71,
+   "already a row": 65,
+   "excluded: leak": 5,
+   "excluded: heldout split": 16,
+   "excluded: leak,mmpq_val": 2
+  },
+  "sampling_weight": 8.84,
+  "days": [
+   "2026-09-29",
+   "2026-09-30"
+  ],
+  "unbuilt_listed": 71
+ },
+ "wdl_labels": {
+  "L": 2879,
+  "D": 0,
+  "W": 11858
+ },
+ "margin_abs": {
+  "median_M": 6097.0,
+  "q1": 2516.0,
+  "q2": 6097.0,
+  "q3": 15527.0,
+  "min": 1.0,
+  "max": 246306.0,
+  "share_lt_2000": 0.2038,
+  "share_gt_20000": 0.2017
+ },
+ "wdl_weight": {
+  "rule": "w = 1/(1+|margin|/M), M = median |margin| of all rows, mean-normalised to 1",
+  "min": 0.047974,
+  "max": 1.985709,
+  "mean": 1.0,
+  "ess": 11705.6,
+  "rows": 14737
+ }
+}

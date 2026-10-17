@@ -1,0 +1,1 @@
+{"run": "/mnt/ai/scratch/farmNEAT/b-even/run", "latest": "ckpt-0041500.pt", "update": 41500, "scanned": {"ckpt-0039000.pt": 39000, "ckpt-0039500.pt": 39500, "ckpt-0040000.pt": 40000, "ckpt-0040500.pt": 40500, "ckpt-0041000.pt": 41000, "ckpt-0041500.pt": 41500}, "skipped_unloadable": {}}

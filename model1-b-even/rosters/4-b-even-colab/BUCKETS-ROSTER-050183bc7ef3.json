@@ -1,0 +1,105 @@
+{
+ "roster": "/mnt/ai/scratch/farmNEAT/broad/rows-buckets.050183bc7ef3.tsv",
+ "sha256": "050183bc7ef3d9bc5c5cdd7571584b06a2b614419dcbbb0b0c9d1a6ebb427fab",
+ "bucket_dir": "/mnt/ai/scratch/farmNEAT/broad/buckets/3d8bab05728b",
+ "lineage": "B",
+ "generation_sha256": "3d8bab05728b4c3119dbc0a4e1e67a40af407876e22d8abe6c6a70de8fab3d61",
+ "generation_receipt": {
+  "path": "/mnt/ai/scratch/farmNEAT/broad/buckets/3d8bab05728b/RECEIPT.json",
+  "sha256": "95bda47382256df47ea76077bb0af96d78ae7b90e599939f273513ed4d2a5b2e"
+ },
+ "effective_shares_file": {
+  "path": "/mnt/ai/scratch/farmNEAT/broad/buckets/3d8bab05728b/EFFECTIVE-SHARES.json",
+  "sha256": "0ab7176ffc5b86fd0a6ccaeb4e265795139d7d3fd176bda5202aa8962387a32d",
+  "effective_shares": {
+   "A": 0.505622,
+   "BC": 0.204227,
+   "D": 0.14197,
+   "E": 0.047323,
+   "L": 0.053307,
+   "W_B": 0.047551
+  }
+ },
+ "bucket_files": {
+  "A": {
+   "path": "/mnt/ai/scratch/farmNEAT/broad/buckets/3d8bab05728b/A.tsv",
+   "sha256": "61c9d5e9010821f65bbdfbde48fb84e3c949e16790e65ea2b0fba9e8d924934a",
+   "cached_seats": 5742
+  },
+  "BC": {
+   "path": "/mnt/ai/scratch/farmNEAT/broad/buckets/3d8bab05728b/BC.tsv",
+   "sha256": "906368a2c24b73c5475d1331bfab7b0085a5bd8c755caaf95b94372b6ca2b1cf",
+   "cached_seats": 885
+  },
+  "D": {
+   "path": "/mnt/ai/scratch/farmNEAT/broad/buckets/3d8bab05728b/D.tsv",
+   "sha256": "bbd4eba881bd473668352db593c0cc0ec8d6cd562c62dcb1871017cb9bb1c227",
+   "cached_seats": 1156
+  },
+  "E": {
+   "path": "/mnt/ai/scratch/farmNEAT/broad/buckets/3d8bab05728b/E.tsv",
+   "sha256": "379748884603d88ea05946ebe9be037be55e4b927eccf739020a7d52190b9f86",
+   "cached_seats": 4732
+  },
+  "L": {
+   "path": "/mnt/ai/scratch/farmNEAT/broad/buckets/3d8bab05728b/L.tsv",
+   "sha256": "d529cfcfc2852d258ba9c3381b12d76cb4af252044a0ae3fd5bd486e67e83cd7",
+   "cached_seats": 231
+  },
+  "W_B": {
+   "path": "/mnt/ai/scratch/farmNEAT/broad/buckets/3d8bab05728b/W_B.tsv",
+   "sha256": "f1278c000fc6b9f4c588538bfa1448613d36affc82bffa2d09965013c985ed9d",
+   "cached_seats": 135
+  }
+ },
+ "recipe_sha256": "ca717478fa7869d0ea5375a6bd9123e2d7cdb061513fdd2c1c6350f07ef84e69",
+ "requested_share_renormalised": {
+  "A": 0.5056,
+  "BC": 0.2042,
+  "D": 0.142,
+  "E": 0.0473,
+  "L": 0.0533,
+  "W_B": 0.0476
+ },
+ "empty_buckets_dropped": [],
+ "seats": {
+  "A": 5742,
+  "BC": 885,
+  "D": 1156,
+  "E": 4732,
+  "L": 231,
+  "W_B": 135
+ },
+ "dropped": {
+  "missing_cache": 0,
+  "blocked_or_static": 0,
+  "duplicate": 0
+ },
+ "integer_weight": {
+  "A": 18,
+  "BC": 46,
+  "D": 25,
+  "E": 2,
+  "L": 46,
+  "W_B": 70
+ },
+ "effective_share": {
+  "A": 0.5104,
+  "BC": 0.201,
+  "D": 0.1427,
+  "E": 0.0467,
+  "L": 0.0525,
+  "W_B": 0.0467
+ },
+ "max_abs_share_error": 0.0048,
+ "shares_source": "/mnt/ai/scratch/farmNEAT/broad/buckets/3d8bab05728b/EFFECTIVE-SHARES.json",
+ "shares_in": {
+  "A": 0.505622,
+  "BC": 0.204227,
+  "D": 0.14197,
+  "E": 0.047323,
+  "L": 0.053307,
+  "W_B": 0.047551
+ },
+ "per_seat_weights": "none (owner: uniform within bucket)"
+}

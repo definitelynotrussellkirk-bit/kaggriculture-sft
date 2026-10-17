@@ -1,0 +1,8 @@
+{
+  "updates": 100,
+  "median_update_seconds": 0.9991857944987714,
+  "p90_update_seconds": 1.00331046996871,
+  "projected_remaining_compute_seconds": 899.5564636560157,
+  "remaining_budget_seconds": 49885.38354834303,
+  "warning": "Projection excludes checkpoint/evaluation/queue variability; not promised completion."
+}

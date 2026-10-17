@@ -1,0 +1,29 @@
+{
+ "schema": "farm-run-receipt/v1",
+ "archives": [
+  "/mnt/ai/scratch/farmNEAT/pbc-deploy/n1-main-sprinkle/n1-main-sprinkle.tar.gz",
+  "/mnt/ai/scratch/farmNEAT/pbc-deploy/b-colab-u38760-d30-v9gsafe/b-colab-u38760-d30-v9gsafe.tar.gz"
+ ],
+ "archive_sha256_pre": [
+  "932bb45d7fe9f0ebb486356285b43c5d079761c3905ce650d2e99c9c77986952",
+  "95e5b4e5037505776aa8d0f6ec198489836bd0a26ee10942370791e4cec4e5c1"
+ ],
+ "archive_sha256_post": [
+  "932bb45d7fe9f0ebb486356285b43c5d079761c3905ce650d2e99c9c77986952",
+  "95e5b4e5037505776aa8d0f6ec198489836bd0a26ee10942370791e4cec4e5c1"
+ ],
+ "archive_bytes": [
+  94080075,
+  94086188
+ ],
+ "started_utc": "2026-09-30T23:16:00Z",
+ "finished_utc": "2026-09-30T23:26:43Z",
+ "runner_sha256": "4f9e4867d27b694fc19a221cab7de4fe47139a55bd479249a99f4f1a382e62ca",
+ "engine_tree_sha256": "43a878a64826dbdff7d763cce50947f7692a0771890627560eed234a66b1156d",
+ "engine": "engine-20260927-d91cbd52",
+ "game_json_sha256": "f8332f8b43aa53480b25cbf83b652da38a473ac485cf7fc8031c9b3362c96e01",
+ "replay_sha256": "74b52d80fd8fd6d6ddcb8529a4092e3328211b099f356a5e8d96788f785326a1",
+ "host": "laptop-4060",
+ "slurm_job": "9593",
+ "slurm_task": "2"
+}

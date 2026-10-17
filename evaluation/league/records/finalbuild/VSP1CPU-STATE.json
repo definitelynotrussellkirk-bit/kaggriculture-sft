@@ -1,0 +1,20 @@
+{
+ "cands": {
+  "n1-u16200": {
+   "sha": "4788a05094bff93749f65ca0e2820b15c7042fa3c40364e3a49881c2a507f411",
+   "manifest": "VS-P1NB-n1-u16200-vs-b-colab-u38760-d30-v9gsafe.json",
+   "n": 2
+  },
+  "n1-main-1730": {
+   "sha": "9139a28f8d699e7e00ee70874b5455165745ef5f26799b754d41e84487617682",
+   "manifest": "VS-P1NB-n1-main-1730-vs-b-colab-u38760-d30-v9gsafe.json",
+   "n": 3
+  },
+  "n1-main-sprinkle": {
+   "sha": "932bb45d7fe9f0ebb486356285b43c5d079761c3905ce650d2e99c9c77986952",
+   "manifest": "VS-P1NB-n1-main-sprinkle-vs-b-colab-u38760-d30-v9gsafe.json",
+   "n": 0
+  }
+ },
+ "rule": "Coordinator 19:0x: the GPU-spool B vs P1 panels never ran (no daemon claimed them). CPU-native instead, VS-P2 bank worlds 1-8 x 2 seats per\ncandidate vs P1 b-colab-u38760-d30-v9gsafe (95e5b4e5), all in parallel: n1-u16200 -> Colab #2 nflow-g4 lane; n1-main-1730 -> spark;\nn1-main-sprinkle (when built + strictly verified) -> Colab #2 5 worlds + laptop 3 worlds. R-VS-P1-NB whenever a candidate's finished-game\ncount grows: raw game W-L(-D), share of finished games, world-clustered share on complete worlds; still moving until 16 games."
+}

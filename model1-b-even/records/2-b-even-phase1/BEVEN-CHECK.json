@@ -1,0 +1,49 @@
+{
+ "b31": "/mnt/ai/scratch/farmNEAT/base-v1/runs/b/chunks/chunk9-ckpt-0031047.pt",
+ "encoder_heads": 36,
+ "dec_heads": 12,
+ "width": 432,
+ "pbc_env": {
+  "PBC_TURN_NORM": "1",
+  "PBC_HIST_DROPOUT": "0.5",
+  "PBC_JOBBIAS": "fold",
+  "PBC_TURN_W_ORDER": "2",
+  "PBC_TURN_W_MOVE": "0.5",
+  "PBC_SEAT_FRACTION": "0.5",
+  "PBC_GRAD_CLIP": "10",
+  "PBC_BUCKET_GROUP": "3",
+  "PBC_DEC_TRIM": "1",
+  "PBC_EMA_EXTRA": "0.998,0.9995"
+ },
+ "steps": 160,
+ "variants": {
+  "12": {
+   "head_dim": 36,
+   "whole_step_change": 0.7375,
+   "kl_b31_variant_per_step": 3.7564453761850016,
+   "unit_logits": 0.8888190954773869,
+   "unit_qty_logits": 0.7209302325581395,
+   "order_logits": 0.7954022988505747,
+   "order_qty_logits": 0.5894736842105263
+  },
+  "18": {
+   "head_dim": 24,
+   "whole_step_change": 0.55625,
+   "kl_b31_variant_per_step": 1.5063396088642549,
+   "unit_logits": 0.9365577889447236,
+   "unit_qty_logits": 0.813953488372093,
+   "order_logits": 0.9149425287356322,
+   "order_qty_logits": 0.7315789473684211
+  },
+  "36": {
+   "head_dim": 12,
+   "whole_step_change": 0.0,
+   "kl_b31_variant_per_step": 0.0,
+   "unit_logits": 1.0,
+   "unit_qty_logits": 1.0,
+   "order_logits": 1.0,
+   "order_qty_logits": 1.0
+  }
+ },
+ "seconds": 215.56999588012695
+}

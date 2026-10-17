@@ -1,0 +1,8 @@
+2026-09-30T16:19:25Z launched n1-beven-colab on oldarch-g4: workers 16, max-seconds 26134, exec pid 3874294
+2026-09-30T16:52:37Z launched n1-beven-colab on oldarch-g4: rows rows-n-d4623759c8fe.tsv (d4623759c8fe), workers 16, max-seconds 24142, exec pid 3946928
+2026-09-30T18:09:39Z launched n1-beven-colab on oldarch-g4: rows rows-n-050183bc7ef3.tsv (050183bc7ef3), workers 16, max-seconds 19550, exec pid 4133246
+2026-09-30T19:09:36Z coordinator relaunch n1-beven-colab on oldarch-g4 after n-launch failed at 15:07 (worker.py 14:09, rows-n-050183bc7ef3, resume LATEST ckpt-0045720), exec pid 93796
+2026-09-30T19:29:55Z launched n1-beven-colab on oldarch-g4: rows rows-n-60327cd812e7.tsv (60327cd812e7), workers 16, max-seconds 16535, exec pid 147310
+2026-09-30T20:17:15Z launched n1-beven-colab on oldarch-g4: rows rows-n-8f08a69ea889.tsv (8f08a69ea889), workers 16, max-seconds 13694, exec pid 299045
+2026-09-30T20:46:48Z launched n1-beven-colab on nflow-x1: rows rows-n-a9ab27e1ba44.tsv (a9ab27e1ba44), workers 16, max-seconds 11921, exec pid 349170
+2026-09-30T22:11:18Z launched n1-beven-colab on nflow-x1: rows rows-n-d2d605843046.tsv (d2d605843046), workers 16, max-seconds 6852, exec pid 478824

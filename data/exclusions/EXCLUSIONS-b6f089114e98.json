@@ -1,0 +1,21 @@
+{
+ "sha256": "b6f089114e984bdb5ec09b37e731a9ba7a208fe3fa7516e1197af6a7c6046186",
+ "path": "/mnt/ai/scratch/farmNEAT/broad/exclusions/EXCLUSIONS-b6f089114e98.tsv",
+ "families": {
+  "practice_val": 300,
+  "mmpq_val": 205,
+  "top4_val": 202,
+  "val_mmpq": 0,
+  "val_mmpq10": 0,
+  "val_fresh": 0,
+  "sealed": 16,
+  "leak": 128,
+  "fixed": 1,
+  "holdout_seed": 0,
+  "hash_val_split": 18220,
+  "quarantine_sub_seats": 8
+ },
+ "blocked_subs": [
+  56680736
+ ]
+}

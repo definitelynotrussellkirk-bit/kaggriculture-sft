@@ -1,0 +1,84 @@
+{
+ "lb": "LEADERBOARD-20260927T0005.csv",
+ "tau_days": 3.0,
+ "sigma": 41.0,
+ "r0": 2880.0,
+ "min_margin": 0.0,
+ "candidates": 24841,
+ "kept": 9000,
+ "beat_us_rows": 107,
+ "u_cut": 2.233214314766918,
+ "weighted_rows": 18214,
+ "by_day": {
+  "2026-09-27": {
+   "n": 1077,
+   "min_rating": 2848
+  },
+  "2026-09-26": {
+   "n": 1522,
+   "min_rating": 2870
+  },
+  "2026-09-25": {
+   "n": 930,
+   "min_rating": 2874
+  },
+  "2026-09-24": {
+   "n": 906,
+   "min_rating": 2869
+  },
+  "2026-09-23": {
+   "n": 1049,
+   "min_rating": 2895
+  },
+  "2026-09-22": {
+   "n": 1008,
+   "min_rating": 2915
+  },
+  "2026-09-21": {
+   "n": 983,
+   "min_rating": 2940
+  },
+  "2026-09-20": {
+   "n": 823,
+   "min_rating": 2934
+  },
+  "2026-09-19": {
+   "n": 702,
+   "min_rating": 2961
+  }
+ },
+ "skipped": {
+  "unrated": 167,
+  "margin": 0,
+  "format": 4222
+ },
+ "service": {
+  "k": 0.75,
+  "scanned_pairs": 13000,
+  "scanned_candidates": 12994,
+  "kept_scanned": 8702,
+  "kept_median_p": 0.43007773416455014
+ },
+ "four_quadrant_winners": {
+  "kept": 2978,
+  "candidates": 6288,
+  "unscanned_candidates": 1437
+ },
+ "top_teams": {
+  "DSM": 1634,
+  "Unknown Mother-Goose": 978,
+  "Vadim Vasilenko": 874,
+  "M & M & P & Q": 754,
+  "DECEM": 727,
+  "Majkel1337": 721,
+  "THIRD FARM CLUB": 491,
+  "Kaggledew Valley \ud83c\udfc6": 419,
+  "mtmr_s1": 396,
+  "ymg_aq": 376,
+  "Boey": 195,
+  "SpaTaro": 160
+ },
+ "main_weighted_rows": 18000,
+ "beat_us_weighted_rows": 214,
+ "summary_fix": "2026-09-27 16:30 EDT: weighted_rows now includes the beat-us copies (Codex audit FAIL)"
+}

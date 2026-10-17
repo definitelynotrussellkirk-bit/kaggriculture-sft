@@ -1,0 +1,7 @@
+{
+  "batches": 8,
+  "steps": 512,
+  "canonical_bits_per_step": 2.687577784061432,
+  "seed": 1000933,
+  "interpretation": "Fixed cached validation diagnostic, not playing strength"
+}

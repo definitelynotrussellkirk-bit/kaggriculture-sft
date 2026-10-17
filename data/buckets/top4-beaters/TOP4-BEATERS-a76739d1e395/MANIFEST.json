@@ -1,0 +1,175 @@
+{
+ "sha256": "a76739d1e395f87a291a176602902a704f70885688c35c19ff5ad7ce1594b0ee",
+ "dir": "/mnt/ai/scratch/farmNEAT/corpus-final/special/TOP4-BEATERS-a76739d1e395",
+ "built_utc": "2026-09-30T08:11:27Z",
+ "frozen_top4": {
+  "16681125": "M & M & P & Q",
+  "16623559": "DECEM",
+  "16621497": "Victor @ Tufa Labs",
+  "16732748": "DSM"
+ },
+ "top4_by_day": {
+  "2026-09-25": [
+   "Boey",
+   "M & M & P & Q",
+   "DSM",
+   "Unknown Mother-Goose"
+  ],
+  "2026-09-26": [
+   "Boey",
+   "DSM",
+   "M & M & P & Q",
+   "DECEM"
+  ],
+  "2026-09-27": [
+   "DSM",
+   "Boey",
+   "M & M & P & Q",
+   "Vadim Vasilenko",
+   "DECEM"
+  ],
+  "2026-09-28": [
+   "M & M & P & Q",
+   "Boey",
+   "DSM",
+   "DECEM",
+   "Vadim Vasilenko",
+   "Victor @ Tufa Labs"
+  ],
+  "2026-09-29": [
+   "M & M & P & Q",
+   "DSM",
+   "Boey",
+   "Vadim Vasilenko",
+   "Victor @ Tufa Labs",
+   "DECEM",
+   "Yizhou"
+  ],
+  "2026-09-30": [
+   "M & M & P & Q",
+   "DECEM",
+   "DSM",
+   "Victor @ Tufa Labs",
+   "Vadim Vasilenko",
+   "CDE"
+  ]
+ },
+ "teams_top4_any_day": {
+  "Boey": [
+   "2026-09-25",
+   "2026-09-26",
+   "2026-09-27",
+   "2026-09-28",
+   "2026-09-29"
+  ],
+  "M & M & P & Q": [
+   "2026-09-25",
+   "2026-09-26",
+   "2026-09-27",
+   "2026-09-28",
+   "2026-09-29",
+   "2026-09-30"
+  ],
+  "DSM": [
+   "2026-09-25",
+   "2026-09-26",
+   "2026-09-27",
+   "2026-09-28",
+   "2026-09-29",
+   "2026-09-30"
+  ],
+  "Unknown Mother-Goose": [
+   "2026-09-25"
+  ],
+  "DECEM": [
+   "2026-09-26",
+   "2026-09-27",
+   "2026-09-28",
+   "2026-09-29",
+   "2026-09-30"
+  ],
+  "Vadim Vasilenko": [
+   "2026-09-27",
+   "2026-09-28",
+   "2026-09-29",
+   "2026-09-30"
+  ],
+  "Victor @ Tufa Labs": [
+   "2026-09-28",
+   "2026-09-29",
+   "2026-09-30"
+  ],
+  "Yizhou": [
+   "2026-09-29"
+  ],
+  "CDE": [
+   "2026-09-30"
+  ]
+ },
+ "winner_seats": 3809,
+ "episodes": 3809,
+ "days": [
+  "2026-09-07",
+  "2026-09-30"
+ ],
+ "excluded": {
+  "non-train split": 392,
+  "holdout/val/sealed": 114
+ },
+ "per_loser": {
+  "Blurry": {
+   "TRAIN": 9
+  },
+  "Boey": {
+   "TRAIN": 596
+  },
+  "CDE": {
+   "TRAIN": 26
+  },
+  "DECEM": {
+   "TRAIN": 616
+  },
+  "DSM": {
+   "TRAIN": 639
+  },
+  "M & M & P & Q": {
+   "TRAIN": 472
+  },
+  "Unknown Mother-Goose": {
+   "TRAIN": 899
+  },
+  "Vadim Vasilenko": {
+   "TRAIN": 279
+  },
+  "Victor @ Tufa Labs": {
+   "TRAIN": 180
+  },
+  "Yizhou": {
+   "TRAIN": 91
+  },
+  "denden12": {
+   "TRAIN": 1
+  },
+  "masspeaks": {
+   "TRAIN": 1
+  }
+ },
+ "val_never_trained": 0,
+ "val_ever_trained": 0,
+ "train_seats": 3809,
+ "val_seats": 0,
+ "cached_train": 3809,
+ "not_tsv_ready": 0,
+ "top4_source": {
+  "frozen": 1909,
+  "day": 957,
+  "proxy": 943
+ },
+ "rosters_checked": 97,
+ "unknown_training_sets": [
+  "O's raw-replay recent_days set (not reconstructed)"
+ ],
+ "val_removed_as_trained": [],
+ "val_removed_count": 0,
+ "excluded_static_or_blocked": "static winners and submissions in BLOCKED_SUBS removed before selection"
+}

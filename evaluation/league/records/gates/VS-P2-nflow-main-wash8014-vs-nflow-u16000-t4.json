@@ -1,0 +1,55 @@
+{
+ "bank": "VS-P2-nflow-main-wash8014-vs-nflow-u16000-t4",
+ "allow_gpu_served": false,
+ "cpu_only_reason": "CPU-native SLURM lanes",
+ "source": "owner 18:5x vs P2",
+ "descriptive": "VS-P2 panel",
+ "binding": "outer archive sha256 only",
+ "size": {
+  "worlds": 16,
+  "games": 32
+ },
+ "margin_ci_tail": "two-sided",
+ "margin_ci_level": 0.95,
+ "margin_ci_critical_value": "Student t quantile 0.975 with df = complete worlds - 1 (scipy.stats.t.ppf)",
+ "margin_unit": "final-cash margin (variant minus parent) in $ per seat-game, averaged over the two seat orders within a world, then over worlds",
+ "noninferiority_margin_per_world": -1500,
+ "schema": "frozen-gate/v1",
+ "kind": "superiority",
+ "challenger": {
+  "name": "nflow-main-wash8014",
+  "sha256": "7661782af4ca815585945b019963b86586dbae490ba2554b592fdb080f0f4b3e",
+  "bytes": 13605819,
+  "path": "/mnt/ai/scratch/farmNEAT/pbc-deploy/nflow-main-wash8014/nflow-main-wash8014.tar.gz"
+ },
+ "incumbent": {
+  "name": "nflow-u16000-t4",
+  "sha256": "6033c855a47fd296b0c462f2f55a39f6539c4236cc972ae067739df069095547",
+  "bytes": 13595148,
+  "path": "/mnt/ai/scratch/farmNEAT/pbc-deploy/nflow-u16000-t4/nflow-u16000-t4.tar.gz"
+ },
+ "worlds": [
+  586401714,
+  1642738389,
+  944250358,
+  1211693881,
+  1812477964,
+  921174236,
+  1461508636,
+  1671529785,
+  1282434949,
+  1599305047,
+  1882151683,
+  85308274,
+  363133358,
+  397672136,
+  1014748580,
+  1021629648
+ ],
+ "deadline_utc": "2026-09-30T23:55:00Z",
+ "rule": "Declared decision rule for every binary A-vs-B gate (LAND64, surgery, freshen, combo pick-confirm; coordinator 22:10 09-29, locked-specs review): paired-world sign test on sweeps (a sweep = both seat orders won outright, a sweep loss = both lost, any other complete world = split = tie). Only complete, pre-declared banks decide. Any individually tied game -> HOLD (the sweep endpoint is not reinterpreted). ADOPT a change when the variant's one-sided sweep-sign p <= .05 AND its game-point share is not losing (>= .5). NON-INFERIORITY (freshen, surgery+adapt): the parent must NOT beat the variant at one-sided sweep-sign p <= .10, the variant's mean-margin 95% lower bound must be > -$1,500/world, and at least 32 complete worlds x 2 seats.",
+ "games_seen_at_freeze": 0,
+ "one_look": true,
+ "frozen_at_utc": "2026-09-30T22:57:35Z",
+ "manifest_sha256": "48b9cb4b60443c3d032aeb7718c3057ef0f59ef19074650d6a6015c3dbc84d1e"
+}

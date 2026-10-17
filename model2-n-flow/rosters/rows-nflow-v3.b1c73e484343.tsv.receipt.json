@@ -1,0 +1,118 @@
+{
+ "source_rows": "/mnt/ai/scratch/farmNEAT/broad/buckets/b1c73e484343/A.tsv",
+ "source_sha256": "260298b2a2d9481b0bccfe1d876e10d8ebc5125f345e7f299252ac33b3b35c24",
+ "source_files_sha256": {
+  "A.tsv": "260298b2a2d9481b0bccfe1d876e10d8ebc5125f345e7f299252ac33b3b35c24",
+  "BC.tsv": "098bd763acfe4b1dd12b330a2c9757819b67efeb87bfdd6990fe106e8da2de50",
+  "L.tsv": "7ab2ac14e9bf24b75a7000c0056999b0ba22327ca82b6098d0ecea02fa4fafff",
+  "W_N.tsv": "810dd61168e6b42a6b6647777b44aa56f9773aa881638350a9650eefc1b4bad6",
+  "EFFECTIVE-SHARES.json": "fcfdf061ba11731c37adb02af2629b19bd93c271a736d9cfdd73ef74b2ec77eb",
+  "RECEIPT.json": "ac53609fbb6708b71ad89cac3614b178935e783ff6e5ef4ec71b585c8661f465"
+ },
+ "out": "/mnt/ai/scratch/farmNEAT/n-flow/roster/rows-nflow-v3.b1c73e484343.tsv",
+ "out_sha256": "c9ba2405537f1c2ea60ef64dba7c6d598c54b30658553e62f2901ec10acb19bf",
+ "catalog": "/mnt/ai/scratch/farmNEAT/primitive-bc-data/catalog/SEATS.parquet",
+ "groups": {
+  "act:tier1": {
+   "rows": 3194,
+   "mass": 3194.0,
+   "share": 0.8432
+  },
+  "wdl-loser:tier1": {
+   "rows": 3194,
+   "mass": 3194.0
+  },
+  "act:tier2": {
+   "rows": 299,
+   "mass": 299.0,
+   "share": 0.0789
+  },
+  "wdl-loser:tier2": {
+   "rows": 299,
+   "mass": 299.0
+  },
+  "act:tier3": {
+   "rows": 234,
+   "mass": 234.0,
+   "share": 0.0618
+  },
+  "wdl-loser:tier3": {
+   "rows": 234,
+   "mass": 234.0
+  },
+  "act:tier4": {
+   "rows": 61,
+   "mass": 61.0,
+   "share": 0.0161
+  },
+  "wdl-loser:tier4": {
+   "rows": 61,
+   "mass": 61.0
+  },
+  "own-loss:tier2": {
+   "rows": 4,
+   "mass": 4.0
+  }
+ },
+ "kinds": {
+  "act": 3788,
+  "wdl-loser": 3788,
+  "own-loss": 4
+ },
+ "refused": 0,
+ "refused_sample": [],
+ "refused_by_reason": {},
+ "own_loss": {
+  "teams": [
+   "有辣条有权",
+   "Russell Kirk"
+  ],
+  "catalog_L_seats": 794,
+  "kept": 4,
+  "dropped": {
+   "day not 09-29/09-30": 515,
+   "already a row": 234,
+   "excluded: leak,union:leak": 5,
+   "excluded: union:hash_val_split,heldout_split": 26,
+   "excluded: leak,mmpq_val,union:leak,union:mmpq_val": 2,
+   "no v11 .stp (listed for build)": 8
+  },
+  "sampling_weight": 1.0,
+  "days": [
+   "2026-09-29",
+   "2026-09-30"
+  ],
+  "unbuilt_listed": 8
+ },
+ "wdl_labels": {
+  "L": 3792,
+  "D": 0,
+  "W": 3788
+ },
+ "buckets": {
+  "A": 3194,
+  "BC": 299,
+  "L": 234,
+  "W_N": 61
+ },
+ "fingerprinted_rows": 7580,
+ "bucket_probs_arg": "A=0.6897,BC=0.1460,L=0.1143,W_N=0.0500",
+ "margin_abs": {
+  "median_M": 4486.0,
+  "q1": 1906.25,
+  "q2": 4486.0,
+  "q3": 12545.0,
+  "min": 1.0,
+  "max": 199080.0,
+  "share_lt_2000": 0.26,
+  "share_gt_20000": 0.1858
+ },
+ "wdl_weight": {
+  "rule": "w = 1/(1+|margin|/M), M = median |margin| of all rows, mean-normalised to 1",
+  "min": 0.044644,
+  "max": 2.025401,
+  "mean": 1.0,
+  "ess": 5870.8,
+  "rows": 7580
+ }
+}

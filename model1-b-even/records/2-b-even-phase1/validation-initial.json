@@ -1,0 +1,16 @@
+{
+  "student": {
+    "batches": 8,
+    "steps": 512,
+    "canonical_bits_per_step": 3.786876827478409,
+    "seed": 1000933,
+    "interpretation": "Fixed cached validation diagnostic, not playing strength"
+  },
+  "teacher": {
+    "batches": 8,
+    "steps": 512,
+    "canonical_bits_per_step": 2.4374217987060547,
+    "seed": 1000933,
+    "interpretation": "Fixed cached validation diagnostic, not playing strength"
+  }
+}

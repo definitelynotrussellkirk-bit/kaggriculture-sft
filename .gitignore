@@ -1,0 +1,7 @@
+# local working material, not part of the shared repo
+/kagglewriteup/
+/docs/
+/WHERE-IS-THE-REST.md
+__pycache__/
+*.pyc
+qs-run/

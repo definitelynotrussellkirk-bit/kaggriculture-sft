@@ -1,0 +1,183 @@
+{
+ "archive": "/mnt/ai/scratch/farmNEAT/pbc-deploy/nflow-main-wash8014/nflow-main-wash8014.tar.gz",
+ "archive_bytes": 13605819,
+ "archive_sha256": "7661782af4ca815585945b019963b86586dbae490ba2554b592fdb080f0f4b3e",
+ "build_seconds": 7.15,
+ "manifest": {
+  "builder_sha256": "48e9213a8f5a94027c4ebf327eae209ff3c9889e3e7a4dedebf886095a230cbe",
+  "declared": {
+   "decode": {
+    "mode": "greedy"
+   },
+   "device": "cpu",
+   "fallback": "PASS on any exception",
+   "seed": 0,
+   "temperature": 0.0,
+   "threads": 1
+  },
+  "entrypoint": "main.py:agent",
+  "git": {
+   "head": null
+  },
+  "members": {
+   "main.py": {
+    "bytes": 3424,
+    "sha256": "45bbf790ffd40d87e0ceed5911036e65f1828294802e031c9897f64f4353a928"
+   },
+   "policy.pt": {
+    "bytes": 14536956,
+    "sha256": "56fdb45068d8f1ab26fa8bb22f57c4bdb7d090f0fff6428a5867c1ee827d08a6"
+   },
+   "src/farm_neat/__init__.py": {
+    "bytes": 83,
+    "sha256": "de151d8399fae1aaf8a1e0aafa841c0656123ef06a13f817dac71c0b0d645afb"
+   },
+   "src/farm_neat/economy/__init__.py": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "src/farm_neat/economy/action_space.py": {
+    "bytes": 20992,
+    "sha256": "2df38e7072ab338e8d5008b0ed5515754061627c1cda3250cfe629267ca6d3ee"
+   },
+   "src/farm_neat/economy/heuristic/__init__.py": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "src/farm_neat/economy/heuristic/constants.py": {
+    "bytes": 6190,
+    "sha256": "1818d486b89a46844d5dde9c6d2801e7886f9ae85c12987bb229261abb76e850"
+   },
+   "src/farm_neat/economy/heuristic/market.py": {
+    "bytes": 4956,
+    "sha256": "e44d1b7da59cd199376a8e4c94b77f811050e649e98e1ccea9b020dc9ccb6714"
+   },
+   "src/farm_neat/game/__init__.py": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "src/farm_neat/game/constants.py": {
+    "bytes": 6493,
+    "sha256": "b96aec0bcf86858e0cbd032d56a35f6a64c27b1870adb28b19fec36a4bc6376b"
+   },
+   "src/farm_neat/game/kaggriculture.json": {
+    "bytes": 6002,
+    "sha256": "a82c89c1a2315b93f39775d8e025471a01b738647c9772658368ee6b1b6f4867"
+   },
+   "src/farm_neat/game/kaggriculture_engine_reference.py": {
+    "bytes": 40356,
+    "sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e"
+   },
+   "src/farm_neat/policy/__init__.py": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "src/farm_neat/policy/observation.py": {
+    "bytes": 29218,
+    "sha256": "eafb4addbb2e70d4200020ee59f18d3f44a5795513b419b82e9d1c565c4aa214"
+   },
+   "src/farm_neat/training/__init__.py": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "src/farm_neat/training/bc.py": {
+    "bytes": 24381,
+    "sha256": "6f5bc1f56d803a2f52d78b4a9cc916a926b92fe3524fcbdc2b30e568716e9260"
+   },
+   "work/runs/maintainer/n-flow-deploy/COLUMNS.json": {
+    "bytes": 7034,
+    "sha256": "fa2c826a6deaef8d0b426bc0a1f01dfe2112ad5fefcf3e1320835997cd56f26b"
+   },
+   "work/runs/maintainer/n-flow-deploy/agent.py": {
+    "bytes": 50724,
+    "sha256": "284da3f72ffa7d173792e4759e06a6e9a96957107999e2454292e79dec624809"
+   },
+   "work/runs/maintainer/n-flow-deploy/calc_features.py": {
+    "bytes": 8516,
+    "sha256": "bf94fb364d341d4a9d91f3c18aa7459f80705874d43fa2dcac66069d9611cbd4"
+   },
+   "work/runs/maintainer/n-flow-deploy/codec.py": {
+    "bytes": 55081,
+    "sha256": "a8ecdb493798fead64144810f4ee2dbb558bab0b5d5cd1a693ad9c93568e9cb4"
+   },
+   "work/runs/maintainer/n-flow-deploy/data.py": {
+    "bytes": 55744,
+    "sha256": "99157088ee4fa4cdca78216be96ea93cb873e535eb2c60de2027fb1b812bb94f"
+   },
+   "work/runs/maintainer/n-flow-deploy/flip.py": {
+    "bytes": 27211,
+    "sha256": "e02f32a0e4eb65e47cae0199ac98dd943385c6b9347c815709f06854af767952"
+   },
+   "work/runs/maintainer/n-flow-deploy/job_eta.py": {
+    "bytes": 6074,
+    "sha256": "745081159f872d532c2e54d3c3e443b9e36188a8662bfc6d60d363203bec92d1"
+   },
+   "work/runs/maintainer/n-flow-deploy/model.py": {
+    "bytes": 12632,
+    "sha256": "b8d83a866701e86d04ead9063e6ae33f5cef1b1fa34cc343cdce2828e0d0a625"
+   },
+   "work/runs/maintainer/n-flow-deploy/nf_format.py": {
+    "bytes": 21001,
+    "sha256": "8c0984dfd40c3bbf61688f889d60fbeee0d700ba192a192111c83aa0862160f7"
+   },
+   "work/runs/maintainer/n-flow-deploy/nf_model.py": {
+    "bytes": 29904,
+    "sha256": "ff16ef1624d30ab66681a383d7ec8a0b160d6802dac6504da7941d00dbbe88f1"
+   },
+   "work/runs/maintainer/n-flow-deploy/noop_mask.py": {
+    "bytes": 10161,
+    "sha256": "76ef31b8739585a2e7befe0e8036334ac1e967b9f4cbba4bebd9d2b040869a41"
+   },
+   "work/runs/maintainer/n-flow-deploy/prefix.py": {
+    "bytes": 15162,
+    "sha256": "152f835ac708435312080df1164f357de47083669f7cfa12a3d92d38e65444d8"
+   },
+   "work/runs/maintainer/n-flow-deploy/step_search.py": {
+    "bytes": 20662,
+    "sha256": "ef30e095777739642c31dd36a0b8bf869d3eb31fad632ed0ef84184e8eb740ac"
+   },
+   "work/runs/maintainer/n-flow-deploy/theorem_features.py": {
+    "bytes": 45687,
+    "sha256": "c13ce585ad85fe172ae9d00acdb4bca17e6969d16cd670e2463ae32fd1cd8813"
+   },
+   "work/runs/maintainer/n-flow-deploy/v8.py": {
+    "bytes": 5837,
+    "sha256": "59979d50a146a139a27b0d7ae3be2b88a37951f02563b0730de6a587b24a3743"
+   },
+   "work/runs/maintainer/n-flow-deploy/v8_cohorts.py": {
+    "bytes": 30787,
+    "sha256": "8dfd74d09bd2d56c020cfc9d7a57e73537dea94a02fc6db037ad804d97e0ec3d"
+   },
+   "work/runs/maintainer/n-flow-deploy/v8_dusk.py": {
+    "bytes": 20410,
+    "sha256": "c63a88642c5a93820776c9705da2af4dcd5a1452cd6a3b9461708ab3b77306fc"
+   },
+   "work/runs/maintainer/n-flow-deploy/v8_flags.py": {
+    "bytes": 33709,
+    "sha256": "c00408366bcc529530860efedf61acbacc826f482c4693a346b17f8c99555d74"
+   },
+   "work/runs/maintainer/n-flow-deploy/v8_gaps.py": {
+    "bytes": 30631,
+    "sha256": "1800c73f258cb802152f7715a91f9a5db7b410d4b281a506e68a0b1eabf78b96"
+   },
+   "work/runs/maintainer/n-flow-deploy/v8_lattice.py": {
+    "bytes": 13612,
+    "sha256": "3d5760e2756f6fc9edc408aeea48802a7a3570af423233234a66bcdced40bfe2"
+   },
+   "work/runs/maintainer/n-flow-deploy/v8_tileclock.py": {
+    "bytes": 22551,
+    "sha256": "b12745dc6afa0b26daf2d89a79638219dc1d8815c18ca456731d028d2770b7d6"
+   }
+  },
+  "model_sha256": "efa5bb250501d080a0c29bc8986fde5dc2f93accce3f3a638dda5793bb290d3d",
+  "model_spec": "/mnt/ai/scratch/farmNEAT/pbc-deploy/nflow-main-wash8014/ema.pt",
+  "parameters": 7252244,
+  "policy_kind": "PolicyNet",
+  "schema": "primitive-bc-kaggle-archive-v1",
+  "sources_traced_steps": 24,
+  "weights_storage": "fp16"
+ },
+ "members": 38,
+ "uncompressed_bytes": 15202181,
+ "weights_bytes": 14536956
+}

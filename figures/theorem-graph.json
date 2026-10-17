@@ -1,0 +1,8089 @@
+{
+"source": "review/THEOREMS.md + project/registries/search-ledger/*.json",
+"claims": [
+{
+"key": "K-CONTINUATION-RANK-SCALAR-BOUNDARY-5D7771E7",
+"layer": "L0 Outcome",
+"form": "BOUNDARY",
+"title": "Dawn-8 cash and a base-price spot mark both reverse terminal prefix rankings"
+},
+{
+"key": "Q3-CONTINUATION-RANK-f9a322f3",
+"layer": "L0 Outcome",
+"form": "BOUNDARY",
+"title": "Dawn-8 cash and an ideal-service base-price mark are not safe pruning orders"
+},
+{
+"key": "K-EPOCH-PREFIX-TAIL-REPRESENTATION",
+"layer": "L0 Outcome",
+"form": "REPRESENTATION",
+"title": "A candidate at any information epoch is an immutable realized prefix plus an editable remaining tail; state-only scalars and static season counts both fail"
+},
+{
+"key": "Q3-DAWN8-TAIL-CONDITIONAL-CONTINUATION-0AFC534A",
+"layer": "L0 Outcome",
+"form": "BOUNDARY",
+"title": "Dawn-8 continuation ranking must retain the remaining plan; cash and a base-price state mark reverse terminal order"
+},
+{
+"key": "H8-CONTINUATION-BOUNDARY-52BD7AD6",
+"layer": "L0 Outcome",
+"form": "BOUNDARY",
+"title": "Rolling H8 is exact only in the terminal endgame; earlier cuts require conditional continuation"
+},
+{
+"key": "K-CALENDAR-719",
+"layer": "L0 Outcome",
+"form": "STRUCTURE",
+"title": "One game is 719 joint actions; the last is day 29 hour 22 and no refresh follows"
+},
+{
+"key": "K05",
+"layer": "L0 Outcome",
+"form": "BOUNDARY",
+"title": "Own wealth, margin and WDL answer different questions"
+},
+{
+"key": "K-MARKET-STOCK-CLIP-26AB0F70",
+"layer": "L1 Receipts and market",
+"form": "REPRESENTATION",
+"title": "Cash-safe partial fills are clipped-affine stock maps; public full-fill certainty is interval containment"
+},
+{
+"key": "K-SECOND-SLOT-SELL1-CONSENSUS",
+"layer": "L1 Receipts and market",
+"form": "REPRESENTATION",
+"title": "Two MARKET-MICROSTRUCTURE draws agree: a second-slot rival SELL1 restores q3 in bank classes 4 and 5 only"
+},
+{
+"key": "K-LATE-SELL1-BUDGET-REPAIR-5DCA544F",
+"layer": "L1 Receipts and market",
+"form": "REPRESENTATION",
+"title": "Second-slot SELL1 restores q3 in exactly two funded WHEAT menus; seven bank classes and four scores suffice"
+},
+{
+"key": "K-SECOND-SLOT-SELL1-BUDGET-SUPPORT-70C643EF",
+"layer": "L1 Receipts and market",
+"form": "REPRESENTATION",
+"title": "Second-slot SELL1 restores q3 in two intermediate bank classes; four candidates still suffice"
+},
+{
+"key": "K-SELL2-LOSS-CLASS-184FBAE3",
+"layer": "L1 Receipts and market",
+"form": "REPRESENTATION",
+"title": "First-slot SELL2 changes positive-size rankings but preserves the seven bank classes and four-candidate envelope"
+},
+{
+"key": "K-MARKET-FLOW-EXPORTER-69EC9130",
+"layer": "L1 Receipts and market",
+"form": "STRUCTURE",
+"title": "Maintained effective-flow exporter turns public replay transitions into scalar training labels"
+},
+{
+"key": "K-BUDGET-BANDS-CONSENSUS",
+"layer": "L1 Receipts and market",
+"form": "REPRESENTATION",
+"title": "Two COMPOSE draws derive the same seven bank classes for mixed-sign WHEAT cycle sizing"
+},
+{
+"key": "K-BUDGET-SIGN-SEVEN-CLASSES-60AF1FDF",
+"layer": "L1 Receipts and market",
+"form": "REPRESENTATION",
+"title": "Budgeted signed cycle beliefs have exactly seven cash decision classes and at most four quantity candidates"
+},
+{
+"key": "K-BUDGET-MIXED-SEVEN-BANDS-16A3F67F",
+"layer": "L1 Receipts and market",
+"form": "REPRESENTATION",
+"title": "Budgeted WHEAT mixed-sign sizing: seven minimal bank classes and at most four quantities"
+},
+{
+"key": "K-FLOW-MOMENT-ALIAS-88680265",
+"layer": "L1 Receipts and market",
+"form": "BOUNDARY",
+"title": "BOUNDARY: equal flow means and variance do not identify aligned-cycle quantities or frontier-rank masks"
+},
+{
+"key": "K-MARKET-PREFIX-EXTREMA-BB6F01FA",
+"layer": "L1 Receipts and market",
+"form": "REPRESENTATION",
+"title": "REPRESENTATION: fixed rival full-fill resource certificate from prefix extrema"
+},
+{
+"key": "K-MARKET-PASSIVE-FLOW-LABEL-69EC9130",
+"layer": "L1 Receipts and market",
+"form": "STRUCTURE",
+"title": "Passive replay transitions label strict-boundary rival flow exactly; concurrent cycles must retain rank alignment"
+},
+{
+"key": "K-EQUAL-LOSS-BELIEF-LIFT-EE048B64",
+"layer": "L1 Receipts and market",
+"form": "REPRESENTATION",
+"title": "A common-loss scenario lifts the parent belief envelope by one PASS gate; exact WHEAT SELL1 simplex"
+},
+{
+"key": "K-CYCLE-HARD-BUDGET-CONSENSUS",
+"layer": "L1 Receipts and market",
+"form": "REPRESENTATION",
+"title": "Consensus: a hard bank cap enters belief sizing before the residue projection; three independent returns agree that filtering the unbudgeted candidates is wrong"
+},
+{
+"key": "K-CYCLE-HARD-BUDGET-PREFIX-3794D36C",
+"layer": "L1 Receipts and market",
+"form": "REPRESENTATION",
+"title": "Hard-budget belief sizing: largest support certifies one funding prefix; clip before the ten-residue projection"
+},
+{
+"key": "K-CYCLE-BELIEF-HARD-BUDGET-4A5FACAA",
+"layer": "L1 Receipts and market",
+"form": "REPRESENTATION",
+"title": "Hard budgets clip the quantity interval before two-point FERTILIZER residue sizing"
+},
+{
+"key": "K-BUDGET-FIRST-CYCLE-QUANTITY-7570F20E",
+"layer": "L1 Receipts and market",
+"form": "REPRESENTATION",
+"title": "Hard-budget aligned-cycle sizing: compute the robust cap before the ten residue representatives"
+},
+{
+"key": "K-MARKET-PREFIX-RANGE-C94ED8DB",
+"layer": "L1 Receipts and market",
+"form": "REPRESENTATION",
+"title": "Rival full-fill feasibility quotients each serial nonfloor market block to net/min/max supply prefix"
+},
+{
+"key": "K-MARKET-SIGNED-OFFSET-POTENTIAL-4A19797F",
+"layer": "L1 Receipts and market",
+"form": "REPRESENTATION",
+"title": "Signed inventory-offset potential quotients sale timing and carry to endpoint plus one demand scalar"
+},
+{
+"key": "K-UNEQUAL-CYCLE-CONSENSUS",
+"layer": "L1 Receipts and market",
+"form": "REPRESENTATION",
+"title": "Consensus: five independent returns agree on the aligned unequal-cycle margin, the q >= r cut and the fertilizer residue sizing, and the reserve-priced centre answers the residue follow-up"
+},
+{
+"key": "K-CYCLE-BELIEF-SIZING-COMPOSITION",
+"layer": "L1 Receipts and market",
+"form": "REPRESENTATION",
+"title": "Composition: sizing an aligned cycle under a two-point belief on the rival size is an affine envelope (three returns agree on WHEAT) and at most ten residue candidates on FERTILIZER"
+},
+{
+"key": "K-MARKET-BRIDGE-POTENTIAL-CONSENSUS",
+"layer": "L1 Receipts and market",
+"form": "REPRESENTATION",
+"title": "Consensus: three independent returns derive one demand-cut potential for a delayed or carried q-unit block; within-cut rival order and the guide's blanket rival-BUY exclusion are retired"
+},
+{
+"key": "K-UNEQUAL-CYCLE-FIVE-RESIDUES-46EF2049",
+"layer": "L1 Receipts and market",
+"form": "REPRESENTATION",
+"title": "Unequal closed cycles: immediate margin sizing reduces to five fertilizer residue representatives"
+},
+{
+"key": "K-LOCKSTEP-TAIL-FIVE-RESIDUES-A2C3DB23",
+"layer": "L1 Receipts and market",
+"form": "REPRESENTATION",
+"title": "Unequal lockstep cash is its unpaired tail; exact fertilizer sizing needs at most six scores"
+},
+{
+"key": "K-LOCKSTEP-PIGGYBACK-MARGIN-ADFEDFD0",
+"layer": "L1 Receipts and market",
+"form": "REPRESENTATION",
+"title": "Unequal aligned closed cycles: the larger trader cannot beat PASS on immediate cash margin"
+},
+{
+"key": "K-HOLD-DEMAND-CUT-886902AA",
+"layer": "L1 Receipts and market",
+"form": "REPRESENTATION",
+"title": "Demand-cut hold quotient: both cashes from two potentials, independent of mixed rival trade order within demand intervals"
+},
+{
+"key": "K-MARKET-MIXED-NET-CARRY-e0954521",
+"layer": "L1 Receipts and market",
+"form": "REPRESENTATION",
+"title": "Serial mixed carry bridges quotient to net supply with an exact rival-cash margin threshold"
+},
+{
+"key": "K-MARKET-BELIEF-ENVELOPE-6581FF80",
+"layer": "L1 Receipts and market",
+"form": "REPRESENTATION",
+"title": "Two-point market uncertainty is an affine candidate envelope, not a quantity-by-belief grid"
+},
+{
+"key": "K-CYCLE-BELIEF-CELLS-89E57C70",
+"layer": "L1 Receipts and market",
+"form": "REPRESENTATION",
+"title": "Two-point rival-size belief has four exact cycle choices; certainty-hull projection and mixing do not commute"
+},
+{
+"key": "K-CYCLE-BELIEF-CAPITAL-HULL-7E02F4E7",
+"layer": "L1 Receipts and market",
+"form": "REPRESENTATION",
+"title": "Belief-capital feature hull: uncertain aligned-cycle sizing collapses to exposed support vectors"
+},
+{
+"key": "K-SAME-SLOT-CAPITAL-HULL-COMPOSITION",
+"layer": "L1 Receipts and market",
+"form": "REPRESENTATION",
+"title": "Composition: the capital-shadow hull of the same-slot front-run family has all its positive vertices at or below the rival quantity r"
+},
+{
+"key": "K-MARKET-FLOOR-CEILING-fa71898e",
+"layer": "L1 Receipts and market",
+"form": "REPRESENTATION",
+"title": "Two-seat floor overshoot caps reachable inventory at F+1; DEEP_FLOOR is unreachable for D>=2"
+},
+{
+"key": "K-MARKET-CAPITAL-HULL-e28d9560",
+"layer": "L1 Receipts and market",
+"form": "REPRESENTATION",
+"title": "Linear capital and slot shadow prices quotient strict sandwich quantities to an upper hull"
+},
+{
+"key": "K-UNEQUAL-LOCKSTEP-MARGIN-4287B312",
+"layer": "L1 Receipts and market",
+"form": "REPRESENTATION",
+"title": "Aligned unequal closed cycles: a signed prefix formula removes every q>=r from isolated relative-cash sizing"
+},
+{
+"key": "K-UNEQUAL-LOCKSTEP-CLOSED-FORM-CG02",
+"layer": "L1 Receipts and market",
+"form": "REPRESENTATION",
+"title": "Unequal mirrored lockstep cycles in closed form: a shared parity sum plus the larger seat's contiguous potential residual"
+},
+{
+"key": "K-RIVAL-SOLO-FLOW-SALE-SHIFT-CG01",
+"layer": "L1 Receipts and market",
+"form": "REPRESENTATION",
+"title": "Moving one backed sale across a contiguous rival-only same-product word depends on that word only through its net inventory displacement E"
+},
+{
+"key": "K-MARKET-HOLD-DEMAND-POTENTIAL-cd9bc8d7",
+"layer": "L1 Receipts and market",
+"form": "REPRESENTATION",
+"title": "Delayed liquidation is a demand-potential quotient: rival BUY/SELL cash telescopes away until the floor breaks the q-offset"
+},
+{
+"key": "K-LOCKSTEP-CLOSED-CYCLE-MINT",
+"layer": "L1 Receipts and market",
+"form": "",
+"title": "[REPRESENTATION, finite-checked] Two seats mirroring a buy-then-sell round trip in the same slots mint cash for both; a sale moved to the slot before a rival sale gains P(I)-P(I+q) and costs the rival the same"
+},
+{
+"key": "K-MARKET-CASH-CONTROL-CURVE",
+"layer": "L1 Receipts and market",
+"form": "",
+"title": "[REPRESENTATION, finite-checked] What a cash reserve buys on the market: exact wheat and fertilizer control per dollar at 10,000, the reserve of a trade word, and the single-primitive capital-demand curve on router-dairy"
+},
+{
+"key": "K-SAME-SLOT-SATURATION-735E828B",
+"layer": "L1 Receipts and market",
+"form": "REPRESENTATION",
+"title": "Same-slot buyback saturation: cap an isolated round trip at the rival buy quantity"
+},
+{
+"key": "K-MARKET-AFFORDABILITY-ENDPOINTS-71D9AECC",
+"layer": "L1 Receipts and market",
+"form": "REPRESENTATION",
+"title": "Cash-limited strict sandwiches optimize on rival-affordability endpoints"
+},
+{
+"key": "K-MARKET-DEEP-FLOOR-LOCK-9A7C2E4D",
+"layer": "L1 Receipts and market",
+"form": "REPRESENTATION",
+"title": "Deep-floor lock: enough glut plus remaining drain bound removes all future sale timing for one product"
+},
+{
+"key": "K-DISJOINT-NET-CONTEXT-b4191516",
+"layer": "L1 Receipts and market",
+"form": "REPRESENTATION",
+"title": "Net-trade normal form survives every product-disjoint rival context without rival-private inputs"
+},
+{
+"key": "K-MARKET-CARRY-SUPPLY-QUOTIENT-9d3a316d",
+"layer": "L1 Receipts and market",
+"form": "REPRESENTATION",
+"title": "Late WHEAT carry quotients counterparty SELL flow to total supply; S versus demand sets the sign"
+},
+{
+"key": "K-RIVAL-PHASE-CAPACITY-CLIP-0a208c52",
+"layer": "L1 Receipts and market",
+"form": "REPRESENTATION",
+"title": "Hard phase capacity clips ShopRouter authorization envelopes while preserving retained flow containment"
+},
+{
+"key": "K-MARKET-FULL-FILL-CANONICAL-CC3ED17F",
+"layer": "L1 Receipts and market",
+"form": "REPRESENTATION",
+"title": "Mixed-market full-fill existence has a sell-first normal form"
+},
+{
+"key": "K-RIVAL-CAPACITY-CONSENSUS",
+"layer": "L1 Receipts and market",
+"form": "REPRESENTATION",
+"title": "Two independent returns clip the rival's authorization caps the same way: body 0's final-window wheat cap falls from 17,222 to 1,922 with every retained fill prefix still contained"
+},
+{
+"key": "K-Q1-CAPACITY-PREFIX-3fdcc57e",
+"layer": "L1 Receipts and market",
+"form": "REPRESENTATION",
+"title": "Capacity-valid Router prefix credits retain advances and cut final-window WHEAT17222 to1922"
+},
+{
+"key": "Q1-RIVAL-CAPACITY-PREFIX-56c456ee",
+"layer": "L1 Receipts and market",
+"form": "REPRESENTATION",
+"title": "Capacity-clipped rival authorizations require a two-turn advance channel"
+},
+{
+"key": "K-ISOLATED-NET-TRADE-f57bec73",
+"layer": "L1 Receipts and market",
+"form": "REPRESENTATION",
+"title": "Isolated nonfloor commodity words quotient to a resource-minimal net-trade normal form"
+},
+{
+"key": "K-LADDER-TAPE-DICTIONARY",
+"layer": "L1 Receipts and market",
+"form": "",
+"title": "[REPRESENTATION, finite-checked] The ladder is mostly the Router family: 112 of 164 opponents of our static tape-0 submission run a Router tape, 14 versions of tape 0 alone, and the edited versions beat the base"
+},
+{
+"key": "K-LADDER-REPLAY-MARKET-WITNESS",
+"layer": "L1 Receipts and market",
+"form": "",
+"title": "[REPRESENTATION, finite-checked] Two ladder replays: the price law holds at every observation, shops unlock every 72 steps, wheat buyers cluster at fixed hours, and none of the four seats runs a Router tape"
+},
+{
+"key": "K-MARKET-PRIMITIVES-EXPOSED",
+"layer": "L1 Receipts and market",
+"form": "",
+"title": "[REPRESENTATION, finite-checked] Exact values of the market primitives on the exposed game: the town carry pays on demand ticks only, sandwiches move the rival's cash as much as ours, and holding helps or hurts by product"
+},
+{
+"key": "K-RECEIPT-TIMING-CONSENSUS",
+"layer": "L1 Receipts and market",
+"form": "BOUNDARY",
+"title": "Sale timing stays explicit: two independent partitions of the same event trace fail at the window and at the day; the exact object is the ordered two-seat fill word"
+},
+{
+"key": "K-RECEIPT-TIMING-PARTITION",
+"layer": "L1 Receipts and market",
+"form": "BOUNDARY",
+"title": "~~SUPERSEDED by K-RECEIPT-TIMING-CONSENSUS~~ \u2014 Publication windows do not compress sale timing: own carried supply is part of the window state and intra-window timing still carries up to 65% of WOOL"
+},
+{
+"key": "Q2-DAY-WINDOW-RECEIPT-BOUNDARY-89E9E96C",
+"layer": "L1 Receipts and market",
+"form": "BOUNDARY",
+"title": "Day/shop receipt totals fail; constant-demand intervals preserve receipts only with ordered simultaneous quote batches"
+},
+{
+"key": "K-TIMED-RECEIPT-RECURRENCE",
+"layer": "L1 Receipts and market",
+"form": "",
+"title": "[REPRESENTATION, finite-checked] Timed receipts: a dated sale tape under frozen rival fills, by the native per-unit lockstep"
+},
+{
+"key": "K-RIVAL-FLOW-CONSENSUS",
+"layer": "L1 Receipts and market",
+"form": "REPRESENTATION",
+"title": "The rival's body gives authorization bounds; realized flow depends on the own seat; per-block net/deficit summaries compose once purchases are carried"
+},
+{
+"key": "K-RIVAL-FLOW-WINDOWS",
+"layer": "L1 Receipts and market",
+"form": "MEASUREMENT",
+"title": "~~SUPERSEDED by K-RIVAL-FLOW-CONSENSUS~~ \u2014 Frozen ShopRouter's signed flow per product and 3-day block is its tape realized against stock and the price floor; a per-block minimum-inventory bound composes when purchases are included"
+},
+{
+"key": "Q1-RIVAL-WINDOW-AUTHORIZATION-PREFIX-d344ceaa",
+"layer": "L1 Receipts and market",
+"form": "REPRESENTATION",
+"title": "Router body determines authorization bounds, not successful flow; signed inventory windows compose through the existing prefix monoid"
+},
+{
+"key": "K-RECEIPT-CURVES-CONSENSUS",
+"layer": "L1 Receipts and market",
+"form": "",
+"title": "[REPRESENTATION, finite-checked] Five independent receipt-curve implementations: what they agree on, where they bracket, and what they close"
+},
+{
+"key": "Q2-ORDERED-RECEIPT-CURVES-2c3a99d0",
+"layer": "L1 Receipts and market",
+"form": "REPRESENTATION",
+"title": "Terminal receipt curves factor through weighted inventory endpoints; quantity alone and primary caps do not define season strategy"
+},
+{
+"key": "Q2-CONDITIONAL-RECEIPT-CURVES-89514659",
+"layer": "L1 Receipts and market",
+"form": "REPRESENTATION",
+"title": "Conditional signed-fill receipt curves; retiming existing 17 strawberries cannot close the fixed-flow gap"
+},
+{
+"key": "Q2-CLOCKED-RECEIPT-CURVES-da3428bf",
+"layer": "L1 Receipts and market",
+"form": "REPRESENTATION",
+"title": "Clocked fill streams yield exact conditional receipt curves; primary-only cutoffs do not bound complete producer bundles"
+},
+{
+"key": "K-RECEIPT-CURVES-TWO-IMPLEMENTATIONS",
+"layer": "L1 Receipts and market",
+"form": "",
+"title": "[REPRESENTATION, finite-checked] ~~SUPERSEDED by K-RECEIPT-CURVES-CONSENSUS~~ \u2014 Two independent receipt-curve implementations agree without a rival and bracket each other with one"
+},
+{
+"key": "Q2-RECEIPT-CURVES-MIN-INVENTORY-QUOTIENT-159F6058",
+"layer": "L1 Receipts and market",
+"form": "",
+"title": "[REPRESENTATION, finite-checked] Perfect-timing receipt upper bounds reduce to a minimum signed-inventory distribution per product"
+},
+{
+"key": "K-RECEIPT-CURVES-CONDITIONAL-493D5569",
+"layer": "L1 Receipts and market",
+"form": "REPRESENTATION",
+"title": "Exact productwise terminal-batch receipt curves prune quantity search, but timing prevents a season R_p(q)"
+},
+{
+"key": "K-ORACLE-TRIPLE-STATIC-BOUNDARY-8d8dcf0a",
+"layer": "L1 Receipts and market",
+"form": "",
+"title": "[REPRESENTATION, finite-checked] Static day-6 oracle compresses to 22 plans; replanning and opponent strength are undefined on the current frontier"
+},
+{
+"key": "K-PRODUCTWISE-HIDDEN-PATHS",
+"layer": "L1 Receipts and market",
+"form": "",
+"title": "[REPRESENTATION, finite-checked] Hidden shop suffixes factor per product: at most 729 exact demand paths, not 262,144 joint suffixes"
+},
+{
+"key": "K-MARGINAL-RELAXATION-TOPOLOGY",
+"layer": "L1 Receipts and market",
+"form": "",
+"title": "[REPRESENTATION, finite-checked] Terminal-batch no-rival relaxation bounds the useful producer count per product and shop draw"
+},
+{
+"key": "Q2-PORTFOLIO-BASE-PRICE-CROSS-PRODUCT-BOUNDARY-9010435f",
+"layer": "L1 Receipts and market",
+"form": "BOUNDARY",
+"title": "Cross-product base-price dominance can delete the high-gap STRAWBERRY family"
+},
+{
+"key": "K-LINEAR-COLUMN-VALUE-LOSS",
+"layer": "L1 Receipts and market",
+"form": "BOUNDARY",
+"title": "Base-price columns pick 25 sheep and lose; concave tranches diversify but still trail the control by 9-13x"
+},
+{
+"key": "Q2-DEMAND-LAW-3C0F0F84",
+"layer": "L1 Receipts and market",
+"form": "REPRESENTATION",
+"title": "Town demand and market price reduce to a product-vector recurrence under published shops"
+},
+{
+"key": "K-DEMAND-FLOW-FRONTIER-e6a13945",
+"layer": "L1 Receipts and market",
+"form": "REPRESENTATION",
+"title": "Default town demand and filled-flow inventory determine prices, but shops alone do not determine profitable production"
+},
+{
+"key": "LAST-DAY-QUOTIENT-30090398",
+"layer": "L1 Receipts and market",
+"form": "REPRESENTATION",
+"title": "Day-29 terminal search collapses to routing and a bounded stock DP"
+},
+{
+"key": "LAST-DAY-RESIDUAL-14",
+"layer": "L1 Receipts and market",
+"form": "HYPOTHESIS",
+"title": "~~REFUTED by LAST-DAY-QUOTIENT-30090398~~ \u2014 The last day holds about $14 of unresolved value on the shipped state"
+},
+{
+"key": "K-SHOP-CONDITIONAL-QUOTIENT-31fc6393",
+"layer": "L1 Receipts and market",
+"form": "REPRESENTATION",
+"title": "Shop-rate classes and twelve frozen base continuations are not decision-state classes"
+},
+{
+"key": "K-SHOP-CONTEXT-SUFFIX-3dfd4a22",
+"layer": "L1 Receipts and market",
+"form": "REPRESENTATION",
+"title": "Count shop demand classes separately from temporal state and Router continuation support"
+},
+{
+"key": "K-PRODUCT-FRONTIER-7767825e",
+"layer": "L1 Receipts and market",
+"form": "REPRESENTATION",
+"title": "Flat-price count search reduces to sheep/melon; native market and daily clocks bound the pruning"
+},
+{
+"key": "K-PRODUCT-COUNT-QUOTIENT-66e3e3b2",
+"layer": "L1 Receipts and market",
+"form": "REPRESENTATION",
+"title": "Constant-price producer counts admit an exact resource DP, not a shop-specific winning plan"
+},
+{
+"key": "Q2-OPENING-BASE-VALUE-RANK-BOUNDARY-b0b9c6cf",
+"layer": "L1 Receipts and market",
+"form": "BOUNDARY",
+"title": "Base-price day-5 continuation value can reverse terminal own-cash ordering"
+},
+{
+"key": "Q2-TERMINAL-JOIN-4F5DE3C1",
+"layer": "L1 Receipts and market",
+"form": "MEASUREMENT",
+"title": "Final-turn authorization isolated; endpoint cargo cannot close this Router gap"
+},
+{
+"key": "K-SALE-ORDER-ASSIGNMENT",
+"layer": "L1 Receipts and market",
+"form": "REPRESENTATION",
+"title": "Fixed sell-only queues reduce exactly to product-slot assignment; future order remains conditional"
+},
+{
+"key": "K-SALE-SLOTS-PRESERVED-MIXED-3d038faf",
+"layer": "L1 Receipts and market",
+"form": "REPRESENTATION",
+"title": "Preserve realized commitments before scoring mixed-queue sale order"
+},
+{
+"key": "K-MARKET-TIMING-EVENT-WINDOWS-58B8BD0B",
+"layer": "L1 Receipts and market",
+"form": "REPRESENTATION",
+"title": "Quotient empty sale turns, not market uncertainty or plan feasibility"
+},
+{
+"key": "K-IGNORANCE-STOPPING",
+"layer": "L1 Receipts and market",
+"form": "",
+"title": "[REPRESENTATION, finite-checked] Finite nonanticipative regret separates tape weakness, observable repair and foresight"
+},
+{
+"key": "K-OPPONENT-SALE-ENVELOPE",
+"layer": "L1 Receipts and market",
+"form": "REPRESENTATION",
+"title": "Exact two-slot sale-response envelope and a one-unit competitive reversal"
+},
+{
+"key": "K-OPPONENT-PUBLIC-FLOW-QUOTIENT",
+"layer": "L1 Receipts and market",
+"form": "REPRESENTATION",
+"title": "One backed focal sale sees only opponent fills before, tied and after; passive cash cannot identify the queue"
+},
+{
+"key": "K-OPPONENT-SIGNED-35e91a9e",
+"layer": "L1 Receipts and market",
+"form": "BOUNDARY",
+"title": "Signed public flow is bounded; endpoint equivalence is not decision equivalence"
+},
+{
+"key": "K-IV-COUPLED-SALE",
+"layer": "L1 Receipts and market",
+"form": "REPRESENTATION",
+"title": "Coupled retained-stock sale bounds, with exact arbitrary-stack prefix reduction"
+},
+{
+"key": "K-INVENTORY-VALUE-PREFIX-DP",
+"layer": "L1 Receipts and market",
+"form": "REPRESENTATION",
+"title": "One-cutoff stack DP gives capacity-coupled conditional SALE/HOLD value bounds"
+},
+{
+"key": "K-COMPENSATED-WET-TRANSPORT-B2993723",
+"layer": "L2 Production",
+"form": "REPRESENTATION",
+"title": "Compensated wet exchanges close to one minimum-cost transport; zero-surcharge and single-pair pruning both miss its six-to-one fixture"
+},
+{
+"key": "K-NEUTRAL-WET-TRANSPORT-C3660A24",
+"layer": "L2 Production",
+"form": "REPRESENTATION",
+"title": "Neutral WATER exchange closure is one integral transport: prune multi-class keys without intermediate-state search"
+},
+{
+"key": "K-NEUTRAL-WET-COMPENSATION-EBBF4E99",
+"layer": "L2 Production",
+"form": "REPRESENTATION",
+"title": "A sharp wet-exchange surcharge turns accumulated objective saving into additional neutral-service pruning"
+},
+{
+"key": "K-OPENING-WATER-NEGATIVE-MARGINAL-CLAMP-4e1ded4b",
+"layer": "L2 Production",
+"form": "REPRESENTATION",
+"title": "Known-opening neutral WATER: sorted tile marginals collapse the remaining 19 profiles to one clamped count"
+},
+{
+"key": "K-OPENING-WATER-SLOPE-ONE-CANDIDATE",
+"layer": "L2 Production",
+"form": "REPRESENTATION",
+"title": "Common-price neutral opening WATER has a one-slope-test exact selector"
+},
+{
+"key": "K-OPENING-SEED-CONSERVATION-AF56DD7B",
+"layer": "L2 Production",
+"form": "REPRESENTATION",
+"title": "Opening seed conservation: cumulative seed use and buys are projections of crop births plus cut inventory"
+},
+{
+"key": "K-OPENING-CONVEX-PREFIX-CEFF9D96",
+"layer": "L2 Production",
+"form": "REPRESENTATION",
+"title": "Neutral-WATER two-prefix cost is discretely convex: linear count scan becomes bisection and budget sublevels become intervals"
+},
+{
+"key": "K-OPENING-TIMED-INTERVAL-LIFT-8412DF7C",
+"layer": "L2 Production",
+"form": "REPRESENTATION",
+"title": "Timed generation histograms need peak overlap, not tile predecessor pairings"
+},
+{
+"key": "K-NEUTRAL-WET-EXCHANGE-F84B1461",
+"layer": "L2 Production",
+"form": "REPRESENTATION",
+"title": "Equal-exit neutral WATER: alternating price prefixes certify wet-credit dominance before price classes coincide"
+},
+{
+"key": "K-NEUTRAL-EXIT-PRICE-SUFFIX-45B284EA",
+"layer": "L2 Production",
+"form": "REPRESENTATION",
+"title": "Fixed-exit neutral WATER: remaining-price class counts give exact costed continuations and forget expired prices"
+},
+{
+"key": "K-OPENING-TILE-PRICE-PREFIX-c26e60e0",
+"layer": "L2 Production",
+"form": "REPRESENTATION",
+"title": "Heterogeneous neutral-WATER prices reduce to two sorted prefixes and one clamped inner count"
+},
+{
+"key": "K-OPENING-BIRTH-FLOW-f7473233",
+"layer": "L2 Production",
+"form": "REPRESENTATION",
+"title": "Fast-crop birth histories project to three counts with an exact three-inequality lift gate"
+},
+{
+"key": "K-NEUTRAL-EXIT-COUNT-QUOTIENT-B8C5705A",
+"layer": "L2 Production",
+"form": "REPRESENTATION",
+"title": "Fixed neutral exits: wet identities become counts by exit day, with exact binomial lifting"
+},
+{
+"key": "K-OPENING-WATER-FRONTIER-CONSENSUS",
+"layer": "L2 Production",
+"form": "REPRESENTATION",
+"title": "Consensus: three independent returns give the known opening the same 19-profile neutral watering frontier, one of them as an executable 38-action deletion with the dawn-5 state unchanged"
+},
+{
+"key": "K-OPENING-WATER-DELETION-8C487DC9",
+"layer": "L2 Production",
+"form": "REPRESENTATION",
+"title": "Fixed generation histories lift the opening WATER frontier to deletion-only native tapes: 19 profiles, 62\u201380 rather than 100 actions"
+},
+{
+"key": "K-OPENING-COHORT-WATER-FRONTIER-23A9DC7C",
+"layer": "L2 Production",
+"form": "REPRESENTATION",
+"title": "Neutral survivor WATER across five birth cohorts in terms of one integer frontier coordinate"
+},
+{
+"key": "K-OPENING-SNAPSHOT-SERVICE-COMPOSITION",
+"layer": "L2 Production",
+"form": "REPRESENTATION",
+"title": "Composition: at dawn 5 the retained generation's watering service query is fixed by the live snapshot alone; only the exited generations need the history fibers"
+},
+{
+"key": "Q2-OPENING-SNAPSHOT-FIBONACCI-FIBERS-e27afd3a",
+"layer": "L2 Production",
+"form": "",
+"title": "[REPRESENTATION, finite-checked] Birth-dated live snapshots lift to Fibonacci-sized generation-history fibers"
+},
+{
+"key": "K-NEUTRAL-COHORT-COUNT-QUOTIENT-E75FCD95",
+"layer": "L2 Production",
+"form": "REPRESENTATION",
+"title": "Retained neutral cohorts: 19 species/birth counts become five service sums; one wet count per DP layer"
+},
+{
+"key": "Q2-OPENING-HISTORY-ALPHABET-55-b9a6c7b4",
+"layer": "L2 Production",
+"form": "",
+"title": "[REPRESENTATION, finite-checked] Opening generation histories localize to fast one-shot crops before dawn 5"
+},
+{
+"key": "K-OPENING-NEUTRAL-WATER-FRONTIER-3D575402",
+"layer": "L2 Production",
+"form": "REPRESENTATION",
+"title": "Neutral opening WATER in terms of two-state words, nineteen daily profiles and tile exchange costs"
+},
+{
+"key": "K-OPENING-GENERATION-CONSENSUS",
+"layer": "L2 Production",
+"form": "BOUNDARY",
+"title": "Live producers are births minus exits: the known opening has 27 births, 2 exits and 25 live, so a cumulative-birth cap of 25 rejects it"
+},
+{
+"key": "Q2-OPENING-BIRTH-STOCK-FLOW-706F0E61",
+"layer": "L2 Production",
+"form": "BOUNDARY",
+"title": "Opening live cohorts erase recycled generations: 27 births fit on 25 tiles"
+},
+{
+"key": "Q2-OPENING-GENERATION-ACCOUNTING-2A4F60AD",
+"layer": "L2 Production",
+"form": "BOUNDARY",
+"title": "A living crop cohort is not establishment history: the known 25-site opening has 27 generations by dawn 5"
+},
+{
+"key": "K-DATED-PRODUCER-ALPHABET-FD47176A",
+"layer": "L2 Production",
+"form": "",
+"title": "[REPRESENTATION, finite-checked] Dated module alphabet: 302 distinct primary columns, 15 manure-only columns, and conditional 297/409 survivors"
+},
+{
+"key": "K-DATED-MODULE-TAPES-e30d3018",
+"layer": "L2 Production",
+"form": "",
+"title": "[REPRESENTATION, finite-checked] Dated module tapes: 302 primary columns remain distinct; retain 15 coproduct-only columns"
+},
+{
+"key": "K-LIFECYCLE-COLUMNS-302",
+"layer": "L2 Production",
+"form": "",
+"title": "[REPRESENTATION, finite-checked] The production alphabet is 302 productive (mode, birth day) columns, 282 after table dominance"
+},
+{
+"key": "Q2-PORTFOLIO-HARVEST-PREFIX-BOUNDARY-9a63b04d",
+"layer": "L2 Production",
+"form": "BOUNDARY",
+"title": "Equal annual wheat output hides different harvest policies, action calendars and startup-feed requirements"
+},
+{
+"key": "K-BIRTH-COHORT-VS-ELIGIBILITY",
+"layer": "L2 Production",
+"form": "REPRESENTATION",
+"title": "Program start days are eligibility bounds; the executor fixes the realized birth cohorts"
+},
+{
+"key": "K-UNIT-ECONOMICS-ONE-TILE-v2",
+"layer": "L2 Production",
+"form": "REPRESENTATION",
+"title": "Producers per day on one engine-checked tile, with manure separated from service and dominated policies marked"
+},
+{
+"key": "K-UNIT-ECONOMICS-ONE-TILE",
+"layer": "L2 Production",
+"form": "REPRESENTATION",
+"title": "~~SUPERSEDED by K-UNIT-ECONOMICS-ONE-TILE-v2~~ \u2014 Producers in terms of per-day inputs, labor and output on one engine-checked tile"
+},
+{
+"key": "E1",
+"layer": "L2 Production",
+"form": "REPRESENTATION",
+"title": "Daily services determine conditional animal biology"
+},
+{
+"key": "E2",
+"layer": "L2 Production",
+"form": "REPRESENTATION",
+"title": "First cow yield compresses seven care bits"
+},
+{
+"key": "E3",
+"layer": "L2 Production",
+"form": "BOUNDARY",
+"title": "Individually redundant care is not jointly redundant"
+},
+{
+"key": "K03",
+"layer": "L2 Production",
+"form": "",
+"title": "[REPRESENTATION, finite-checked] Restricted livestock histories collapse to small state tables"
+},
+{
+"key": "K09",
+"layer": "L2 Production",
+"form": "",
+"title": "[REPRESENTATION, finite-checked] Three animal-state removals alias real consequences"
+},
+{
+"key": "TILE-CLOCK-0d19d28f",
+"layer": "L2 Production",
+"form": "REPRESENTATION",
+"title": "Animal maturation and periodicity collapse to a horizon-clipped next-refresh countdown"
+},
+{
+"key": "K-CHAIN-MENU-MATCHING-CONSENSUS",
+"layer": "L3 Capacity and cash",
+"form": "REPRESENTATION",
+"title": "Three COMPOSE draws agree: one suffix-conditioned cutoff per chain menu, then one sorted worker matching"
+},
+{
+"key": "K-CHAIN-MENU-MAKESPAN-931B5A7E",
+"layer": "L3 Capacity and cash",
+"form": "REPRESENTATION",
+"title": "Deadline-conditioned independent chain menus have an exact sorted-matching minimum makespan"
+},
+{
+"key": "K-CHAIN-MENU-ENTRY-COMPOSITION-CF2ADB2F",
+"layer": "L3 Capacity and cash",
+"form": "REPRESENTATION",
+"title": "Independent worker-invariant chain menus collapse to one max-cutoff matching and the existing hire suffix"
+},
+{
+"key": "K-CHAIN-CHOICE-MATCHING-E78AF544",
+"layer": "L3 Capacity and cash",
+"form": "REPRESENTATION",
+"title": "Independent worker-invariant chain menus commute with sorted entry matching: one cutoff envelope deletes the joint choice/injection family"
+},
+{
+"key": "K-CHOICE-ENTRY-MATCH-COMPOSITION-F555B15A",
+"layer": "L3 Capacity and cash",
+"form": "REPRESENTATION",
+"title": "Compose menu cutoffs and interchangeable entry matching: one local maximum per obligation before one sorted assignment"
+},
+{
+"key": "K-OPENING-FUNDED-CASH-RESIDUAL-8CE4A748",
+"layer": "L3 Capacity and cash",
+"form": "REPRESENTATION",
+"title": "Funded opening prefixes retire historical cash minima at a fixed-bank immutable cut"
+},
+{
+"key": "K-CHAIN-CHOICE-HIRE-CUTOFF-B9B1111E",
+"layer": "L3 Capacity and cash",
+"form": "REPRESENTATION",
+"title": "Independent chain-choice menus collapse to one suffix-conditioned cutoff per worker before the hire-prefix screen"
+},
+{
+"key": "K-CHAIN-ENTRY-MATCHING-79FD6155",
+"layer": "L3 Capacity and cash",
+"form": "REPRESENTATION",
+"title": "Independent worker-invariant chains have one sorted entry matching and a minimum-hire suffix"
+},
+{
+"key": "K-CHAIN-CALENDAR-DOMINANCE-CONSENSUS",
+"layer": "L3 Capacity and cash",
+"form": "REPRESENTATION",
+"title": "Two PORTFOLIO-KNAPSACK draws agree: a chain calendar replaces another by domain inclusion and two endpoint finishes"
+},
+{
+"key": "K-CHAIN-CALENDAR-CONTINUATION-ORDER-12CF71E5",
+"layer": "L3 Capacity and cash",
+"form": "REPRESENTATION",
+"title": "Two endpoints certify continuation-closed dominance on existing fixed-worker chain calendars"
+},
+{
+"key": "K-CHAIN-ENDPOINT-DOMINANCE-BF7A7849",
+"layer": "L3 Capacity and cash",
+"form": "REPRESENTATION",
+"title": "Anchored chain calendars have an exact two-endpoint, continuation-closed temporal dominance test on a certified entry interval"
+},
+{
+"key": "K-CHAIN-HIRE-PREFIX-47934707",
+"layer": "L3 Capacity and cash",
+"form": "REPRESENTATION",
+"title": "A certified fixed-worker chain family has one canonical hire suffix, determined by last required worker and worst entry slack"
+},
+{
+"key": "K-ORDERED-CARE-ANCHOR-FRONTIER-22F589A9",
+"layer": "L3 Capacity and cash",
+"form": "REPRESENTATION",
+"title": "Ordered one-worker CARE subsets quotient to predecessor-anchor/deadline frontier states"
+},
+{
+"key": "K-DURATION-SUBSTITUTION-BOUNDARY-BEC487B7",
+"layer": "L3 Capacity and cash",
+"form": "BOUNDARY",
+"title": "BOUNDARY: exact routed durations do not make pooled interval screens exact; one duty and one hour suffice"
+},
+{
+"key": "K-ANCHORED-CHAIN-CALENDAR-F2A9949C",
+"layer": "L3 Capacity and cash",
+"form": "REPRESENTATION",
+"title": "Fixed-worker anchored chains have an exact three-scalar temporal calendar; duration-weighted intervals are not a feasibility certificate"
+},
+{
+"key": "K-LABOR-RAY-ENDPOINT-CONSENSUS",
+"layer": "L3 Capacity and cash",
+"form": "REPRESENTATION",
+"title": "Composition: the capacity-ray cutoff and the bundle endpoint are one inversion of the interval criterion; along any joint ray the feasible copies are a prefix with one rejecting interval"
+},
+{
+"key": "K-LABOR-BUNDLE-ENDPOINT-4FBF2230",
+"layer": "L3 Capacity and cash",
+"form": "REPRESENTATION",
+"title": "Repeated interval-workload bundles have exact quantity endpoints and a minimum payroll staircase"
+},
+{
+"key": "K-HIRE-SALE-FULL-FILL-CONSENSUS",
+"layer": "L3 Capacity and cash",
+"form": "REPRESENTATION",
+"title": "Consensus: two independent returns remove the pre-funding branch of the HIRE/SELL block quotient; full realization is one cash inequality and the block is a (d, k) cash-prefix signature"
+},
+{
+"key": "K-HIRE-SALE-FULL-FILL-NORMAL-FORM-CG04",
+"layer": "L3 Capacity and cash",
+"form": "REPRESENTATION",
+"title": "Full-fill HIRE+SELL blocks need no pre-funding branch: one cash inequality replaces every batch/interleaving order"
+},
+{
+"key": "K-HIRE-SALE-LIQUIDITY-DOMINANCE-bf982f19",
+"layer": "L3 Capacity and cash",
+"form": "REPRESENTATION",
+"title": "Sale-first liquidity dominance removes the pre-funding branch for full HIRE/SELL realization"
+},
+{
+"key": "K-OPENING-CASH-MONOID-cb74c089",
+"layer": "L3 Capacity and cash",
+"form": "REPRESENTATION",
+"title": "Opening cash-prefix monoid quotient: the ordered cash history of a fixed-order opening is (D, K), and (D, K) dominance is continuation-closed"
+},
+{
+"key": "K-LABOR-SCREEN-DURATION-BOUNDARY",
+"layer": "L3 Capacity and cash",
+"form": "BOUNDARY",
+"title": "~~REFUTED by K-DURATION-SUBSTITUTION-BOUNDARY-BEC487B7~~ \u2014 Boundary by composition: unit-job interval screens are optimistic by the routed setup s0 of each duty, and s0 depends on the duty order"
+},
+{
+"key": "K-LABOR-WINDOW-TRANSFER-558DC9DC",
+"layer": "L3 Capacity and cash",
+"form": "REPRESENTATION",
+"title": "Fixed-window hand-day smoothing: all shift amounts collapse to one interval-slack cutoff"
+},
+{
+"key": "K-ROUTED-DUTY-SETUP-COUNTDOWN-6EC15D57",
+"layer": "L3 Capacity and cash",
+"form": "REPRESENTATION",
+"title": "Uninterrupted routed duties collapse to the first setup scalar; reassignment is the exact segment boundary"
+},
+{
+"key": "K-LABOR-NONADDITIVITY-31F8C4F4",
+"layer": "L3 Capacity and cash",
+"form": "BOUNDARY",
+"title": "BOUNDARY: singleton routed-duty labor is neither additive nor a one-sided bound; two obligations suffice"
+},
+{
+"key": "K-PREFUNDED-HIRE-SALE-QUEUE-QUOTIENT-CG03",
+"layer": "L3 Capacity and cash",
+"form": "REPRESENTATION",
+"title": "A pre-funded block of HIREs and backed SELL batches of one product has one canonical endpoint: SELL p q then the h HIREs"
+},
+{
+"key": "K-LABOR-ATTRIBUTION-CONSENSUS",
+"layer": "L3 Capacity and cash",
+"form": "REPRESENTATION",
+"title": "Consensus: two independent returns attribute every realized worker-turn to its command through the existing route refs; only unrouted PASS needs one bit, and shared haul cannot be split by producer"
+},
+{
+"key": "K-LABOR-ACTION-PARTITION-4FD2A1E7",
+"layer": "L3 Capacity and cash",
+"form": "REPRESENTATION",
+"title": "Realized executor labor quotients into command-owned duty plus shared haul"
+},
+{
+"key": "K-LABOR-INTERVAL-22A8C6E5",
+"layer": "L3 Capacity and cash",
+"form": "REPRESENTATION",
+"title": "Fixed-tape funded workload: interval counts replace service placements and price the minimum feasible hire count"
+},
+{
+"key": "K-WORKER-TURN-ATTRIBUTION-BIT-3074199D",
+"layer": "L3 Capacity and cash",
+"form": "REPRESENTATION",
+"title": "Worker-turn ownership reduces to exact route refs plus one inventory bit on unmatched PASS"
+},
+{
+"key": "K-PHASE-CANONICAL-LIQUIDITY-COMPOSITION",
+"layer": "L3 Capacity and cash",
+"form": "REPRESENTATION",
+"title": "Composition: a dated plan of freely reorderable market phases has a sell-first canonical form per phase and, when its phases are permutable contiguous blocks, a liquidity sort that gives its minimum starting bank"
+},
+{
+"key": "K-CASH-BLOCK-LIQUIDITY-SORT-813debd4",
+"layer": "L3 Capacity and cash",
+"form": "REPRESENTATION",
+"title": "Independent contiguous cash blocks have one liquidity-optimal ordering"
+},
+{
+"key": "K-LAND-SERVICEABILITY-GEOMETRY",
+"layer": "L3 Capacity and cash",
+"form": "",
+"title": "[REPRESENTATION, finite-checked] Land buys serviceability, not walkability: quadrant distance shells, route insertion detour and the convex daily hire cost"
+},
+{
+"key": "K-LAND-GATE-LADDER-PANEL",
+"layer": "L3 Capacity and cash",
+"form": "MEASUREMENT",
+"title": "The fourth quadrant on receipts: the 66-case heuristic panel, four fresh frozen-Router scenarios, and land purchases and move share across 164 ladder episodes"
+},
+{
+"key": "K-LABOR-IDENTIFIABILITY-CONSENSUS",
+"layer": "L3 Capacity and cash",
+"form": "BOUNDARY",
+"title": "Three independent returns agree: the four labor ratios are capacity divided by service count and cannot identify per-module labor; the next object is an attributed worker-turn trace"
+},
+{
+"key": "K-KNAPSACK-LABOR-IDENTIFIABILITY-0D9A2368",
+"layer": "L3 Capacity and cash",
+"form": "BOUNDARY",
+"title": "Four aggregate executor traces cannot identify the 16-type knapsack labor table"
+},
+{
+"key": "K-LABOR-TYPE-IDENTIFIABILITY-BOUNDARY-B72D51C6",
+"layer": "L3 Capacity and cash",
+"form": "BOUNDARY",
+"title": "Four mixed receipts cannot identify per-module labor: >=3 free dimensions even at 7 producer kinds; WATER=800 loses target attribution"
+},
+{
+"key": "K-LABOR-CALIBRATION-IDENTIFIABILITY-4267A1E8",
+"layer": "L3 Capacity and cash",
+"form": "BOUNDARY",
+"title": "Labor calibration is capacity utilization, not a per-module turn cost; four rows cannot identify 16 family coefficients"
+},
+{
+"key": "K-HIRE-TIMING-DB7C166D",
+"layer": "L3 Capacity and cash",
+"form": "REPRESENTATION",
+"title": "Fixed cash commitments and reserved slots give one earliest-safe hire schedule for every cardinality"
+},
+{
+"key": "K-KNAPSACK-REALIZATION-CONSENSUS",
+"layer": "L3 Capacity and cash",
+"form": "MEASUREMENT",
+"title": "Two independent module knapsacks agree: relaxed portfolios do not realize through the executor; the day-zero funding cut is hereditary and both evaluators apply it"
+},
+{
+"key": "K-PORTFOLIO-KNAPSACK-REALIZATION",
+"layer": "L3 Capacity and cash",
+"form": "MEASUREMENT",
+"title": "The module knapsack under the timed recurrence: relaxation best -$37,463, realized -$106,525; the executor's labor throughput of 2.8 to 4.1 turns per service action is the first failing link, and with it the best margin is -$83,317"
+},
+{
+"key": "K-PORTFOLIO-ZERO-RECEIPT-CUT-DF951C02",
+"layer": "L3 Capacity and cash",
+"form": "BOUNDARY",
+"title": "Dated receipt knapsack needs a zero-receipt funding cut before native compilation"
+},
+{
+"key": "Q2-PORTFOLIO-PREFIX-REALIZATION-872B6BB4",
+"layer": "L3 Capacity and cash",
+"form": "BOUNDARY",
+"title": "Season-total portfolio feasibility does not certify opening realization; use birth cohorts and prefix resources"
+},
+{
+"key": "K-FUNDED-HAND-DAY-QUOTIENT-8C39B662",
+"layer": "L3 Capacity and cash",
+"form": "REPRESENTATION",
+"title": "Funded hand-day frontier: convex wages make fewer daily hires buy more pre-receipt work"
+},
+{
+"key": "K-PORTFOLIO-TIMED-INPUT-PREFIX-e48ea15f",
+"layer": "L3 Capacity and cash",
+"form": "REPRESENTATION",
+"title": "Portfolio input balance is a prefix requirement, not a season ratio or a native feasibility certificate"
+},
+{
+"key": "K-HANDS-CASH-COUPLED-COUNTEREXAMPLE",
+"layer": "L3 Capacity and cash",
+"form": "BOUNDARY",
+"title": "Hands are not a monotone capacity knob: eight hands realize one producer where six realize fourteen"
+},
+{
+"key": "K-CASH-FLOW-PREFIX-834E2F40",
+"layer": "L3 Capacity and cash",
+"form": "REPRESENTATION",
+"title": "Conditional working-capital summary and timed cash-funding envelope"
+},
+{
+"key": "Q2-CAPACITY-PREFIX-D9F18BDA",
+"layer": "L3 Capacity and cash",
+"form": "REPRESENTATION",
+"title": "Conditional quantity cuts expose the teacher production ceiling and unfunded scale-up"
+},
+{
+"key": "Q2-OPENING-FEED-CASH-CUT",
+"layer": "L3 Capacity and cash",
+"form": "BOUNDARY",
+"title": "Opening liquidity and completed feed improve while terminal own cash falls"
+},
+{
+"key": "K-GAP-PAIR-TWIN-COUNT-525B48E4",
+"layer": "L4 Custody and logistics",
+"form": "REPRESENTATION",
+"title": "Equal-value pair-aware suffix twins turn live used-site masks into counts"
+},
+{
+"key": "K-GAP-WEIGHTED-SLACK-93B9D578",
+"layer": "L4 Custody and logistics",
+"form": "REPRESENTATION",
+"title": "Fixed site values lift live-site forgetting and slack dominance without a new state coordinate"
+},
+{
+"key": "K-GAP-FRONTIER-SLACK-COMPOSITION",
+"layer": "L4 Custody and logistics",
+"form": "REPRESENTATION",
+"title": "Four LAND-LABOR/COMPOSE draws agree on the exceptional-gap rank; live-site forgetting and inclusion dominance compose on the slack F - |u|"
+},
+{
+"key": "K-LAND-EXCEPTION-FRONTIER-412A05FA",
+"layer": "L4 Custody and logistics",
+"form": "REPRESENTATION",
+"title": "Exceptional pair gaps compress to live-site frontiers plus exact residual flow"
+},
+{
+"key": "K-GAP-EXCEPTION-ANTICHAIN-9105877C",
+"layer": "L4 Custody and logistics",
+"form": "REPRESENTATION",
+"title": "Nontransitive gaps reduce to an inclusion-maximal used-site frontier plus the unchanged residual flow"
+},
+{
+"key": "K-LAND-PAIR-ANTICHAIN-455412EC",
+"layer": "L4 Custody and logistics",
+"form": "REPRESENTATION",
+"title": "Nontransitive one/two-service gaps reduce to an inclusion-maximal used-site antichain plus residual partition flows"
+},
+{
+"key": "K-LAND-EXCEPTION-MASK-FLOW-CB989C5D",
+"layer": "L4 Custody and logistics",
+"form": "REPRESENTATION",
+"title": "Exceptional gap assignments quotient to their used-site union; regular residual gaps remain exact partition flows"
+},
+{
+"key": "K-LAND-PAIR-PARTITION-FLOW-BFBFF12E",
+"layer": "L4 Custody and logistics",
+"form": "REPRESENTATION",
+"title": "Transitive pair-conflicts turn one/two-service gap packing into an exact class-capacity flow"
+},
+{
+"key": "K-TWO-SERVICE-GAP-1589EE45",
+"layer": "L4 Custody and logistics",
+"form": "REPRESENTATION",
+"title": "Two ready services in one frozen gap: exact detour, canonical order and the necessary diagonal bit"
+},
+{
+"key": "K-LAND-PAIR-GAP-DIAGONAL-8C3CFF02",
+"layer": "L4 Custody and logistics",
+"form": "REPRESENTATION",
+"title": "Two-service frozen gaps need one diagonal bit; overlap penalties give an exact timing cutoff"
+},
+{
+"key": "K-LAND-GAP-SIGNATURE-CONSENSUS",
+"layer": "L4 Custody and logistics",
+"form": "REPRESENTATION",
+"title": "Consensus and composition: a frozen route gap is (rectangle, slack), one-insertion capacity is a matching over gap incidence, and after a day-18 purchase the frozen tape-0 route offers the fourth quadrant at most 12 one-action insertions"
+},
+{
+"key": "K-LAND-QUICK-SITE-SLACK-SIEVE-31C21865",
+"layer": "L4 Custody and logistics",
+"form": "REPRESENTATION",
+"title": "Fixed-gap quick-site capacity is rectangle detour plus disposable clock slack"
+},
+{
+"key": "K-ROUTER-TAPE0-SE-CLOSED-GAP-QUOTIENT-62299F41",
+"layer": "L4 Custody and logistics",
+"form": "",
+"title": "[REPRESENTATION, finite-checked] Router tape-0 SE quick sites collapse to four closed route-gap classes"
+},
+{
+"key": "K-LAND-GAP-INCIDENCE-CAPACITY-ac65e881",
+"layer": "L4 Custody and logistics",
+"form": "REPRESENTATION",
+"title": "One-insertion-per-gap capacity: quick-site incidence, matching and twin multiplicity quotient"
+},
+{
+"key": "K-QUICK-SITE-CONVOLUTION-CG04",
+"layer": "L4 Custody and logistics",
+"form": "REPRESENTATION",
+"title": "For one fixed route gap, a 5x5 quadrant's 25 insertion detours are the convolution of two axis-distance histograms"
+},
+{
+"key": "K-QUICK-SITE-FRONTIER-DOMINANCE-CG05",
+"layer": "L4 Custody and logistics",
+"form": "REPRESENTATION",
+"title": "Cumulative detour-count dominance of owned sites over new sites is a sorted exchange: the new region adds no one-site insertion capacity for that gap"
+},
+{
+"key": "K-DISPATCH-PREFIX-RESIDUAL-84861D38",
+"layer": "L4 Custody and logistics",
+"form": "REPRESENTATION",
+"title": "Fixed dispatcher prefixes compose by residual original worker identity"
+},
+{
+"key": "K-ANIMAL-UPKEEP-BLOCK-QUOTIENT-b1815f80",
+"layer": "L4 Custody and logistics",
+"form": "REPRESENTATION",
+"title": "Same-tile animal upkeep is one canonical block; HARVEST remains custody-bearing"
+},
+{
+"key": "K-HARVEST-ROUTE-CUSTODY-d65562fb",
+"layer": "L4 Custody and logistics",
+"form": "REPRESENTATION",
+"title": "Feasible harvest histories compress to earliest subset, endpoint and new-product order"
+},
+{
+"key": "K-DISPATCH-ORDER-PRECEDENCE-84861D38",
+"layer": "L4 Custody and logistics",
+"form": "REPRESENTATION",
+"title": "Tied dispatch words are linear extensions of their worker-assignment graph"
+},
+{
+"key": "K-CONVERSION-CONSERVATION-dfccf5e9",
+"layer": "L4 Custody and logistics",
+"form": "REPRESENTATION",
+"title": "The conversion chain is a timed resource network: fixed-flow wheat purchases are already minimal"
+},
+{
+"key": "K-CONVERSION-FLOW-CUTS-1a4047de",
+"layer": "L4 Custody and logistics",
+"form": "REPRESENTATION",
+"title": "Conversion is a branched stock-flow balance, bounded by birth time and pinned dispatch, not a yield-to-sales funnel"
+},
+{
+"key": "K-PLOT-ANCHOR-SIGNATURE-QUOTIENT-199B7CDC",
+"layer": "L4 Custody and logistics",
+"form": "REPRESENTATION",
+"title": "Equal incident-anchor signatures quotient multi-plot placement labelings"
+},
+{
+"key": "Q2-HARVEST-PREFIX-E3E4ADF1",
+"layer": "L4 Custody and logistics",
+"form": "REPRESENTATION",
+"title": "Harvest capacity after the dispatcher prefix; cash and priority must be searched jointly"
+},
+{
+"key": "K-HARVEST-FIRST-APPEARANCE-cf6b04bf",
+"layer": "L4 Custody and logistics",
+"form": "REPRESENTATION",
+"title": "Fixed successful harvests reduce to per-worker first-product order before capacity and receipts"
+},
+{
+"key": "K-HARVEST-FIRST-OCCURRENCE-d0915e30",
+"layer": "L4 Custody and logistics",
+"form": "REPRESENTATION",
+"title": "Fixed harvest batches coalesce to first-product orders before deposit; depletion bounds the quotient"
+},
+{
+"key": "K-F02-DEPOSIT-PREFIX",
+"layer": "L4 Custody and logistics",
+"form": "REPRESENTATION",
+"title": "Exact ordered-cargo nightly deposit quotient and sharp individual product bounds"
+},
+{
+"key": "F02-CAPACITY-PREFIX",
+"layer": "L4 Custody and logistics",
+"form": "REPRESENTATION",
+"title": "Exact capacity-clipped ordered deposit consequence"
+},
+{
+"key": "K-INVENTORY-PREFIX",
+"layer": "L4 Custody and logistics",
+"form": "REPRESENTATION",
+"title": "Ordered-prefix admission is exact at the post-market reset boundary"
+},
+{
+"key": "K-INVENTORY-CUTOFF",
+"layer": "L4 Custody and logistics",
+"form": "REPRESENTATION",
+"title": "Only one cutoff carrier determines unknown-order admission uncertainty"
+},
+{
+"key": "K-ORDER-HASH",
+"layer": "L4 Custody and logistics",
+"form": "BOUNDARY",
+"title": "Key-sorted count JSON aliases states with different native overflow consequences"
+},
+{
+"key": "F02-ORDER-JOIN",
+"layer": "L4 Custody and logistics",
+"form": "STRUCTURE",
+"title": "Use existing inventory-order joins, not generic canonical hashes"
+},
+{
+"key": "K-F02-ROUTING-CUSTODY",
+"layer": "L4 Custody and logistics",
+"form": "BOUNDARY",
+"title": "Equal-cost fixed-duty assignments can retain different goods after overflow"
+},
+{
+"key": "K-ROUTE-ADMISSION",
+"layer": "L4 Custody and logistics",
+"form": "BOUNDARY",
+"title": "Identical optional-route certificates and biology can retain different products"
+},
+{
+"key": "F02-ROUTING-REALIZATION",
+"layer": "L4 Custody and logistics",
+"form": "BOUNDARY",
+"title": "Shorter fixed-duty routes can harm, help or tie explicit-sale cash"
+},
+{
+"key": "K01",
+"layer": "L4 Custody and logistics",
+"form": "REPRESENTATION",
+"title": "Fixed-duty assignment is a small exact optimization"
+},
+{
+"key": "K-PLOT-INCIDENT-DEADLINE-140c704c",
+"layer": "L4 Custody and logistics",
+"form": "REPRESENTATION",
+"title": "Single-plot travel compresses to incident anchors; deadlines still gate service"
+},
+{
+"key": "K-PLOT-ORDER-ENDPOINT-432c85ef",
+"layer": "L4 Custody and logistics",
+"form": "REPRESENTATION",
+"title": "One-day order search compresses to earliest subset endpoints; native custody remains a boundary"
+},
+{
+"key": "K-PLOT-ORDER-TIMING-70b8b4fa",
+"layer": "L4 Custody and logistics",
+"form": "REPRESENTATION",
+"title": "Placement-order timing compresses by completed visits, endpoint and clock, not distance alone"
+},
+{
+"key": "PLOT-d1b96c74-RECTANGLE",
+"layer": "L4 Custody and logistics",
+"form": "REPRESENTATION",
+"title": "Fixed-route placement needs an endpoint rectangle and exact service clock, not path search"
+},
+{
+"key": "Q2-ROUTE-SLACK-PREFIX-689e1fe6",
+"layer": "L4 Custody and logistics",
+"form": "REPRESENTATION",
+"title": "Eliminate shortest move words; protect every suffix deadline, not only terminal slack"
+},
+{
+"key": "Q2-ROUTE-SLACK-FEED-JOIN-f4fab905",
+"layer": "L4 Custody and logistics",
+"form": "REPRESENTATION",
+"title": "Bind one authorized FEED chain before screening route slack"
+},
+{
+"key": "Q2-ROUTE-FEED-PREFIX-1f6fe913",
+"layer": "L4 Custody and logistics",
+"form": "REPRESENTATION",
+"title": "Enumerate insertion slots, not movement words; gate each FEED on worker-held wheat"
+},
+{
+"key": "K-V0-REPLAY-LUMPABILITY-872102E9",
+"layer": "L5 Learning and measurement",
+"form": "REPRESENTATION",
+"title": "V0 class replay erases raw alias history exactly when the next-class kernel is history-invariant"
+},
+{
+"key": "K-V0-CARRY-CUSTODY-PREFIX-0B08E7C2",
+"layer": "L5 Learning and measurement",
+"form": "BOUNDARY",
+"title": "BOUNDARY: equal V0 aggregate holdings can buy different carries; certified shed headroom clips the existing Pareto rank prefix"
+},
+{
+"key": "K-V0-COMPILER-REPAIRS",
+"layer": "L5 Learning and measurement",
+"form": "MEASUREMENT",
+"title": "The V0 compiler repaired in place: a kept HOLD releases at its bound event, and allocation never drops a projected instance"
+},
+{
+"key": "K-V0-CLASS-REPLAY-REVALIDATION",
+"layer": "L5 Learning and measurement",
+"form": "",
+"title": "[REPRESENTATION, finite-checked] The opening successor-class partition of the replay theorem is unchanged on the repaired V0 sources"
+},
+{
+"key": "K-V0-CLASS-SUPPORT-REPLAY-C5A4B291",
+"layer": "L5 Learning and measurement",
+"form": "REPRESENTATION",
+"title": "Successor-class coverage, not raw-ID coverage, is sufficient for exact prefix-local replay"
+},
+{
+"key": "K-V0-LAND-RELEASE-LIFT-9F4D7ABF",
+"layer": "L5 Learning and measurement",
+"form": "REPRESENTATION",
+"title": "Permanently opening sites reduce to padded interval occupancy; animal-first V0 placement can falsely refuse a crop"
+},
+{
+"key": "K-V0-TRAINING-TARGET-PREFIX-CLASSES",
+"layer": "L5 Learning and measurement",
+"form": "REPRESENTATION",
+"title": "Successor classes are prefix-local: a dawn's label is its canonical successor plan, classed at each decode step on the prefix plan"
+},
+{
+"key": "K-V0-FROZEN-SET-NORMALIZER-87912698",
+"layer": "L5 Learning and measurement",
+"form": "REPRESENTATION",
+"title": "Frozen-mask canonical edit-set likelihood: truncated-product normalizer and exact all-logit cotangent, not an executable-plan law"
+},
+{
+"key": "K-V0-TRAINING-TARGET-COMPOSITION",
+"layer": "L5 Learning and measurement",
+"form": "REPRESENTATION",
+"title": "~~SUPERSEDED by K-V0-TRAINING-TARGET-PREFIX-CLASSES~~ \u2014 A dawn's training target is its canonical successor plan: alias ids merge inside keys, both exact likelihoods keep their form, and only prefix masks are exact on joint feasibility"
+},
+{
+"key": "K-V0-EDIT-SET-PARTITION-DP-8E668688",
+"layer": "L5 Learning and measurement",
+"form": "REPRESENTATION",
+"title": "Frozen V0 edit-set likelihood is a capped elementary-symmetric DP; serialization permutations disappear"
+},
+{
+"key": "K-V0-CANONICAL-KEY-LIKELIHOOD",
+"layer": "L5 Learning and measurement",
+"form": "REPRESENTATION",
+"title": "Monotone plan-key decoding makes each V0 canonical edit set a unique autoregressive trace"
+},
+{
+"key": "K-V0-SUCCESSOR-QUOTIENT-2170AD2D",
+"layer": "L5 Learning and measurement",
+"form": "REPRESENTATION",
+"title": "V0 one-edit successor quotient; static dawn masks do not compose"
+},
+{
+"key": "K-HOLD-EPOCH-RENEWAL-5AB60478",
+"layer": "L5 Learning and measurement",
+"form": "BOUNDARY",
+"title": "BOUNDARY: kept NEXT_DAWN HOLD renews past every due dawn; one bound release event is necessary for fixed-event KEEP"
+},
+{
+"key": "K-V0-COMPILER-ROUND-TRIP",
+"layer": "L5 Learning and measurement",
+"form": "MEASUREMENT",
+"title": "The V0 plan compiler realizes the retained portfolios at two to four times the recorded cash; tape 0 needs cohort exits"
+},
+{
+"key": "Q1-ORACLE-FRONTIER-READINESS-027977ab",
+"layer": "L5 Learning and measurement",
+"form": "BOUNDARY",
+"title": "Three-oracle attribution requires a decision-valid candidate frontier"
+},
+{
+"key": "K-MEASUREMENT-CONSUMER-642b65c6",
+"layer": "L5 Learning and measurement",
+"form": "STRUCTURE",
+"title": "422 terminal-summary closure: selector opportunity, comparator harm and publication boundary"
+},
+{
+"key": "K-MEASUREMENT-CONSUMER-1CFC3906",
+"layer": "L5 Learning and measurement",
+"form": "STRUCTURE",
+"title": "420 is a finite-menu consumer; enumerate 56 prefix pairs before fitting again"
+},
+{
+"key": "K-SELECTOR-CONSUMER-0b8d1620",
+"layer": "L5 Learning and measurement",
+"form": "STRUCTURE",
+"title": "Frozen selector deployment boundary and finite prefix-pair control"
+},
+{
+"key": "K04",
+"layer": "L5 Learning and measurement",
+"form": "BOUNDARY",
+"title": "Production and labor values are not additive in the saved menu"
+},
+{
+"key": "K07",
+"layer": "L5 Learning and measurement",
+"form": "STRUCTURE",
+"title": "Complete visible menus preserve conditional hidden outcomes"
+},
+{
+"key": "K08",
+"layer": "L5 Learning and measurement",
+"form": "STRUCTURE",
+"title": "Physical-seat outcomes need an explicit actor-seat join"
+},
+{
+"key": "K02",
+"layer": "L5 Learning and measurement",
+"form": "REPRESENTATION",
+"title": "Teach conditional regret without arbitrary tie labels"
+},
+{
+"key": "K-FIT-ORDER-CONTROL",
+"layer": "L5 Learning and measurement",
+"form": "STRUCTURE",
+"title": "The actual shared384/390 input inventories are empty and join all saved tensor identities"
+},
+{
+"key": "CE-COTANGENT-SUFFICIENCY",
+"layer": "L5 Learning and measurement",
+"form": "REPRESENTATION",
+"title": "Exact weighted-label CE reduction and menu-contrast chain-rule boundary"
+},
+{
+"key": "CHOICE-GRADIENT-GAP",
+"layer": "L5 Learning and measurement",
+"form": "MEASUREMENT",
+"title": "Saved full-learner forecasts miss profitable choices despite separating output cotangents"
+},
+{
+"key": "OPTIMIZER-RESPONSE-BOUND",
+"layer": "L5 Learning and measurement",
+"form": "MEASUREMENT",
+"title": "CE/contrast mixing bounds and a matched-denominator optimizer-response boundary"
+},
+{
+"key": "K-GRADIENT-HULL-VERIFIED-7cffe948",
+"layer": "L5 Learning and measurement",
+"form": "REPRESENTATION",
+"title": "Verified fixed-family convex exclusion with native404 escape thresholds"
+},
+{
+"key": "K-CHOICE-BOUNDARY-4351dc47",
+"layer": "L5 Learning and measurement",
+"form": "REPRESENTATION",
+"title": "All-alternative affine choice cells and endpoint-only residual bounds"
+},
+{
+"key": "K-KEEP-CDF-6ad5677e",
+"layer": "L5 Learning and measurement",
+"form": "REPRESENTATION",
+"title": "Paired five-bin KEEP CDFs yield assumption-conditional gain/harm gates under bounded law drift"
+},
+{
+"key": "K-MIXTURE-CDF-fe41f29a",
+"layer": "L5 Learning and measurement",
+"form": "REPRESENTATION",
+"title": "Regime-supported mixture transport tightens KEEP bounds without changing the native target head"
+},
+{
+"key": "K-STRATIFIED-KEEP-ff47d2ac",
+"layer": "L5 Learning and measurement",
+"form": "REPRESENTATION",
+"title": "Stratum-weighted support-aware CDF envelopes prevent audit allocation from redefining KEEP value"
+},
+{
+"key": "K-KEEP-SUPPORT-2891e227",
+"layer": "L5 Learning and measurement",
+"form": "REPRESENTATION",
+"title": "Nine-cell KEEP-support intersection tightens fixed CDF bounds; native same-seed shops remain action-dependent"
+},
+{
+"key": "K-MENU-REGRET-05e00432",
+"layer": "L5 Learning and measurement",
+"form": "REPRESENTATION",
+"title": "Conditional menu regret and linear-size all-competitor targets preserve KEEP and ties"
+},
+{
+"key": "COVERAGE-MENU-PARTITION-c552647c",
+"layer": "L5 Learning and measurement",
+"form": "REPRESENTATION",
+"title": "Finite-menu ceiling, empirical alias conflict and remaining ranking shortfall"
+},
+{
+"key": "K-MEASUREMENT-WORLD-42638AA3",
+"layer": "L5 Learning and measurement",
+"form": "STRUCTURE",
+"title": "Whole-world selector advantage: declared coverage, safe uncertainty and consumer boundary"
+},
+{
+"key": "K06",
+"layer": "L5 Learning and measurement",
+"form": "MEASUREMENT",
+"title": "Routing intervention has one completed favorable pair, not replication"
+},
+{
+"key": "K-ORDER-INCIDENCE",
+"layer": "L5 Learning and measurement",
+"form": "MEASUREMENT",
+"title": "Recover serialized order loss while retaining zero overflow incidence in all three routing tapes"
+},
+{
+"key": "K-CHAMPION-FULL-PANEL-K0006-DOMINATES",
+"layer": "Unplaced",
+"form": "MEASUREMENT",
+"title": "k0006 uniquely dominates the registered panel; the compiled V0 executor and the teacher-v5 policy lose every game to every real rival"
+},
+{
+"key": "K-EARLY-LAND-SHIFT-FAILS-ON-CASH",
+"layer": "Unplaced",
+"form": "BOUNDARY",
+"title": "Advancing K0006's land purchases by 24 or 48 steps fails for lack of cash, so the shift never happens"
+},
+{
+"key": "K-FIRST-ADOPTION-IMMEDIATE-GAIN-DOES-NOT-REACH-TERMINAL",
+"layer": "Unplaced",
+"form": "BOUNDARY",
+"title": "The first adopted certified proposal gains +238 immediately, inside its bound, and 0 at the end of the game"
+},
+{
+"key": "K-GAP-FRONTIER-SLACK-INDEPENDENT-CHECK",
+"layer": "Unplaced",
+"form": "REPRESENTATION",
+"title": "The slack-dominance gap frontier matches an independent brute force beyond the returns' domains"
+},
+{
+"key": "K-K0006-NOOP-RATE-IS-OFF-TRAJECTORY-NOT-POLICY",
+"layer": "Unplaced",
+"form": "BOUNDARY",
+"title": "K0006's 40% inert-command rate is brittleness off its own trajectory, not wasted throughput on it"
+},
+{
+"key": "K-LADDER-ISOLATED-SLOT-EFFECTS-MISLEAD",
+"layer": "Unplaced",
+"form": "BOUNDARY",
+"title": "Isolated market-slot effects do not add, and they reverse sign against the whole-queue comparison"
+},
+{
+"key": "K-LADDER-OPPONENT-FINGERPRINTS",
+"layer": "Unplaced",
+"form": "",
+"title": "[REPRESENTATION, finite-checked] Two of three tracked ladder policies have deterministic capacity schedules across 2,314 harvested games"
+},
+{
+"key": "K-LADDER-OPPONENT-FINGERPRINTS-CORRECTED",
+"layer": "Unplaced",
+"form": "",
+"title": "[REPRESENTATION, finite-checked] The larger harvest withdraws Mother-Goose's aggressive-capacity story and leaves feel the agi's determinism standing"
+},
+{
+"key": "K-LADDER-SLOT-DIVERGENCE-OFTEN-INERT",
+"layer": "Unplaced",
+"form": "",
+"title": "[REPRESENTATION, finite-checked] One in five isolated ladder market-slot divergences leaves the complete market endpoint unchanged"
+},
+{
+"key": "K-LEADER-MAJKEL1337-CORPUS",
+"layer": "Unplaced",
+"form": "",
+"title": "[REPRESENTATION, finite-checked] The leaderboard leader's public games are exactly reconstructable: Majkel1337, 3 submissions, 1,159 listed games, 898 wins; a fixed 48-game sample ships"
+},
+{
+"key": "K-LEADER-STRATEGY-SAMPLE-CONSENSUS",
+"layer": "Unplaced",
+"form": "",
+"title": "[REPRESENTATION, finite-checked] The leader sample's fixed opening, its land and sale counts, no Router tape, and a day-0 wheat count no one-edit V0 opening can set"
+},
+{
+"key": "K-LOCAL-CASH-DOES-NOT-RANK-HOSTED-RATING",
+"layer": "Unplaced",
+"form": "BOUNDARY",
+"title": "Two independent local cash protocols both invert the hosted order of the only pair whose ratings we know"
+},
+{
+"key": "K-MAINTAINER-ONLY-HIDES-RED-TESTS",
+"layer": "Unplaced",
+"form": "BOUNDARY",
+"title": "Two maintainer_only self-test exclusions hide failing tests, not missing evidence"
+},
+{
+"key": "K-ONE-STEP-EARLIER-LAND-DOES-NOT-PAY",
+"layer": "Unplaced",
+"form": "MEASUREMENT",
+"title": "Moving K0006's land purchases one step earlier is realised and changes terminal cash by $0; two steps earlier is already unfunded"
+},
+{
+"key": "K-OPP-FORECAST-CEILING-SMALL",
+"layer": "Unplaced",
+"form": "MEASUREMENT",
+"title": "Perfect knowledge of the rival's next market order is worth $0.048 per state, and changes 10 states in 2,636"
+},
+{
+"key": "K-OUR-BEST-HOSTED-ARTIFACT-LEARNS-NOTHING",
+"layer": "Unplaced",
+"form": "MEASUREMENT",
+"title": "Across 47 completed submissions our best hosted rating belongs to a fixed static tape with no learning and no opponent response"
+},
+{
+"key": "K-PANEL-SIZE-FOR-CASH-MARGIN-CLAIMS",
+"layer": "Unplaced",
+"form": "MEASUREMENT",
+"title": "A $5,000 common-opponent margin claim needs about 41 paired seeds; common-seed pairing removes ~88% of variance, seat mirroring barely helps"
+},
+{
+"key": "K-PUBLIC-NOTEBOOKS-ARE-K0006-LINEAGE",
+"layer": "Unplaced",
+"form": "",
+"title": "[REPRESENTATION, finite-checked] Both shipped public notebooks are K0006 lineage: 0 of 61 Master rows and 6 of 85 v7 rows are new, and two advertised mechanisms are inert"
+},
+{
+"key": "K-ROUTER-D06-NO-POSITIVE-INTERVAL",
+"layer": "Unplaced",
+"form": "MEASUREMENT",
+"title": "The D06 patch shows no positive paired interval against its own parent over 1,232 games, so the panel does not keep it"
+},
+{
+"key": "K-ROUTER-FAMILY-K0006-PANEL",
+"layer": "Unplaced",
+"form": "",
+"title": "[REPRESENTATION, finite-checked] A public Router-family descendant beats frozen ShopRouter on every fixed world and seat: K0006 16-0, median margin +$6,478.5"
+},
+{
+"key": "K-ROUTER-HARNESS-IDENTICAL-CONTROL",
+"layer": "Unplaced",
+"form": "",
+"title": "[REPRESENTATION, finite-checked] The shared harness passes its identical-parent control, and K0006 beats frozen ShopRouter 140-4 over 72 registered worlds"
+},
+{
+"key": "K-SELFTEST-LONG-TAIL",
+"layer": "Unplaced",
+"form": "MEASUREMENT",
+"title": "The full self-test spends 1,720 file-seconds over 141 files, and one file takes 300.7 s"
+},
+{
+"key": "K-SHEEP-RESERVE-500-DISCRETIONARY-COUNTEREXAMPLE",
+"layer": "Unplaced",
+"form": "BOUNDARY",
+"title": "A $500 optional-spending sheep buffer preserves cash but loses $2528 margin on the recorded shortfill world"
+},
+{
+"key": "K-SOLVER-ADOPTION-JOINT-CONFLICT",
+"layer": "Unplaced",
+"form": "BOUNDARY",
+"title": "Adopting a module proposal over a frozen base is not free: one proposal was undone by the base's own hand, the other cost 23,443"
+},
+{
+"key": "K-SOLVER-ADOPTION-PRODUCTIVE-BUT-LOSING",
+"layer": "Unplaced",
+"form": "MEASUREMENT",
+"title": "Both production ADDs execute and produce over frozen K0006, and both still lose their paired control"
+},
+{
+"key": "K-SOLVER-ADOPTION-SHARED-RESOURCE-GAP",
+"layer": "Unplaced",
+"form": "BOUNDARY",
+"title": "Adoption fails a second way: unowned base consumption exhausts the shared resource, and the one complete suffix loses 21 with zero output"
+},
+{
+"key": "K-SOLVER-FIRST-CERTIFIED-BOUND",
+"layer": "Unplaced",
+"form": "REPRESENTATION",
+"title": "The first certified BOUND: a sale interval from public inventory and bounded rival flow, 0 violations in 546 pairs"
+},
+{
+"key": "K-SOLVER-NO-CERTIFIED-PROPOSAL",
+"layer": "Unplaced",
+"form": "STRUCTURE",
+"title": "Seven of eight strategy modules never propose, and no module ever returns a bound"
+},
+{
+"key": "K-SOLVER-RESCUE-NARROW-PRODUCER-GATED",
+"layer": "Unplaced",
+"form": "BOUNDARY",
+"title": "The narrow rescue passes its positive case and refuses the protected-feeder overwrite the notebook version performs"
+},
+{
+"key": "K-SOLVER-SILENT-PRODUCERS-ARE-INTERFACE-NOT-ECONOMICS",
+"layer": "Unplaced",
+"form": "BOUNDARY",
+"title": "The silent valuing modules are an interface and state-closure problem, not an economics problem"
+},
+{
+"key": "K-V0-BC-INTERFACE-SMOKE",
+"layer": "Unplaced",
+"form": "",
+"title": "[REPRESENTATION, finite-checked] ~~SUPERSEDED by K-V0-BC-INTERFACE-SMOKE-CONTROLS-UNWEIGHTED~~ \u2014 The accepted exporter rows are the accepted scorer menus; an independent scorer agrees; the 32-teacher smoke export cannot be fit below 118.51 nats"
+},
+{
+"key": "K-V0-BC-INTERFACE-SMOKE-CONTROLS-UNWEIGHTED",
+"layer": "Unplaced",
+"form": "",
+"title": "[REPRESENTATION, finite-checked] Exporter rows are the scorer menus; with KEEP/STOP controls unweighted the 32-teacher smoke export still cannot be fit below 110.90 nats"
+},
+{
+"key": "K-V0-CONTINUATION-ORDER-GUARDS-CONFLICT-FINAL",
+"layer": "Unplaced",
+"form": "BOUNDARY",
+"title": "The continuation codec and the evaluator signature demand opposite row orders, so 27 of 30 reached cuts cannot be admitted either way"
+},
+{
+"key": "K-V0-CONTINUATION-ORDER-PRESERVING-CODEC",
+"layer": "Unplaced",
+"form": "",
+"title": "[REPRESENTATION, finite-checked] The order-preserving continuation codec unblocks all 30 stored reached cuts and re-derives every recorded agent signature"
+},
+{
+"key": "K-V0-CONTINUATION-ROUND-TRIP-IS-ORDER-SENSITIVE",
+"layer": "Unplaced",
+"form": "BOUNDARY",
+"title": "~~SUPERSEDED by K-V0-CONTINUATION-ORDER-GUARDS-CONFLICT-FINAL~~ \u2014 The V0 continuation round-trip guard rejects 27 of 30 real reached cuts purely because their rows are not pre-sorted"
+},
+{
+"key": "K-V0-EXECUTOR-ONE-LEGALITY-AUTHORITY",
+"layer": "Unplaced",
+"form": "MEASUREMENT",
+"title": "One legality authority: the oracle admits all 24 unblocked paths and the evaluator's trace is bit-identical"
+},
+{
+"key": "K-V0-FIRST-DIVERGENCE-IS-OPTIMIZATION",
+"layer": "Unplaced",
+"form": "BOUNDARY",
+"title": "V0's first free-decoding divergence is an optimization failure: after 512 updates the teacher's first move gets 0.23% of class mass"
+},
+{
+"key": "K-V0-FREE-RUN-UPDATE512-BELOW-KEEP",
+"layer": "Unplaced",
+"form": "MEASUREMENT",
+"title": "Free-running through the real engine, the update-512 V0 scorer diverges at its first decision and ends below KEEP in all four cases"
+},
+{
+"key": "K-V0-MENU-INTEGRATE-CONSUMERS-EXACT",
+"layer": "Unplaced",
+"form": "MEASUREMENT",
+"title": "The exact fast menu holds at the consumer level: identical rows, gradients and games, and about 9x off cold validation, decoding and whole games"
+},
+{
+"key": "K-V0-OVERFIT-BATCH32-EQUALS-BATCH4-AT-512",
+"layer": "Unplaced",
+"form": "MEASUREMENT",
+"title": "Raising batch from 4 to 32 at the 512-update cap leaves V0 overfit reconstruction unchanged: 1 of 32 exact plans, 8 of 148 decisions"
+},
+{
+"key": "K-V0-OVERFIT-CAP-EXHAUSTED-CONTEXT-INSENSITIVE",
+"layer": "Unplaced",
+"form": "MEASUREMENT",
+"title": "V0-OVERFIT exhausted its 512-update cap at 1 of 32: the policy decodes a constant five-action sequence and diverges at the first decision in 28 of 32"
+},
+{
+"key": "K-V0-PREFIX-LEGALITY-EXECUTOR",
+"layer": "Unplaced",
+"form": "BOUNDARY",
+"title": "Judging each edit at its own prefix unblocks 24 of 34 admitted paths and changes nothing that already worked"
+},
+{
+"key": "Q2-FINAL-HELD-BOUND-7e18c291",
+"layer": "Unplaced",
+"form": "REPRESENTATION",
+"title": "Optimistic held-product liquidation cannot rescue the final-state loss"
+},
+{
+"key": "Q2-SALE-CUSTODY-B2FCF84D",
+"layer": "Unplaced",
+"form": "MEASUREMENT",
+"title": "Two unsold carrots explain $102, not the competitive deficit"
+},
+{
+"key": "V0-BACKSOLVE-EXACT-WINDOW-LABELS-6F1C2A90",
+"layer": "Unplaced",
+"form": "MEASUREMENT",
+"title": "Twenty-four exact conditional endgame labels: terminal MILK HOLD gains $340 but no WDL reward over KEEP"
+},
+{
+"key": "V0-BACKSOLVE-HOLD-CUT-BCBFFB5D",
+"layer": "Unplaced",
+"form": "BOUNDARY",
+"title": "A dawn-22 restart that drops a retained HOLD creates a false +$18 KEEP value label"
+},
+{
+"key": "V0-BACKSOLVE-RIVAL-RESPONSE-A2473FF1",
+"layer": "Unplaced",
+"form": "BOUNDARY",
+"title": "Identical V0 dawn contexts under a fixed rival policy reverse a terminal HOLD cash ranking"
+}
+],
+"typed_links": [
+[
+"K-FLOW-MOMENT-ALIAS-88680265",
+"K-CYCLE-BELIEF-CAPITAL-HULL-7E02F4E7",
+"depends_on"
+],
+[
+"K-FLOW-MOMENT-ALIAS-88680265",
+"K-CYCLE-BELIEF-SIZING-COMPOSITION",
+"depends_on"
+],
+[
+"K-FLOW-MOMENT-ALIAS-88680265",
+"K-BUDGET-FIRST-CYCLE-QUANTITY-7570F20E",
+"depends_on"
+],
+[
+"K-UNEQUAL-CYCLE-FIVE-RESIDUES-46EF2049",
+"K-LOCKSTEP-CLOSED-CYCLE-MINT",
+"depends_on"
+],
+[
+"K-UNEQUAL-CYCLE-FIVE-RESIDUES-46EF2049",
+"K-MARKET-CASH-CONTROL-CURVE",
+"depends_on"
+],
+[
+"K-UNEQUAL-CYCLE-FIVE-RESIDUES-46EF2049",
+"K-ISOLATED-NET-TRADE-f57bec73",
+"depends_on"
+],
+[
+"K-UNEQUAL-CYCLE-FIVE-RESIDUES-46EF2049",
+"K-SAME-SLOT-SATURATION-735E828B",
+"depends_on"
+],
+[
+"K-UNEQUAL-CYCLE-FIVE-RESIDUES-46EF2049",
+"K-LOCKSTEP-CLOSED-CYCLE-MINT",
+"corroborates"
+],
+[
+"K-UNEQUAL-CYCLE-CONSENSUS",
+"K-UNEQUAL-LOCKSTEP-MARGIN-4287B312",
+"depends_on"
+],
+[
+"K-UNEQUAL-CYCLE-CONSENSUS",
+"K-LOCKSTEP-PIGGYBACK-MARGIN-ADFEDFD0",
+"depends_on"
+],
+[
+"K-UNEQUAL-CYCLE-CONSENSUS",
+"K-UNEQUAL-LOCKSTEP-CLOSED-FORM-CG02",
+"depends_on"
+],
+[
+"K-UNEQUAL-CYCLE-CONSENSUS",
+"K-UNEQUAL-CYCLE-FIVE-RESIDUES-46EF2049",
+"depends_on"
+],
+[
+"K-UNEQUAL-CYCLE-CONSENSUS",
+"K-LOCKSTEP-TAIL-FIVE-RESIDUES-A2C3DB23",
+"depends_on"
+],
+[
+"K-UNEQUAL-CYCLE-CONSENSUS",
+"K-LOCKSTEP-CLOSED-CYCLE-MINT",
+"depends_on"
+],
+[
+"K-UNEQUAL-CYCLE-CONSENSUS",
+"K-UNEQUAL-LOCKSTEP-MARGIN-4287B312",
+"corroborates"
+],
+[
+"K-UNEQUAL-CYCLE-CONSENSUS",
+"K-LOCKSTEP-PIGGYBACK-MARGIN-ADFEDFD0",
+"corroborates"
+],
+[
+"K-UNEQUAL-CYCLE-CONSENSUS",
+"K-UNEQUAL-LOCKSTEP-CLOSED-FORM-CG02",
+"corroborates"
+],
+[
+"K-UNEQUAL-CYCLE-CONSENSUS",
+"K-UNEQUAL-CYCLE-FIVE-RESIDUES-46EF2049",
+"corroborates"
+],
+[
+"K-UNEQUAL-CYCLE-CONSENSUS",
+"K-LOCKSTEP-TAIL-FIVE-RESIDUES-A2C3DB23",
+"corroborates"
+],
+[
+"Q2-DAY-WINDOW-RECEIPT-BOUNDARY-89E9E96C",
+"K-RECEIPT-CURVES-CONDITIONAL-493D5569",
+"depends_on"
+],
+[
+"Q2-DAY-WINDOW-RECEIPT-BOUNDARY-89E9E96C",
+"Q2-DEMAND-LAW-3C0F0F84",
+"depends_on"
+],
+[
+"Q2-DAY-WINDOW-RECEIPT-BOUNDARY-89E9E96C",
+"K-MARKET-TIMING-EVENT-WINDOWS-58B8BD0B",
+"depends_on"
+],
+[
+"Q2-DAY-WINDOW-RECEIPT-BOUNDARY-89E9E96C",
+"K-OPPONENT-SALE-ENVELOPE",
+"depends_on"
+],
+[
+"Q2-DAY-WINDOW-RECEIPT-BOUNDARY-89E9E96C",
+"Q2-RECEIPT-CURVES-MIN-INVENTORY-QUOTIENT-159F6058",
+"depends_on"
+],
+[
+"Q2-DAY-WINDOW-RECEIPT-BOUNDARY-89E9E96C",
+"K-RECEIPT-CURVES-TWO-IMPLEMENTATIONS",
+"depends_on"
+],
+[
+"Q2-DAY-WINDOW-RECEIPT-BOUNDARY-89E9E96C",
+"K-RECEIPT-CURVES-CONSENSUS",
+"depends_on"
+],
+[
+"Q2-DAY-WINDOW-RECEIPT-BOUNDARY-89E9E96C",
+"Q2-CLOCKED-RECEIPT-CURVES-da3428bf",
+"depends_on"
+],
+[
+"Q2-DAY-WINDOW-RECEIPT-BOUNDARY-89E9E96C",
+"Q2-CONDITIONAL-RECEIPT-CURVES-89514659",
+"depends_on"
+],
+[
+"Q2-DAY-WINDOW-RECEIPT-BOUNDARY-89E9E96C",
+"K-RECEIPT-CURVES-CONDITIONAL-493D5569",
+"narrows"
+],
+[
+"Q2-DAY-WINDOW-RECEIPT-BOUNDARY-89E9E96C",
+"K-MARKET-TIMING-EVENT-WINDOWS-58B8BD0B",
+"corroborates"
+],
+[
+"Q2-DAY-WINDOW-RECEIPT-BOUNDARY-89E9E96C",
+"Q2-CLOCKED-RECEIPT-CURVES-da3428bf",
+"corroborates"
+],
+[
+"Q2-DEMAND-LAW-3C0F0F84",
+"Q2-TERMINAL-JOIN-4F5DE3C1",
+"depends_on"
+],
+[
+"Q2-DEMAND-LAW-3C0F0F84",
+"K-UNIT-ECONOMICS-ONE-TILE",
+"depends_on"
+],
+[
+"Q2-DEMAND-LAW-3C0F0F84",
+"K05",
+"depends_on"
+],
+[
+"Q2-DEMAND-LAW-3C0F0F84",
+"Q2-TERMINAL-JOIN-4F5DE3C1",
+"narrows"
+],
+[
+"K-RECEIPT-CURVES-CONDITIONAL-493D5569",
+"Q2-DEMAND-LAW-3C0F0F84",
+"depends_on"
+],
+[
+"K-RECEIPT-CURVES-CONDITIONAL-493D5569",
+"K-OPPONENT-SALE-ENVELOPE",
+"depends_on"
+],
+[
+"K-RECEIPT-CURVES-CONDITIONAL-493D5569",
+"K-UNIT-ECONOMICS-ONE-TILE-v2",
+"depends_on"
+],
+[
+"K-RECEIPT-CURVES-CONDITIONAL-493D5569",
+"K05",
+"depends_on"
+],
+[
+"K-RECEIPT-CURVES-CONDITIONAL-493D5569",
+"Q2-PORTFOLIO-BASE-PRICE-CROSS-PRODUCT-BOUNDARY-9010435f",
+"depends_on"
+],
+[
+"K-RECEIPT-CURVES-CONDITIONAL-493D5569",
+"K-MARGINAL-RELAXATION-TOPOLOGY",
+"depends_on"
+],
+[
+"K-RECEIPT-CURVES-CONDITIONAL-493D5569",
+"K-PRODUCTWISE-HIDDEN-PATHS",
+"depends_on"
+],
+[
+"K-RECEIPT-CURVES-CONDITIONAL-493D5569",
+"K-OPPONENT-PUBLIC-FLOW-QUOTIENT",
+"depends_on"
+],
+[
+"K-RECEIPT-CURVES-CONDITIONAL-493D5569",
+"K-OPPONENT-SIGNED-35e91a9e",
+"depends_on"
+],
+[
+"K-RECEIPT-CURVES-CONDITIONAL-493D5569",
+"K-MARGINAL-RELAXATION-TOPOLOGY",
+"narrows"
+],
+[
+"K-RECEIPT-CURVES-CONDITIONAL-493D5569",
+"K-PRODUCTWISE-HIDDEN-PATHS",
+"corroborates"
+],
+[
+"K-RECEIPT-CURVES-CONDITIONAL-493D5569",
+"Q2-PORTFOLIO-BASE-PRICE-CROSS-PRODUCT-BOUNDARY-9010435f",
+"narrows"
+],
+[
+"K-PLOT-INCIDENT-DEADLINE-140c704c",
+"K01",
+"depends_on"
+],
+[
+"K-PLOT-INCIDENT-DEADLINE-140c704c",
+"E1",
+"depends_on"
+],
+[
+"K-PLOT-INCIDENT-DEADLINE-140c704c",
+"K04",
+"depends_on"
+],
+[
+"K-FIRST-ADOPTION-IMMEDIATE-GAIN-DOES-NOT-REACH-TERMINAL",
+"K-SOLVER-FIRST-CERTIFIED-BOUND",
+"narrows"
+],
+[
+"K-LINEAR-COLUMN-VALUE-LOSS",
+"K-PRODUCT-FRONTIER-7767825e",
+"corroborates"
+],
+[
+"K-LINEAR-COLUMN-VALUE-LOSS",
+"Q2-OPENING-BASE-VALUE-RANK-BOUNDARY-b0b9c6cf",
+"corroborates"
+],
+[
+"K-PLOT-ANCHOR-SIGNATURE-QUOTIENT-199B7CDC",
+"K-PLOT-INCIDENT-DEADLINE-140c704c",
+"depends_on"
+],
+[
+"K-PLOT-ANCHOR-SIGNATURE-QUOTIENT-199B7CDC",
+"K-PLOT-ORDER-TIMING-70b8b4fa",
+"depends_on"
+],
+[
+"K-HARVEST-FIRST-APPEARANCE-cf6b04bf",
+"K-UNIT-ECONOMICS-ONE-TILE-v2",
+"depends_on"
+],
+[
+"K-HARVEST-FIRST-APPEARANCE-cf6b04bf",
+"K-F02-DEPOSIT-PREFIX",
+"depends_on"
+],
+[
+"K-HARVEST-FIRST-APPEARANCE-cf6b04bf",
+"K-SALE-ORDER-ASSIGNMENT",
+"depends_on"
+],
+[
+"K-HARVEST-FIRST-APPEARANCE-cf6b04bf",
+"K-PLOT-INCIDENT-DEADLINE-140c704c",
+"depends_on"
+],
+[
+"K-CHAIN-MENU-MAKESPAN-931B5A7E",
+"K-CHAIN-CHOICE-HIRE-CUTOFF-B9B1111E",
+"depends_on"
+],
+[
+"K-CHAIN-MENU-MAKESPAN-931B5A7E",
+"K-CHAIN-ENTRY-MATCHING-79FD6155",
+"depends_on"
+],
+[
+"K-CHAIN-MENU-MAKESPAN-931B5A7E",
+"K-ANCHORED-CHAIN-CALENDAR-F2A9949C",
+"depends_on"
+],
+[
+"K-PRODUCT-COUNT-QUOTIENT-66e3e3b2",
+"K-UNIT-ECONOMICS-ONE-TILE",
+"depends_on"
+],
+[
+"K-PRODUCT-COUNT-QUOTIENT-66e3e3b2",
+"K04",
+"depends_on"
+],
+[
+"K-PRODUCT-COUNT-QUOTIENT-66e3e3b2",
+"K05",
+"depends_on"
+],
+[
+"K-PRODUCT-COUNT-QUOTIENT-66e3e3b2",
+"K-UNIT-ECONOMICS-ONE-TILE",
+"corroborates"
+],
+[
+"K-PRODUCT-COUNT-QUOTIENT-66e3e3b2",
+"K04",
+"corroborates"
+],
+[
+"K-NEUTRAL-EXIT-COUNT-QUOTIENT-B8C5705A",
+"K-NEUTRAL-COHORT-COUNT-QUOTIENT-E75FCD95",
+"depends_on"
+],
+[
+"K-NEUTRAL-EXIT-COUNT-QUOTIENT-B8C5705A",
+"K-OPENING-NEUTRAL-WATER-FRONTIER-3D575402",
+"depends_on"
+],
+[
+"K-NEUTRAL-EXIT-COUNT-QUOTIENT-B8C5705A",
+"K-OPENING-GENERATION-CONSENSUS",
+"depends_on"
+],
+[
+"K-ROUTED-DUTY-SETUP-COUNTDOWN-6EC15D57",
+"K-LABOR-ATTRIBUTION-CONSENSUS",
+"depends_on"
+],
+[
+"K-ROUTED-DUTY-SETUP-COUNTDOWN-6EC15D57",
+"K-LABOR-ACTION-PARTITION-4FD2A1E7",
+"depends_on"
+],
+[
+"K-ROUTED-DUTY-SETUP-COUNTDOWN-6EC15D57",
+"K-LABOR-CALIBRATION-IDENTIFIABILITY-4267A1E8",
+"depends_on"
+],
+[
+"K-ROUTED-DUTY-SETUP-COUNTDOWN-6EC15D57",
+"K-PORTFOLIO-KNAPSACK-REALIZATION",
+"depends_on"
+],
+[
+"K-ROUTED-DUTY-SETUP-COUNTDOWN-6EC15D57",
+"K-LABOR-ATTRIBUTION-CONSENSUS",
+"corroborates"
+],
+[
+"K-ROUTED-DUTY-SETUP-COUNTDOWN-6EC15D57",
+"K-LABOR-CALIBRATION-IDENTIFIABILITY-4267A1E8",
+"narrows"
+],
+[
+"K-MARKET-PREFIX-RANGE-C94ED8DB",
+"K-MARKET-BRIDGE-POTENTIAL-CONSENSUS",
+"depends_on"
+],
+[
+"K-MARKET-PREFIX-RANGE-C94ED8DB",
+"K-RIVAL-SOLO-FLOW-SALE-SHIFT-CG01",
+"depends_on"
+],
+[
+"K-MARKET-PREFIX-RANGE-C94ED8DB",
+"K-ISOLATED-NET-TRADE-f57bec73",
+"depends_on"
+],
+[
+"K-MARKET-PREFIX-RANGE-C94ED8DB",
+"K-CASH-FLOW-PREFIX-834E2F40",
+"depends_on"
+],
+[
+"K-MARKET-PREFIX-RANGE-C94ED8DB",
+"K-MARKET-BRIDGE-POTENTIAL-CONSENSUS",
+"narrows"
+],
+[
+"K-MARKET-PREFIX-RANGE-C94ED8DB",
+"K-RIVAL-SOLO-FLOW-SALE-SHIFT-CG01",
+"narrows"
+],
+[
+"K-SELECTOR-CONSUMER-0b8d1620",
+"K-MEASUREMENT-WORLD-42638AA3",
+"depends_on"
+],
+[
+"K-SELECTOR-CONSUMER-0b8d1620",
+"COVERAGE-MENU-PARTITION-c552647c",
+"depends_on"
+],
+[
+"K-SELECTOR-CONSUMER-0b8d1620",
+"K07",
+"depends_on"
+],
+[
+"K-SELECTOR-CONSUMER-0b8d1620",
+"K-MEASUREMENT-WORLD-42638AA3",
+"corroborates"
+],
+[
+"K-SELECTOR-CONSUMER-0b8d1620",
+"COVERAGE-MENU-PARTITION-c552647c",
+"corroborates"
+],
+[
+"LAST-DAY-QUOTIENT-30090398",
+"K-SALE-ORDER-ASSIGNMENT",
+"depends_on"
+],
+[
+"LAST-DAY-QUOTIENT-30090398",
+"K-OPPONENT-SALE-ENVELOPE",
+"depends_on"
+],
+[
+"LAST-DAY-QUOTIENT-30090398",
+"Q2-TERMINAL-JOIN-4F5DE3C1",
+"depends_on"
+],
+[
+"LAST-DAY-QUOTIENT-30090398",
+"K05",
+"depends_on"
+],
+[
+"LAST-DAY-QUOTIENT-30090398",
+"K-SALE-ORDER-ASSIGNMENT",
+"narrows"
+],
+[
+"LAST-DAY-QUOTIENT-30090398",
+"K-OPPONENT-SALE-ENVELOPE",
+"narrows"
+],
+[
+"LAST-DAY-QUOTIENT-30090398",
+"Q2-TERMINAL-JOIN-4F5DE3C1",
+"corroborates"
+],
+[
+"LAST-DAY-QUOTIENT-30090398",
+"LAST-DAY-RESIDUAL-14",
+"refutes"
+],
+[
+"K-IV-COUPLED-SALE",
+"K-F02-DEPOSIT-PREFIX",
+"depends_on"
+],
+[
+"K-IV-COUPLED-SALE",
+"K05",
+"depends_on"
+],
+[
+"K-IV-COUPLED-SALE",
+"K-F02-DEPOSIT-PREFIX",
+"corroborates"
+],
+[
+"K-IV-COUPLED-SALE",
+"K05",
+"corroborates"
+],
+[
+"K-CASH-FLOW-PREFIX-834E2F40",
+"K04",
+"depends_on"
+],
+[
+"K-CASH-FLOW-PREFIX-834E2F40",
+"K05",
+"depends_on"
+],
+[
+"K-CASH-FLOW-PREFIX-834E2F40",
+"E1",
+"depends_on"
+],
+[
+"K-CASH-FLOW-PREFIX-834E2F40",
+"K-F02-DEPOSIT-PREFIX",
+"depends_on"
+],
+[
+"K-MARKET-STOCK-CLIP-26AB0F70",
+"K-MARKET-PREFIX-RANGE-C94ED8DB",
+"depends_on"
+],
+[
+"K-MARKET-STOCK-CLIP-26AB0F70",
+"K-MARKET-PASSIVE-FLOW-LABEL-69EC9130",
+"depends_on"
+],
+[
+"K-MARKET-STOCK-CLIP-26AB0F70",
+"K-MARKET-PREFIX-RANGE-C94ED8DB",
+"narrows"
+],
+[
+"K-MARKET-STOCK-CLIP-26AB0F70",
+"K-MARKET-PASSIVE-FLOW-LABEL-69EC9130",
+"narrows"
+],
+[
+"E3",
+"E2",
+"depends_on"
+],
+[
+"K-OPPONENT-PUBLIC-FLOW-QUOTIENT",
+"K04",
+"depends_on"
+],
+[
+"K-OPPONENT-PUBLIC-FLOW-QUOTIENT",
+"K05",
+"depends_on"
+],
+[
+"K-OPPONENT-PUBLIC-FLOW-QUOTIENT",
+"K06",
+"depends_on"
+],
+[
+"K-OPPONENT-PUBLIC-FLOW-QUOTIENT",
+"K04",
+"narrows"
+],
+[
+"K-V0-TRAINING-TARGET-COMPOSITION",
+"K-V0-SUCCESSOR-QUOTIENT-2170AD2D",
+"depends_on"
+],
+[
+"K-V0-TRAINING-TARGET-COMPOSITION",
+"K-V0-EDIT-SET-PARTITION-DP-8E668688",
+"depends_on"
+],
+[
+"K-V0-TRAINING-TARGET-COMPOSITION",
+"K-V0-CANONICAL-KEY-LIKELIHOOD",
+"depends_on"
+],
+[
+"K-V0-TRAINING-TARGET-COMPOSITION",
+"K-V0-EDIT-SET-PARTITION-DP-8E668688",
+"narrows"
+],
+[
+"K-V0-TRAINING-TARGET-COMPOSITION",
+"K-V0-CANONICAL-KEY-LIKELIHOOD",
+"corroborates"
+],
+[
+"K-V0-TRAINING-TARGET-COMPOSITION",
+"K-V0-SUCCESSOR-QUOTIENT-2170AD2D",
+"corroborates"
+],
+[
+"Q2-CAPACITY-PREFIX-D9F18BDA",
+"K-UNIT-ECONOMICS-ONE-TILE",
+"depends_on"
+],
+[
+"Q2-CAPACITY-PREFIX-D9F18BDA",
+"Q2-ROUTE-SLACK-PREFIX-689e1fe6",
+"depends_on"
+],
+[
+"Q2-CAPACITY-PREFIX-D9F18BDA",
+"K-CASH-FLOW-PREFIX-834E2F40",
+"depends_on"
+],
+[
+"Q2-CAPACITY-PREFIX-D9F18BDA",
+"K-UNIT-ECONOMICS-ONE-TILE",
+"corroborates"
+],
+[
+"Q2-CAPACITY-PREFIX-D9F18BDA",
+"Q2-ROUTE-SLACK-PREFIX-689e1fe6",
+"corroborates"
+],
+[
+"Q2-CAPACITY-PREFIX-D9F18BDA",
+"K-CASH-FLOW-PREFIX-834E2F40",
+"corroborates"
+],
+[
+"K-LABOR-NONADDITIVITY-31F8C4F4",
+"K-LABOR-ATTRIBUTION-CONSENSUS",
+"depends_on"
+],
+[
+"K-LABOR-NONADDITIVITY-31F8C4F4",
+"K-KNAPSACK-LABOR-IDENTIFIABILITY-0D9A2368",
+"depends_on"
+],
+[
+"K-LABOR-NONADDITIVITY-31F8C4F4",
+"K-PLOT-INCIDENT-DEADLINE-140c704c",
+"depends_on"
+],
+[
+"K-LABOR-NONADDITIVITY-31F8C4F4",
+"K-WORKER-TURN-ATTRIBUTION-BIT-3074199D",
+"depends_on"
+],
+[
+"K-LABOR-NONADDITIVITY-31F8C4F4",
+"K-LABOR-ATTRIBUTION-CONSENSUS",
+"narrows"
+],
+[
+"K-LABOR-NONADDITIVITY-31F8C4F4",
+"K-KNAPSACK-LABOR-IDENTIFIABILITY-0D9A2368",
+"narrows"
+],
+[
+"Q1-ORACLE-FRONTIER-READINESS-027977ab",
+"K-SHOP-CONDITIONAL-QUOTIENT-31fc6393",
+"depends_on"
+],
+[
+"Q1-ORACLE-FRONTIER-READINESS-027977ab",
+"Q2-DEMAND-LAW-3C0F0F84",
+"depends_on"
+],
+[
+"Q1-ORACLE-FRONTIER-READINESS-027977ab",
+"K-MEASUREMENT-CONSUMER-1CFC3906",
+"depends_on"
+],
+[
+"Q1-ORACLE-FRONTIER-READINESS-027977ab",
+"K05",
+"depends_on"
+],
+[
+"Q1-ORACLE-FRONTIER-READINESS-027977ab",
+"Q2-PORTFOLIO-BASE-PRICE-CROSS-PRODUCT-BOUNDARY-9010435f",
+"depends_on"
+],
+[
+"Q1-ORACLE-FRONTIER-READINESS-027977ab",
+"Q2-PORTFOLIO-BASE-PRICE-CROSS-PRODUCT-BOUNDARY-9010435f",
+"corroborates"
+],
+[
+"K-LAND-GAP-SIGNATURE-CONSENSUS",
+"K-LAND-QUICK-SITE-SLACK-SIEVE-31C21865",
+"depends_on"
+],
+[
+"K-LAND-GAP-SIGNATURE-CONSENSUS",
+"K-ROUTER-TAPE0-SE-CLOSED-GAP-QUOTIENT-62299F41",
+"depends_on"
+],
+[
+"K-LAND-GAP-SIGNATURE-CONSENSUS",
+"K-LAND-GAP-INCIDENCE-CAPACITY-ac65e881",
+"depends_on"
+],
+[
+"K-LAND-GAP-SIGNATURE-CONSENSUS",
+"K-LAND-GATE-LADDER-PANEL",
+"depends_on"
+],
+[
+"K-LAND-GAP-SIGNATURE-CONSENSUS",
+"K-LAND-SERVICEABILITY-GEOMETRY",
+"depends_on"
+],
+[
+"K-LAND-GAP-SIGNATURE-CONSENSUS",
+"K-QUICK-SITE-CONVOLUTION-CG04",
+"depends_on"
+],
+[
+"K-LAND-GAP-SIGNATURE-CONSENSUS",
+"K-QUICK-SITE-FRONTIER-DOMINANCE-CG05",
+"depends_on"
+],
+[
+"K-LAND-GAP-SIGNATURE-CONSENSUS",
+"K-LAND-QUICK-SITE-SLACK-SIEVE-31C21865",
+"corroborates"
+],
+[
+"K-LAND-GAP-SIGNATURE-CONSENSUS",
+"K-ROUTER-TAPE0-SE-CLOSED-GAP-QUOTIENT-62299F41",
+"corroborates"
+],
+[
+"K-LAND-GAP-SIGNATURE-CONSENSUS",
+"K-LAND-GAP-INCIDENCE-CAPACITY-ac65e881",
+"narrows"
+],
+[
+"K-LAND-GAP-SIGNATURE-CONSENSUS",
+"K-LAND-GATE-LADDER-PANEL",
+"narrows"
+],
+[
+"K-UNEQUAL-LOCKSTEP-CLOSED-FORM-CG02",
+"K-LOCKSTEP-CLOSED-CYCLE-MINT",
+"depends_on"
+],
+[
+"K-UNEQUAL-LOCKSTEP-CLOSED-FORM-CG02",
+"K-LOCKSTEP-CLOSED-CYCLE-MINT",
+"narrows"
+],
+[
+"K-UNEQUAL-LOCKSTEP-CLOSED-FORM-CG02",
+"K-UNEQUAL-LOCKSTEP-MARGIN-4287B312",
+"corroborates"
+],
+[
+"K-GAP-FRONTIER-SLACK-COMPOSITION",
+"K-LAND-EXCEPTION-FRONTIER-412A05FA",
+"depends_on"
+],
+[
+"K-GAP-FRONTIER-SLACK-COMPOSITION",
+"K-GAP-EXCEPTION-ANTICHAIN-9105877C",
+"depends_on"
+],
+[
+"K-GAP-FRONTIER-SLACK-COMPOSITION",
+"K-LAND-PAIR-ANTICHAIN-455412EC",
+"depends_on"
+],
+[
+"K-GAP-FRONTIER-SLACK-COMPOSITION",
+"K-LAND-EXCEPTION-MASK-FLOW-CB989C5D",
+"depends_on"
+],
+[
+"K-GAP-FRONTIER-SLACK-COMPOSITION",
+"K-LAND-EXCEPTION-FRONTIER-412A05FA",
+"corroborates"
+],
+[
+"K-GAP-FRONTIER-SLACK-COMPOSITION",
+"K-GAP-EXCEPTION-ANTICHAIN-9105877C",
+"corroborates"
+],
+[
+"K-GAP-FRONTIER-SLACK-COMPOSITION",
+"K-LAND-PAIR-ANTICHAIN-455412EC",
+"corroborates"
+],
+[
+"K-GAP-FRONTIER-SLACK-COMPOSITION",
+"K-LAND-EXCEPTION-MASK-FLOW-CB989C5D",
+"corroborates"
+],
+[
+"K-LABOR-IDENTIFIABILITY-CONSENSUS",
+"K-KNAPSACK-LABOR-IDENTIFIABILITY-0D9A2368",
+"depends_on"
+],
+[
+"K-LABOR-IDENTIFIABILITY-CONSENSUS",
+"K-LABOR-TYPE-IDENTIFIABILITY-BOUNDARY-B72D51C6",
+"depends_on"
+],
+[
+"K-LABOR-IDENTIFIABILITY-CONSENSUS",
+"K-LABOR-CALIBRATION-IDENTIFIABILITY-4267A1E8",
+"depends_on"
+],
+[
+"K-LABOR-IDENTIFIABILITY-CONSENSUS",
+"K-PORTFOLIO-KNAPSACK-REALIZATION",
+"depends_on"
+],
+[
+"K-LABOR-IDENTIFIABILITY-CONSENSUS",
+"K-KNAPSACK-LABOR-IDENTIFIABILITY-0D9A2368",
+"corroborates"
+],
+[
+"K-LABOR-IDENTIFIABILITY-CONSENSUS",
+"K-LABOR-TYPE-IDENTIFIABILITY-BOUNDARY-B72D51C6",
+"corroborates"
+],
+[
+"K-LABOR-IDENTIFIABILITY-CONSENSUS",
+"K-LABOR-CALIBRATION-IDENTIFIABILITY-4267A1E8",
+"corroborates"
+],
+[
+"K-LABOR-IDENTIFIABILITY-CONSENSUS",
+"K-PORTFOLIO-KNAPSACK-REALIZATION",
+"narrows"
+],
+[
+"Q2-ROUTE-FEED-PREFIX-1f6fe913",
+"Q2-ROUTE-SLACK-PREFIX-689e1fe6",
+"depends_on"
+],
+[
+"Q2-ROUTE-FEED-PREFIX-1f6fe913",
+"Q2-ROUTE-SLACK-FEED-JOIN-f4fab905",
+"narrows"
+],
+[
+"K-MARKET-TIMING-EVENT-WINDOWS-58B8BD0B",
+"K05",
+"depends_on"
+],
+[
+"K-MARKET-TIMING-EVENT-WINDOWS-58B8BD0B",
+"K04",
+"depends_on"
+],
+[
+"K-MARKET-TIMING-EVENT-WINDOWS-58B8BD0B",
+"K-F02-DEPOSIT-PREFIX",
+"depends_on"
+],
+[
+"K-MARKET-TIMING-EVENT-WINDOWS-58B8BD0B",
+"K-SALE-ORDER-ASSIGNMENT",
+"depends_on"
+],
+[
+"K-MARKET-TIMING-EVENT-WINDOWS-58B8BD0B",
+"K-CASH-FLOW-PREFIX-834E2F40",
+"depends_on"
+],
+[
+"K-MARKET-TIMING-EVENT-WINDOWS-58B8BD0B",
+"K05",
+"corroborates"
+],
+[
+"K-PLOT-ORDER-TIMING-70b8b4fa",
+"K-PLOT-INCIDENT-DEADLINE-140c704c",
+"depends_on"
+],
+[
+"K-PLOT-ORDER-TIMING-70b8b4fa",
+"K01",
+"depends_on"
+],
+[
+"K-PLOT-ORDER-TIMING-70b8b4fa",
+"E1",
+"depends_on"
+],
+[
+"K-PLOT-ORDER-TIMING-70b8b4fa",
+"K04",
+"depends_on"
+],
+[
+"K-SALE-SLOTS-PRESERVED-MIXED-3d038faf",
+"K05",
+"depends_on"
+],
+[
+"K-SALE-SLOTS-PRESERVED-MIXED-3d038faf",
+"K04",
+"depends_on"
+],
+[
+"K-SALE-SLOTS-PRESERVED-MIXED-3d038faf",
+"K06",
+"depends_on"
+],
+[
+"K-SALE-SLOTS-PRESERVED-MIXED-3d038faf",
+"K-SALE-ORDER-ASSIGNMENT",
+"depends_on"
+],
+[
+"K08",
+"K07",
+"depends_on"
+],
+[
+"K-OPENING-CONVEX-PREFIX-CEFF9D96",
+"K-OPENING-TILE-PRICE-PREFIX-c26e60e0",
+"depends_on"
+],
+[
+"K-OPENING-CONVEX-PREFIX-CEFF9D96",
+"K-OPENING-COHORT-WATER-FRONTIER-23A9DC7C",
+"depends_on"
+],
+[
+"K-OPENING-CONVEX-PREFIX-CEFF9D96",
+"K-OPENING-TILE-PRICE-PREFIX-c26e60e0",
+"narrows"
+],
+[
+"K-DATED-PRODUCER-ALPHABET-FD47176A",
+"K-UNIT-ECONOMICS-ONE-TILE-v2",
+"depends_on"
+],
+[
+"K-DATED-PRODUCER-ALPHABET-FD47176A",
+"K-CASH-FLOW-PREFIX-834E2F40",
+"depends_on"
+],
+[
+"K-DATED-PRODUCER-ALPHABET-FD47176A",
+"Q2-OPENING-BASE-VALUE-RANK-BOUNDARY-b0b9c6cf",
+"depends_on"
+],
+[
+"K-DATED-PRODUCER-ALPHABET-FD47176A",
+"K-LIFECYCLE-COLUMNS-302",
+"depends_on"
+],
+[
+"K-DATED-PRODUCER-ALPHABET-FD47176A",
+"Q2-PORTFOLIO-HARVEST-PREFIX-BOUNDARY-9a63b04d",
+"depends_on"
+],
+[
+"K-DATED-PRODUCER-ALPHABET-FD47176A",
+"K-PORTFOLIO-TIMED-INPUT-PREFIX-e48ea15f",
+"depends_on"
+],
+[
+"K-DATED-PRODUCER-ALPHABET-FD47176A",
+"K-LIFECYCLE-COLUMNS-302",
+"corroborates"
+],
+[
+"K-DATED-PRODUCER-ALPHABET-FD47176A",
+"K-UNIT-ECONOMICS-ONE-TILE-v2",
+"narrows"
+],
+[
+"K-DATED-PRODUCER-ALPHABET-FD47176A",
+"Q2-PORTFOLIO-HARVEST-PREFIX-BOUNDARY-9a63b04d",
+"corroborates"
+],
+[
+"K-CYCLE-HARD-BUDGET-CONSENSUS",
+"K-CYCLE-HARD-BUDGET-PREFIX-3794D36C",
+"depends_on"
+],
+[
+"K-CYCLE-HARD-BUDGET-CONSENSUS",
+"K-CYCLE-BELIEF-HARD-BUDGET-4A5FACAA",
+"depends_on"
+],
+[
+"K-CYCLE-HARD-BUDGET-CONSENSUS",
+"K-BUDGET-FIRST-CYCLE-QUANTITY-7570F20E",
+"depends_on"
+],
+[
+"K-CYCLE-HARD-BUDGET-CONSENSUS",
+"K-CYCLE-BELIEF-SIZING-COMPOSITION",
+"depends_on"
+],
+[
+"K-CYCLE-HARD-BUDGET-CONSENSUS",
+"K-UNEQUAL-CYCLE-CONSENSUS",
+"depends_on"
+],
+[
+"K-CYCLE-HARD-BUDGET-CONSENSUS",
+"K-CYCLE-HARD-BUDGET-PREFIX-3794D36C",
+"corroborates"
+],
+[
+"K-CYCLE-HARD-BUDGET-CONSENSUS",
+"K-CYCLE-BELIEF-HARD-BUDGET-4A5FACAA",
+"corroborates"
+],
+[
+"K-CYCLE-HARD-BUDGET-CONSENSUS",
+"K-BUDGET-FIRST-CYCLE-QUANTITY-7570F20E",
+"corroborates"
+],
+[
+"K-CYCLE-HARD-BUDGET-CONSENSUS",
+"K-CYCLE-BELIEF-SIZING-COMPOSITION",
+"narrows"
+],
+[
+"K-ORACLE-TRIPLE-STATIC-BOUNDARY-8d8dcf0a",
+"K-SHOP-CONDITIONAL-QUOTIENT-31fc6393",
+"depends_on"
+],
+[
+"K-ORACLE-TRIPLE-STATIC-BOUNDARY-8d8dcf0a",
+"Q2-DEMAND-LAW-3C0F0F84",
+"depends_on"
+],
+[
+"K-ORACLE-TRIPLE-STATIC-BOUNDARY-8d8dcf0a",
+"K-MEASUREMENT-CONSUMER-1CFC3906",
+"depends_on"
+],
+[
+"K-ORACLE-TRIPLE-STATIC-BOUNDARY-8d8dcf0a",
+"K05",
+"depends_on"
+],
+[
+"K-ORACLE-TRIPLE-STATIC-BOUNDARY-8d8dcf0a",
+"K-PRODUCTWISE-HIDDEN-PATHS",
+"depends_on"
+],
+[
+"K-ORACLE-TRIPLE-STATIC-BOUNDARY-8d8dcf0a",
+"K-PORTFOLIO-TIMED-INPUT-PREFIX-e48ea15f",
+"depends_on"
+],
+[
+"K-ORACLE-TRIPLE-STATIC-BOUNDARY-8d8dcf0a",
+"Q2-PORTFOLIO-HARVEST-PREFIX-BOUNDARY-9a63b04d",
+"depends_on"
+],
+[
+"K-ORACLE-TRIPLE-STATIC-BOUNDARY-8d8dcf0a",
+"Q2-PORTFOLIO-BASE-PRICE-CROSS-PRODUCT-BOUNDARY-9010435f",
+"depends_on"
+],
+[
+"K-ORACLE-TRIPLE-STATIC-BOUNDARY-8d8dcf0a",
+"Q2-PORTFOLIO-BASE-PRICE-CROSS-PRODUCT-BOUNDARY-9010435f",
+"corroborates"
+],
+[
+"K-ORACLE-TRIPLE-STATIC-BOUNDARY-8d8dcf0a",
+"K-PORTFOLIO-TIMED-INPUT-PREFIX-e48ea15f",
+"narrows"
+],
+[
+"K-SHOP-CONTEXT-SUFFIX-3dfd4a22",
+"K07",
+"depends_on"
+],
+[
+"K-SHOP-CONTEXT-SUFFIX-3dfd4a22",
+"K-OPPONENT-SALE-ENVELOPE",
+"depends_on"
+],
+[
+"K-SHOP-CONTEXT-SUFFIX-3dfd4a22",
+"K-MENU-REGRET-05e00432",
+"depends_on"
+],
+[
+"K-ROUTE-ADMISSION",
+"K-INVENTORY-PREFIX",
+"depends_on"
+],
+[
+"K-ROUTE-ADMISSION",
+"K01",
+"depends_on"
+],
+[
+"K-ROUTE-ADMISSION",
+"E1",
+"depends_on"
+],
+[
+"K-ROUTE-ADMISSION",
+"K02",
+"corroborates"
+],
+[
+"K-ORDERED-CARE-ANCHOR-FRONTIER-22F589A9",
+"K-LABOR-NONADDITIVITY-31F8C4F4",
+"depends_on"
+],
+[
+"K-ORDERED-CARE-ANCHOR-FRONTIER-22F589A9",
+"K-ROUTED-DUTY-SETUP-COUNTDOWN-6EC15D57",
+"depends_on"
+],
+[
+"K-ORDERED-CARE-ANCHOR-FRONTIER-22F589A9",
+"K-PLOT-INCIDENT-DEADLINE-140c704c",
+"depends_on"
+],
+[
+"K-FUNDED-HAND-DAY-QUOTIENT-8C39B662",
+"K-UNIT-ECONOMICS-ONE-TILE",
+"depends_on"
+],
+[
+"K-FUNDED-HAND-DAY-QUOTIENT-8C39B662",
+"Q2-ROUTE-SLACK-PREFIX-689e1fe6",
+"depends_on"
+],
+[
+"K-FUNDED-HAND-DAY-QUOTIENT-8C39B662",
+"K-CASH-FLOW-PREFIX-834E2F40",
+"depends_on"
+],
+[
+"K-FUNDED-HAND-DAY-QUOTIENT-8C39B662",
+"Q2-CAPACITY-PREFIX-D9F18BDA",
+"depends_on"
+],
+[
+"K-FUNDED-HAND-DAY-QUOTIENT-8C39B662",
+"K-HANDS-CASH-COUPLED-COUNTEREXAMPLE",
+"depends_on"
+],
+[
+"K-FUNDED-HAND-DAY-QUOTIENT-8C39B662",
+"K-UNIT-ECONOMICS-ONE-TILE-v2",
+"depends_on"
+],
+[
+"K-FUNDED-HAND-DAY-QUOTIENT-8C39B662",
+"K-BIRTH-COHORT-VS-ELIGIBILITY",
+"depends_on"
+],
+[
+"K-FUNDED-HAND-DAY-QUOTIENT-8C39B662",
+"K-HANDS-CASH-COUPLED-COUNTEREXAMPLE",
+"corroborates"
+],
+[
+"K-MENU-REGRET-05e00432",
+"K07",
+"depends_on"
+],
+[
+"K-MENU-REGRET-05e00432",
+"K02",
+"depends_on"
+],
+[
+"K-MENU-REGRET-05e00432",
+"K07",
+"corroborates"
+],
+[
+"K-MENU-REGRET-05e00432",
+"K02",
+"corroborates"
+],
+[
+"K-OPENING-WATER-NEGATIVE-MARGINAL-CLAMP-4e1ded4b",
+"K-OPENING-NEUTRAL-WATER-FRONTIER-3D575402",
+"depends_on"
+],
+[
+"K-OPENING-WATER-NEGATIVE-MARGINAL-CLAMP-4e1ded4b",
+"K-OPENING-TILE-PRICE-PREFIX-c26e60e0",
+"depends_on"
+],
+[
+"K-OPENING-WATER-NEGATIVE-MARGINAL-CLAMP-4e1ded4b",
+"K-OPENING-WATER-FRONTIER-CONSENSUS",
+"depends_on"
+],
+[
+"K-OPENING-WATER-NEGATIVE-MARGINAL-CLAMP-4e1ded4b",
+"K-OPENING-CASH-MONOID-cb74c089",
+"depends_on"
+],
+[
+"K-OPENING-WATER-NEGATIVE-MARGINAL-CLAMP-4e1ded4b",
+"K-OPENING-TILE-PRICE-PREFIX-c26e60e0",
+"narrows"
+],
+[
+"K-OPENING-WATER-NEGATIVE-MARGINAL-CLAMP-4e1ded4b",
+"K-OPENING-NEUTRAL-WATER-FRONTIER-3D575402",
+"narrows"
+],
+[
+"F02-ORDER-JOIN",
+"F02-CAPACITY-PREFIX",
+"depends_on"
+],
+[
+"K09",
+"K03",
+"depends_on"
+],
+[
+"K-HARVEST-FIRST-OCCURRENCE-d0915e30",
+"K-UNIT-ECONOMICS-ONE-TILE-v2",
+"depends_on"
+],
+[
+"K-HARVEST-FIRST-OCCURRENCE-d0915e30",
+"TILE-CLOCK-0d19d28f",
+"depends_on"
+],
+[
+"K-HARVEST-FIRST-OCCURRENCE-d0915e30",
+"K-MARKET-TIMING-EVENT-WINDOWS-58B8BD0B",
+"depends_on"
+],
+[
+"K-HARVEST-FIRST-OCCURRENCE-d0915e30",
+"K-F02-DEPOSIT-PREFIX",
+"depends_on"
+],
+[
+"K-HARVEST-FIRST-OCCURRENCE-d0915e30",
+"K-SALE-ORDER-ASSIGNMENT",
+"depends_on"
+],
+[
+"K-HARVEST-FIRST-OCCURRENCE-d0915e30",
+"K-INVENTORY-VALUE-PREFIX-DP",
+"depends_on"
+],
+[
+"K-HARVEST-FIRST-OCCURRENCE-d0915e30",
+"K-HARVEST-FIRST-APPEARANCE-cf6b04bf",
+"corroborates"
+],
+[
+"K-LOCAL-CASH-DOES-NOT-RANK-HOSTED-RATING",
+"K-OUR-BEST-HOSTED-ARTIFACT-LEARNS-NOTHING",
+"corroborates"
+],
+[
+"K-V0-FIRST-DIVERGENCE-IS-OPTIMIZATION",
+"K-V0-OVERFIT-BATCH32-EQUALS-BATCH4-AT-512",
+"narrows"
+],
+[
+"K-RIVAL-SOLO-FLOW-SALE-SHIFT-CG01",
+"K-ISOLATED-NET-TRADE-f57bec73",
+"depends_on"
+],
+[
+"K-RIVAL-SOLO-FLOW-SALE-SHIFT-CG01",
+"K-LOCKSTEP-CLOSED-CYCLE-MINT",
+"depends_on"
+],
+[
+"K-RIVAL-SOLO-FLOW-SALE-SHIFT-CG01",
+"K-TIMED-RECEIPT-RECURRENCE",
+"depends_on"
+],
+[
+"K-RIVAL-SOLO-FLOW-SALE-SHIFT-CG01",
+"K-ISOLATED-NET-TRADE-f57bec73",
+"narrows"
+],
+[
+"K-RIVAL-SOLO-FLOW-SALE-SHIFT-CG01",
+"K-LOCKSTEP-CLOSED-CYCLE-MINT",
+"corroborates"
+],
+[
+"Q2-OPENING-SNAPSHOT-FIBONACCI-FIBERS-e27afd3a",
+"Q2-OPENING-HISTORY-ALPHABET-55-b9a6c7b4",
+"depends_on"
+],
+[
+"Q2-OPENING-SNAPSHOT-FIBONACCI-FIBERS-e27afd3a",
+"Q2-OPENING-BIRTH-STOCK-FLOW-706F0E61",
+"depends_on"
+],
+[
+"Q2-OPENING-SNAPSHOT-FIBONACCI-FIBERS-e27afd3a",
+"Q2-OPENING-GENERATION-ACCOUNTING-2A4F60AD",
+"depends_on"
+],
+[
+"Q2-OPENING-SNAPSHOT-FIBONACCI-FIBERS-e27afd3a",
+"Q2-OPENING-HISTORY-ALPHABET-55-b9a6c7b4",
+"narrows"
+],
+[
+"Q2-OPENING-SNAPSHOT-FIBONACCI-FIBERS-e27afd3a",
+"Q2-OPENING-BIRTH-STOCK-FLOW-706F0E61",
+"corroborates"
+],
+[
+"K-SHEEP-RESERVE-500-DISCRETIONARY-COUNTEREXAMPLE",
+"LAST-DAY-QUOTIENT-30090398",
+"depends_on"
+],
+[
+"K-SHEEP-RESERVE-500-DISCRETIONARY-COUNTEREXAMPLE",
+"K-LOCKSTEP-CLOSED-CYCLE-MINT",
+"depends_on"
+],
+[
+"K-SHEEP-RESERVE-500-DISCRETIONARY-COUNTEREXAMPLE",
+"K-LAND-GATE-LADDER-PANEL",
+"depends_on"
+],
+[
+"K-SHEEP-RESERVE-500-DISCRETIONARY-COUNTEREXAMPLE",
+"K-IGNORANCE-STOPPING",
+"depends_on"
+],
+[
+"K-SHEEP-RESERVE-500-DISCRETIONARY-COUNTEREXAMPLE",
+"K-LEADER-STRATEGY-SAMPLE-CONSENSUS",
+"depends_on"
+],
+[
+"K-V0-CANONICAL-KEY-LIKELIHOOD",
+"K-V0-COMPILER-ROUND-TRIP",
+"depends_on"
+],
+[
+"K-V0-CANONICAL-KEY-LIKELIHOOD",
+"K-V0-COMPILER-ROUND-TRIP",
+"narrows"
+],
+[
+"K-ANIMAL-UPKEEP-BLOCK-QUOTIENT-b1815f80",
+"K-PLOT-INCIDENT-DEADLINE-140c704c",
+"depends_on"
+],
+[
+"K-ANIMAL-UPKEEP-BLOCK-QUOTIENT-b1815f80",
+"K-UNIT-ECONOMICS-ONE-TILE-v2",
+"depends_on"
+],
+[
+"K-ANIMAL-UPKEEP-BLOCK-QUOTIENT-b1815f80",
+"E1",
+"depends_on"
+],
+[
+"K-ANIMAL-UPKEEP-BLOCK-QUOTIENT-b1815f80",
+"K-PLOT-ORDER-ENDPOINT-432c85ef",
+"depends_on"
+],
+[
+"K-ANIMAL-UPKEEP-BLOCK-QUOTIENT-b1815f80",
+"K-F02-DEPOSIT-PREFIX",
+"depends_on"
+],
+[
+"K-ANIMAL-UPKEEP-BLOCK-QUOTIENT-b1815f80",
+"K-ORDER-HASH",
+"depends_on"
+],
+[
+"K-ANIMAL-UPKEEP-BLOCK-QUOTIENT-b1815f80",
+"E1",
+"corroborates"
+],
+[
+"Q2-HARVEST-PREFIX-E3E4ADF1",
+"K-UNIT-ECONOMICS-ONE-TILE",
+"depends_on"
+],
+[
+"Q2-HARVEST-PREFIX-E3E4ADF1",
+"K-UNIT-ECONOMICS-ONE-TILE-v2",
+"depends_on"
+],
+[
+"Q2-HARVEST-PREFIX-E3E4ADF1",
+"Q2-ROUTE-SLACK-PREFIX-689e1fe6",
+"depends_on"
+],
+[
+"Q2-HARVEST-PREFIX-E3E4ADF1",
+"K-CASH-FLOW-PREFIX-834E2F40",
+"depends_on"
+],
+[
+"Q2-HARVEST-PREFIX-E3E4ADF1",
+"Q2-CAPACITY-PREFIX-D9F18BDA",
+"depends_on"
+],
+[
+"Q2-HARVEST-PREFIX-E3E4ADF1",
+"Q2-CAPACITY-PREFIX-D9F18BDA",
+"corroborates"
+],
+[
+"K-HIRE-TIMING-DB7C166D",
+"K-FUNDED-HAND-DAY-QUOTIENT-8C39B662",
+"depends_on"
+],
+[
+"K-HIRE-TIMING-DB7C166D",
+"K-CASH-FLOW-PREFIX-834E2F40",
+"depends_on"
+],
+[
+"K-HIRE-TIMING-DB7C166D",
+"Q2-CAPACITY-PREFIX-D9F18BDA",
+"depends_on"
+],
+[
+"K-DISPATCH-ORDER-PRECEDENCE-84861D38",
+"Q2-HARVEST-PREFIX-E3E4ADF1",
+"depends_on"
+],
+[
+"K-MIXTURE-CDF-fe41f29a",
+"K-KEEP-CDF-6ad5677e",
+"depends_on"
+],
+[
+"K-MIXTURE-CDF-fe41f29a",
+"K07",
+"depends_on"
+],
+[
+"K-MIXTURE-CDF-fe41f29a",
+"K02",
+"depends_on"
+],
+[
+"K-MIXTURE-CDF-fe41f29a",
+"K-MENU-REGRET-05e00432",
+"depends_on"
+],
+[
+"K-MIXTURE-CDF-fe41f29a",
+"K-KEEP-CDF-6ad5677e",
+"narrows"
+],
+[
+"K-MIXTURE-CDF-fe41f29a",
+"K07",
+"corroborates"
+],
+[
+"K-MIXTURE-CDF-fe41f29a",
+"K02",
+"corroborates"
+],
+[
+"K-MIXTURE-CDF-fe41f29a",
+"K-MENU-REGRET-05e00432",
+"corroborates"
+],
+[
+"K-DEMAND-FLOW-FRONTIER-e6a13945",
+"Q2-TERMINAL-JOIN-4F5DE3C1",
+"depends_on"
+],
+[
+"K-DEMAND-FLOW-FRONTIER-e6a13945",
+"K-UNIT-ECONOMICS-ONE-TILE",
+"depends_on"
+],
+[
+"K-DEMAND-FLOW-FRONTIER-e6a13945",
+"K05",
+"depends_on"
+],
+[
+"K-PLOT-ORDER-ENDPOINT-432c85ef",
+"K-PLOT-INCIDENT-DEADLINE-140c704c",
+"depends_on"
+],
+[
+"K-PLOT-ORDER-ENDPOINT-432c85ef",
+"K01",
+"depends_on"
+],
+[
+"K-PLOT-ORDER-ENDPOINT-432c85ef",
+"E1",
+"depends_on"
+],
+[
+"K-PLOT-ORDER-ENDPOINT-432c85ef",
+"K04",
+"depends_on"
+],
+[
+"Q2-ROUTE-SLACK-FEED-JOIN-f4fab905",
+"Q2-ROUTE-SLACK-PREFIX-689e1fe6",
+"depends_on"
+],
+[
+"Q2-ROUTE-SLACK-FEED-JOIN-f4fab905",
+"Q2-ROUTE-SLACK-PREFIX-689e1fe6",
+"narrows"
+],
+[
+"E2",
+"E1",
+"depends_on"
+],
+[
+"K-LAND-PAIR-GAP-DIAGONAL-8C3CFF02",
+"K-LAND-GAP-SIGNATURE-CONSENSUS",
+"depends_on"
+],
+[
+"K-LAND-PAIR-GAP-DIAGONAL-8C3CFF02",
+"K-LAND-GAP-INCIDENCE-CAPACITY-ac65e881",
+"depends_on"
+],
+[
+"K-LAND-PAIR-GAP-DIAGONAL-8C3CFF02",
+"PLOT-d1b96c74-RECTANGLE",
+"depends_on"
+],
+[
+"V0-BACKSOLVE-EXACT-WINDOW-LABELS-6F1C2A90",
+"LAST-DAY-QUOTIENT-30090398",
+"depends_on"
+],
+[
+"V0-BACKSOLVE-EXACT-WINDOW-LABELS-6F1C2A90",
+"K-CALENDAR-719",
+"depends_on"
+],
+[
+"V0-BACKSOLVE-EXACT-WINDOW-LABELS-6F1C2A90",
+"H8-CONTINUATION-BOUNDARY-52BD7AD6",
+"depends_on"
+],
+[
+"V0-BACKSOLVE-EXACT-WINDOW-LABELS-6F1C2A90",
+"K-EPOCH-PREFIX-TAIL-REPRESENTATION",
+"depends_on"
+],
+[
+"V0-BACKSOLVE-EXACT-WINDOW-LABELS-6F1C2A90",
+"K-CONTINUATION-RANK-SCALAR-BOUNDARY-5D7771E7",
+"depends_on"
+],
+[
+"V0-BACKSOLVE-EXACT-WINDOW-LABELS-6F1C2A90",
+"K-V0-COMPILER-REPAIRS",
+"depends_on"
+],
+[
+"V0-BACKSOLVE-EXACT-WINDOW-LABELS-6F1C2A90",
+"V0-BACKSOLVE-HOLD-CUT-BCBFFB5D",
+"depends_on"
+],
+[
+"K-LOCKSTEP-CLOSED-CYCLE-MINT",
+"K-ISOLATED-NET-TRADE-f57bec73",
+"depends_on"
+],
+[
+"K-LOCKSTEP-CLOSED-CYCLE-MINT",
+"K-MARKET-PRIMITIVES-EXPOSED",
+"depends_on"
+],
+[
+"K-LOCKSTEP-CLOSED-CYCLE-MINT",
+"K-TIMED-RECEIPT-RECURRENCE",
+"depends_on"
+],
+[
+"K-LOCKSTEP-CLOSED-CYCLE-MINT",
+"K-MARKET-CARRY-SUPPLY-QUOTIENT-9d3a316d",
+"depends_on"
+],
+[
+"K-LOCKSTEP-CLOSED-CYCLE-MINT",
+"K-ISOLATED-NET-TRADE-f57bec73",
+"narrows"
+],
+[
+"K-LOCKSTEP-CLOSED-CYCLE-MINT",
+"K-MARKET-PRIMITIVES-EXPOSED",
+"corroborates"
+],
+[
+"Q2-CONDITIONAL-RECEIPT-CURVES-89514659",
+"Q2-DEMAND-LAW-3C0F0F84",
+"depends_on"
+],
+[
+"Q2-CONDITIONAL-RECEIPT-CURVES-89514659",
+"K-OPPONENT-SALE-ENVELOPE",
+"depends_on"
+],
+[
+"Q2-CONDITIONAL-RECEIPT-CURVES-89514659",
+"K-UNIT-ECONOMICS-ONE-TILE-v2",
+"depends_on"
+],
+[
+"Q2-CONDITIONAL-RECEIPT-CURVES-89514659",
+"K05",
+"depends_on"
+],
+[
+"Q2-CONDITIONAL-RECEIPT-CURVES-89514659",
+"Q2-PORTFOLIO-BASE-PRICE-CROSS-PRODUCT-BOUNDARY-9010435f",
+"depends_on"
+],
+[
+"Q2-CONDITIONAL-RECEIPT-CURVES-89514659",
+"K-MARGINAL-RELAXATION-TOPOLOGY",
+"depends_on"
+],
+[
+"Q2-CONDITIONAL-RECEIPT-CURVES-89514659",
+"K-PRODUCTWISE-HIDDEN-PATHS",
+"depends_on"
+],
+[
+"Q2-CONDITIONAL-RECEIPT-CURVES-89514659",
+"K-MARGINAL-RELAXATION-TOPOLOGY",
+"narrows"
+],
+[
+"Q2-CONDITIONAL-RECEIPT-CURVES-89514659",
+"Q2-DEMAND-LAW-3C0F0F84",
+"corroborates"
+],
+[
+"K-UNEQUAL-LOCKSTEP-MARGIN-4287B312",
+"K-LOCKSTEP-CLOSED-CYCLE-MINT",
+"depends_on"
+],
+[
+"K-UNEQUAL-LOCKSTEP-MARGIN-4287B312",
+"K-SAME-SLOT-SATURATION-735E828B",
+"depends_on"
+],
+[
+"K-UNEQUAL-LOCKSTEP-MARGIN-4287B312",
+"K-MARKET-CASH-CONTROL-CURVE",
+"depends_on"
+],
+[
+"K-V0-TRAINING-TARGET-PREFIX-CLASSES",
+"K-V0-SUCCESSOR-QUOTIENT-2170AD2D",
+"depends_on"
+],
+[
+"K-V0-TRAINING-TARGET-PREFIX-CLASSES",
+"K-V0-EDIT-SET-PARTITION-DP-8E668688",
+"depends_on"
+],
+[
+"K-V0-TRAINING-TARGET-PREFIX-CLASSES",
+"K-V0-CANONICAL-KEY-LIKELIHOOD",
+"depends_on"
+],
+[
+"K-V0-TRAINING-TARGET-PREFIX-CLASSES",
+"K-V0-TRAINING-TARGET-COMPOSITION",
+"depends_on"
+],
+[
+"K-V0-TRAINING-TARGET-PREFIX-CLASSES",
+"K-V0-TRAINING-TARGET-COMPOSITION",
+"supersedes"
+],
+[
+"K-V0-TRAINING-TARGET-PREFIX-CLASSES",
+"K-V0-EDIT-SET-PARTITION-DP-8E668688",
+"narrows"
+],
+[
+"K-V0-TRAINING-TARGET-PREFIX-CLASSES",
+"K-V0-SUCCESSOR-QUOTIENT-2170AD2D",
+"corroborates"
+],
+[
+"K-CHAIN-CHOICE-HIRE-CUTOFF-B9B1111E",
+"K-CHAIN-CALENDAR-DOMINANCE-CONSENSUS",
+"depends_on"
+],
+[
+"K-CHAIN-CHOICE-HIRE-CUTOFF-B9B1111E",
+"K-CHAIN-HIRE-PREFIX-47934707",
+"depends_on"
+],
+[
+"K-CHAIN-CHOICE-HIRE-CUTOFF-B9B1111E",
+"K-ANCHORED-CHAIN-CALENDAR-F2A9949C",
+"depends_on"
+],
+[
+"Q2-ROUTE-SLACK-PREFIX-689e1fe6",
+"K01",
+"depends_on"
+],
+[
+"Q2-ROUTE-SLACK-PREFIX-689e1fe6",
+"F02-ROUTING-REALIZATION",
+"depends_on"
+],
+[
+"Q2-ROUTE-SLACK-PREFIX-689e1fe6",
+"K-F02-ROUTING-CUSTODY",
+"depends_on"
+],
+[
+"Q2-ROUTE-SLACK-PREFIX-689e1fe6",
+"K-F02-ROUTING-CUSTODY",
+"corroborates"
+],
+[
+"K-CONTINUATION-RANK-SCALAR-BOUNDARY-5D7771E7",
+"H8-CONTINUATION-BOUNDARY-52BD7AD6",
+"depends_on"
+],
+[
+"K-CONTINUATION-RANK-SCALAR-BOUNDARY-5D7771E7",
+"K-CALENDAR-719",
+"depends_on"
+],
+[
+"K-CONTINUATION-RANK-SCALAR-BOUNDARY-5D7771E7",
+"K05",
+"depends_on"
+],
+[
+"K-CONTINUATION-RANK-SCALAR-BOUNDARY-5D7771E7",
+"Q2-OPENING-BASE-VALUE-RANK-BOUNDARY-b0b9c6cf",
+"depends_on"
+],
+[
+"K-CONTINUATION-RANK-SCALAR-BOUNDARY-5D7771E7",
+"H8-CONTINUATION-BOUNDARY-52BD7AD6",
+"corroborates"
+],
+[
+"K-CONTINUATION-RANK-SCALAR-BOUNDARY-5D7771E7",
+"Q2-OPENING-BASE-VALUE-RANK-BOUNDARY-b0b9c6cf",
+"corroborates"
+],
+[
+"K-INVENTORY-VALUE-PREFIX-DP",
+"K-F02-DEPOSIT-PREFIX",
+"depends_on"
+],
+[
+"K-INVENTORY-VALUE-PREFIX-DP",
+"K05",
+"depends_on"
+],
+[
+"K-INVENTORY-VALUE-PREFIX-DP",
+"K-F02-DEPOSIT-PREFIX",
+"corroborates"
+],
+[
+"K-INVENTORY-VALUE-PREFIX-DP",
+"K05",
+"corroborates"
+],
+[
+"K-LABOR-BUNDLE-ENDPOINT-4FBF2230",
+"K-LABOR-INTERVAL-22A8C6E5",
+"depends_on"
+],
+[
+"K-LABOR-BUNDLE-ENDPOINT-4FBF2230",
+"K-HIRE-TIMING-DB7C166D",
+"depends_on"
+],
+[
+"K-LABOR-BUNDLE-ENDPOINT-4FBF2230",
+"Q2-CAPACITY-PREFIX-D9F18BDA",
+"depends_on"
+],
+[
+"K-V0-BC-INTERFACE-SMOKE",
+"K-V0-TRAINING-TARGET-PREFIX-CLASSES",
+"depends_on"
+],
+[
+"K-V0-BC-INTERFACE-SMOKE",
+"K-V0-CANONICAL-KEY-LIKELIHOOD",
+"depends_on"
+],
+[
+"K-CHAIN-CALENDAR-CONTINUATION-ORDER-12CF71E5",
+"K-ANCHORED-CHAIN-CALENDAR-F2A9949C",
+"depends_on"
+],
+[
+"K-CHAIN-CALENDAR-CONTINUATION-ORDER-12CF71E5",
+"K-CHAIN-HIRE-PREFIX-47934707",
+"depends_on"
+],
+[
+"K-CHAIN-CALENDAR-CONTINUATION-ORDER-12CF71E5",
+"K-ROUTED-DUTY-SETUP-COUNTDOWN-6EC15D57",
+"depends_on"
+],
+[
+"K-CHAIN-CALENDAR-CONTINUATION-ORDER-12CF71E5",
+"K-ORDERED-CARE-ANCHOR-FRONTIER-22F589A9",
+"depends_on"
+],
+[
+"COVERAGE-MENU-PARTITION-c552647c",
+"K07",
+"depends_on"
+],
+[
+"COVERAGE-MENU-PARTITION-c552647c",
+"K02",
+"depends_on"
+],
+[
+"COVERAGE-MENU-PARTITION-c552647c",
+"CE-COTANGENT-SUFFICIENCY",
+"corroborates"
+],
+[
+"COVERAGE-MENU-PARTITION-c552647c",
+"CHOICE-GRADIENT-GAP",
+"narrows"
+],
+[
+"COVERAGE-MENU-PARTITION-c552647c",
+"OPTIMIZER-RESPONSE-BOUND",
+"narrows"
+],
+[
+"K-OPENING-CASH-MONOID-cb74c089",
+"K-CASH-FLOW-PREFIX-834E2F40",
+"depends_on"
+],
+[
+"K-OPENING-CASH-MONOID-cb74c089",
+"K-OPENING-GENERATION-CONSENSUS",
+"depends_on"
+],
+[
+"K-OPENING-CASH-MONOID-cb74c089",
+"K-OPENING-BIRTH-FLOW-f7473233",
+"depends_on"
+],
+[
+"K-OPENING-CASH-MONOID-cb74c089",
+"Q2-OPENING-SNAPSHOT-FIBONACCI-FIBERS-e27afd3a",
+"depends_on"
+],
+[
+"K-OPENING-CASH-MONOID-cb74c089",
+"K-CASH-FLOW-PREFIX-834E2F40",
+"narrows"
+],
+[
+"K-OPENING-CASH-MONOID-cb74c089",
+"Q2-OPENING-SNAPSHOT-FIBONACCI-FIBERS-e27afd3a",
+"corroborates"
+],
+[
+"K-MARKET-FULL-FILL-CANONICAL-CC3ED17F",
+"K-SALE-SLOTS-PRESERVED-MIXED-3d038faf",
+"depends_on"
+],
+[
+"K-MARKET-FULL-FILL-CANONICAL-CC3ED17F",
+"K-CASH-FLOW-PREFIX-834E2F40",
+"depends_on"
+],
+[
+"K-MARKET-FULL-FILL-CANONICAL-CC3ED17F",
+"K-SALE-ORDER-ASSIGNMENT",
+"depends_on"
+],
+[
+"K-INVENTORY-CUTOFF",
+"K-INVENTORY-PREFIX",
+"depends_on"
+],
+[
+"K-CYCLE-HARD-BUDGET-PREFIX-3794D36C",
+"K-CYCLE-BELIEF-SIZING-COMPOSITION",
+"depends_on"
+],
+[
+"K-CYCLE-HARD-BUDGET-PREFIX-3794D36C",
+"K-UNEQUAL-CYCLE-CONSENSUS",
+"depends_on"
+],
+[
+"K-CYCLE-HARD-BUDGET-PREFIX-3794D36C",
+"K-UNEQUAL-CYCLE-FIVE-RESIDUES-46EF2049",
+"depends_on"
+],
+[
+"K-CYCLE-HARD-BUDGET-PREFIX-3794D36C",
+"K-CYCLE-BELIEF-CAPITAL-HULL-7E02F4E7",
+"depends_on"
+],
+[
+"K-CYCLE-HARD-BUDGET-PREFIX-3794D36C",
+"K-CYCLE-BELIEF-SIZING-COMPOSITION",
+"narrows"
+],
+[
+"K-CYCLE-HARD-BUDGET-PREFIX-3794D36C",
+"K-CYCLE-BELIEF-CAPITAL-HULL-7E02F4E7",
+"corroborates"
+],
+[
+"K-CYCLE-BELIEF-SIZING-COMPOSITION",
+"K-MARKET-BELIEF-ENVELOPE-6581FF80",
+"depends_on"
+],
+[
+"K-CYCLE-BELIEF-SIZING-COMPOSITION",
+"K-CYCLE-BELIEF-CAPITAL-HULL-7E02F4E7",
+"depends_on"
+],
+[
+"K-CYCLE-BELIEF-SIZING-COMPOSITION",
+"K-CYCLE-BELIEF-CELLS-89E57C70",
+"depends_on"
+],
+[
+"K-CYCLE-BELIEF-SIZING-COMPOSITION",
+"K-UNEQUAL-CYCLE-FIVE-RESIDUES-46EF2049",
+"depends_on"
+],
+[
+"K-CYCLE-BELIEF-SIZING-COMPOSITION",
+"K-UNEQUAL-LOCKSTEP-MARGIN-4287B312",
+"depends_on"
+],
+[
+"K-CYCLE-BELIEF-SIZING-COMPOSITION",
+"K-MARKET-BELIEF-ENVELOPE-6581FF80",
+"corroborates"
+],
+[
+"K-CYCLE-BELIEF-SIZING-COMPOSITION",
+"K-CYCLE-BELIEF-CAPITAL-HULL-7E02F4E7",
+"corroborates"
+],
+[
+"K-CYCLE-BELIEF-SIZING-COMPOSITION",
+"K-CYCLE-BELIEF-CELLS-89E57C70",
+"corroborates"
+],
+[
+"K-CYCLE-BELIEF-SIZING-COMPOSITION",
+"K-UNEQUAL-CYCLE-FIVE-RESIDUES-46EF2049",
+"narrows"
+],
+[
+"K-HOLD-DEMAND-CUT-886902AA",
+"K-ISOLATED-NET-TRADE-f57bec73",
+"depends_on"
+],
+[
+"K-HOLD-DEMAND-CUT-886902AA",
+"K-MARKET-CARRY-SUPPLY-QUOTIENT-9d3a316d",
+"depends_on"
+],
+[
+"K-HOLD-DEMAND-CUT-886902AA",
+"K-TIMED-RECEIPT-RECURRENCE",
+"depends_on"
+],
+[
+"K-HOLD-DEMAND-CUT-886902AA",
+"K-MARKET-CASH-CONTROL-CURVE",
+"depends_on"
+],
+[
+"K-CYCLE-BELIEF-CAPITAL-HULL-7E02F4E7",
+"K-UNEQUAL-LOCKSTEP-MARGIN-4287B312",
+"depends_on"
+],
+[
+"K-CYCLE-BELIEF-CAPITAL-HULL-7E02F4E7",
+"K-MARKET-CAPITAL-HULL-e28d9560",
+"depends_on"
+],
+[
+"K-CYCLE-BELIEF-CAPITAL-HULL-7E02F4E7",
+"K-SAME-SLOT-CAPITAL-HULL-COMPOSITION",
+"depends_on"
+],
+[
+"K-CYCLE-BELIEF-CAPITAL-HULL-7E02F4E7",
+"K-UNEQUAL-LOCKSTEP-MARGIN-4287B312",
+"narrows"
+],
+[
+"K-CYCLE-BELIEF-CAPITAL-HULL-7E02F4E7",
+"K-SAME-SLOT-CAPITAL-HULL-COMPOSITION",
+"corroborates"
+],
+[
+"K-CHOICE-BOUNDARY-4351dc47",
+"CE-COTANGENT-SUFFICIENCY",
+"depends_on"
+],
+[
+"K-CHOICE-BOUNDARY-4351dc47",
+"CHOICE-GRADIENT-GAP",
+"depends_on"
+],
+[
+"K-CHOICE-BOUNDARY-4351dc47",
+"K07",
+"depends_on"
+],
+[
+"K-CHOICE-BOUNDARY-4351dc47",
+"K02",
+"depends_on"
+],
+[
+"K-CHOICE-BOUNDARY-4351dc47",
+"OPTIMIZER-RESPONSE-BOUND",
+"depends_on"
+],
+[
+"K-CHOICE-BOUNDARY-4351dc47",
+"OPTIMIZER-RESPONSE-BOUND",
+"narrows"
+],
+[
+"K-CHOICE-BOUNDARY-4351dc47",
+"CHOICE-GRADIENT-GAP",
+"corroborates"
+],
+[
+"K-CHOICE-BOUNDARY-4351dc47",
+"K07",
+"corroborates"
+],
+[
+"K-CHOICE-BOUNDARY-4351dc47",
+"K02",
+"corroborates"
+],
+[
+"K-HIRE-SALE-LIQUIDITY-DOMINANCE-bf982f19",
+"K-PREFUNDED-HIRE-SALE-QUEUE-QUOTIENT-CG03",
+"depends_on"
+],
+[
+"K-HIRE-SALE-LIQUIDITY-DOMINANCE-bf982f19",
+"K-PHASE-CANONICAL-LIQUIDITY-COMPOSITION",
+"depends_on"
+],
+[
+"K-OPENING-TILE-PRICE-PREFIX-c26e60e0",
+"K-OPENING-COHORT-WATER-FRONTIER-23A9DC7C",
+"depends_on"
+],
+[
+"K-OPENING-TILE-PRICE-PREFIX-c26e60e0",
+"K-OPENING-NEUTRAL-WATER-FRONTIER-3D575402",
+"depends_on"
+],
+[
+"K-OPENING-TILE-PRICE-PREFIX-c26e60e0",
+"K-OPENING-GENERATION-CONSENSUS",
+"depends_on"
+],
+[
+"K-ONE-STEP-EARLIER-LAND-DOES-NOT-PAY",
+"K-EARLY-LAND-SHIFT-FAILS-ON-CASH",
+"depends_on"
+],
+[
+"K-LOCKSTEP-PIGGYBACK-MARGIN-ADFEDFD0",
+"K-LOCKSTEP-CLOSED-CYCLE-MINT",
+"depends_on"
+],
+[
+"K-LOCKSTEP-PIGGYBACK-MARGIN-ADFEDFD0",
+"K-SAME-SLOT-SATURATION-735E828B",
+"depends_on"
+],
+[
+"K-LOCKSTEP-PIGGYBACK-MARGIN-ADFEDFD0",
+"K-ISOLATED-NET-TRADE-f57bec73",
+"depends_on"
+],
+[
+"K-KEEP-SUPPORT-2891e227",
+"K-KEEP-CDF-6ad5677e",
+"depends_on"
+],
+[
+"K-KEEP-SUPPORT-2891e227",
+"K07",
+"depends_on"
+],
+[
+"K-KEEP-SUPPORT-2891e227",
+"K02",
+"depends_on"
+],
+[
+"K-KEEP-SUPPORT-2891e227",
+"K-MENU-REGRET-05e00432",
+"depends_on"
+],
+[
+"K-KEEP-SUPPORT-2891e227",
+"K-KEEP-CDF-6ad5677e",
+"narrows"
+],
+[
+"K-KEEP-SUPPORT-2891e227",
+"K07",
+"corroborates"
+],
+[
+"K05",
+"K04",
+"depends_on"
+],
+[
+"K-OPENING-GENERATION-CONSENSUS",
+"Q2-OPENING-BIRTH-STOCK-FLOW-706F0E61",
+"depends_on"
+],
+[
+"K-OPENING-GENERATION-CONSENSUS",
+"Q2-OPENING-GENERATION-ACCOUNTING-2A4F60AD",
+"depends_on"
+],
+[
+"K-OPENING-GENERATION-CONSENSUS",
+"K-BIRTH-COHORT-VS-ELIGIBILITY",
+"depends_on"
+],
+[
+"K-OPENING-GENERATION-CONSENSUS",
+"K-UNIT-ECONOMICS-ONE-TILE",
+"depends_on"
+],
+[
+"K-OPENING-GENERATION-CONSENSUS",
+"Q2-OPENING-BIRTH-STOCK-FLOW-706F0E61",
+"corroborates"
+],
+[
+"K-OPENING-GENERATION-CONSENSUS",
+"Q2-OPENING-GENERATION-ACCOUNTING-2A4F60AD",
+"corroborates"
+],
+[
+"K-OPENING-GENERATION-CONSENSUS",
+"K-BIRTH-COHORT-VS-ELIGIBILITY",
+"narrows"
+],
+[
+"K-MARKET-MIXED-NET-CARRY-e0954521",
+"K-MARKET-CARRY-SUPPLY-QUOTIENT-9d3a316d",
+"depends_on"
+],
+[
+"K-MARKET-MIXED-NET-CARRY-e0954521",
+"K-ISOLATED-NET-TRADE-f57bec73",
+"depends_on"
+],
+[
+"K-MARKET-MIXED-NET-CARRY-e0954521",
+"K-MARKET-CARRY-SUPPLY-QUOTIENT-9d3a316d",
+"narrows"
+],
+[
+"Q2-FINAL-HELD-BOUND-7e18c291",
+"Q2-OPENING-FEED-CASH-CUT",
+"narrows"
+],
+[
+"Q2-FINAL-HELD-BOUND-7e18c291",
+"K05",
+"corroborates"
+],
+[
+"Q2-FINAL-HELD-BOUND-7e18c291",
+"Q2-SALE-CUSTODY-B2FCF84D",
+"corroborates"
+],
+[
+"K-CONVERSION-FLOW-CUTS-1a4047de",
+"K-FUNDED-HAND-DAY-QUOTIENT-8C39B662",
+"depends_on"
+],
+[
+"K-CONVERSION-FLOW-CUTS-1a4047de",
+"Q2-HARVEST-PREFIX-E3E4ADF1",
+"depends_on"
+],
+[
+"K-CONVERSION-FLOW-CUTS-1a4047de",
+"K-BIRTH-COHORT-VS-ELIGIBILITY",
+"depends_on"
+],
+[
+"K-CONVERSION-FLOW-CUTS-1a4047de",
+"K-HANDS-CASH-COUPLED-COUNTEREXAMPLE",
+"depends_on"
+],
+[
+"K-CONVERSION-FLOW-CUTS-1a4047de",
+"K-PORTFOLIO-TIMED-INPUT-PREFIX-e48ea15f",
+"depends_on"
+],
+[
+"K-OPPONENT-SIGNED-35e91a9e",
+"K04",
+"depends_on"
+],
+[
+"K-OPPONENT-SIGNED-35e91a9e",
+"K05",
+"depends_on"
+],
+[
+"K-OPPONENT-SIGNED-35e91a9e",
+"K06",
+"depends_on"
+],
+[
+"K-OPPONENT-SIGNED-35e91a9e",
+"K04",
+"corroborates"
+],
+[
+"K-OPPONENT-SIGNED-35e91a9e",
+"K05",
+"corroborates"
+],
+[
+"K-MEASUREMENT-CONSUMER-642b65c6",
+"K-MEASUREMENT-WORLD-42638AA3",
+"depends_on"
+],
+[
+"K-MEASUREMENT-CONSUMER-642b65c6",
+"COVERAGE-MENU-PARTITION-c552647c",
+"depends_on"
+],
+[
+"K-MEASUREMENT-CONSUMER-642b65c6",
+"K07",
+"depends_on"
+],
+[
+"K-MARGINAL-RELAXATION-TOPOLOGY",
+"K-UNIT-ECONOMICS-ONE-TILE-v2",
+"depends_on"
+],
+[
+"K-MARGINAL-RELAXATION-TOPOLOGY",
+"Q2-DEMAND-LAW-3C0F0F84",
+"depends_on"
+],
+[
+"K-MARGINAL-RELAXATION-TOPOLOGY",
+"K-PRODUCT-FRONTIER-7767825e",
+"narrows"
+],
+[
+"K-MARGINAL-RELAXATION-TOPOLOGY",
+"Q2-PORTFOLIO-BASE-PRICE-CROSS-PRODUCT-BOUNDARY-9010435f",
+"corroborates"
+],
+[
+"Q3-CONTINUATION-RANK-f9a322f3",
+"H8-CONTINUATION-BOUNDARY-52BD7AD6",
+"depends_on"
+],
+[
+"Q3-CONTINUATION-RANK-f9a322f3",
+"K-CALENDAR-719",
+"depends_on"
+],
+[
+"Q3-CONTINUATION-RANK-f9a322f3",
+"K05",
+"depends_on"
+],
+[
+"Q3-CONTINUATION-RANK-f9a322f3",
+"Q2-OPENING-BASE-VALUE-RANK-BOUNDARY-b0b9c6cf",
+"depends_on"
+],
+[
+"Q3-CONTINUATION-RANK-f9a322f3",
+"H8-CONTINUATION-BOUNDARY-52BD7AD6",
+"corroborates"
+],
+[
+"Q3-CONTINUATION-RANK-f9a322f3",
+"K05",
+"corroborates"
+],
+[
+"Q3-CONTINUATION-RANK-f9a322f3",
+"Q2-OPENING-BASE-VALUE-RANK-BOUNDARY-b0b9c6cf",
+"corroborates"
+],
+[
+"K-V0-LAND-RELEASE-LIFT-9F4D7ABF",
+"K-OPENING-TIMED-INTERVAL-LIFT-8412DF7C",
+"depends_on"
+],
+[
+"K-V0-LAND-RELEASE-LIFT-9F4D7ABF",
+"K-V0-COMPILER-ROUND-TRIP",
+"depends_on"
+],
+[
+"K-V0-LAND-RELEASE-LIFT-9F4D7ABF",
+"K-V0-COMPILER-ROUND-TRIP",
+"narrows"
+],
+[
+"TILE-CLOCK-0d19d28f",
+"E1",
+"depends_on"
+],
+[
+"TILE-CLOCK-0d19d28f",
+"E2",
+"depends_on"
+],
+[
+"TILE-CLOCK-0d19d28f",
+"E3",
+"depends_on"
+],
+[
+"TILE-CLOCK-0d19d28f",
+"K09",
+"depends_on"
+],
+[
+"K-QUICK-SITE-CONVOLUTION-CG04",
+"K-LAND-SERVICEABILITY-GEOMETRY",
+"depends_on"
+],
+[
+"K-QUICK-SITE-CONVOLUTION-CG04",
+"PLOT-d1b96c74-RECTANGLE",
+"depends_on"
+],
+[
+"K-QUICK-SITE-CONVOLUTION-CG04",
+"K-LAND-SERVICEABILITY-GEOMETRY",
+"narrows"
+],
+[
+"K-QUICK-SITE-CONVOLUTION-CG04",
+"PLOT-d1b96c74-RECTANGLE",
+"corroborates"
+],
+[
+"K-DATED-MODULE-TAPES-e30d3018",
+"K-UNIT-ECONOMICS-ONE-TILE-v2",
+"depends_on"
+],
+[
+"K-DATED-MODULE-TAPES-e30d3018",
+"K-CASH-FLOW-PREFIX-834E2F40",
+"depends_on"
+],
+[
+"K-DATED-MODULE-TAPES-e30d3018",
+"Q2-OPENING-BASE-VALUE-RANK-BOUNDARY-b0b9c6cf",
+"depends_on"
+],
+[
+"K-DATED-MODULE-TAPES-e30d3018",
+"K-LIFECYCLE-COLUMNS-302",
+"depends_on"
+],
+[
+"K-DATED-MODULE-TAPES-e30d3018",
+"Q2-PORTFOLIO-HARVEST-PREFIX-BOUNDARY-9a63b04d",
+"depends_on"
+],
+[
+"K-DATED-MODULE-TAPES-e30d3018",
+"K-PORTFOLIO-TIMED-INPUT-PREFIX-e48ea15f",
+"depends_on"
+],
+[
+"K-DATED-MODULE-TAPES-e30d3018",
+"K-LIFECYCLE-COLUMNS-302",
+"corroborates"
+],
+[
+"K-DATED-MODULE-TAPES-e30d3018",
+"Q2-PORTFOLIO-HARVEST-PREFIX-BOUNDARY-9a63b04d",
+"corroborates"
+],
+[
+"K-DATED-MODULE-TAPES-e30d3018",
+"K-PORTFOLIO-TIMED-INPUT-PREFIX-e48ea15f",
+"corroborates"
+],
+[
+"K-SOLVER-ADOPTION-SHARED-RESOURCE-GAP",
+"K-SOLVER-ADOPTION-JOINT-CONFLICT",
+"narrows"
+],
+[
+"K-LADDER-OPPONENT-FINGERPRINTS-CORRECTED",
+"K-LADDER-OPPONENT-FINGERPRINTS",
+"narrows"
+],
+[
+"K-MARKET-CASH-CONTROL-CURVE",
+"K-MARKET-PRIMITIVES-EXPOSED",
+"depends_on"
+],
+[
+"K-MARKET-CASH-CONTROL-CURVE",
+"K-LOCKSTEP-CLOSED-CYCLE-MINT",
+"depends_on"
+],
+[
+"K-MARKET-CASH-CONTROL-CURVE",
+"K-SAME-SLOT-SATURATION-735E828B",
+"depends_on"
+],
+[
+"K-MARKET-CASH-CONTROL-CURVE",
+"K-MARKET-AFFORDABILITY-ENDPOINTS-71D9AECC",
+"depends_on"
+],
+[
+"K-MARKET-CASH-CONTROL-CURVE",
+"K-MARKET-CARRY-SUPPLY-QUOTIENT-9d3a316d",
+"depends_on"
+],
+[
+"K-MARKET-CASH-CONTROL-CURVE",
+"K-MARKET-PRIMITIVES-EXPOSED",
+"corroborates"
+],
+[
+"K-LABOR-SCREEN-DURATION-BOUNDARY",
+"K-LABOR-INTERVAL-22A8C6E5",
+"depends_on"
+],
+[
+"K-LABOR-SCREEN-DURATION-BOUNDARY",
+"K-LABOR-WINDOW-TRANSFER-558DC9DC",
+"depends_on"
+],
+[
+"K-LABOR-SCREEN-DURATION-BOUNDARY",
+"K-ROUTED-DUTY-SETUP-COUNTDOWN-6EC15D57",
+"depends_on"
+],
+[
+"K-LABOR-SCREEN-DURATION-BOUNDARY",
+"K-LABOR-NONADDITIVITY-31F8C4F4",
+"depends_on"
+],
+[
+"K-LABOR-SCREEN-DURATION-BOUNDARY",
+"K-LABOR-ATTRIBUTION-CONSENSUS",
+"depends_on"
+],
+[
+"K-LABOR-SCREEN-DURATION-BOUNDARY",
+"K-LABOR-INTERVAL-22A8C6E5",
+"narrows"
+],
+[
+"K-LABOR-SCREEN-DURATION-BOUNDARY",
+"K-LABOR-WINDOW-TRANSFER-558DC9DC",
+"narrows"
+],
+[
+"K-LABOR-SCREEN-DURATION-BOUNDARY",
+"K-LABOR-NONADDITIVITY-31F8C4F4",
+"corroborates"
+],
+[
+"K-LABOR-SCREEN-DURATION-BOUNDARY",
+"K-ROUTED-DUTY-SETUP-COUNTDOWN-6EC15D57",
+"corroborates"
+],
+[
+"K-BUDGET-BANDS-CONSENSUS",
+"K-BUDGET-SIGN-SEVEN-CLASSES-60AF1FDF",
+"depends_on"
+],
+[
+"K-BUDGET-BANDS-CONSENSUS",
+"K-BUDGET-MIXED-SEVEN-BANDS-16A3F67F",
+"depends_on"
+],
+[
+"K-BUDGET-BANDS-CONSENSUS",
+"K-BUDGET-SIGN-SEVEN-CLASSES-60AF1FDF",
+"corroborates"
+],
+[
+"K-BUDGET-BANDS-CONSENSUS",
+"K-BUDGET-MIXED-SEVEN-BANDS-16A3F67F",
+"corroborates"
+],
+[
+"K-MARKET-CARRY-SUPPLY-QUOTIENT-9d3a316d",
+"K-TIMED-RECEIPT-RECURRENCE",
+"depends_on"
+],
+[
+"K-MARKET-CARRY-SUPPLY-QUOTIENT-9d3a316d",
+"K-RECEIPT-TIMING-CONSENSUS",
+"depends_on"
+],
+[
+"K-MARKET-CARRY-SUPPLY-QUOTIENT-9d3a316d",
+"K-RECEIPT-CURVES-CONSENSUS",
+"depends_on"
+],
+[
+"K-MARKET-CARRY-SUPPLY-QUOTIENT-9d3a316d",
+"K-OPPONENT-SALE-ENVELOPE",
+"corroborates"
+],
+[
+"K-RIVAL-PHASE-CAPACITY-CLIP-0a208c52",
+"K-RIVAL-FLOW-CONSENSUS",
+"depends_on"
+],
+[
+"K-RIVAL-PHASE-CAPACITY-CLIP-0a208c52",
+"Q1-RIVAL-WINDOW-AUTHORIZATION-PREFIX-d344ceaa",
+"depends_on"
+],
+[
+"K-RIVAL-PHASE-CAPACITY-CLIP-0a208c52",
+"K-RIVAL-FLOW-WINDOWS",
+"depends_on"
+],
+[
+"K-RIVAL-PHASE-CAPACITY-CLIP-0a208c52",
+"K-OPPONENT-SALE-ENVELOPE",
+"depends_on"
+],
+[
+"K-RIVAL-PHASE-CAPACITY-CLIP-0a208c52",
+"Q1-RIVAL-WINDOW-AUTHORIZATION-PREFIX-d344ceaa",
+"narrows"
+],
+[
+"K-RIVAL-PHASE-CAPACITY-CLIP-0a208c52",
+"K-RIVAL-FLOW-CONSENSUS",
+"corroborates"
+],
+[
+"K-RIVAL-PHASE-CAPACITY-CLIP-0a208c52",
+"K-OPPONENT-SALE-ENVELOPE",
+"narrows"
+],
+[
+"K-SOLVER-SILENT-PRODUCERS-ARE-INTERFACE-NOT-ECONOMICS",
+"K-SOLVER-NO-CERTIFIED-PROPOSAL",
+"narrows"
+],
+[
+"K-LABOR-TYPE-IDENTIFIABILITY-BOUNDARY-B72D51C6",
+"K-PORTFOLIO-KNAPSACK-REALIZATION",
+"depends_on"
+],
+[
+"K-LABOR-TYPE-IDENTIFIABILITY-BOUNDARY-B72D51C6",
+"K-DATED-PRODUCER-ALPHABET-FD47176A",
+"depends_on"
+],
+[
+"K-LABOR-TYPE-IDENTIFIABILITY-BOUNDARY-B72D51C6",
+"K-PORTFOLIO-KNAPSACK-REALIZATION",
+"narrows"
+],
+[
+"K-TWO-SERVICE-GAP-1589EE45",
+"K-LAND-GAP-SIGNATURE-CONSENSUS",
+"depends_on"
+],
+[
+"K-TWO-SERVICE-GAP-1589EE45",
+"K-LAND-GAP-INCIDENCE-CAPACITY-ac65e881",
+"depends_on"
+],
+[
+"K-TWO-SERVICE-GAP-1589EE45",
+"K-LAND-QUICK-SITE-SLACK-SIEVE-31C21865",
+"depends_on"
+],
+[
+"K-TWO-SERVICE-GAP-1589EE45",
+"K-PLOT-ORDER-ENDPOINT-432c85ef",
+"depends_on"
+],
+[
+"CHOICE-GRADIENT-GAP",
+"CE-COTANGENT-SUFFICIENCY",
+"depends_on"
+],
+[
+"K-ANCHORED-CHAIN-CALENDAR-F2A9949C",
+"K-ROUTED-DUTY-SETUP-COUNTDOWN-6EC15D57",
+"depends_on"
+],
+[
+"K-ANCHORED-CHAIN-CALENDAR-F2A9949C",
+"K-LABOR-ATTRIBUTION-CONSENSUS",
+"depends_on"
+],
+[
+"K-ANCHORED-CHAIN-CALENDAR-F2A9949C",
+"K-LABOR-INTERVAL-22A8C6E5",
+"depends_on"
+],
+[
+"K-ANCHORED-CHAIN-CALENDAR-F2A9949C",
+"K-LABOR-RAY-ENDPOINT-CONSENSUS",
+"depends_on"
+],
+[
+"K-ANCHORED-CHAIN-CALENDAR-F2A9949C",
+"K-LABOR-SCREEN-DURATION-BOUNDARY",
+"narrows"
+],
+[
+"K02",
+"K01",
+"depends_on"
+],
+[
+"Q2-OPENING-GENERATION-ACCOUNTING-2A4F60AD",
+"K-CASH-FLOW-PREFIX-834E2F40",
+"depends_on"
+],
+[
+"Q2-OPENING-GENERATION-ACCOUNTING-2A4F60AD",
+"K-UNIT-ECONOMICS-ONE-TILE",
+"depends_on"
+],
+[
+"Q2-OPENING-GENERATION-ACCOUNTING-2A4F60AD",
+"K-BIRTH-COHORT-VS-ELIGIBILITY",
+"narrows"
+],
+[
+"Q2-OPENING-GENERATION-ACCOUNTING-2A4F60AD",
+"K-EPOCH-PREFIX-TAIL-REPRESENTATION",
+"corroborates"
+],
+[
+"K-LAND-EXCEPTION-MASK-FLOW-CB989C5D",
+"K-LAND-PAIR-PARTITION-FLOW-BFBFF12E",
+"depends_on"
+],
+[
+"K-LAND-EXCEPTION-MASK-FLOW-CB989C5D",
+"K-TWO-SERVICE-GAP-1589EE45",
+"depends_on"
+],
+[
+"K-CALENDAR-719",
+"H8-CONTINUATION-BOUNDARY-52BD7AD6",
+"depends_on"
+],
+[
+"K-CALENDAR-719",
+"LAST-DAY-QUOTIENT-30090398",
+"depends_on"
+],
+[
+"K-CALENDAR-719",
+"H8-CONTINUATION-BOUNDARY-52BD7AD6",
+"corroborates"
+],
+[
+"K-CALENDAR-719",
+"LAST-DAY-QUOTIENT-30090398",
+"corroborates"
+],
+[
+"K-LABOR-ATTRIBUTION-CONSENSUS",
+"K-WORKER-TURN-ATTRIBUTION-BIT-3074199D",
+"depends_on"
+],
+[
+"K-LABOR-ATTRIBUTION-CONSENSUS",
+"K-LABOR-ACTION-PARTITION-4FD2A1E7",
+"depends_on"
+],
+[
+"K-LABOR-ATTRIBUTION-CONSENSUS",
+"K-LABOR-IDENTIFIABILITY-CONSENSUS",
+"depends_on"
+],
+[
+"K-LABOR-ATTRIBUTION-CONSENSUS",
+"K-WORKER-TURN-ATTRIBUTION-BIT-3074199D",
+"corroborates"
+],
+[
+"K-LABOR-ATTRIBUTION-CONSENSUS",
+"K-LABOR-ACTION-PARTITION-4FD2A1E7",
+"corroborates"
+],
+[
+"K-LABOR-ATTRIBUTION-CONSENSUS",
+"K-LABOR-IDENTIFIABILITY-CONSENSUS",
+"narrows"
+],
+[
+"K-ROUTER-FAMILY-K0006-PANEL",
+"K-LADDER-TAPE-DICTIONARY",
+"corroborates"
+],
+[
+"K-V0-SUCCESSOR-QUOTIENT-2170AD2D",
+"K-V0-COMPILER-ROUND-TRIP",
+"depends_on"
+],
+[
+"K-V0-SUCCESSOR-QUOTIENT-2170AD2D",
+"K-V0-COMPILER-ROUND-TRIP",
+"narrows"
+],
+[
+"K-V0-EDIT-SET-PARTITION-DP-8E668688",
+"K-V0-COMPILER-ROUND-TRIP",
+"depends_on"
+],
+[
+"K-PRODUCTWISE-HIDDEN-PATHS",
+"Q2-DEMAND-LAW-3C0F0F84",
+"depends_on"
+],
+[
+"K-PRODUCTWISE-HIDDEN-PATHS",
+"Q2-DEMAND-LAW-3C0F0F84",
+"corroborates"
+],
+[
+"K-CHAIN-HIRE-PREFIX-47934707",
+"K-ANCHORED-CHAIN-CALENDAR-F2A9949C",
+"depends_on"
+],
+[
+"K-CHAIN-HIRE-PREFIX-47934707",
+"K-HIRE-TIMING-DB7C166D",
+"depends_on"
+],
+[
+"K-GRADIENT-HULL-VERIFIED-7cffe948",
+"CE-COTANGENT-SUFFICIENCY",
+"depends_on"
+],
+[
+"K-GRADIENT-HULL-VERIFIED-7cffe948",
+"CHOICE-GRADIENT-GAP",
+"depends_on"
+],
+[
+"K-GRADIENT-HULL-VERIFIED-7cffe948",
+"K07",
+"depends_on"
+],
+[
+"K-GRADIENT-HULL-VERIFIED-7cffe948",
+"K02",
+"depends_on"
+],
+[
+"K-GRADIENT-HULL-VERIFIED-7cffe948",
+"OPTIMIZER-RESPONSE-BOUND",
+"depends_on"
+],
+[
+"K-GRADIENT-HULL-VERIFIED-7cffe948",
+"OPTIMIZER-RESPONSE-BOUND",
+"narrows"
+],
+[
+"K-GRADIENT-HULL-VERIFIED-7cffe948",
+"K07",
+"corroborates"
+],
+[
+"K-GRADIENT-HULL-VERIFIED-7cffe948",
+"CHOICE-GRADIENT-GAP",
+"corroborates"
+],
+[
+"K-OPENING-COHORT-WATER-FRONTIER-23A9DC7C",
+"K-OPENING-NEUTRAL-WATER-FRONTIER-3D575402",
+"depends_on"
+],
+[
+"K-OPENING-COHORT-WATER-FRONTIER-23A9DC7C",
+"K-OPENING-GENERATION-CONSENSUS",
+"depends_on"
+],
+[
+"K-LABOR-INTERVAL-22A8C6E5",
+"K-HIRE-TIMING-DB7C166D",
+"depends_on"
+],
+[
+"K-LABOR-INTERVAL-22A8C6E5",
+"Q2-CAPACITY-PREFIX-D9F18BDA",
+"depends_on"
+],
+[
+"K-NEUTRAL-EXIT-PRICE-SUFFIX-45B284EA",
+"K-NEUTRAL-EXIT-COUNT-QUOTIENT-B8C5705A",
+"depends_on"
+],
+[
+"K-NEUTRAL-EXIT-PRICE-SUFFIX-45B284EA",
+"K-OPENING-TILE-PRICE-PREFIX-c26e60e0",
+"depends_on"
+],
+[
+"K-NEUTRAL-EXIT-PRICE-SUFFIX-45B284EA",
+"K-OPENING-NEUTRAL-WATER-FRONTIER-3D575402",
+"depends_on"
+],
+[
+"K-PREFUNDED-HIRE-SALE-QUEUE-QUOTIENT-CG03",
+"K-HIRE-TIMING-DB7C166D",
+"depends_on"
+],
+[
+"K-PREFUNDED-HIRE-SALE-QUEUE-QUOTIENT-CG03",
+"K-TIMED-RECEIPT-RECURRENCE",
+"depends_on"
+],
+[
+"K-PREFUNDED-HIRE-SALE-QUEUE-QUOTIENT-CG03",
+"K-SALE-SLOTS-PRESERVED-MIXED-3d038faf",
+"depends_on"
+],
+[
+"K-PREFUNDED-HIRE-SALE-QUEUE-QUOTIENT-CG03",
+"K-HIRE-TIMING-DB7C166D",
+"narrows"
+],
+[
+"K-PREFUNDED-HIRE-SALE-QUEUE-QUOTIENT-CG03",
+"K-SALE-SLOTS-PRESERVED-MIXED-3d038faf",
+"corroborates"
+],
+[
+"K-OPENING-WATER-FRONTIER-CONSENSUS",
+"K-OPENING-NEUTRAL-WATER-FRONTIER-3D575402",
+"depends_on"
+],
+[
+"K-OPENING-WATER-FRONTIER-CONSENSUS",
+"K-OPENING-WATER-DELETION-8C487DC9",
+"depends_on"
+],
+[
+"K-OPENING-WATER-FRONTIER-CONSENSUS",
+"K-OPENING-COHORT-WATER-FRONTIER-23A9DC7C",
+"depends_on"
+],
+[
+"K-OPENING-WATER-FRONTIER-CONSENSUS",
+"K-NEUTRAL-COHORT-COUNT-QUOTIENT-E75FCD95",
+"depends_on"
+],
+[
+"K-OPENING-WATER-FRONTIER-CONSENSUS",
+"K-OPENING-SNAPSHOT-SERVICE-COMPOSITION",
+"depends_on"
+],
+[
+"K-OPENING-WATER-FRONTIER-CONSENSUS",
+"K-OPENING-NEUTRAL-WATER-FRONTIER-3D575402",
+"corroborates"
+],
+[
+"K-OPENING-WATER-FRONTIER-CONSENSUS",
+"K-OPENING-WATER-DELETION-8C487DC9",
+"corroborates"
+],
+[
+"K-OPENING-WATER-FRONTIER-CONSENSUS",
+"K-OPENING-COHORT-WATER-FRONTIER-23A9DC7C",
+"corroborates"
+],
+[
+"K-RIVAL-FLOW-CONSENSUS",
+"K-RIVAL-FLOW-WINDOWS",
+"depends_on"
+],
+[
+"K-RIVAL-FLOW-CONSENSUS",
+"Q1-RIVAL-WINDOW-AUTHORIZATION-PREFIX-d344ceaa",
+"depends_on"
+],
+[
+"K-RIVAL-FLOW-CONSENSUS",
+"K-OPPONENT-SALE-ENVELOPE",
+"depends_on"
+],
+[
+"K-RIVAL-FLOW-CONSENSUS",
+"K-RIVAL-FLOW-WINDOWS",
+"supersedes"
+],
+[
+"K-RIVAL-FLOW-CONSENSUS",
+"Q1-RIVAL-WINDOW-AUTHORIZATION-PREFIX-d344ceaa",
+"corroborates"
+],
+[
+"K-RIVAL-FLOW-CONSENSUS",
+"K-OPPONENT-SALE-ENVELOPE",
+"narrows"
+],
+[
+"K-V0-FREE-RUN-UPDATE512-BELOW-KEEP",
+"K-V0-FIRST-DIVERGENCE-IS-OPTIMIZATION",
+"corroborates"
+],
+[
+"K-SHOP-CONDITIONAL-QUOTIENT-31fc6393",
+"K07",
+"depends_on"
+],
+[
+"K-SHOP-CONDITIONAL-QUOTIENT-31fc6393",
+"K-OPPONENT-SALE-ENVELOPE",
+"depends_on"
+],
+[
+"K-SHOP-CONDITIONAL-QUOTIENT-31fc6393",
+"K-MENU-REGRET-05e00432",
+"depends_on"
+],
+[
+"K-SHOP-CONDITIONAL-QUOTIENT-31fc6393",
+"K07",
+"corroborates"
+],
+[
+"K-SHOP-CONDITIONAL-QUOTIENT-31fc6393",
+"K-MENU-REGRET-05e00432",
+"corroborates"
+],
+[
+"K-PORTFOLIO-ZERO-RECEIPT-CUT-DF951C02",
+"K-RECEIPT-CURVES-CONDITIONAL-493D5569",
+"depends_on"
+],
+[
+"K-PORTFOLIO-ZERO-RECEIPT-CUT-DF951C02",
+"K-LIFECYCLE-COLUMNS-302",
+"depends_on"
+],
+[
+"K-PORTFOLIO-ZERO-RECEIPT-CUT-DF951C02",
+"K-PORTFOLIO-TIMED-INPUT-PREFIX-e48ea15f",
+"depends_on"
+],
+[
+"K-PORTFOLIO-ZERO-RECEIPT-CUT-DF951C02",
+"K-FUNDED-HAND-DAY-QUOTIENT-8C39B662",
+"depends_on"
+],
+[
+"K-PORTFOLIO-ZERO-RECEIPT-CUT-DF951C02",
+"Q2-PORTFOLIO-HARVEST-PREFIX-BOUNDARY-9a63b04d",
+"depends_on"
+],
+[
+"K-PORTFOLIO-ZERO-RECEIPT-CUT-DF951C02",
+"K-BIRTH-COHORT-VS-ELIGIBILITY",
+"depends_on"
+],
+[
+"K-PORTFOLIO-ZERO-RECEIPT-CUT-DF951C02",
+"K-DATED-MODULE-TAPES-e30d3018",
+"depends_on"
+],
+[
+"K-PORTFOLIO-ZERO-RECEIPT-CUT-DF951C02",
+"Q2-RECEIPT-CURVES-MIN-INVENTORY-QUOTIENT-159F6058",
+"depends_on"
+],
+[
+"K-PORTFOLIO-ZERO-RECEIPT-CUT-DF951C02",
+"K-CONVERSION-FLOW-CUTS-1a4047de",
+"depends_on"
+],
+[
+"K-PORTFOLIO-ZERO-RECEIPT-CUT-DF951C02",
+"K-RECEIPT-CURVES-TWO-IMPLEMENTATIONS",
+"depends_on"
+],
+[
+"K-PORTFOLIO-ZERO-RECEIPT-CUT-DF951C02",
+"K-RECEIPT-CURVES-CONSENSUS",
+"depends_on"
+],
+[
+"K-PORTFOLIO-ZERO-RECEIPT-CUT-DF951C02",
+"K-DATED-PRODUCER-ALPHABET-FD47176A",
+"depends_on"
+],
+[
+"K-PORTFOLIO-ZERO-RECEIPT-CUT-DF951C02",
+"Q2-CLOCKED-RECEIPT-CURVES-da3428bf",
+"depends_on"
+],
+[
+"K-STRATIFIED-KEEP-ff47d2ac",
+"K-KEEP-CDF-6ad5677e",
+"depends_on"
+],
+[
+"K-STRATIFIED-KEEP-ff47d2ac",
+"K07",
+"depends_on"
+],
+[
+"K-STRATIFIED-KEEP-ff47d2ac",
+"K02",
+"depends_on"
+],
+[
+"K-STRATIFIED-KEEP-ff47d2ac",
+"K-MENU-REGRET-05e00432",
+"depends_on"
+],
+[
+"K-STRATIFIED-KEEP-ff47d2ac",
+"K-KEEP-CDF-6ad5677e",
+"narrows"
+],
+[
+"K-STRATIFIED-KEEP-ff47d2ac",
+"K07",
+"corroborates"
+],
+[
+"K-STRATIFIED-KEEP-ff47d2ac",
+"K-MENU-REGRET-05e00432",
+"corroborates"
+],
+[
+"K-LABOR-WINDOW-TRANSFER-558DC9DC",
+"K-FUNDED-HAND-DAY-QUOTIENT-8C39B662",
+"depends_on"
+],
+[
+"K-LABOR-WINDOW-TRANSFER-558DC9DC",
+"K-LAND-SERVICEABILITY-GEOMETRY",
+"depends_on"
+],
+[
+"K-CYCLE-BELIEF-CELLS-89E57C70",
+"K-UNEQUAL-LOCKSTEP-MARGIN-4287B312",
+"depends_on"
+],
+[
+"K-CYCLE-BELIEF-CELLS-89E57C70",
+"K-MARKET-CAPITAL-HULL-e28d9560",
+"depends_on"
+],
+[
+"K-CHAIN-MENU-MATCHING-CONSENSUS",
+"K-CHAIN-MENU-ENTRY-COMPOSITION-CF2ADB2F",
+"depends_on"
+],
+[
+"K-CHAIN-MENU-MATCHING-CONSENSUS",
+"K-CHAIN-CHOICE-MATCHING-E78AF544",
+"depends_on"
+],
+[
+"K-CHAIN-MENU-MATCHING-CONSENSUS",
+"K-CHOICE-ENTRY-MATCH-COMPOSITION-F555B15A",
+"depends_on"
+],
+[
+"K-CHAIN-MENU-MATCHING-CONSENSUS",
+"K-CHAIN-MENU-ENTRY-COMPOSITION-CF2ADB2F",
+"corroborates"
+],
+[
+"K-CHAIN-MENU-MATCHING-CONSENSUS",
+"K-CHAIN-CHOICE-MATCHING-E78AF544",
+"corroborates"
+],
+[
+"K-CHAIN-MENU-MATCHING-CONSENSUS",
+"K-CHOICE-ENTRY-MATCH-COMPOSITION-F555B15A",
+"corroborates"
+],
+[
+"V0-BACKSOLVE-HOLD-CUT-BCBFFB5D",
+"LAST-DAY-QUOTIENT-30090398",
+"depends_on"
+],
+[
+"V0-BACKSOLVE-HOLD-CUT-BCBFFB5D",
+"K-CALENDAR-719",
+"depends_on"
+],
+[
+"V0-BACKSOLVE-HOLD-CUT-BCBFFB5D",
+"H8-CONTINUATION-BOUNDARY-52BD7AD6",
+"depends_on"
+],
+[
+"V0-BACKSOLVE-HOLD-CUT-BCBFFB5D",
+"K-EPOCH-PREFIX-TAIL-REPRESENTATION",
+"depends_on"
+],
+[
+"V0-BACKSOLVE-HOLD-CUT-BCBFFB5D",
+"K-CONTINUATION-RANK-SCALAR-BOUNDARY-5D7771E7",
+"depends_on"
+],
+[
+"V0-BACKSOLVE-HOLD-CUT-BCBFFB5D",
+"K-V0-COMPILER-REPAIRS",
+"depends_on"
+],
+[
+"V0-BACKSOLVE-HOLD-CUT-BCBFFB5D",
+"K-V0-COMPILER-REPAIRS",
+"corroborates"
+],
+[
+"K-BUDGET-MIXED-SEVEN-BANDS-16A3F67F",
+"K-CYCLE-HARD-BUDGET-CONSENSUS",
+"depends_on"
+],
+[
+"K-BUDGET-MIXED-SEVEN-BANDS-16A3F67F",
+"K-EQUAL-LOSS-BELIEF-LIFT-EE048B64",
+"depends_on"
+],
+[
+"K-Q1-CAPACITY-PREFIX-3fdcc57e",
+"K-RIVAL-FLOW-CONSENSUS",
+"depends_on"
+],
+[
+"K-Q1-CAPACITY-PREFIX-3fdcc57e",
+"Q1-RIVAL-WINDOW-AUTHORIZATION-PREFIX-d344ceaa",
+"depends_on"
+],
+[
+"K-Q1-CAPACITY-PREFIX-3fdcc57e",
+"K-RIVAL-FLOW-WINDOWS",
+"depends_on"
+],
+[
+"K-Q1-CAPACITY-PREFIX-3fdcc57e",
+"K-OPPONENT-SALE-ENVELOPE",
+"depends_on"
+],
+[
+"K-Q1-CAPACITY-PREFIX-3fdcc57e",
+"K-RIVAL-FLOW-CONSENSUS",
+"narrows"
+],
+[
+"K-Q1-CAPACITY-PREFIX-3fdcc57e",
+"Q1-RIVAL-WINDOW-AUTHORIZATION-PREFIX-d344ceaa",
+"narrows"
+],
+[
+"K-LADDER-REPLAY-MARKET-WITNESS",
+"K-SHOP-CONDITIONAL-QUOTIENT-31fc6393",
+"depends_on"
+],
+[
+"K-LADDER-REPLAY-MARKET-WITNESS",
+"K-RIVAL-FLOW-CONSENSUS",
+"depends_on"
+],
+[
+"K-LADDER-REPLAY-MARKET-WITNESS",
+"K-RIVAL-FLOW-CONSENSUS",
+"corroborates"
+],
+[
+"K-RECEIPT-TIMING-PARTITION",
+"K-RECEIPT-CURVES-CONDITIONAL-493D5569",
+"depends_on"
+],
+[
+"K-RECEIPT-TIMING-PARTITION",
+"Q2-DEMAND-LAW-3C0F0F84",
+"depends_on"
+],
+[
+"K-RECEIPT-TIMING-PARTITION",
+"Q2-ORDERED-RECEIPT-CURVES-2c3a99d0",
+"depends_on"
+],
+[
+"K-RECEIPT-TIMING-PARTITION",
+"Q2-CLOCKED-RECEIPT-CURVES-da3428bf",
+"depends_on"
+],
+[
+"K-RECEIPT-TIMING-PARTITION",
+"K-RECEIPT-CURVES-CONSENSUS",
+"depends_on"
+],
+[
+"K-RECEIPT-TIMING-PARTITION",
+"K-RECEIPT-CURVES-CONDITIONAL-493D5569",
+"narrows"
+],
+[
+"K-RECEIPT-TIMING-PARTITION",
+"Q2-DEMAND-LAW-3C0F0F84",
+"corroborates"
+],
+[
+"K-V0-CLASS-REPLAY-REVALIDATION",
+"K-V0-COMPILER-REPAIRS",
+"depends_on"
+],
+[
+"K-V0-CLASS-REPLAY-REVALIDATION",
+"K-V0-CLASS-SUPPORT-REPLAY-C5A4B291",
+"depends_on"
+],
+[
+"K-V0-CLASS-REPLAY-REVALIDATION",
+"K-V0-CLASS-SUPPORT-REPLAY-C5A4B291",
+"corroborates"
+],
+[
+"K-NEUTRAL-COHORT-COUNT-QUOTIENT-E75FCD95",
+"K-OPENING-NEUTRAL-WATER-FRONTIER-3D575402",
+"depends_on"
+],
+[
+"K-NEUTRAL-COHORT-COUNT-QUOTIENT-E75FCD95",
+"K-OPENING-GENERATION-CONSENSUS",
+"depends_on"
+],
+[
+"K-SECOND-SLOT-SELL1-BUDGET-SUPPORT-70C643EF",
+"K-BUDGET-BANDS-CONSENSUS",
+"depends_on"
+],
+[
+"K-SECOND-SLOT-SELL1-BUDGET-SUPPORT-70C643EF",
+"K-EQUAL-LOSS-BELIEF-LIFT-EE048B64",
+"depends_on"
+],
+[
+"K-SECOND-SLOT-SELL1-BUDGET-SUPPORT-70C643EF",
+"K-SELL2-LOSS-CLASS-184FBAE3",
+"depends_on"
+],
+[
+"Q2-OPENING-HISTORY-ALPHABET-55-b9a6c7b4",
+"K-OPENING-GENERATION-CONSENSUS",
+"depends_on"
+],
+[
+"Q2-OPENING-HISTORY-ALPHABET-55-b9a6c7b4",
+"Q2-OPENING-GENERATION-ACCOUNTING-2A4F60AD",
+"depends_on"
+],
+[
+"Q2-OPENING-HISTORY-ALPHABET-55-b9a6c7b4",
+"K-BIRTH-COHORT-VS-ELIGIBILITY",
+"depends_on"
+],
+[
+"Q2-OPENING-HISTORY-ALPHABET-55-b9a6c7b4",
+"K-UNIT-ECONOMICS-ONE-TILE",
+"depends_on"
+],
+[
+"Q2-OPENING-HISTORY-ALPHABET-55-b9a6c7b4",
+"Q2-OPENING-BASE-VALUE-RANK-BOUNDARY-b0b9c6cf",
+"depends_on"
+],
+[
+"Q2-OPENING-HISTORY-ALPHABET-55-b9a6c7b4",
+"Q2-OPENING-GENERATION-ACCOUNTING-2A4F60AD",
+"narrows"
+],
+[
+"K-V0-REPLAY-LUMPABILITY-872102E9",
+"K-V0-TRAINING-TARGET-PREFIX-CLASSES",
+"depends_on"
+],
+[
+"K-V0-REPLAY-LUMPABILITY-872102E9",
+"K-V0-CANONICAL-KEY-LIKELIHOOD",
+"depends_on"
+],
+[
+"K-V0-REPLAY-LUMPABILITY-872102E9",
+"K-V0-SUCCESSOR-QUOTIENT-2170AD2D",
+"depends_on"
+],
+[
+"K-V0-REPLAY-LUMPABILITY-872102E9",
+"K-V0-TRAINING-TARGET-PREFIX-CLASSES",
+"narrows"
+],
+[
+"K-V0-REPLAY-LUMPABILITY-872102E9",
+"K-V0-SUCCESSOR-QUOTIENT-2170AD2D",
+"corroborates"
+],
+[
+"K-HOLD-EPOCH-RENEWAL-5AB60478",
+"K-V0-COMPILER-ROUND-TRIP",
+"depends_on"
+],
+[
+"K-HOLD-EPOCH-RENEWAL-5AB60478",
+"K-MARKET-TIMING-EVENT-WINDOWS-58B8BD0B",
+"depends_on"
+],
+[
+"K-HOLD-EPOCH-RENEWAL-5AB60478",
+"K-V0-COMPILER-ROUND-TRIP",
+"narrows"
+],
+[
+"K-HOLD-EPOCH-RENEWAL-5AB60478",
+"K-MARKET-TIMING-EVENT-WINDOWS-58B8BD0B",
+"narrows"
+],
+[
+"K-BUDGET-SIGN-SEVEN-CLASSES-60AF1FDF",
+"K-CYCLE-HARD-BUDGET-CONSENSUS",
+"depends_on"
+],
+[
+"K-BUDGET-SIGN-SEVEN-CLASSES-60AF1FDF",
+"K-EQUAL-LOSS-BELIEF-LIFT-EE048B64",
+"depends_on"
+],
+[
+"K-WORKER-TURN-ATTRIBUTION-BIT-3074199D",
+"K-LABOR-IDENTIFIABILITY-CONSENSUS",
+"depends_on"
+],
+[
+"K-WORKER-TURN-ATTRIBUTION-BIT-3074199D",
+"K-LABOR-IDENTIFIABILITY-CONSENSUS",
+"narrows"
+],
+[
+"K-WORKER-TURN-ATTRIBUTION-BIT-3074199D",
+"K-LABOR-CALIBRATION-IDENTIFIABILITY-4267A1E8",
+"corroborates"
+],
+[
+"K-ROUTER-HARNESS-IDENTICAL-CONTROL",
+"K-ROUTER-FAMILY-K0006-PANEL",
+"depends_on"
+],
+[
+"K-ROUTER-HARNESS-IDENTICAL-CONTROL",
+"K-ROUTER-FAMILY-K0006-PANEL",
+"corroborates"
+],
+[
+"K-CHAIN-MENU-ENTRY-COMPOSITION-CF2ADB2F",
+"K-CHAIN-CHOICE-HIRE-CUTOFF-B9B1111E",
+"depends_on"
+],
+[
+"K-CHAIN-MENU-ENTRY-COMPOSITION-CF2ADB2F",
+"K-CHAIN-ENTRY-MATCHING-79FD6155",
+"depends_on"
+],
+[
+"K-CHAIN-CHOICE-MATCHING-E78AF544",
+"K-CHAIN-CHOICE-HIRE-CUTOFF-B9B1111E",
+"depends_on"
+],
+[
+"K-CHAIN-CHOICE-MATCHING-E78AF544",
+"K-CHAIN-ENTRY-MATCHING-79FD6155",
+"depends_on"
+],
+[
+"K-V0-CLASS-SUPPORT-REPLAY-C5A4B291",
+"K-V0-TRAINING-TARGET-PREFIX-CLASSES",
+"depends_on"
+],
+[
+"K-V0-CLASS-SUPPORT-REPLAY-C5A4B291",
+"K-V0-CANONICAL-KEY-LIKELIHOOD",
+"depends_on"
+],
+[
+"K-V0-CLASS-SUPPORT-REPLAY-C5A4B291",
+"K-V0-TRAINING-TARGET-PREFIX-CLASSES",
+"corroborates"
+],
+[
+"K-LABOR-CALIBRATION-IDENTIFIABILITY-4267A1E8",
+"K-DATED-PRODUCER-ALPHABET-FD47176A",
+"depends_on"
+],
+[
+"K-LABOR-CALIBRATION-IDENTIFIABILITY-4267A1E8",
+"K-PLOT-INCIDENT-DEADLINE-140c704c",
+"depends_on"
+],
+[
+"K-LABOR-CALIBRATION-IDENTIFIABILITY-4267A1E8",
+"K-PORTFOLIO-KNAPSACK-REALIZATION",
+"narrows"
+],
+[
+"K-LABOR-CALIBRATION-IDENTIFIABILITY-4267A1E8",
+"K-PLOT-INCIDENT-DEADLINE-140c704c",
+"corroborates"
+],
+[
+"Q2-CLOCKED-RECEIPT-CURVES-da3428bf",
+"Q2-DEMAND-LAW-3C0F0F84",
+"depends_on"
+],
+[
+"Q2-CLOCKED-RECEIPT-CURVES-da3428bf",
+"K-OPPONENT-SALE-ENVELOPE",
+"depends_on"
+],
+[
+"Q2-CLOCKED-RECEIPT-CURVES-da3428bf",
+"K-UNIT-ECONOMICS-ONE-TILE-v2",
+"depends_on"
+],
+[
+"Q2-CLOCKED-RECEIPT-CURVES-da3428bf",
+"K05",
+"depends_on"
+],
+[
+"Q2-CLOCKED-RECEIPT-CURVES-da3428bf",
+"Q2-PORTFOLIO-BASE-PRICE-CROSS-PRODUCT-BOUNDARY-9010435f",
+"depends_on"
+],
+[
+"Q2-CLOCKED-RECEIPT-CURVES-da3428bf",
+"K-PRODUCTWISE-HIDDEN-PATHS",
+"depends_on"
+],
+[
+"Q2-CLOCKED-RECEIPT-CURVES-da3428bf",
+"K-SALE-ORDER-ASSIGNMENT",
+"depends_on"
+],
+[
+"Q2-CLOCKED-RECEIPT-CURVES-da3428bf",
+"K-MARGINAL-RELAXATION-TOPOLOGY",
+"narrows"
+],
+[
+"Q2-CLOCKED-RECEIPT-CURVES-da3428bf",
+"K-OPPONENT-SALE-ENVELOPE",
+"narrows"
+],
+[
+"Q2-CLOCKED-RECEIPT-CURVES-da3428bf",
+"Q2-PORTFOLIO-BASE-PRICE-CROSS-PRODUCT-BOUNDARY-9010435f",
+"corroborates"
+],
+[
+"K-LIFECYCLE-COLUMNS-302",
+"K-UNIT-ECONOMICS-ONE-TILE-v2",
+"depends_on"
+],
+[
+"K-LIFECYCLE-COLUMNS-302",
+"K-BIRTH-COHORT-VS-ELIGIBILITY",
+"depends_on"
+],
+[
+"K-LIFECYCLE-COLUMNS-302",
+"K-BIRTH-COHORT-VS-ELIGIBILITY",
+"corroborates"
+],
+[
+"K-LABOR-RAY-ENDPOINT-CONSENSUS",
+"K-LABOR-WINDOW-TRANSFER-558DC9DC",
+"depends_on"
+],
+[
+"K-LABOR-RAY-ENDPOINT-CONSENSUS",
+"K-LABOR-BUNDLE-ENDPOINT-4FBF2230",
+"depends_on"
+],
+[
+"K-LABOR-RAY-ENDPOINT-CONSENSUS",
+"K-LABOR-INTERVAL-22A8C6E5",
+"depends_on"
+],
+[
+"K-LABOR-RAY-ENDPOINT-CONSENSUS",
+"K-LABOR-SCREEN-DURATION-BOUNDARY",
+"depends_on"
+],
+[
+"K-LABOR-RAY-ENDPOINT-CONSENSUS",
+"K-HIRE-TIMING-DB7C166D",
+"depends_on"
+],
+[
+"K-LABOR-RAY-ENDPOINT-CONSENSUS",
+"K-LABOR-WINDOW-TRANSFER-558DC9DC",
+"corroborates"
+],
+[
+"K-LABOR-RAY-ENDPOINT-CONSENSUS",
+"K-LABOR-BUNDLE-ENDPOINT-4FBF2230",
+"corroborates"
+],
+[
+"K-LABOR-RAY-ENDPOINT-CONSENSUS",
+"K-LABOR-SCREEN-DURATION-BOUNDARY",
+"corroborates"
+],
+[
+"K-LABOR-RAY-ENDPOINT-CONSENSUS",
+"K-LABOR-INTERVAL-22A8C6E5",
+"narrows"
+],
+[
+"K-PORTFOLIO-KNAPSACK-REALIZATION",
+"K-TIMED-RECEIPT-RECURRENCE",
+"depends_on"
+],
+[
+"K-PORTFOLIO-KNAPSACK-REALIZATION",
+"K-DATED-PRODUCER-ALPHABET-FD47176A",
+"depends_on"
+],
+[
+"K-PORTFOLIO-KNAPSACK-REALIZATION",
+"K-DATED-MODULE-TAPES-e30d3018",
+"depends_on"
+],
+[
+"K-PORTFOLIO-KNAPSACK-REALIZATION",
+"K-PORTFOLIO-TIMED-INPUT-PREFIX-e48ea15f",
+"depends_on"
+],
+[
+"K-PORTFOLIO-KNAPSACK-REALIZATION",
+"K-FUNDED-HAND-DAY-QUOTIENT-8C39B662",
+"depends_on"
+],
+[
+"K-PORTFOLIO-KNAPSACK-REALIZATION",
+"K-HANDS-CASH-COUPLED-COUNTEREXAMPLE",
+"depends_on"
+],
+[
+"K-PORTFOLIO-KNAPSACK-REALIZATION",
+"K-CONVERSION-FLOW-CUTS-1a4047de",
+"depends_on"
+],
+[
+"K-PORTFOLIO-KNAPSACK-REALIZATION",
+"K-RECEIPT-CURVES-CONSENSUS",
+"depends_on"
+],
+[
+"K-PORTFOLIO-KNAPSACK-REALIZATION",
+"K-HANDS-CASH-COUPLED-COUNTEREXAMPLE",
+"corroborates"
+],
+[
+"K-PORTFOLIO-KNAPSACK-REALIZATION",
+"K-RECEIPT-CURVES-CONSENSUS",
+"narrows"
+],
+[
+"K-ORDER-INCIDENCE",
+"K-INVENTORY-PREFIX",
+"depends_on"
+],
+[
+"K-ORDER-INCIDENCE",
+"K-INVENTORY-CUTOFF",
+"depends_on"
+],
+[
+"K-ORDER-INCIDENCE",
+"K-ORDER-HASH",
+"corroborates"
+],
+[
+"Q2-RECEIPT-CURVES-MIN-INVENTORY-QUOTIENT-159F6058",
+"Q2-DEMAND-LAW-3C0F0F84",
+"depends_on"
+],
+[
+"Q2-RECEIPT-CURVES-MIN-INVENTORY-QUOTIENT-159F6058",
+"K-OPPONENT-SALE-ENVELOPE",
+"depends_on"
+],
+[
+"Q2-RECEIPT-CURVES-MIN-INVENTORY-QUOTIENT-159F6058",
+"K-UNIT-ECONOMICS-ONE-TILE-v2",
+"depends_on"
+],
+[
+"Q2-RECEIPT-CURVES-MIN-INVENTORY-QUOTIENT-159F6058",
+"K05",
+"depends_on"
+],
+[
+"Q2-RECEIPT-CURVES-MIN-INVENTORY-QUOTIENT-159F6058",
+"Q2-PORTFOLIO-BASE-PRICE-CROSS-PRODUCT-BOUNDARY-9010435f",
+"depends_on"
+],
+[
+"Q2-RECEIPT-CURVES-MIN-INVENTORY-QUOTIENT-159F6058",
+"K-MARGINAL-RELAXATION-TOPOLOGY",
+"depends_on"
+],
+[
+"Q2-RECEIPT-CURVES-MIN-INVENTORY-QUOTIENT-159F6058",
+"K-PRODUCTWISE-HIDDEN-PATHS",
+"depends_on"
+],
+[
+"Q2-RECEIPT-CURVES-MIN-INVENTORY-QUOTIENT-159F6058",
+"K-MARGINAL-RELAXATION-TOPOLOGY",
+"narrows"
+],
+[
+"Q2-RECEIPT-CURVES-MIN-INVENTORY-QUOTIENT-159F6058",
+"K-PRODUCTWISE-HIDDEN-PATHS",
+"corroborates"
+],
+[
+"Q2-RECEIPT-CURVES-MIN-INVENTORY-QUOTIENT-159F6058",
+"K-OPPONENT-SALE-ENVELOPE",
+"narrows"
+],
+[
+"K-MARKET-BRIDGE-POTENTIAL-CONSENSUS",
+"K-MARKET-HOLD-DEMAND-POTENTIAL-cd9bc8d7",
+"depends_on"
+],
+[
+"K-MARKET-BRIDGE-POTENTIAL-CONSENSUS",
+"K-HOLD-DEMAND-CUT-886902AA",
+"depends_on"
+],
+[
+"K-MARKET-BRIDGE-POTENTIAL-CONSENSUS",
+"K-MARKET-MIXED-NET-CARRY-e0954521",
+"depends_on"
+],
+[
+"K-MARKET-BRIDGE-POTENTIAL-CONSENSUS",
+"K-MARKET-CARRY-SUPPLY-QUOTIENT-9d3a316d",
+"depends_on"
+],
+[
+"K-MARKET-BRIDGE-POTENTIAL-CONSENSUS",
+"K-ISOLATED-NET-TRADE-f57bec73",
+"depends_on"
+],
+[
+"K-MARKET-BRIDGE-POTENTIAL-CONSENSUS",
+"K-MARKET-HOLD-DEMAND-POTENTIAL-cd9bc8d7",
+"corroborates"
+],
+[
+"K-MARKET-BRIDGE-POTENTIAL-CONSENSUS",
+"K-HOLD-DEMAND-CUT-886902AA",
+"corroborates"
+],
+[
+"K-MARKET-BRIDGE-POTENTIAL-CONSENSUS",
+"K-MARKET-MIXED-NET-CARRY-e0954521",
+"corroborates"
+],
+[
+"K-MARKET-BRIDGE-POTENTIAL-CONSENSUS",
+"K-MARKET-CARRY-SUPPLY-QUOTIENT-9d3a316d",
+"narrows"
+],
+[
+"K-NEUTRAL-WET-COMPENSATION-EBBF4E99",
+"K-NEUTRAL-WET-EXCHANGE-F84B1461",
+"depends_on"
+],
+[
+"K-NEUTRAL-WET-COMPENSATION-EBBF4E99",
+"K-NEUTRAL-EXIT-PRICE-SUFFIX-45B284EA",
+"depends_on"
+],
+[
+"K-NEUTRAL-WET-COMPENSATION-EBBF4E99",
+"K-NEUTRAL-WET-EXCHANGE-F84B1461",
+"corroborates"
+],
+[
+"K-EPOCH-PREFIX-TAIL-REPRESENTATION",
+"Q3-DAWN8-TAIL-CONDITIONAL-CONTINUATION-0AFC534A",
+"depends_on"
+],
+[
+"K-EPOCH-PREFIX-TAIL-REPRESENTATION",
+"K-ORACLE-TRIPLE-STATIC-BOUNDARY-8d8dcf0a",
+"depends_on"
+],
+[
+"K-EPOCH-PREFIX-TAIL-REPRESENTATION",
+"H8-CONTINUATION-BOUNDARY-52BD7AD6",
+"depends_on"
+],
+[
+"K-EPOCH-PREFIX-TAIL-REPRESENTATION",
+"K-BIRTH-COHORT-VS-ELIGIBILITY",
+"depends_on"
+],
+[
+"K-EPOCH-PREFIX-TAIL-REPRESENTATION",
+"Q3-DAWN8-TAIL-CONDITIONAL-CONTINUATION-0AFC534A",
+"corroborates"
+],
+[
+"K-EPOCH-PREFIX-TAIL-REPRESENTATION",
+"K-ORACLE-TRIPLE-STATIC-BOUNDARY-8d8dcf0a",
+"corroborates"
+],
+[
+"K-COMPENSATED-WET-TRANSPORT-B2993723",
+"K-NEUTRAL-WET-TRANSPORT-C3660A24",
+"depends_on"
+],
+[
+"K-COMPENSATED-WET-TRANSPORT-B2993723",
+"K-NEUTRAL-WET-COMPENSATION-EBBF4E99",
+"depends_on"
+],
+[
+"K-COMPENSATED-WET-TRANSPORT-B2993723",
+"K-NEUTRAL-WET-TRANSPORT-C3660A24",
+"corroborates"
+],
+[
+"K-COMPENSATED-WET-TRANSPORT-B2993723",
+"K-NEUTRAL-WET-COMPENSATION-EBBF4E99",
+"corroborates"
+],
+[
+"K-ORDER-HASH",
+"K-INVENTORY-PREFIX",
+"depends_on"
+],
+[
+"K-NEUTRAL-WET-EXCHANGE-F84B1461",
+"K-NEUTRAL-EXIT-PRICE-SUFFIX-45B284EA",
+"depends_on"
+],
+[
+"K-NEUTRAL-WET-EXCHANGE-F84B1461",
+"K-OPENING-TILE-PRICE-PREFIX-c26e60e0",
+"depends_on"
+],
+[
+"K-NEUTRAL-WET-EXCHANGE-F84B1461",
+"K-NEUTRAL-EXIT-COUNT-QUOTIENT-B8C5705A",
+"depends_on"
+],
+[
+"K-NEUTRAL-WET-EXCHANGE-F84B1461",
+"K-NEUTRAL-EXIT-PRICE-SUFFIX-45B284EA",
+"narrows"
+],
+[
+"K-MARKET-DEEP-FLOOR-LOCK-9A7C2E4D",
+"Q2-DEMAND-LAW-3C0F0F84",
+"depends_on"
+],
+[
+"K-MARKET-DEEP-FLOOR-LOCK-9A7C2E4D",
+"K-TIMED-RECEIPT-RECURRENCE",
+"depends_on"
+],
+[
+"K-MARKET-DEEP-FLOOR-LOCK-9A7C2E4D",
+"K-RECEIPT-TIMING-CONSENSUS",
+"narrows"
+],
+[
+"K-LADDER-ISOLATED-SLOT-EFFECTS-MISLEAD",
+"K-LADDER-SLOT-DIVERGENCE-OFTEN-INERT",
+"narrows"
+],
+[
+"K-OPENING-WATER-SLOPE-ONE-CANDIDATE",
+"K-OPENING-COHORT-WATER-FRONTIER-23A9DC7C",
+"depends_on"
+],
+[
+"K-OPENING-WATER-SLOPE-ONE-CANDIDATE",
+"K-OPENING-WATER-FRONTIER-CONSENSUS",
+"depends_on"
+],
+[
+"K-OPENING-WATER-SLOPE-ONE-CANDIDATE",
+"K-OPENING-TILE-PRICE-PREFIX-c26e60e0",
+"depends_on"
+],
+[
+"K-RECEIPT-TIMING-CONSENSUS",
+"K-RECEIPT-TIMING-PARTITION",
+"depends_on"
+],
+[
+"K-RECEIPT-TIMING-CONSENSUS",
+"Q2-DAY-WINDOW-RECEIPT-BOUNDARY-89E9E96C",
+"depends_on"
+],
+[
+"K-RECEIPT-TIMING-CONSENSUS",
+"K-TIMED-RECEIPT-RECURRENCE",
+"depends_on"
+],
+[
+"K-RECEIPT-TIMING-CONSENSUS",
+"K-RECEIPT-CURVES-CONDITIONAL-493D5569",
+"depends_on"
+],
+[
+"K-RECEIPT-TIMING-CONSENSUS",
+"K-RECEIPT-CURVES-CONSENSUS",
+"depends_on"
+],
+[
+"K-RECEIPT-TIMING-CONSENSUS",
+"K-RECEIPT-TIMING-PARTITION",
+"supersedes"
+],
+[
+"K-RECEIPT-TIMING-CONSENSUS",
+"Q2-DAY-WINDOW-RECEIPT-BOUNDARY-89E9E96C",
+"corroborates"
+],
+[
+"K-RECEIPT-TIMING-CONSENSUS",
+"K-RECEIPT-CURVES-CONDITIONAL-493D5569",
+"narrows"
+],
+[
+"K-PHASE-CANONICAL-LIQUIDITY-COMPOSITION",
+"K-MARKET-FULL-FILL-CANONICAL-CC3ED17F",
+"depends_on"
+],
+[
+"K-PHASE-CANONICAL-LIQUIDITY-COMPOSITION",
+"K-CASH-BLOCK-LIQUIDITY-SORT-813debd4",
+"depends_on"
+],
+[
+"K-PHASE-CANONICAL-LIQUIDITY-COMPOSITION",
+"K-CASH-FLOW-PREFIX-834E2F40",
+"depends_on"
+],
+[
+"K-PHASE-CANONICAL-LIQUIDITY-COMPOSITION",
+"K-SALE-SLOTS-PRESERVED-MIXED-3d038faf",
+"depends_on"
+],
+[
+"K-PHASE-CANONICAL-LIQUIDITY-COMPOSITION",
+"K-MARKET-FULL-FILL-CANONICAL-CC3ED17F",
+"corroborates"
+],
+[
+"K-PHASE-CANONICAL-LIQUIDITY-COMPOSITION",
+"K-CASH-BLOCK-LIQUIDITY-SORT-813debd4",
+"corroborates"
+],
+[
+"K-LADDER-TAPE-DICTIONARY",
+"K-LADDER-REPLAY-MARKET-WITNESS",
+"depends_on"
+],
+[
+"K-LADDER-TAPE-DICTIONARY",
+"K-SHOP-CONDITIONAL-QUOTIENT-31fc6393",
+"depends_on"
+],
+[
+"K-LADDER-TAPE-DICTIONARY",
+"K-LADDER-REPLAY-MARKET-WITNESS",
+"corroborates"
+],
+[
+"K-LADDER-TAPE-DICTIONARY",
+"K-SHOP-CONDITIONAL-QUOTIENT-31fc6393",
+"narrows"
+],
+[
+"H8-CONTINUATION-BOUNDARY-52BD7AD6",
+"E2",
+"depends_on"
+],
+[
+"H8-CONTINUATION-BOUNDARY-52BD7AD6",
+"K09",
+"depends_on"
+],
+[
+"H8-CONTINUATION-BOUNDARY-52BD7AD6",
+"K05",
+"depends_on"
+],
+[
+"H8-CONTINUATION-BOUNDARY-52BD7AD6",
+"LAST-DAY-QUOTIENT-30090398",
+"corroborates"
+],
+[
+"H8-CONTINUATION-BOUNDARY-52BD7AD6",
+"Q2-OPENING-BASE-VALUE-RANK-BOUNDARY-b0b9c6cf",
+"corroborates"
+],
+[
+"K-V0-COMPILER-REPAIRS",
+"K-V0-COMPILER-ROUND-TRIP",
+"depends_on"
+],
+[
+"K-V0-COMPILER-REPAIRS",
+"K-HOLD-EPOCH-RENEWAL-5AB60478",
+"depends_on"
+],
+[
+"K-V0-COMPILER-REPAIRS",
+"K-V0-LAND-RELEASE-LIFT-9F4D7ABF",
+"depends_on"
+],
+[
+"K-V0-COMPILER-REPAIRS",
+"K-V0-COMPILER-ROUND-TRIP",
+"narrows"
+],
+[
+"K-V0-COMPILER-REPAIRS",
+"K-HOLD-EPOCH-RENEWAL-5AB60478",
+"corroborates"
+],
+[
+"K-V0-COMPILER-REPAIRS",
+"K-V0-LAND-RELEASE-LIFT-9F4D7ABF",
+"corroborates"
+],
+[
+"K-LAND-SERVICEABILITY-GEOMETRY",
+"K-PLOT-INCIDENT-DEADLINE-140c704c",
+"depends_on"
+],
+[
+"K-LAND-SERVICEABILITY-GEOMETRY",
+"PLOT-d1b96c74-RECTANGLE",
+"depends_on"
+],
+[
+"K-LAND-SERVICEABILITY-GEOMETRY",
+"K-PLOT-ORDER-TIMING-70b8b4fa",
+"depends_on"
+],
+[
+"K-LAND-SERVICEABILITY-GEOMETRY",
+"K-FUNDED-HAND-DAY-QUOTIENT-8C39B662",
+"depends_on"
+],
+[
+"K-LAND-SERVICEABILITY-GEOMETRY",
+"PLOT-d1b96c74-RECTANGLE",
+"corroborates"
+],
+[
+"K-LAND-SERVICEABILITY-GEOMETRY",
+"K-FUNDED-HAND-DAY-QUOTIENT-8C39B662",
+"corroborates"
+],
+[
+"K-BIRTH-COHORT-VS-ELIGIBILITY",
+"Q2-OPENING-BASE-VALUE-RANK-BOUNDARY-b0b9c6cf",
+"narrows"
+],
+[
+"K-BIRTH-COHORT-VS-ELIGIBILITY",
+"K-PRODUCT-COUNT-QUOTIENT-66e3e3b2",
+"narrows"
+],
+[
+"K-V0-CONTINUATION-ORDER-GUARDS-CONFLICT-FINAL",
+"K-V0-CONTINUATION-ROUND-TRIP-IS-ORDER-SENSITIVE",
+"supersedes"
+],
+[
+"K-KNAPSACK-REALIZATION-CONSENSUS",
+"K-PORTFOLIO-KNAPSACK-REALIZATION",
+"depends_on"
+],
+[
+"K-KNAPSACK-REALIZATION-CONSENSUS",
+"K-PORTFOLIO-ZERO-RECEIPT-CUT-DF951C02",
+"depends_on"
+],
+[
+"K-KNAPSACK-REALIZATION-CONSENSUS",
+"K-HANDS-CASH-COUPLED-COUNTEREXAMPLE",
+"depends_on"
+],
+[
+"K-KNAPSACK-REALIZATION-CONSENSUS",
+"K-PORTFOLIO-TIMED-INPUT-PREFIX-e48ea15f",
+"depends_on"
+],
+[
+"K-KNAPSACK-REALIZATION-CONSENSUS",
+"K-PORTFOLIO-KNAPSACK-REALIZATION",
+"corroborates"
+],
+[
+"K-KNAPSACK-REALIZATION-CONSENSUS",
+"K-PORTFOLIO-ZERO-RECEIPT-CUT-DF951C02",
+"corroborates"
+],
+[
+"K-KNAPSACK-REALIZATION-CONSENSUS",
+"K-HANDS-CASH-COUPLED-COUNTEREXAMPLE",
+"corroborates"
+],
+[
+"K-MARKET-AFFORDABILITY-ENDPOINTS-71D9AECC",
+"K-ISOLATED-NET-TRADE-f57bec73",
+"depends_on"
+],
+[
+"K-MARKET-AFFORDABILITY-ENDPOINTS-71D9AECC",
+"K-TIMED-RECEIPT-RECURRENCE",
+"depends_on"
+],
+[
+"K-MARKET-AFFORDABILITY-ENDPOINTS-71D9AECC",
+"K-RIVAL-FLOW-CONSENSUS",
+"depends_on"
+],
+[
+"K-MARKET-AFFORDABILITY-ENDPOINTS-71D9AECC",
+"K-RECEIPT-TIMING-CONSENSUS",
+"depends_on"
+],
+[
+"K-ROUTER-TAPE0-SE-CLOSED-GAP-QUOTIENT-62299F41",
+"K-LAND-SERVICEABILITY-GEOMETRY",
+"depends_on"
+],
+[
+"K-ROUTER-TAPE0-SE-CLOSED-GAP-QUOTIENT-62299F41",
+"PLOT-d1b96c74-RECTANGLE",
+"depends_on"
+],
+[
+"K-ROUTER-TAPE0-SE-CLOSED-GAP-QUOTIENT-62299F41",
+"K-PLOT-INCIDENT-DEADLINE-140c704c",
+"depends_on"
+],
+[
+"K-ROUTER-TAPE0-SE-CLOSED-GAP-QUOTIENT-62299F41",
+"K-LAND-SERVICEABILITY-GEOMETRY",
+"narrows"
+],
+[
+"K-ROUTER-TAPE0-SE-CLOSED-GAP-QUOTIENT-62299F41",
+"PLOT-d1b96c74-RECTANGLE",
+"corroborates"
+],
+[
+"K-ROUTER-TAPE0-SE-CLOSED-GAP-QUOTIENT-62299F41",
+"K-PLOT-INCIDENT-DEADLINE-140c704c",
+"narrows"
+],
+[
+"K-PRODUCT-FRONTIER-7767825e",
+"K-UNIT-ECONOMICS-ONE-TILE",
+"depends_on"
+],
+[
+"K-PRODUCT-FRONTIER-7767825e",
+"K04",
+"depends_on"
+],
+[
+"K-PRODUCT-FRONTIER-7767825e",
+"K05",
+"depends_on"
+],
+[
+"K-PRODUCT-FRONTIER-7767825e",
+"K-UNIT-ECONOMICS-ONE-TILE",
+"narrows"
+],
+[
+"K-PRODUCT-FRONTIER-7767825e",
+"K04",
+"corroborates"
+],
+[
+"K-OPENING-TIMED-INTERVAL-LIFT-8412DF7C",
+"K-OPENING-BIRTH-FLOW-f7473233",
+"depends_on"
+],
+[
+"K-OPENING-TIMED-INTERVAL-LIFT-8412DF7C",
+"K-OPENING-GENERATION-CONSENSUS",
+"depends_on"
+],
+[
+"K-OPENING-TIMED-INTERVAL-LIFT-8412DF7C",
+"K-NEUTRAL-COHORT-COUNT-QUOTIENT-E75FCD95",
+"depends_on"
+],
+[
+"K-OPENING-TIMED-INTERVAL-LIFT-8412DF7C",
+"K-OPENING-GENERATION-CONSENSUS",
+"narrows"
+],
+[
+"K-OPENING-TIMED-INTERVAL-LIFT-8412DF7C",
+"K-OPENING-BIRTH-FLOW-f7473233",
+"corroborates"
+],
+[
+"K-MARKET-FLOOR-CEILING-fa71898e",
+"K-MARKET-DEEP-FLOOR-LOCK-9A7C2E4D",
+"depends_on"
+],
+[
+"K-MARKET-FLOOR-CEILING-fa71898e",
+"K-LOCKSTEP-CLOSED-CYCLE-MINT",
+"depends_on"
+],
+[
+"K-MARKET-FLOOR-CEILING-fa71898e",
+"K-MARKET-DEEP-FLOOR-LOCK-9A7C2E4D",
+"narrows"
+],
+[
+"K-MARKET-FLOOR-CEILING-fa71898e",
+"K-LOCKSTEP-CLOSED-CYCLE-MINT",
+"corroborates"
+],
+[
+"K-CHAIN-ENTRY-MATCHING-79FD6155",
+"K-ANCHORED-CHAIN-CALENDAR-F2A9949C",
+"depends_on"
+],
+[
+"K-CHAIN-ENTRY-MATCHING-79FD6155",
+"K-CHAIN-HIRE-PREFIX-47934707",
+"depends_on"
+],
+[
+"K-CHAIN-ENTRY-MATCHING-79FD6155",
+"K-CHAIN-CALENDAR-DOMINANCE-CONSENSUS",
+"depends_on"
+],
+[
+"K-RECEIPT-CURVES-TWO-IMPLEMENTATIONS",
+"K-RECEIPT-CURVES-CONDITIONAL-493D5569",
+"depends_on"
+],
+[
+"K-RECEIPT-CURVES-TWO-IMPLEMENTATIONS",
+"Q2-RECEIPT-CURVES-MIN-INVENTORY-QUOTIENT-159F6058",
+"depends_on"
+],
+[
+"K-RECEIPT-CURVES-TWO-IMPLEMENTATIONS",
+"K-RECEIPT-CURVES-CONDITIONAL-493D5569",
+"corroborates"
+],
+[
+"K-RECEIPT-CURVES-TWO-IMPLEMENTATIONS",
+"Q2-RECEIPT-CURVES-MIN-INVENTORY-QUOTIENT-159F6058",
+"corroborates"
+],
+[
+"LAST-DAY-RESIDUAL-14",
+"Q2-TERMINAL-JOIN-4F5DE3C1",
+"depends_on"
+],
+[
+"LAST-DAY-RESIDUAL-14",
+"K05",
+"depends_on"
+],
+[
+"LAST-DAY-RESIDUAL-14",
+"Q2-TERMINAL-JOIN-4F5DE3C1",
+"narrows"
+],
+[
+"K-OPENING-BIRTH-FLOW-f7473233",
+"Q2-OPENING-SNAPSHOT-FIBONACCI-FIBERS-e27afd3a",
+"depends_on"
+],
+[
+"K-OPENING-BIRTH-FLOW-f7473233",
+"Q2-OPENING-HISTORY-ALPHABET-55-b9a6c7b4",
+"depends_on"
+],
+[
+"K-OPENING-BIRTH-FLOW-f7473233",
+"K-OPENING-GENERATION-CONSENSUS",
+"depends_on"
+],
+[
+"K-OPENING-BIRTH-FLOW-f7473233",
+"Q2-OPENING-SNAPSHOT-FIBONACCI-FIBERS-e27afd3a",
+"narrows"
+],
+[
+"K-OPENING-BIRTH-FLOW-f7473233",
+"K-OPENING-GENERATION-CONSENSUS",
+"corroborates"
+],
+[
+"K-V0-BC-INTERFACE-SMOKE-CONTROLS-UNWEIGHTED",
+"K-V0-TRAINING-TARGET-PREFIX-CLASSES",
+"depends_on"
+],
+[
+"K-V0-BC-INTERFACE-SMOKE-CONTROLS-UNWEIGHTED",
+"K-V0-CANONICAL-KEY-LIKELIHOOD",
+"depends_on"
+],
+[
+"K-V0-BC-INTERFACE-SMOKE-CONTROLS-UNWEIGHTED",
+"K-V0-BC-INTERFACE-SMOKE",
+"supersedes"
+],
+[
+"K-LAND-PAIR-ANTICHAIN-455412EC",
+"K-LAND-PAIR-PARTITION-FLOW-BFBFF12E",
+"depends_on"
+],
+[
+"K-LAND-PAIR-ANTICHAIN-455412EC",
+"K-LAND-PAIR-GAP-DIAGONAL-8C3CFF02",
+"depends_on"
+],
+[
+"K-LAND-PAIR-ANTICHAIN-455412EC",
+"K-LAND-GAP-SIGNATURE-CONSENSUS",
+"depends_on"
+],
+[
+"K-GAP-PAIR-TWIN-COUNT-525B48E4",
+"K-GAP-WEIGHTED-SLACK-93B9D578",
+"depends_on"
+],
+[
+"K-GAP-PAIR-TWIN-COUNT-525B48E4",
+"K-LAND-GAP-INCIDENCE-CAPACITY-ac65e881",
+"depends_on"
+],
+[
+"K-RIVAL-FLOW-WINDOWS",
+"K-OPPONENT-SALE-ENVELOPE",
+"depends_on"
+],
+[
+"K-RIVAL-FLOW-WINDOWS",
+"K-OPPONENT-PUBLIC-FLOW-QUOTIENT",
+"depends_on"
+],
+[
+"K-RIVAL-FLOW-WINDOWS",
+"K-OPPONENT-SIGNED-35e91a9e",
+"depends_on"
+],
+[
+"K-RIVAL-FLOW-WINDOWS",
+"Q2-RECEIPT-CURVES-MIN-INVENTORY-QUOTIENT-159F6058",
+"depends_on"
+],
+[
+"K-RIVAL-FLOW-WINDOWS",
+"K-OPPONENT-SALE-ENVELOPE",
+"narrows"
+],
+[
+"Q2-PORTFOLIO-PREFIX-REALIZATION-872B6BB4",
+"K-UNIT-ECONOMICS-ONE-TILE-v2",
+"depends_on"
+],
+[
+"Q2-PORTFOLIO-PREFIX-REALIZATION-872B6BB4",
+"K-PRODUCT-FRONTIER-7767825e",
+"depends_on"
+],
+[
+"Q2-PORTFOLIO-PREFIX-REALIZATION-872B6BB4",
+"Q2-OPENING-BASE-VALUE-RANK-BOUNDARY-b0b9c6cf",
+"depends_on"
+],
+[
+"Q2-PORTFOLIO-PREFIX-REALIZATION-872B6BB4",
+"K04",
+"depends_on"
+],
+[
+"Q2-PORTFOLIO-PREFIX-REALIZATION-872B6BB4",
+"K-CASH-FLOW-PREFIX-834E2F40",
+"depends_on"
+],
+[
+"Q2-PORTFOLIO-PREFIX-REALIZATION-872B6BB4",
+"K-BIRTH-COHORT-VS-ELIGIBILITY",
+"depends_on"
+],
+[
+"Q2-PORTFOLIO-PREFIX-REALIZATION-872B6BB4",
+"K-PRODUCT-FRONTIER-7767825e",
+"narrows"
+],
+[
+"Q2-PORTFOLIO-PREFIX-REALIZATION-872B6BB4",
+"K-BIRTH-COHORT-VS-ELIGIBILITY",
+"corroborates"
+],
+[
+"Q2-PORTFOLIO-PREFIX-REALIZATION-872B6BB4",
+"K-CASH-FLOW-PREFIX-834E2F40",
+"corroborates"
+],
+[
+"Q2-PORTFOLIO-PREFIX-REALIZATION-872B6BB4",
+"K-PORTFOLIO-TIMED-INPUT-PREFIX-e48ea15f",
+"corroborates"
+],
+[
+"Q2-PORTFOLIO-PREFIX-REALIZATION-872B6BB4",
+"K-LINEAR-COLUMN-VALUE-LOSS",
+"corroborates"
+],
+[
+"K-LEADER-MAJKEL1337-CORPUS",
+"K-LADDER-TAPE-DICTIONARY",
+"narrows"
+],
+[
+"K-OPENING-SEED-CONSERVATION-AF56DD7B",
+"K-OPENING-BIRTH-FLOW-f7473233",
+"depends_on"
+],
+[
+"K-OPENING-SEED-CONSERVATION-AF56DD7B",
+"K-OPENING-GENERATION-CONSENSUS",
+"depends_on"
+],
+[
+"K-OPENING-SEED-CONSERVATION-AF56DD7B",
+"K-OPENING-CASH-MONOID-cb74c089",
+"depends_on"
+],
+[
+"K-OPENING-SEED-CONSERVATION-AF56DD7B",
+"K-OPENING-BIRTH-FLOW-f7473233",
+"corroborates"
+],
+[
+"K-LAND-PAIR-PARTITION-FLOW-BFBFF12E",
+"K-LAND-PAIR-GAP-DIAGONAL-8C3CFF02",
+"depends_on"
+],
+[
+"K-LAND-PAIR-PARTITION-FLOW-BFBFF12E",
+"K-LAND-GAP-INCIDENCE-CAPACITY-ac65e881",
+"depends_on"
+],
+[
+"V0-BACKSOLVE-RIVAL-RESPONSE-A2473FF1",
+"LAST-DAY-QUOTIENT-30090398",
+"depends_on"
+],
+[
+"V0-BACKSOLVE-RIVAL-RESPONSE-A2473FF1",
+"K-CALENDAR-719",
+"depends_on"
+],
+[
+"V0-BACKSOLVE-RIVAL-RESPONSE-A2473FF1",
+"H8-CONTINUATION-BOUNDARY-52BD7AD6",
+"depends_on"
+],
+[
+"V0-BACKSOLVE-RIVAL-RESPONSE-A2473FF1",
+"K-EPOCH-PREFIX-TAIL-REPRESENTATION",
+"depends_on"
+],
+[
+"V0-BACKSOLVE-RIVAL-RESPONSE-A2473FF1",
+"K-CONTINUATION-RANK-SCALAR-BOUNDARY-5D7771E7",
+"depends_on"
+],
+[
+"V0-BACKSOLVE-RIVAL-RESPONSE-A2473FF1",
+"K-V0-COMPILER-REPAIRS",
+"depends_on"
+],
+[
+"V0-BACKSOLVE-RIVAL-RESPONSE-A2473FF1",
+"V0-BACKSOLVE-HOLD-CUT-BCBFFB5D",
+"depends_on"
+],
+[
+"V0-BACKSOLVE-RIVAL-RESPONSE-A2473FF1",
+"V0-BACKSOLVE-EXACT-WINDOW-LABELS-6F1C2A90",
+"depends_on"
+],
+[
+"Q2-OPENING-BASE-VALUE-RANK-BOUNDARY-b0b9c6cf",
+"K-UNIT-ECONOMICS-ONE-TILE",
+"depends_on"
+],
+[
+"Q2-OPENING-BASE-VALUE-RANK-BOUNDARY-b0b9c6cf",
+"K-CASH-FLOW-PREFIX-834E2F40",
+"depends_on"
+],
+[
+"Q2-OPENING-BASE-VALUE-RANK-BOUNDARY-b0b9c6cf",
+"K05",
+"depends_on"
+],
+[
+"Q2-OPENING-BASE-VALUE-RANK-BOUNDARY-b0b9c6cf",
+"K05",
+"corroborates"
+],
+[
+"Q2-OPENING-BASE-VALUE-RANK-BOUNDARY-b0b9c6cf",
+"K-UNIT-ECONOMICS-ONE-TILE",
+"corroborates"
+],
+[
+"K-OPPONENT-SALE-ENVELOPE",
+"K04",
+"depends_on"
+],
+[
+"K-OPPONENT-SALE-ENVELOPE",
+"K05",
+"depends_on"
+],
+[
+"K-OPPONENT-SALE-ENVELOPE",
+"K06",
+"depends_on"
+],
+[
+"K-OPPONENT-SALE-ENVELOPE",
+"K05",
+"corroborates"
+],
+[
+"K-IGNORANCE-STOPPING",
+"K04",
+"depends_on"
+],
+[
+"K-IGNORANCE-STOPPING",
+"K05",
+"depends_on"
+],
+[
+"K-IGNORANCE-STOPPING",
+"K06",
+"depends_on"
+],
+[
+"K-OPENING-NEUTRAL-WATER-FRONTIER-3D575402",
+"K-BIRTH-COHORT-VS-ELIGIBILITY",
+"depends_on"
+],
+[
+"K-OPENING-NEUTRAL-WATER-FRONTIER-3D575402",
+"K-UNIT-ECONOMICS-ONE-TILE-v2",
+"depends_on"
+],
+[
+"K-OPENING-NEUTRAL-WATER-FRONTIER-3D575402",
+"K-DATED-PRODUCER-ALPHABET-FD47176A",
+"depends_on"
+],
+[
+"K-OPENING-NEUTRAL-WATER-FRONTIER-3D575402",
+"K-CASH-FLOW-PREFIX-834E2F40",
+"depends_on"
+],
+[
+"K-OPENING-NEUTRAL-WATER-FRONTIER-3D575402",
+"Q2-OPENING-BASE-VALUE-RANK-BOUNDARY-b0b9c6cf",
+"depends_on"
+],
+[
+"K-OPENING-NEUTRAL-WATER-FRONTIER-3D575402",
+"Q2-DEMAND-LAW-3C0F0F84",
+"depends_on"
+],
+[
+"K-V0-FROZEN-SET-NORMALIZER-87912698",
+"K-V0-COMPILER-ROUND-TRIP",
+"depends_on"
+],
+[
+"K-V0-FROZEN-SET-NORMALIZER-87912698",
+"K04",
+"depends_on"
+],
+[
+"K-LATE-SELL1-BUDGET-REPAIR-5DCA544F",
+"K-BUDGET-BANDS-CONSENSUS",
+"depends_on"
+],
+[
+"K-LATE-SELL1-BUDGET-REPAIR-5DCA544F",
+"K-SELL2-LOSS-CLASS-184FBAE3",
+"depends_on"
+],
+[
+"K-MARKET-FLOW-EXPORTER-69EC9130",
+"K-MARKET-PASSIVE-FLOW-LABEL-69EC9130",
+"depends_on"
+],
+[
+"K-MARKET-FLOW-EXPORTER-69EC9130",
+"K-MARKET-PASSIVE-FLOW-LABEL-69EC9130",
+"corroborates"
+],
+[
+"K-LAND-GATE-LADDER-PANEL",
+"K-LAND-SERVICEABILITY-GEOMETRY",
+"depends_on"
+],
+[
+"K-LAND-GATE-LADDER-PANEL",
+"K-LADDER-TAPE-DICTIONARY",
+"depends_on"
+],
+[
+"K-LAND-GATE-LADDER-PANEL",
+"K-LABOR-IDENTIFIABILITY-CONSENSUS",
+"depends_on"
+],
+[
+"K-LAND-GATE-LADDER-PANEL",
+"K-LADDER-TAPE-DICTIONARY",
+"corroborates"
+],
+[
+"OPTIMIZER-RESPONSE-BOUND",
+"CE-COTANGENT-SUFFICIENCY",
+"depends_on"
+],
+[
+"OPTIMIZER-RESPONSE-BOUND",
+"CHOICE-GRADIENT-GAP",
+"depends_on"
+],
+[
+"OPTIMIZER-RESPONSE-BOUND",
+"K07",
+"depends_on"
+],
+[
+"OPTIMIZER-RESPONSE-BOUND",
+"K02",
+"depends_on"
+],
+[
+"OPTIMIZER-RESPONSE-BOUND",
+"CE-COTANGENT-SUFFICIENCY",
+"corroborates"
+],
+[
+"OPTIMIZER-RESPONSE-BOUND",
+"CHOICE-GRADIENT-GAP",
+"corroborates"
+],
+[
+"OPTIMIZER-RESPONSE-BOUND",
+"K07",
+"corroborates"
+],
+[
+"OPTIMIZER-RESPONSE-BOUND",
+"K02",
+"corroborates"
+],
+[
+"K-BUDGET-FIRST-CYCLE-QUANTITY-7570F20E",
+"K-CYCLE-BELIEF-SIZING-COMPOSITION",
+"depends_on"
+],
+[
+"K-BUDGET-FIRST-CYCLE-QUANTITY-7570F20E",
+"K-UNEQUAL-CYCLE-FIVE-RESIDUES-46EF2049",
+"depends_on"
+],
+[
+"K-BUDGET-FIRST-CYCLE-QUANTITY-7570F20E",
+"K-CYCLE-BELIEF-CAPITAL-HULL-7E02F4E7",
+"depends_on"
+],
+[
+"K-BUDGET-FIRST-CYCLE-QUANTITY-7570F20E",
+"K-CYCLE-BELIEF-CAPITAL-HULL-7E02F4E7",
+"corroborates"
+],
+[
+"K-SELL2-LOSS-CLASS-184FBAE3",
+"K-BUDGET-BANDS-CONSENSUS",
+"depends_on"
+],
+[
+"K-SELL2-LOSS-CLASS-184FBAE3",
+"K-EQUAL-LOSS-BELIEF-LIFT-EE048B64",
+"depends_on"
+],
+[
+"K-SALE-ORDER-ASSIGNMENT",
+"K05",
+"depends_on"
+],
+[
+"K-SALE-ORDER-ASSIGNMENT",
+"K04",
+"depends_on"
+],
+[
+"K-SALE-ORDER-ASSIGNMENT",
+"K06",
+"depends_on"
+],
+[
+"K-SALE-ORDER-ASSIGNMENT",
+"K05",
+"corroborates"
+],
+[
+"K-RIVAL-CAPACITY-CONSENSUS",
+"K-Q1-CAPACITY-PREFIX-3fdcc57e",
+"depends_on"
+],
+[
+"K-RIVAL-CAPACITY-CONSENSUS",
+"Q1-RIVAL-CAPACITY-PREFIX-56c456ee",
+"depends_on"
+],
+[
+"K-RIVAL-CAPACITY-CONSENSUS",
+"K-RIVAL-FLOW-CONSENSUS",
+"depends_on"
+],
+[
+"K-RIVAL-CAPACITY-CONSENSUS",
+"K-Q1-CAPACITY-PREFIX-3fdcc57e",
+"corroborates"
+],
+[
+"K-RIVAL-CAPACITY-CONSENSUS",
+"Q1-RIVAL-CAPACITY-PREFIX-56c456ee",
+"corroborates"
+],
+[
+"K-RIVAL-CAPACITY-CONSENSUS",
+"K-RIVAL-FLOW-CONSENSUS",
+"narrows"
+],
+[
+"Q2-PORTFOLIO-BASE-PRICE-CROSS-PRODUCT-BOUNDARY-9010435f",
+"K-UNIT-ECONOMICS-ONE-TILE-v2",
+"depends_on"
+],
+[
+"Q2-PORTFOLIO-BASE-PRICE-CROSS-PRODUCT-BOUNDARY-9010435f",
+"K-PRODUCT-FRONTIER-7767825e",
+"depends_on"
+],
+[
+"Q2-PORTFOLIO-BASE-PRICE-CROSS-PRODUCT-BOUNDARY-9010435f",
+"Q2-OPENING-BASE-VALUE-RANK-BOUNDARY-b0b9c6cf",
+"depends_on"
+],
+[
+"Q2-PORTFOLIO-BASE-PRICE-CROSS-PRODUCT-BOUNDARY-9010435f",
+"K04",
+"depends_on"
+],
+[
+"Q2-PORTFOLIO-BASE-PRICE-CROSS-PRODUCT-BOUNDARY-9010435f",
+"Q2-OPENING-BASE-VALUE-RANK-BOUNDARY-b0b9c6cf",
+"corroborates"
+],
+[
+"K-CASH-BLOCK-LIQUIDITY-SORT-813debd4",
+"K-CASH-FLOW-PREFIX-834E2F40",
+"depends_on"
+],
+[
+"K-CASH-BLOCK-LIQUIDITY-SORT-813debd4",
+"K-SALE-ORDER-ASSIGNMENT",
+"depends_on"
+],
+[
+"K-CASH-BLOCK-LIQUIDITY-SORT-813debd4",
+"K-SALE-SLOTS-PRESERVED-MIXED-3d038faf",
+"depends_on"
+],
+[
+"K-EQUAL-LOSS-BELIEF-LIFT-EE048B64",
+"K-CYCLE-BELIEF-CELLS-89E57C70",
+"depends_on"
+],
+[
+"K-EQUAL-LOSS-BELIEF-LIFT-EE048B64",
+"K-CYCLE-BELIEF-SIZING-COMPOSITION",
+"depends_on"
+],
+[
+"K-LAND-QUICK-SITE-SLACK-SIEVE-31C21865",
+"K-LABOR-INTERVAL-22A8C6E5",
+"depends_on"
+],
+[
+"K-LAND-QUICK-SITE-SLACK-SIEVE-31C21865",
+"K-LAND-SERVICEABILITY-GEOMETRY",
+"depends_on"
+],
+[
+"K-LAND-QUICK-SITE-SLACK-SIEVE-31C21865",
+"K-LAND-GATE-LADDER-PANEL",
+"depends_on"
+],
+[
+"K-LAND-QUICK-SITE-SLACK-SIEVE-31C21865",
+"K-PLOT-INCIDENT-DEADLINE-140c704c",
+"depends_on"
+],
+[
+"K-LAND-QUICK-SITE-SLACK-SIEVE-31C21865",
+"PLOT-d1b96c74-RECTANGLE",
+"depends_on"
+],
+[
+"K-LAND-QUICK-SITE-SLACK-SIEVE-31C21865",
+"K-FUNDED-HAND-DAY-QUOTIENT-8C39B662",
+"depends_on"
+],
+[
+"K-LAND-QUICK-SITE-SLACK-SIEVE-31C21865",
+"K-LABOR-IDENTIFIABILITY-CONSENSUS",
+"depends_on"
+],
+[
+"K-KNAPSACK-LABOR-IDENTIFIABILITY-0D9A2368",
+"K-PORTFOLIO-KNAPSACK-REALIZATION",
+"depends_on"
+],
+[
+"K-KNAPSACK-LABOR-IDENTIFIABILITY-0D9A2368",
+"K-DATED-PRODUCER-ALPHABET-FD47176A",
+"depends_on"
+],
+[
+"K-KNAPSACK-LABOR-IDENTIFIABILITY-0D9A2368",
+"K-PORTFOLIO-KNAPSACK-REALIZATION",
+"narrows"
+],
+[
+"K-F02-ROUTING-CUSTODY",
+"K01",
+"depends_on"
+],
+[
+"K-F02-ROUTING-CUSTODY",
+"K02",
+"depends_on"
+],
+[
+"K-F02-ROUTING-CUSTODY",
+"K-F02-DEPOSIT-PREFIX",
+"depends_on"
+],
+[
+"K-F02-ROUTING-CUSTODY",
+"K01",
+"narrows"
+],
+[
+"K-F02-ROUTING-CUSTODY",
+"K02",
+"corroborates"
+],
+[
+"K-MARKET-SIGNED-OFFSET-POTENTIAL-4A19797F",
+"K-MARKET-HOLD-DEMAND-POTENTIAL-cd9bc8d7",
+"depends_on"
+],
+[
+"K-MARKET-SIGNED-OFFSET-POTENTIAL-4A19797F",
+"K-RIVAL-SOLO-FLOW-SALE-SHIFT-CG01",
+"depends_on"
+],
+[
+"K-MARKET-SIGNED-OFFSET-POTENTIAL-4A19797F",
+"K-MARKET-CARRY-SUPPLY-QUOTIENT-9d3a316d",
+"depends_on"
+],
+[
+"K-FIT-ORDER-CONTROL",
+"K-ORDER-HASH",
+"narrows"
+],
+[
+"K-MEASUREMENT-CONSUMER-1CFC3906",
+"K-MEASUREMENT-WORLD-42638AA3",
+"depends_on"
+],
+[
+"K-MEASUREMENT-CONSUMER-1CFC3906",
+"COVERAGE-MENU-PARTITION-c552647c",
+"depends_on"
+],
+[
+"K-MEASUREMENT-CONSUMER-1CFC3906",
+"K07",
+"depends_on"
+],
+[
+"K-MEASUREMENT-CONSUMER-1CFC3906",
+"K-MEASUREMENT-WORLD-42638AA3",
+"corroborates"
+],
+[
+"K-MEASUREMENT-CONSUMER-1CFC3906",
+"COVERAGE-MENU-PARTITION-c552647c",
+"narrows"
+],
+[
+"K-MEASUREMENT-CONSUMER-1CFC3906",
+"K07",
+"corroborates"
+],
+[
+"K-CHOICE-ENTRY-MATCH-COMPOSITION-F555B15A",
+"K-CHAIN-CHOICE-HIRE-CUTOFF-B9B1111E",
+"depends_on"
+],
+[
+"K-CHOICE-ENTRY-MATCH-COMPOSITION-F555B15A",
+"K-CHAIN-ENTRY-MATCHING-79FD6155",
+"depends_on"
+],
+[
+"K-MARKET-PREFIX-EXTREMA-BB6F01FA",
+"K-MARKET-SIGNED-OFFSET-POTENTIAL-4A19797F",
+"depends_on"
+],
+[
+"K-MARKET-PREFIX-EXTREMA-BB6F01FA",
+"K-MARKET-BRIDGE-POTENTIAL-CONSENSUS",
+"depends_on"
+],
+[
+"K-MARKET-PREFIX-EXTREMA-BB6F01FA",
+"K-CASH-FLOW-PREFIX-834E2F40",
+"depends_on"
+],
+[
+"K-MARKET-PREFIX-EXTREMA-BB6F01FA",
+"K-RIVAL-SOLO-FLOW-SALE-SHIFT-CG01",
+"depends_on"
+],
+[
+"K-CONVERSION-CONSERVATION-dfccf5e9",
+"K-FUNDED-HAND-DAY-QUOTIENT-8C39B662",
+"depends_on"
+],
+[
+"K-CONVERSION-CONSERVATION-dfccf5e9",
+"Q2-HARVEST-PREFIX-E3E4ADF1",
+"depends_on"
+],
+[
+"K-CONVERSION-CONSERVATION-dfccf5e9",
+"K-BIRTH-COHORT-VS-ELIGIBILITY",
+"depends_on"
+],
+[
+"K-CONVERSION-CONSERVATION-dfccf5e9",
+"K-HANDS-CASH-COUPLED-COUNTEREXAMPLE",
+"depends_on"
+],
+[
+"K-CONVERSION-CONSERVATION-dfccf5e9",
+"K-PORTFOLIO-TIMED-INPUT-PREFIX-e48ea15f",
+"depends_on"
+],
+[
+"K-HANDS-CASH-COUPLED-COUNTEREXAMPLE",
+"Q2-CAPACITY-PREFIX-D9F18BDA",
+"narrows"
+],
+[
+"K-HANDS-CASH-COUPLED-COUNTEREXAMPLE",
+"Q2-OPENING-FEED-CASH-CUT",
+"corroborates"
+],
+[
+"K-GAP-FRONTIER-SLACK-INDEPENDENT-CHECK",
+"K-GAP-FRONTIER-SLACK-COMPOSITION",
+"depends_on"
+],
+[
+"K-GAP-FRONTIER-SLACK-INDEPENDENT-CHECK",
+"K-GAP-FRONTIER-SLACK-COMPOSITION",
+"corroborates"
+],
+[
+"K-ISOLATED-NET-TRADE-f57bec73",
+"K-SALE-SLOTS-PRESERVED-MIXED-3d038faf",
+"depends_on"
+],
+[
+"K-ISOLATED-NET-TRADE-f57bec73",
+"K-CASH-FLOW-PREFIX-834E2F40",
+"depends_on"
+],
+[
+"K-ISOLATED-NET-TRADE-f57bec73",
+"K-OPPONENT-SIGNED-35e91a9e",
+"depends_on"
+],
+[
+"K-DISPATCH-PREFIX-RESIDUAL-84861D38",
+"K-DISPATCH-ORDER-PRECEDENCE-84861D38",
+"depends_on"
+],
+[
+"K-DISPATCH-PREFIX-RESIDUAL-84861D38",
+"Q2-HARVEST-PREFIX-E3E4ADF1",
+"depends_on"
+],
+[
+"K-DURATION-SUBSTITUTION-BOUNDARY-BEC487B7",
+"K-LABOR-INTERVAL-22A8C6E5",
+"depends_on"
+],
+[
+"K-DURATION-SUBSTITUTION-BOUNDARY-BEC487B7",
+"K-ROUTED-DUTY-SETUP-COUNTDOWN-6EC15D57",
+"depends_on"
+],
+[
+"K-DURATION-SUBSTITUTION-BOUNDARY-BEC487B7",
+"K-LABOR-RAY-ENDPOINT-CONSENSUS",
+"depends_on"
+],
+[
+"K-DURATION-SUBSTITUTION-BOUNDARY-BEC487B7",
+"K-LABOR-SCREEN-DURATION-BOUNDARY",
+"refutes"
+],
+[
+"K-LABOR-ACTION-PARTITION-4FD2A1E7",
+"K-KNAPSACK-LABOR-IDENTIFIABILITY-0D9A2368",
+"depends_on"
+],
+[
+"K-LABOR-ACTION-PARTITION-4FD2A1E7",
+"K-KNAPSACK-LABOR-IDENTIFIABILITY-0D9A2368",
+"narrows"
+],
+[
+"K-GAP-EXCEPTION-ANTICHAIN-9105877C",
+"K-LAND-PAIR-PARTITION-FLOW-BFBFF12E",
+"depends_on"
+],
+[
+"K-GAP-EXCEPTION-ANTICHAIN-9105877C",
+"K-LAND-PAIR-GAP-DIAGONAL-8C3CFF02",
+"depends_on"
+],
+[
+"K-HARVEST-ROUTE-CUSTODY-d65562fb",
+"K-PLOT-ORDER-ENDPOINT-432c85ef",
+"depends_on"
+],
+[
+"K-HARVEST-ROUTE-CUSTODY-d65562fb",
+"K-HARVEST-FIRST-APPEARANCE-cf6b04bf",
+"depends_on"
+],
+[
+"K-HARVEST-ROUTE-CUSTODY-d65562fb",
+"K-F02-DEPOSIT-PREFIX",
+"depends_on"
+],
+[
+"K-HARVEST-ROUTE-CUSTODY-d65562fb",
+"K-SALE-ORDER-ASSIGNMENT",
+"depends_on"
+],
+[
+"K-MARKET-CAPITAL-HULL-e28d9560",
+"K-MARKET-AFFORDABILITY-ENDPOINTS-71D9AECC",
+"depends_on"
+],
+[
+"K-MARKET-CAPITAL-HULL-e28d9560",
+"K-MARKET-CASH-CONTROL-CURVE",
+"depends_on"
+],
+[
+"K-MARKET-CAPITAL-HULL-e28d9560",
+"K-ISOLATED-NET-TRADE-f57bec73",
+"depends_on"
+],
+[
+"K-SAME-SLOT-SATURATION-735E828B",
+"K-TIMED-RECEIPT-RECURRENCE",
+"depends_on"
+],
+[
+"K-SAME-SLOT-SATURATION-735E828B",
+"K-MARKET-PRIMITIVES-EXPOSED",
+"depends_on"
+],
+[
+"K-SAME-SLOT-SATURATION-735E828B",
+"K-RIVAL-FLOW-CONSENSUS",
+"depends_on"
+],
+[
+"K-SAME-SLOT-SATURATION-735E828B",
+"K-RECEIPT-TIMING-CONSENSUS",
+"depends_on"
+],
+[
+"K-SAME-SLOT-SATURATION-735E828B",
+"K-MARKET-PRIMITIVES-EXPOSED",
+"narrows"
+],
+[
+"K-UNIT-ECONOMICS-ONE-TILE-v2",
+"E1",
+"depends_on"
+],
+[
+"K-UNIT-ECONOMICS-ONE-TILE-v2",
+"E2",
+"depends_on"
+],
+[
+"K-UNIT-ECONOMICS-ONE-TILE-v2",
+"E1",
+"corroborates"
+],
+[
+"K-UNIT-ECONOMICS-ONE-TILE-v2",
+"E2",
+"corroborates"
+],
+[
+"K-UNIT-ECONOMICS-ONE-TILE-v2",
+"K-UNIT-ECONOMICS-ONE-TILE",
+"supersedes"
+],
+[
+"F02-ROUTING-REALIZATION",
+"K01",
+"depends_on"
+],
+[
+"F02-ROUTING-REALIZATION",
+"K02",
+"depends_on"
+],
+[
+"F02-ROUTING-REALIZATION",
+"F02-CAPACITY-PREFIX",
+"depends_on"
+],
+[
+"K-OPENING-SNAPSHOT-SERVICE-COMPOSITION",
+"Q2-OPENING-SNAPSHOT-FIBONACCI-FIBERS-e27afd3a",
+"depends_on"
+],
+[
+"K-OPENING-SNAPSHOT-SERVICE-COMPOSITION",
+"K-NEUTRAL-COHORT-COUNT-QUOTIENT-E75FCD95",
+"depends_on"
+],
+[
+"K-OPENING-SNAPSHOT-SERVICE-COMPOSITION",
+"Q2-OPENING-HISTORY-ALPHABET-55-b9a6c7b4",
+"depends_on"
+],
+[
+"K-OPENING-SNAPSHOT-SERVICE-COMPOSITION",
+"K-OPENING-GENERATION-CONSENSUS",
+"depends_on"
+],
+[
+"K-OPENING-SNAPSHOT-SERVICE-COMPOSITION",
+"Q2-OPENING-SNAPSHOT-FIBONACCI-FIBERS-e27afd3a",
+"corroborates"
+],
+[
+"K-OPENING-SNAPSHOT-SERVICE-COMPOSITION",
+"K-NEUTRAL-COHORT-COUNT-QUOTIENT-E75FCD95",
+"corroborates"
+],
+[
+"K-HIRE-SALE-FULL-FILL-NORMAL-FORM-CG04",
+"K-PREFUNDED-HIRE-SALE-QUEUE-QUOTIENT-CG03",
+"depends_on"
+],
+[
+"K-HIRE-SALE-FULL-FILL-NORMAL-FORM-CG04",
+"K-PHASE-CANONICAL-LIQUIDITY-COMPOSITION",
+"depends_on"
+],
+[
+"K-HIRE-SALE-FULL-FILL-NORMAL-FORM-CG04",
+"K-PREFUNDED-HIRE-SALE-QUEUE-QUOTIENT-CG03",
+"narrows"
+],
+[
+"K-HIRE-SALE-FULL-FILL-NORMAL-FORM-CG04",
+"K-PHASE-CANONICAL-LIQUIDITY-COMPOSITION",
+"corroborates"
+],
+[
+"K06",
+"K01",
+"depends_on"
+],
+[
+"Q2-ORDERED-RECEIPT-CURVES-2c3a99d0",
+"Q2-DEMAND-LAW-3C0F0F84",
+"depends_on"
+],
+[
+"Q2-ORDERED-RECEIPT-CURVES-2c3a99d0",
+"K-OPPONENT-SALE-ENVELOPE",
+"depends_on"
+],
+[
+"Q2-ORDERED-RECEIPT-CURVES-2c3a99d0",
+"K-UNIT-ECONOMICS-ONE-TILE-v2",
+"depends_on"
+],
+[
+"Q2-ORDERED-RECEIPT-CURVES-2c3a99d0",
+"K05",
+"depends_on"
+],
+[
+"Q2-ORDERED-RECEIPT-CURVES-2c3a99d0",
+"Q2-PORTFOLIO-BASE-PRICE-CROSS-PRODUCT-BOUNDARY-9010435f",
+"depends_on"
+],
+[
+"Q2-ORDERED-RECEIPT-CURVES-2c3a99d0",
+"K-PRODUCTWISE-HIDDEN-PATHS",
+"depends_on"
+],
+[
+"Q2-ORDERED-RECEIPT-CURVES-2c3a99d0",
+"K-MARGINAL-RELAXATION-TOPOLOGY",
+"narrows"
+],
+[
+"Q3-DAWN8-TAIL-CONDITIONAL-CONTINUATION-0AFC534A",
+"H8-CONTINUATION-BOUNDARY-52BD7AD6",
+"depends_on"
+],
+[
+"Q3-DAWN8-TAIL-CONDITIONAL-CONTINUATION-0AFC534A",
+"K-CALENDAR-719",
+"depends_on"
+],
+[
+"Q3-DAWN8-TAIL-CONDITIONAL-CONTINUATION-0AFC534A",
+"K05",
+"depends_on"
+],
+[
+"Q3-DAWN8-TAIL-CONDITIONAL-CONTINUATION-0AFC534A",
+"Q2-OPENING-BASE-VALUE-RANK-BOUNDARY-b0b9c6cf",
+"depends_on"
+],
+[
+"Q3-DAWN8-TAIL-CONDITIONAL-CONTINUATION-0AFC534A",
+"H8-CONTINUATION-BOUNDARY-52BD7AD6",
+"corroborates"
+],
+[
+"Q3-DAWN8-TAIL-CONDITIONAL-CONTINUATION-0AFC534A",
+"Q2-OPENING-BASE-VALUE-RANK-BOUNDARY-b0b9c6cf",
+"corroborates"
+],
+[
+"Q3-DAWN8-TAIL-CONDITIONAL-CONTINUATION-0AFC534A",
+"K05",
+"corroborates"
+],
+[
+"Q2-PORTFOLIO-HARVEST-PREFIX-BOUNDARY-9a63b04d",
+"K-UNIT-ECONOMICS-ONE-TILE-v2",
+"depends_on"
+],
+[
+"Q2-PORTFOLIO-HARVEST-PREFIX-BOUNDARY-9a63b04d",
+"K-PRODUCT-FRONTIER-7767825e",
+"depends_on"
+],
+[
+"Q2-PORTFOLIO-HARVEST-PREFIX-BOUNDARY-9a63b04d",
+"Q2-OPENING-BASE-VALUE-RANK-BOUNDARY-b0b9c6cf",
+"depends_on"
+],
+[
+"Q2-PORTFOLIO-HARVEST-PREFIX-BOUNDARY-9a63b04d",
+"K04",
+"depends_on"
+],
+[
+"Q2-PORTFOLIO-HARVEST-PREFIX-BOUNDARY-9a63b04d",
+"K-CASH-FLOW-PREFIX-834E2F40",
+"depends_on"
+],
+[
+"Q2-PORTFOLIO-HARVEST-PREFIX-BOUNDARY-9a63b04d",
+"K05",
+"depends_on"
+],
+[
+"Q2-PORTFOLIO-HARVEST-PREFIX-BOUNDARY-9a63b04d",
+"K-LINEAR-COLUMN-VALUE-LOSS",
+"depends_on"
+],
+[
+"Q2-PORTFOLIO-HARVEST-PREFIX-BOUNDARY-9a63b04d",
+"K-UNIT-ECONOMICS-ONE-TILE-v2",
+"narrows"
+],
+[
+"K-MARKET-PRIMITIVES-EXPOSED",
+"K-TIMED-RECEIPT-RECURRENCE",
+"depends_on"
+],
+[
+"K-MARKET-PRIMITIVES-EXPOSED",
+"K-RIVAL-FLOW-CONSENSUS",
+"depends_on"
+],
+[
+"K-MARKET-PRIMITIVES-EXPOSED",
+"K-RECEIPT-TIMING-CONSENSUS",
+"depends_on"
+],
+[
+"K-MARKET-PRIMITIVES-EXPOSED",
+"K-RECEIPT-TIMING-CONSENSUS",
+"corroborates"
+],
+[
+"K-LEADER-STRATEGY-SAMPLE-CONSENSUS",
+"K-LEADER-MAJKEL1337-CORPUS",
+"depends_on"
+],
+[
+"K-LEADER-STRATEGY-SAMPLE-CONSENSUS",
+"K-V0-COMPILER-ROUND-TRIP",
+"depends_on"
+],
+[
+"K-LEADER-STRATEGY-SAMPLE-CONSENSUS",
+"K-LADDER-TAPE-DICTIONARY",
+"narrows"
+],
+[
+"K-LAND-GATE-LADDER-PANEL",
+"K-LAND-SERVICEABILITY-GEOMETRY",
+"depends_on"
+],
+[
+"K-LAND-GATE-LADDER-PANEL",
+"K-LADDER-TAPE-DICTIONARY",
+"depends_on"
+],
+[
+"K-LAND-GATE-LADDER-PANEL",
+"K-LABOR-IDENTIFIABILITY-CONSENSUS",
+"depends_on"
+],
+[
+"K-LAND-GATE-LADDER-PANEL",
+"K-LADDER-TAPE-DICTIONARY",
+"corroborates"
+],
+[
+"K-NEUTRAL-WET-TRANSPORT-C3660A24",
+"K-NEUTRAL-WET-EXCHANGE-F84B1461",
+"depends_on"
+],
+[
+"K-NEUTRAL-WET-TRANSPORT-C3660A24",
+"K-NEUTRAL-EXIT-PRICE-SUFFIX-45B284EA",
+"depends_on"
+],
+[
+"K-NEUTRAL-WET-TRANSPORT-C3660A24",
+"K-NEUTRAL-WET-EXCHANGE-F84B1461",
+"corroborates"
+],
+[
+"K-NEUTRAL-WET-TRANSPORT-C3660A24",
+"K-NEUTRAL-EXIT-PRICE-SUFFIX-45B284EA",
+"narrows"
+],
+[
+"K-V0-CARRY-CUSTODY-PREFIX-0B08E7C2",
+"K-V0-COMPILER-ROUND-TRIP",
+"depends_on"
+],
+[
+"K-V0-CARRY-CUSTODY-PREFIX-0B08E7C2",
+"K-MARKET-FULL-FILL-CANONICAL-CC3ED17F",
+"depends_on"
+],
+[
+"K-V0-CARRY-CUSTODY-PREFIX-0B08E7C2",
+"K-V0-COMPILER-ROUND-TRIP",
+"narrows"
+],
+[
+"K-V0-CARRY-CUSTODY-PREFIX-0B08E7C2",
+"K-MARKET-FULL-FILL-CANONICAL-CC3ED17F",
+"corroborates"
+],
+[
+"K-MARKET-BELIEF-ENVELOPE-6581FF80",
+"K-UNEQUAL-LOCKSTEP-MARGIN-4287B312",
+"depends_on"
+],
+[
+"K-MARKET-BELIEF-ENVELOPE-6581FF80",
+"K-MARKET-CAPITAL-HULL-e28d9560",
+"depends_on"
+],
+[
+"K-MARKET-BELIEF-ENVELOPE-6581FF80",
+"K-UNEQUAL-LOCKSTEP-MARGIN-4287B312",
+"narrows"
+],
+[
+"K-MARKET-BELIEF-ENVELOPE-6581FF80",
+"K-MARKET-CAPITAL-HULL-e28d9560",
+"narrows"
+],
+[
+"Q1-RIVAL-WINDOW-AUTHORIZATION-PREFIX-d344ceaa",
+"K-OPPONENT-SALE-ENVELOPE",
+"depends_on"
+],
+[
+"Q1-RIVAL-WINDOW-AUTHORIZATION-PREFIX-d344ceaa",
+"K-OPPONENT-PUBLIC-FLOW-QUOTIENT",
+"depends_on"
+],
+[
+"Q1-RIVAL-WINDOW-AUTHORIZATION-PREFIX-d344ceaa",
+"K-OPPONENT-SIGNED-35e91a9e",
+"depends_on"
+],
+[
+"Q1-RIVAL-WINDOW-AUTHORIZATION-PREFIX-d344ceaa",
+"Q2-RECEIPT-CURVES-MIN-INVENTORY-QUOTIENT-159F6058",
+"depends_on"
+],
+[
+"Q1-RIVAL-WINDOW-AUTHORIZATION-PREFIX-d344ceaa",
+"K-CASH-FLOW-PREFIX-834E2F40",
+"depends_on"
+],
+[
+"Q1-RIVAL-WINDOW-AUTHORIZATION-PREFIX-d344ceaa",
+"K-SHOP-CONDITIONAL-QUOTIENT-31fc6393",
+"depends_on"
+],
+[
+"Q1-RIVAL-WINDOW-AUTHORIZATION-PREFIX-d344ceaa",
+"K-SHOP-CONTEXT-SUFFIX-3dfd4a22",
+"depends_on"
+],
+[
+"Q1-RIVAL-WINDOW-AUTHORIZATION-PREFIX-d344ceaa",
+"K-OPPONENT-SALE-ENVELOPE",
+"narrows"
+],
+[
+"Q1-RIVAL-WINDOW-AUTHORIZATION-PREFIX-d344ceaa",
+"Q2-RECEIPT-CURVES-MIN-INVENTORY-QUOTIENT-159F6058",
+"corroborates"
+],
+[
+"Q1-RIVAL-WINDOW-AUTHORIZATION-PREFIX-d344ceaa",
+"K-CASH-FLOW-PREFIX-834E2F40",
+"corroborates"
+],
+[
+"K-V0-COMPILER-ROUND-TRIP",
+"K-PORTFOLIO-KNAPSACK-REALIZATION",
+"depends_on"
+],
+[
+"K-V0-COMPILER-ROUND-TRIP",
+"K-LIFECYCLE-COLUMNS-302",
+"depends_on"
+],
+[
+"K-V0-COMPILER-ROUND-TRIP",
+"K-DATED-MODULE-TAPES-e30d3018",
+"depends_on"
+],
+[
+"K-V0-COMPILER-ROUND-TRIP",
+"K-FUNDED-HAND-DAY-QUOTIENT-8C39B662",
+"depends_on"
+],
+[
+"K-V0-COMPILER-ROUND-TRIP",
+"K-CASH-FLOW-PREFIX-834E2F40",
+"depends_on"
+],
+[
+"K-V0-COMPILER-ROUND-TRIP",
+"K-MARKET-CAPITAL-HULL-e28d9560",
+"depends_on"
+],
+[
+"K-V0-COMPILER-ROUND-TRIP",
+"K-CYCLE-HARD-BUDGET-CONSENSUS",
+"depends_on"
+],
+[
+"K-V0-COMPILER-ROUND-TRIP",
+"K-MARKET-TIMING-EVENT-WINDOWS-58B8BD0B",
+"depends_on"
+],
+[
+"K-V0-COMPILER-ROUND-TRIP",
+"K-LABOR-CALIBRATION-IDENTIFIABILITY-4267A1E8",
+"depends_on"
+],
+[
+"K-V0-COMPILER-ROUND-TRIP",
+"K-FLOW-MOMENT-ALIAS-88680265",
+"depends_on"
+],
+[
+"K-V0-COMPILER-ROUND-TRIP",
+"K-PORTFOLIO-KNAPSACK-REALIZATION",
+"narrows"
+],
+[
+"K-V0-COMPILER-ROUND-TRIP",
+"K-KNAPSACK-REALIZATION-CONSENSUS",
+"corroborates"
+],
+[
+"Q2-TERMINAL-JOIN-4F5DE3C1",
+"Q2-OPENING-FEED-CASH-CUT",
+"depends_on"
+],
+[
+"Q2-TERMINAL-JOIN-4F5DE3C1",
+"K04",
+"depends_on"
+],
+[
+"Q2-TERMINAL-JOIN-4F5DE3C1",
+"K05",
+"depends_on"
+],
+[
+"Q2-TERMINAL-JOIN-4F5DE3C1",
+"F02-ROUTING-REALIZATION",
+"depends_on"
+],
+[
+"Q2-TERMINAL-JOIN-4F5DE3C1",
+"Q2-OPENING-FEED-CASH-CUT",
+"narrows"
+],
+[
+"Q2-TERMINAL-JOIN-4F5DE3C1",
+"K04",
+"narrows"
+],
+[
+"Q2-TERMINAL-JOIN-4F5DE3C1",
+"K05",
+"narrows"
+],
+[
+"Q2-TERMINAL-JOIN-4F5DE3C1",
+"F02-ROUTING-REALIZATION",
+"narrows"
+],
+[
+"K-MEASUREMENT-WORLD-42638AA3",
+"K-MENU-REGRET-05e00432",
+"depends_on"
+],
+[
+"K-MEASUREMENT-WORLD-42638AA3",
+"K07",
+"depends_on"
+],
+[
+"K-MEASUREMENT-WORLD-42638AA3",
+"K-MENU-REGRET-05e00432",
+"corroborates"
+],
+[
+"K-MEASUREMENT-WORLD-42638AA3",
+"K07",
+"narrows"
+],
+[
+"K-PORTFOLIO-TIMED-INPUT-PREFIX-e48ea15f",
+"K-UNIT-ECONOMICS-ONE-TILE-v2",
+"depends_on"
+],
+[
+"K-PORTFOLIO-TIMED-INPUT-PREFIX-e48ea15f",
+"K-PRODUCT-FRONTIER-7767825e",
+"depends_on"
+],
+[
+"K-PORTFOLIO-TIMED-INPUT-PREFIX-e48ea15f",
+"Q2-OPENING-BASE-VALUE-RANK-BOUNDARY-b0b9c6cf",
+"depends_on"
+],
+[
+"K-PORTFOLIO-TIMED-INPUT-PREFIX-e48ea15f",
+"K04",
+"depends_on"
+],
+[
+"K-PORTFOLIO-TIMED-INPUT-PREFIX-e48ea15f",
+"K-CASH-FLOW-PREFIX-834E2F40",
+"depends_on"
+],
+[
+"K-PORTFOLIO-TIMED-INPUT-PREFIX-e48ea15f",
+"K-BIRTH-COHORT-VS-ELIGIBILITY",
+"depends_on"
+],
+[
+"K-PORTFOLIO-TIMED-INPUT-PREFIX-e48ea15f",
+"K-PRODUCT-FRONTIER-7767825e",
+"narrows"
+],
+[
+"K-DISJOINT-NET-CONTEXT-b4191516",
+"K-ISOLATED-NET-TRADE-f57bec73",
+"depends_on"
+],
+[
+"K-DISJOINT-NET-CONTEXT-b4191516",
+"K-CASH-FLOW-PREFIX-834E2F40",
+"depends_on"
+],
+[
+"K-PANEL-SIZE-FOR-CASH-MARGIN-CLAIMS",
+"K-LOCAL-CASH-DOES-NOT-RANK-HOSTED-RATING",
+"narrows"
+],
+[
+"K-UNIT-ECONOMICS-ONE-TILE",
+"E1",
+"depends_on"
+],
+[
+"K-UNIT-ECONOMICS-ONE-TILE",
+"E2",
+"depends_on"
+],
+[
+"K-UNIT-ECONOMICS-ONE-TILE",
+"E1",
+"corroborates"
+],
+[
+"K-UNIT-ECONOMICS-ONE-TILE",
+"E2",
+"corroborates"
+],
+[
+"K-OPENING-WATER-DELETION-8C487DC9",
+"K-OPENING-NEUTRAL-WATER-FRONTIER-3D575402",
+"depends_on"
+],
+[
+"K-OPENING-WATER-DELETION-8C487DC9",
+"K-OPENING-GENERATION-CONSENSUS",
+"depends_on"
+],
+[
+"K-OPENING-WATER-DELETION-8C487DC9",
+"Q2-OPENING-GENERATION-ACCOUNTING-2A4F60AD",
+"depends_on"
+],
+[
+"K-OPENING-WATER-DELETION-8C487DC9",
+"K-ORDER-HASH",
+"depends_on"
+],
+[
+"K-GAP-WEIGHTED-SLACK-93B9D578",
+"K-GAP-FRONTIER-SLACK-COMPOSITION",
+"depends_on"
+],
+[
+"K-GAP-WEIGHTED-SLACK-93B9D578",
+"K-LAND-PAIR-PARTITION-FLOW-BFBFF12E",
+"depends_on"
+],
+[
+"K-KEEP-CDF-6ad5677e",
+"K07",
+"depends_on"
+],
+[
+"K-KEEP-CDF-6ad5677e",
+"K02",
+"depends_on"
+],
+[
+"K-KEEP-CDF-6ad5677e",
+"K-MENU-REGRET-05e00432",
+"depends_on"
+],
+[
+"K-KEEP-CDF-6ad5677e",
+"K07",
+"corroborates"
+],
+[
+"K-KEEP-CDF-6ad5677e",
+"K02",
+"corroborates"
+],
+[
+"K-KEEP-CDF-6ad5677e",
+"K-MENU-REGRET-05e00432",
+"narrows"
+],
+[
+"K-SAME-SLOT-CAPITAL-HULL-COMPOSITION",
+"K-MARKET-CAPITAL-HULL-e28d9560",
+"depends_on"
+],
+[
+"K-SAME-SLOT-CAPITAL-HULL-COMPOSITION",
+"K-SAME-SLOT-SATURATION-735E828B",
+"depends_on"
+],
+[
+"K-SAME-SLOT-CAPITAL-HULL-COMPOSITION",
+"K-SAME-SLOT-SATURATION-735E828B",
+"narrows"
+],
+[
+"K-SAME-SLOT-CAPITAL-HULL-COMPOSITION",
+"K-MARKET-CAPITAL-HULL-e28d9560",
+"corroborates"
+],
+[
+"Q2-OPENING-FEED-CASH-CUT",
+"K04",
+"corroborates"
+],
+[
+"Q2-OPENING-FEED-CASH-CUT",
+"K05",
+"corroborates"
+],
+[
+"Q2-OPENING-FEED-CASH-CUT",
+"F02-ROUTING-REALIZATION",
+"narrows"
+],
+[
+"K-LAND-GAP-INCIDENCE-CAPACITY-ac65e881",
+"K-LAND-SERVICEABILITY-GEOMETRY",
+"depends_on"
+],
+[
+"K-LAND-GAP-INCIDENCE-CAPACITY-ac65e881",
+"PLOT-d1b96c74-RECTANGLE",
+"depends_on"
+],
+[
+"K-LAND-GAP-INCIDENCE-CAPACITY-ac65e881",
+"K-PLOT-INCIDENT-DEADLINE-140c704c",
+"depends_on"
+],
+[
+"K-LAND-GAP-INCIDENCE-CAPACITY-ac65e881",
+"K01",
+"depends_on"
+],
+[
+"K-MARKET-HOLD-DEMAND-POTENTIAL-cd9bc8d7",
+"K-ISOLATED-NET-TRADE-f57bec73",
+"depends_on"
+],
+[
+"K-MARKET-HOLD-DEMAND-POTENTIAL-cd9bc8d7",
+"K-TIMED-RECEIPT-RECURRENCE",
+"depends_on"
+],
+[
+"K-MARKET-HOLD-DEMAND-POTENTIAL-cd9bc8d7",
+"K-MARKET-PRIMITIVES-EXPOSED",
+"depends_on"
+],
+[
+"K-MARKET-HOLD-DEMAND-POTENTIAL-cd9bc8d7",
+"Q2-RECEIPT-CURVES-MIN-INVENTORY-QUOTIENT-159F6058",
+"depends_on"
+],
+[
+"K-MARKET-HOLD-DEMAND-POTENTIAL-cd9bc8d7",
+"K-ISOLATED-NET-TRADE-f57bec73",
+"corroborates"
+],
+[
+"K-MARKET-HOLD-DEMAND-POTENTIAL-cd9bc8d7",
+"K-TIMED-RECEIPT-RECURRENCE",
+"narrows"
+],
+[
+"K-MARKET-HOLD-DEMAND-POTENTIAL-cd9bc8d7",
+"K-MARKET-PRIMITIVES-EXPOSED",
+"narrows"
+],
+[
+"K-MARKET-HOLD-DEMAND-POTENTIAL-cd9bc8d7",
+"Q2-RECEIPT-CURVES-MIN-INVENTORY-QUOTIENT-159F6058",
+"corroborates"
+],
+[
+"K-QUICK-SITE-FRONTIER-DOMINANCE-CG05",
+"K-LAND-SERVICEABILITY-GEOMETRY",
+"depends_on"
+],
+[
+"K-QUICK-SITE-FRONTIER-DOMINANCE-CG05",
+"K-QUICK-SITE-CONVOLUTION-CG04",
+"depends_on"
+],
+[
+"K-QUICK-SITE-FRONTIER-DOMINANCE-CG05",
+"K-LAND-SERVICEABILITY-GEOMETRY",
+"narrows"
+],
+[
+"K-QUICK-SITE-FRONTIER-DOMINANCE-CG05",
+"K-QUICK-SITE-CONVOLUTION-CG04",
+"corroborates"
+],
+[
+"K-CYCLE-BELIEF-HARD-BUDGET-4A5FACAA",
+"K-CYCLE-BELIEF-SIZING-COMPOSITION",
+"depends_on"
+],
+[
+"K-CYCLE-BELIEF-HARD-BUDGET-4A5FACAA",
+"K-UNEQUAL-CYCLE-CONSENSUS",
+"depends_on"
+],
+[
+"K-CYCLE-BELIEF-HARD-BUDGET-4A5FACAA",
+"K-CYCLE-BELIEF-CAPITAL-HULL-7E02F4E7",
+"depends_on"
+],
+[
+"K-CYCLE-BELIEF-HARD-BUDGET-4A5FACAA",
+"K-CYCLE-BELIEF-SIZING-COMPOSITION",
+"narrows"
+],
+[
+"PLOT-d1b96c74-RECTANGLE",
+"K01",
+"corroborates"
+],
+[
+"K-LAND-EXCEPTION-FRONTIER-412A05FA",
+"K-LAND-PAIR-PARTITION-FLOW-BFBFF12E",
+"depends_on"
+],
+[
+"K-LAND-EXCEPTION-FRONTIER-412A05FA",
+"K-LAND-PAIR-GAP-DIAGONAL-8C3CFF02",
+"depends_on"
+],
+[
+"K-LAND-EXCEPTION-FRONTIER-412A05FA",
+"K-LAND-GAP-SIGNATURE-CONSENSUS",
+"depends_on"
+],
+[
+"Q1-RIVAL-CAPACITY-PREFIX-56c456ee",
+"K-RIVAL-FLOW-CONSENSUS",
+"depends_on"
+],
+[
+"Q1-RIVAL-CAPACITY-PREFIX-56c456ee",
+"Q1-RIVAL-WINDOW-AUTHORIZATION-PREFIX-d344ceaa",
+"depends_on"
+],
+[
+"Q1-RIVAL-CAPACITY-PREFIX-56c456ee",
+"K-RIVAL-FLOW-WINDOWS",
+"depends_on"
+],
+[
+"Q1-RIVAL-CAPACITY-PREFIX-56c456ee",
+"K-OPPONENT-SALE-ENVELOPE",
+"depends_on"
+],
+[
+"Q1-RIVAL-CAPACITY-PREFIX-56c456ee",
+"K-RIVAL-FLOW-CONSENSUS",
+"narrows"
+],
+[
+"Q1-RIVAL-CAPACITY-PREFIX-56c456ee",
+"Q1-RIVAL-WINDOW-AUTHORIZATION-PREFIX-d344ceaa",
+"narrows"
+],
+[
+"K-RECEIPT-CURVES-CONSENSUS",
+"K-RECEIPT-CURVES-CONDITIONAL-493D5569",
+"depends_on"
+],
+[
+"K-RECEIPT-CURVES-CONSENSUS",
+"Q2-RECEIPT-CURVES-MIN-INVENTORY-QUOTIENT-159F6058",
+"depends_on"
+],
+[
+"K-RECEIPT-CURVES-CONSENSUS",
+"Q2-ORDERED-RECEIPT-CURVES-2c3a99d0",
+"depends_on"
+],
+[
+"K-RECEIPT-CURVES-CONSENSUS",
+"Q2-CONDITIONAL-RECEIPT-CURVES-89514659",
+"depends_on"
+],
+[
+"K-RECEIPT-CURVES-CONSENSUS",
+"Q2-CLOCKED-RECEIPT-CURVES-da3428bf",
+"depends_on"
+],
+[
+"K-RECEIPT-CURVES-CONSENSUS",
+"K-RECEIPT-CURVES-TWO-IMPLEMENTATIONS",
+"supersedes"
+],
+[
+"K-RECEIPT-CURVES-CONSENSUS",
+"K-RECEIPT-CURVES-CONDITIONAL-493D5569",
+"corroborates"
+],
+[
+"K-RECEIPT-CURVES-CONSENSUS",
+"Q2-RECEIPT-CURVES-MIN-INVENTORY-QUOTIENT-159F6058",
+"corroborates"
+],
+[
+"K-RECEIPT-CURVES-CONSENSUS",
+"Q2-ORDERED-RECEIPT-CURVES-2c3a99d0",
+"corroborates"
+],
+[
+"K-RECEIPT-CURVES-CONSENSUS",
+"Q2-CONDITIONAL-RECEIPT-CURVES-89514659",
+"corroborates"
+],
+[
+"K-RECEIPT-CURVES-CONSENSUS",
+"Q2-CLOCKED-RECEIPT-CURVES-da3428bf",
+"corroborates"
+],
+[
+"Q2-SALE-CUSTODY-B2FCF84D",
+"Q2-OPENING-FEED-CASH-CUT",
+"narrows"
+],
+[
+"Q2-SALE-CUSTODY-B2FCF84D",
+"K04",
+"corroborates"
+],
+[
+"Q2-SALE-CUSTODY-B2FCF84D",
+"K05",
+"corroborates"
+],
+[
+"Q2-SALE-CUSTODY-B2FCF84D",
+"F02-ROUTING-REALIZATION",
+"narrows"
+],
+[
+"K-SECOND-SLOT-SELL1-CONSENSUS",
+"K-LATE-SELL1-BUDGET-REPAIR-5DCA544F",
+"depends_on"
+],
+[
+"K-SECOND-SLOT-SELL1-CONSENSUS",
+"K-SECOND-SLOT-SELL1-BUDGET-SUPPORT-70C643EF",
+"depends_on"
+],
+[
+"K-SECOND-SLOT-SELL1-CONSENSUS",
+"K-LATE-SELL1-BUDGET-REPAIR-5DCA544F",
+"corroborates"
+],
+[
+"K-SECOND-SLOT-SELL1-CONSENSUS",
+"K-SECOND-SLOT-SELL1-BUDGET-SUPPORT-70C643EF",
+"corroborates"
+],
+[
+"K-LOCKSTEP-TAIL-FIVE-RESIDUES-A2C3DB23",
+"K-LOCKSTEP-CLOSED-CYCLE-MINT",
+"depends_on"
+],
+[
+"K-LOCKSTEP-TAIL-FIVE-RESIDUES-A2C3DB23",
+"K-ISOLATED-NET-TRADE-f57bec73",
+"depends_on"
+],
+[
+"K-LOCKSTEP-TAIL-FIVE-RESIDUES-A2C3DB23",
+"K-MARKET-CASH-CONTROL-CURVE",
+"depends_on"
+],
+[
+"K-OPENING-FUNDED-CASH-RESIDUAL-8CE4A748",
+"K-OPENING-CASH-MONOID-cb74c089",
+"depends_on"
+],
+[
+"K-OPENING-FUNDED-CASH-RESIDUAL-8CE4A748",
+"K-EPOCH-PREFIX-TAIL-REPRESENTATION",
+"depends_on"
+],
+[
+"K-OPENING-FUNDED-CASH-RESIDUAL-8CE4A748",
+"K-OPENING-CASH-MONOID-cb74c089",
+"narrows"
+],
+[
+"K-TIMED-RECEIPT-RECURRENCE",
+"Q2-ORDERED-RECEIPT-CURVES-2c3a99d0",
+"depends_on"
+],
+[
+"K-TIMED-RECEIPT-RECURRENCE",
+"Q2-CLOCKED-RECEIPT-CURVES-da3428bf",
+"depends_on"
+],
+[
+"K-TIMED-RECEIPT-RECURRENCE",
+"K-RECEIPT-CURVES-CONSENSUS",
+"depends_on"
+],
+[
+"K-TIMED-RECEIPT-RECURRENCE",
+"Q2-ORDERED-RECEIPT-CURVES-2c3a99d0",
+"corroborates"
+],
+[
+"K-TIMED-RECEIPT-RECURRENCE",
+"Q2-CLOCKED-RECEIPT-CURVES-da3428bf",
+"corroborates"
+],
+[
+"K-CHAIN-CALENDAR-DOMINANCE-CONSENSUS",
+"K-CHAIN-CALENDAR-CONTINUATION-ORDER-12CF71E5",
+"depends_on"
+],
+[
+"K-CHAIN-CALENDAR-DOMINANCE-CONSENSUS",
+"K-CHAIN-ENDPOINT-DOMINANCE-BF7A7849",
+"depends_on"
+],
+[
+"K-CHAIN-CALENDAR-DOMINANCE-CONSENSUS",
+"K-CHAIN-CALENDAR-CONTINUATION-ORDER-12CF71E5",
+"corroborates"
+],
+[
+"K-CHAIN-CALENDAR-DOMINANCE-CONSENSUS",
+"K-CHAIN-ENDPOINT-DOMINANCE-BF7A7849",
+"corroborates"
+],
+[
+"K-CHAIN-ENDPOINT-DOMINANCE-BF7A7849",
+"K-ANCHORED-CHAIN-CALENDAR-F2A9949C",
+"depends_on"
+],
+[
+"K-CHAIN-ENDPOINT-DOMINANCE-BF7A7849",
+"K-ORDERED-CARE-ANCHOR-FRONTIER-22F589A9",
+"depends_on"
+],
+[
+"K-HIRE-SALE-FULL-FILL-CONSENSUS",
+"K-HIRE-SALE-FULL-FILL-NORMAL-FORM-CG04",
+"depends_on"
+],
+[
+"K-HIRE-SALE-FULL-FILL-CONSENSUS",
+"K-HIRE-SALE-LIQUIDITY-DOMINANCE-bf982f19",
+"depends_on"
+],
+[
+"K-HIRE-SALE-FULL-FILL-CONSENSUS",
+"K-PREFUNDED-HIRE-SALE-QUEUE-QUOTIENT-CG03",
+"depends_on"
+],
+[
+"K-HIRE-SALE-FULL-FILL-CONSENSUS",
+"K-PHASE-CANONICAL-LIQUIDITY-COMPOSITION",
+"depends_on"
+],
+[
+"K-HIRE-SALE-FULL-FILL-CONSENSUS",
+"K-HIRE-SALE-FULL-FILL-NORMAL-FORM-CG04",
+"corroborates"
+],
+[
+"K-HIRE-SALE-FULL-FILL-CONSENSUS",
+"K-HIRE-SALE-LIQUIDITY-DOMINANCE-bf982f19",
+"corroborates"
+],
+[
+"K-HIRE-SALE-FULL-FILL-CONSENSUS",
+"K-PREFUNDED-HIRE-SALE-QUEUE-QUOTIENT-CG03",
+"narrows"
+],
+[
+"K-HIRE-SALE-FULL-FILL-CONSENSUS",
+"K-PHASE-CANONICAL-LIQUIDITY-COMPOSITION",
+"corroborates"
+],
+[
+"K-MARKET-PASSIVE-FLOW-LABEL-69EC9130",
+"Q2-DEMAND-LAW-3C0F0F84",
+"depends_on"
+],
+[
+"K-MARKET-PASSIVE-FLOW-LABEL-69EC9130",
+"K-LADDER-REPLAY-MARKET-WITNESS",
+"depends_on"
+],
+[
+"K-MARKET-PASSIVE-FLOW-LABEL-69EC9130",
+"K-RIVAL-SOLO-FLOW-SALE-SHIFT-CG01",
+"depends_on"
+],
+[
+"K-MARKET-PASSIVE-FLOW-LABEL-69EC9130",
+"K-MARKET-SIGNED-OFFSET-POTENTIAL-4A19797F",
+"depends_on"
+],
+[
+"K-MARKET-PASSIVE-FLOW-LABEL-69EC9130",
+"K-UNEQUAL-CYCLE-CONSENSUS",
+"depends_on"
+],
+[
+"K-MARKET-PASSIVE-FLOW-LABEL-69EC9130",
+"K-CYCLE-BELIEF-SIZING-COMPOSITION",
+"depends_on"
+],
+[
+"K-MARKET-PASSIVE-FLOW-LABEL-69EC9130",
+"K-RIVAL-FLOW-WINDOWS",
+"depends_on"
+],
+[
+"K-MARKET-PASSIVE-FLOW-LABEL-69EC9130",
+"K-LADDER-REPLAY-MARKET-WITNESS",
+"narrows"
+],
+[
+"K-MARKET-PASSIVE-FLOW-LABEL-69EC9130",
+"Q2-DEMAND-LAW-3C0F0F84",
+"corroborates"
+],
+[
+"Q2-OPENING-BIRTH-STOCK-FLOW-706F0E61",
+"K-BIRTH-COHORT-VS-ELIGIBILITY",
+"depends_on"
+],
+[
+"Q2-OPENING-BIRTH-STOCK-FLOW-706F0E61",
+"K-CASH-FLOW-PREFIX-834E2F40",
+"depends_on"
+],
+[
+"Q2-OPENING-BIRTH-STOCK-FLOW-706F0E61",
+"K-EPOCH-PREFIX-TAIL-REPRESENTATION",
+"depends_on"
+],
+[
+"Q2-OPENING-BIRTH-STOCK-FLOW-706F0E61",
+"K-BIRTH-COHORT-VS-ELIGIBILITY",
+"narrows"
+],
+[
+"Q2-OPENING-BIRTH-STOCK-FLOW-706F0E61",
+"K-CASH-FLOW-PREFIX-834E2F40",
+"corroborates"
+],
+[
+"Q2-OPENING-BIRTH-STOCK-FLOW-706F0E61",
+"K-EPOCH-PREFIX-TAIL-REPRESENTATION",
+"corroborates"
+]
+],
+"linked_pairs": 919
+}

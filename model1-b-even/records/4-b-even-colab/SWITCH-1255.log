@@ -1,0 +1,9 @@
+2026-09-30 12:40:33 waiting for seats: missing 203 of 12829
+2026-09-30 12:41:05 waiting for seats: missing 94 of 12829
+2026-09-30 12:41:37 roster rows-n-d4623759c8fe.tsv (d4623759c8fef2d79b45269b10f28ec28535e701cac567d5366c961366dc5bff) fully cached: missing 0 of 12829
+2026-09-30 12:41:39 current LATEST ckpt-0042500.pt; waiting for the next checkpoint
+2026-09-30 12:52:08 new checkpoint ckpt-0043000.pt; stopping train.py
+2026-09-30 12:52:32 stop:  329637 python3 -B /content/code/primitive-bc-v6-20260927/work/runs/maintainer/p stopped ckpt-0043000.pt 
+2026-09-30 12:52:35 relaunch from ckpt-0043000.pt (u43000); old trainer's last logged update 43010
+N roster d4623759c8fe rows 12829 cached on VM 12829
+2026-09-30T16:52:37Z launched n1-beven-colab on oldarch-g4: rows rows-n-d4623759c8fe.tsv (d4623759c8fe), workers 16, max-seconds 24142, exec pid 3946928

@@ -1,0 +1,85 @@
+{
+  "schema": "plain-v9-step0-v1",
+  "complete": true,
+  "archive_sha256": "932bb45d7fe9f0ebb486356285b43c5d079761c3905ce650d2e99c9c77986952",
+  "replay_sha256": "a5c79bda7a5fe7d6a1b84736b5f38490d727a1ec2ab22a7daa80b0e1ebb624fb",
+  "probe_sha256": "1140c4548e7687e9d423249fa9e30c35e876418907586ca8e94d4ad344e0e637",
+  "seats": [
+    {
+      "seat": 0,
+      "action": {
+        "farmer": [
+          "PASS"
+        ],
+        "hands": [],
+        "market": [
+          [
+            "BUY_ANIMAL",
+            "COW",
+            1
+          ],
+          [
+            "BUY_PRODUCT",
+            "WHEAT",
+            5
+          ]
+        ]
+      },
+      "pbc_status": {
+        "calls": 1,
+        "fallbacks": 0,
+        "last_fallback": false,
+        "last_error": null,
+        "load_ms": 1259.1232300037518,
+        "import_error": null
+      },
+      "timing": {
+        "model": "hosted-bank",
+        "import_s": 0.000997246999759227,
+        "action_s": 1.4687761269742623,
+        "act_allowance_s": 1.0,
+        "initial_bank_s": 60.0,
+        "used_bank_s": 0.4697733739740215,
+        "remaining_bank_s": 59.53022662602598
+      }
+    },
+    {
+      "seat": 1,
+      "action": {
+        "farmer": [
+          "PASS"
+        ],
+        "hands": [],
+        "market": [
+          [
+            "BUY_ANIMAL",
+            "COW",
+            1
+          ],
+          [
+            "BUY_PRODUCT",
+            "WHEAT",
+            5
+          ]
+        ]
+      },
+      "pbc_status": {
+        "calls": 1,
+        "fallbacks": 0,
+        "last_fallback": false,
+        "last_error": null,
+        "load_ms": 844.9915699893609,
+        "import_error": null
+      },
+      "timing": {
+        "model": "hosted-bank",
+        "import_s": 0.0009569789981469512,
+        "action_s": 1.050978607032448,
+        "act_allowance_s": 1.0,
+        "initial_bank_s": 60.0,
+        "used_bank_s": 0.051935586030595005,
+        "remaining_bank_s": 59.948064413969405
+      }
+    }
+  ]
+}

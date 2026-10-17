@@ -1,0 +1,254 @@
+{
+ "sha256": "3beb77ef9c99835afc14d5e7285f1e8926039989a8ee987a908b4864538529bc",
+ "dir": "/mnt/ai/scratch/farmNEAT/corpus-final/special/TOP4-BEATERS-3beb77ef9c99",
+ "built_utc": "2026-09-30T20:50:25Z",
+ "frozen_top4": {
+  "16681125": "M & M & P & Q",
+  "16623559": "DECEM",
+  "16621497": "Victor @ Tufa Labs",
+  "16732748": "DSM"
+ },
+ "top4_by_day": {
+  "2026-09-25": [
+   "Boey",
+   "M & M & P & Q",
+   "DSM",
+   "Unknown Mother-Goose"
+  ],
+  "2026-09-26": [
+   "Boey",
+   "DSM",
+   "M & M & P & Q",
+   "DECEM"
+  ],
+  "2026-09-27": [
+   "DSM",
+   "Boey",
+   "M & M & P & Q",
+   "Vadim Vasilenko",
+   "DECEM"
+  ],
+  "2026-09-28": [
+   "M & M & P & Q",
+   "Boey",
+   "DSM",
+   "DECEM",
+   "Vadim Vasilenko",
+   "Victor @ Tufa Labs"
+  ],
+  "2026-09-29": [
+   "M & M & P & Q",
+   "DSM",
+   "Boey",
+   "Vadim Vasilenko",
+   "Victor @ Tufa Labs",
+   "DECEM",
+   "Yizhou"
+  ],
+  "2026-09-30": [
+   "M & M & P & Q",
+   "DECEM",
+   "DSM",
+   "Victor @ Tufa Labs",
+   "Vadim Vasilenko",
+   "CDE"
+  ]
+ },
+ "teams_top4_any_day": {
+  "Boey": [
+   "2026-09-25",
+   "2026-09-26",
+   "2026-09-27",
+   "2026-09-28",
+   "2026-09-29"
+  ],
+  "M & M & P & Q": [
+   "2026-09-25",
+   "2026-09-26",
+   "2026-09-27",
+   "2026-09-28",
+   "2026-09-29",
+   "2026-09-30"
+  ],
+  "DSM": [
+   "2026-09-25",
+   "2026-09-26",
+   "2026-09-27",
+   "2026-09-28",
+   "2026-09-29",
+   "2026-09-30"
+  ],
+  "Unknown Mother-Goose": [
+   "2026-09-25"
+  ],
+  "DECEM": [
+   "2026-09-26",
+   "2026-09-27",
+   "2026-09-28",
+   "2026-09-29",
+   "2026-09-30"
+  ],
+  "Vadim Vasilenko": [
+   "2026-09-27",
+   "2026-09-28",
+   "2026-09-29",
+   "2026-09-30"
+  ],
+  "Victor @ Tufa Labs": [
+   "2026-09-28",
+   "2026-09-29",
+   "2026-09-30"
+  ],
+  "Yizhou": [
+   "2026-09-29"
+  ],
+  "CDE": [
+   "2026-09-30"
+  ]
+ },
+ "winner_seats": 4098,
+ "episodes": 4098,
+ "days": [
+  "2026-09-07",
+  "2026-09-30"
+ ],
+ "excluded": {
+  "non-train split": 419,
+  "holdout/val/sealed": 134
+ },
+ "per_loser": {
+  "Blurry": {
+   "RESERVED": 0,
+   "TRAIN": 9,
+   "VAL": 0
+  },
+  "Boey": {
+   "RESERVED": 0,
+   "TRAIN": 596,
+   "VAL": 1
+  },
+  "CDE": {
+   "RESERVED": 9,
+   "TRAIN": 71,
+   "VAL": 9
+  },
+  "DECEM": {
+   "RESERVED": 23,
+   "TRAIN": 630,
+   "VAL": 24
+  },
+  "DSM": {
+   "RESERVED": 16,
+   "TRAIN": 654,
+   "VAL": 31
+  },
+  "M & M & P & Q": {
+   "RESERVED": 3,
+   "TRAIN": 475,
+   "VAL": 0
+  },
+  "Unknown Mother-Goose": {
+   "RESERVED": 0,
+   "TRAIN": 899,
+   "VAL": 0
+  },
+  "Vadim Vasilenko": {
+   "RESERVED": 11,
+   "TRAIN": 300,
+   "VAL": 14
+  },
+  "Victor @ Tufa Labs": {
+   "RESERVED": 16,
+   "TRAIN": 196,
+   "VAL": 18
+  },
+  "Yizhou": {
+   "RESERVED": 0,
+   "TRAIN": 91,
+   "VAL": 0
+  },
+  "denden12": {
+   "RESERVED": 0,
+   "TRAIN": 1,
+   "VAL": 0
+  },
+  "masspeaks": {
+   "RESERVED": 0,
+   "TRAIN": 1,
+   "VAL": 0
+  }
+ },
+ "val_never_trained": 97,
+ "val_ever_trained": 0,
+ "train_seats": 3923,
+ "val_seats": 97,
+ "cached_train": 3923,
+ "not_tsv_ready": 0,
+ "top4_source": {
+  "frozen": 2088,
+  "day": 1067,
+  "proxy": 943
+ },
+ "rosters_checked": 251,
+ "unknown_training_sets": [
+  "O's raw-replay recent_days set (not reconstructed)"
+ ],
+ "val_contaminated_kept_reserved": [
+  115018155,
+  115503490,
+  115650459,
+  115655333,
+  115664894,
+  115670845,
+  115676806,
+  115681702,
+  115687719,
+  115693802,
+  115699783,
+  115699875,
+  115705908,
+  115716819,
+  115722750,
+  115723618,
+  115729836,
+  115733763,
+  115739769,
+  115745824,
+  115746843,
+  115748396,
+  115753019,
+  115754552,
+  115758065,
+  115758145,
+  115759487,
+  115760692,
+  115763762,
+  115763799,
+  115764305,
+  115764308,
+  115765303,
+  115765348,
+  115766884,
+  115768454,
+  115768494,
+  115769992,
+  115771523,
+  115773043,
+  115774550,
+  115776107,
+  115779467,
+  115785511,
+  115796852,
+  115799087,
+  115800601,
+  115801574,
+  115808061,
+  115808195
+ ],
+ "val_contaminated_count": 88,
+ "val_episodes_reserved": 185,
+ "val_episodes_clean": 97,
+ "val_target_pct": 20,
+ "val_pct_of_episodes": 2.37,
+ "excluded_static_or_blocked": "static winners and submissions in BLOCKED_SUBS removed before selection"
+}

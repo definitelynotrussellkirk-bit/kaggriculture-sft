@@ -1,0 +1,9 @@
+2026-09-30 12:06:21 ckpt-0042000.pt present (LATEST); cancelling 7318
+2026-09-30 12:06:26 7318 gone from the queue
+2026-09-30 12:07:12 protected /mnt/ai/scratch/farmNEAT/hourly/PROTECTED/NBEVEN-final4090b-u42000.pt sha 9f26af4ef0bcfed0a3bf4bfe467125c89d84013bdd4b930ea85f69bc5f48bfae
+2026-09-30 12:08:20 split into 18 parts
+2026-09-30 12:11:12 seed parts pushed
+2026-09-30 12:11:14 VM seed: reassembled 9f26af4ef0bcfed0a3bf4bfe467125c89d84013bdd4b930ea85f69bc5f48bfae
+2026-09-30 12:14:19 seat fetch finished: {"files": 4159, "bytes": 44262977249, "bad": 0, "manifest_rows": 4159, "already": 0, "seconds": 1846, "done": true}
+2026-09-30 12:19:16 bpreflight: rc=0 {"ok": true, "fails": [], "update": 42000, "checkpoint_sha256": "9f26af4ef0bcfed0a3bf4bfe467125c89d84013bdd4b930ea85f69bc5f48bfae", "rows_sha256": "426f06385d73f43acf73df18fdedafa12b4e6f9e26bc0370d3e1699c4e36a99f", "selected_seats": 12483, "cache_manifest_sha256": "ca925aa74e2853934ed9883ef2b3a5c46f5bcf82f68aa23e049e80dd963f0b33", "code_sha256": "ce0ba972fcc09122fb56cecae7a27b8186e203d20b62d369c14b9dc512d48805", "manifest_seconds": 292.1} 
+2026-09-30 12:19:16 HANDOVER-READY

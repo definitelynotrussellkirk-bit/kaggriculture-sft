@@ -1,0 +1,205 @@
+{
+ "configuration": {
+  "actTimeout": 1,
+  "boardSize": 10,
+  "episodeSteps": 720,
+  "farmHandCostMult": 1,
+  "marketParams": {},
+  "maxMarketOrdersPerTurn": 10,
+  "runTimeout": 1200,
+  "seed": null,
+  "shedCapacity": 100,
+  "startingMoney": 3000,
+  "townCenterSellInterval": 24,
+  "townShopSellInterval": 4,
+  "townShopUnlockInterval": 3,
+  "turnsPerDay": 24,
+  "weedSpawnChance": 0.005
+ },
+ "description": "Advanced farming simulation: two players each tend a 10x10 farm of four 5x5 quadrants, growing crops, raising animals, hiring help, and trading with a dynamic market over one season.",
+ "module_version": "1.32.7",
+ "name": "kaggriculture",
+ "schema_version": 1,
+ "specification": {
+  "action": {
+   "default": {
+    "farmer": [
+     "PASS"
+    ],
+    "hands": [],
+    "market": []
+   },
+   "description": "Per-turn action of the form {\"farmer\": [op, ...args], \"hands\": [[op, ...args], ...], \"market\": [[op, ...args], ...]}. Farmer/hand ops: NORTH, SOUTH, EAST, WEST, PASS, PICKUP <item> [n], PLANT <crop>, WATER, HARVEST, FERTILIZE, BUILD_COOP, BUILD_PASTURE, DIG, PLACE <item> [n], FEED, COLLECT_FERTILIZER, CARE. Market ops: BUY_SEED <crop> <n>, BUY_PRODUCT <item> <n>, BUY_ANIMAL <animal> <n>, SELL <item> <n>, HIRE, BUY_LAND.",
+   "type": "object"
+  },
+  "agents": [
+   2
+  ],
+  "configuration": {
+   "actTimeout": {
+    "default": 1,
+    "description": "Maximum runtime (seconds) to obtain an action from an agent.",
+    "minimum": 0,
+    "type": "number"
+   },
+   "boardSize": {
+    "default": 10,
+    "description": "Width and height (in tiles) of each player's square farm. Advanced game expects 10 (four 5x5 quadrants).",
+    "minimum": 4,
+    "type": "integer"
+   },
+   "episodeSteps": {
+    "default": 720,
+    "description": "Maximum number of steps in the episode.",
+    "minimum": 1,
+    "type": "integer"
+   },
+   "farmHandCostMult": {
+    "default": 1,
+    "description": "Multiplier applied to the Fibonacci hire-cost sequence (1, 1, 2, 3, 5, 8, 13, ...). The n-th hire of the day costs this value times fib(n).",
+    "minimum": 0,
+    "type": "integer"
+   },
+   "marketParams": {
+    "default": {},
+    "description": "Per-resource market price-curve overrides. Sparse: keyed by product name; each entry may set any subset of {base, I0, T, below_func, below_target, above_func, above_target}. Missing keys (and missing products) inherit from MARKET_PARAMS defaults in kaggriculture.py. Functions: linear, sq, sqrt, log, log10, hinge. amp is derived as target * base / f(T). The hinge function is flat-ish below T and spikes above it, and unlike the others it is scaled by T so that f(T) = 1.",
+    "properties": {},
+    "type": "object"
+   },
+   "maxMarketOrdersPerTurn": {
+    "default": 10,
+    "description": "Maximum number of market orders processed per player per turn. Extra orders beyond this limit are silently dropped.",
+    "minimum": 1,
+    "type": "integer"
+   },
+   "runTimeout": {
+    "default": 1200,
+    "description": "Maximum runtime (seconds) of an episode (not necessarily DONE).",
+    "minimum": 0,
+    "type": "number"
+   },
+   "seed": {
+    "default": null,
+    "description": "Optional input seed for deterministic episode generation. The interpreter clears this from configuration after reading and stores the resolved seed on env.info['seed'] so it stays out of agent observations but is still recorded in the replay.",
+    "type": [
+     "integer",
+     "null"
+    ]
+   },
+   "shedCapacity": {
+    "default": 100,
+    "description": "Maximum number of non-seed items the shed can hold (overflow at end-of-day drop is discarded).",
+    "minimum": 1,
+    "type": "integer"
+   },
+   "startingMoney": {
+    "default": 3000,
+    "description": "Money each player starts with.",
+    "minimum": 0,
+    "type": "integer"
+   },
+   "townCenterSellInterval": {
+    "default": 24,
+    "description": "Number of turns between successive consumption ticks by the town center (one of every non-fertilizer product per tick). At the default of 24 with turnsPerDay 24, the town center buys once per day at a flat rate for the whole season.",
+    "minimum": 1,
+    "type": "integer"
+   },
+   "townShopSellInterval": {
+    "default": 4,
+    "description": "Number of turns between successive consumption ticks by every unlocked town shop instance. Each instance pulls one of each of its products per tick (single-product shops pull 2x), so a duplicated shop consumes once per copy. Total demand grows monotonically as more shops are unlocked.",
+    "minimum": 1,
+    "type": "integer"
+   },
+   "townShopUnlockInterval": {
+    "default": 3,
+    "description": "Days between successive town shop unlocks. First shop unlocks on day equal to this value. Shops are drawn with replacement, so the same shop can unlock more than once; unlocking stops after 8 instances.",
+    "minimum": 1,
+    "type": "integer"
+   },
+   "turnsPerDay": {
+    "default": 24,
+    "description": "Number of turns that make up one in-game day.",
+    "minimum": 1,
+    "type": "integer"
+   },
+   "weedSpawnChance": {
+    "default": 0.005,
+    "description": "Per-tile probability of a weed spawning on an empty unlocked tile during the end-of-day refresh.",
+    "minimum": 0,
+    "type": "number"
+   }
+  },
+  "info": {},
+  "observation": {
+   "day": {
+    "default": 0,
+    "description": "Current in-game day (0-indexed).",
+    "shared": true,
+    "type": "integer"
+   },
+   "farms": {
+    "default": [],
+    "description": "Per-player public farm state visible to all agents (tiles, money, farmer/hand positions, unlocked quadrants, hire count). Indexed by player id. Opponent shed and per-farmer inventories are NOT included here.",
+    "shared": true,
+    "type": "array"
+   },
+   "hour": {
+    "default": 0,
+    "description": "Current turn within the day (0-indexed).",
+    "shared": true,
+    "type": "integer"
+   },
+   "market": {
+    "default": {},
+    "description": "Shared market state: current per-product inventory and price.",
+    "shared": true,
+    "type": "object"
+   },
+   "player": {
+    "default": 0,
+    "description": "Player ID (0 or 1).",
+    "type": "integer"
+   },
+   "private": {
+    "default": {},
+    "description": "Per-agent private state for THIS player only: shed inventory, per-farmer inventories, seed counts. Not shared.",
+    "shared": false,
+    "type": "object"
+   },
+   "remainingOverageTime": {
+    "default": 60,
+    "description": "Total remaining banked time (seconds) that can be used in excess of per-step actTimeouts -- agent is disqualified with TIMEOUT status when this drops below 0.",
+    "minimum": 0,
+    "shared": false,
+    "type": "number"
+   },
+   "step": {
+    "default": 0,
+    "description": "Current step within the episode.",
+    "minimum": 0,
+    "shared": true,
+    "type": "integer"
+   },
+   "town": {
+    "default": {},
+    "description": "Shared town state: list of unlocked shop names. Each unlocked shop generates per-tick demand for its products.",
+    "shared": true,
+    "type": "object"
+   }
+  },
+  "reward": {
+   "default": 0,
+   "description": "Player money at end of game (final score).",
+   "type": [
+    "number",
+    "null"
+   ]
+  }
+ },
+ "title": "Kaggriculture",
+ "version": "0.1.0",
+ "_template_source": {
+  "archive": "/mnt/ai/scratch/farmNEAT/primitive-bc-data/kaggriculture-episodes-2026-09-26.zip",
+  "member": "113481761.json"
+ }
+}

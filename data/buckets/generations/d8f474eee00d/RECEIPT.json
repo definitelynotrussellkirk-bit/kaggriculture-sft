@@ -1,0 +1,217 @@
+{
+ "sha256": "d8f474eee00d975fde382e8c6ec0f43e63aed890720d0d7fcdc9fce08d91cb35",
+ "dir": "/mnt/ai/scratch/farmNEAT/broad/buckets/d8f474eee00d",
+ "built_utc": "2026-09-30T07:16:52Z",
+ "leaderboard_snapshot": "LEADERBOARD-20260930T0640.csv",
+ "top4_train": "/mnt/ai/scratch/farmNEAT/corpus-final/special/TOP4-BEATERS-LATEST/TRAIN.tsv",
+ "qualifying_winner_seats": 75032,
+ "excluded_holdout": 526,
+ "excluded_non_train_split": 7191,
+ "not_tsv_ready": 29,
+ "buckets": {
+  "A": {
+   "share": 0.35,
+   "seats": 2931,
+   "cached": 2931,
+   "uncached": 0,
+   "days": [
+    "2026-09-20",
+    "2026-09-30"
+   ],
+   "quality_src": null
+  },
+  "B": {
+   "share": 0.2,
+   "seats": 64,
+   "cached": 64,
+   "uncached": 0,
+   "days": [
+    "2026-09-30",
+    "2026-09-30"
+   ],
+   "quality_src": null
+  },
+  "C": {
+   "share": 0.2,
+   "seats": 2053,
+   "cached": 2053,
+   "uncached": 0,
+   "days": [
+    "2026-09-29",
+    "2026-09-29"
+   ],
+   "quality_src": null
+  },
+  "D": {
+   "share": 0.15,
+   "seats": 1192,
+   "cached": 1192,
+   "uncached": 0,
+   "days": [
+    "2026-09-24",
+    "2026-09-28"
+   ],
+   "quality_src": {
+    "leaderboard": 969,
+    "at-time": 223
+   }
+  },
+  "E": {
+   "share": 0.05,
+   "seats": 5030,
+   "cached": 4942,
+   "uncached": 88,
+   "days": [
+    "2026-09-03",
+    "2026-09-23"
+   ],
+   "quality_src": {
+    "at-time": 4792,
+    "leaderboard": 238
+   }
+  }
+ },
+ "effective_shares": {
+  "A": 0.3684,
+  "B": 0.2105,
+  "C": 0.2105,
+  "D": 0.1579,
+  "E": 0.0526
+ },
+ "empty_buckets": [],
+ "top10_per_day": {
+  "2026-09-24": {
+   "pool": 2194,
+   "kept": 219,
+   "at_time_share": 1.0
+  },
+  "2026-09-25": {
+   "pool": 2067,
+   "kept": 207,
+   "at_time_share": 0.019
+  },
+  "2026-09-26": {
+   "pool": 2589,
+   "kept": 259,
+   "at_time_share": 0.0
+  },
+  "2026-09-27": {
+   "pool": 2573,
+   "kept": 257,
+   "at_time_share": 0.0
+  },
+  "2026-09-28": {
+   "pool": 2499,
+   "kept": 250,
+   "at_time_share": 0.0
+  },
+  "2026-09-03": {
+   "pool": 590,
+   "kept": 59,
+   "at_time_share": 0.0
+  },
+  "2026-09-04": {
+   "pool": 584,
+   "kept": 58,
+   "at_time_share": 0.0
+  },
+  "2026-09-05": {
+   "pool": 605,
+   "kept": 60,
+   "at_time_share": 0.0
+  },
+  "2026-09-06": {
+   "pool": 601,
+   "kept": 60,
+   "at_time_share": 0.0
+  },
+  "2026-09-07": {
+   "pool": 727,
+   "kept": 73,
+   "at_time_share": 0.986
+  },
+  "2026-09-08": {
+   "pool": 771,
+   "kept": 77,
+   "at_time_share": 1.0
+  },
+  "2026-09-09": {
+   "pool": 1182,
+   "kept": 118,
+   "at_time_share": 1.0
+  },
+  "2026-09-10": {
+   "pool": 2170,
+   "kept": 217,
+   "at_time_share": 1.0
+  },
+  "2026-09-11": {
+   "pool": 2310,
+   "kept": 231,
+   "at_time_share": 1.0
+  },
+  "2026-09-12": {
+   "pool": 1842,
+   "kept": 184,
+   "at_time_share": 1.0
+  },
+  "2026-09-13": {
+   "pool": 2732,
+   "kept": 273,
+   "at_time_share": 1.0
+  },
+  "2026-09-14": {
+   "pool": 3541,
+   "kept": 354,
+   "at_time_share": 1.0
+  },
+  "2026-09-15": {
+   "pool": 3592,
+   "kept": 359,
+   "at_time_share": 1.0
+  },
+  "2026-09-16": {
+   "pool": 4302,
+   "kept": 430,
+   "at_time_share": 1.0
+  },
+  "2026-09-17": {
+   "pool": 4414,
+   "kept": 441,
+   "at_time_share": 1.0
+  },
+  "2026-09-18": {
+   "pool": 4176,
+   "kept": 418,
+   "at_time_share": 1.0
+  },
+  "2026-09-19": {
+   "pool": 3831,
+   "kept": 383,
+   "at_time_share": 1.0
+  },
+  "2026-09-20": {
+   "pool": 3512,
+   "kept": 351,
+   "at_time_share": 1.0
+  },
+  "2026-09-21": {
+   "pool": 3308,
+   "kept": 331,
+   "at_time_share": 1.0
+  },
+  "2026-09-22": {
+   "pool": 3136,
+   "kept": 314,
+   "at_time_share": 1.0
+  },
+  "2026-09-23": {
+   "pool": 2390,
+   "kept": 239,
+   "at_time_share": 1.0
+  }
+ },
+ "publish": "PUBLISHED (manually from the --no-publish dry run; no refusal condition: E 88/5030 = 1.7% uncached)",
+ "seconds": 58.1,
+ "note_shares": "recipe shares sum to 0.95 (plan table); sampling normalises them: effective_shares"
+}

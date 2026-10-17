@@ -1,0 +1,16 @@
+{
+ "actTimeout": 1,
+ "boardSize": 10,
+ "episodeSteps": 720,
+ "farmHandCostMult": 1,
+ "marketParams": {},
+ "maxMarketOrdersPerTurn": 10,
+ "runTimeout": 1200,
+ "shedCapacity": 100,
+ "startingMoney": 3000,
+ "townCenterSellInterval": 24,
+ "townShopSellInterval": 4,
+ "townShopUnlockInterval": 3,
+ "turnsPerDay": 24,
+ "weedSpawnChance": 0.005
+}

@@ -1,0 +1,10 @@
+2026-09-30 14:56:24 waiting for seats: missing 51 of 3862
+2026-09-30 14:56:55 waiting for seats: missing 23 of 3862
+2026-09-30 14:57:29 waiting for seats: missing 11 of 3862
+2026-09-30 14:58:03 roster rows-n-60327cd812e7.tsv (60327cd812e7852b557ce9405b875436640108c723362254fc9beeba610c26b4) fully cached: missing 0 of 3862
+2026-09-30 14:58:07 current LATEST ckpt-0045680.pt; waiting for the next checkpoint
+2026-09-30 15:02:24 new checkpoint ckpt-0045720.pt; stopping train.py
+2026-09-30 15:03:03 stop:  578599 python3 -B /content/code/primitive-bc-v6-20260927/work/runs/maintainer/p stopped ckpt-0045720.pt 
+2026-09-30 15:07:47 relaunch from ckpt-0045720.pt (u45720); old trainer's last logged update 
+[colab] Endpoint not found (HTTP 404): this runtime does not expose the /colab/ssh endpoint. SSH is enabled at runtime creation, so an older or non-SSH runtime will not have it - run `colab new` for a fresh runtime with SSH.
+2026-09-30 15:07:47 n-launch failed

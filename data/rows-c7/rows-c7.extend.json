@@ -1,0 +1,289 @@
+{
+ "built_utc": "2026-09-30T19:32:12Z",
+ "seats_parquet_mtime_utc": "2026-09-30T19:23:18Z",
+ "roster": "/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/rows-c7.tsv",
+ "before": {
+  "rows": 21021,
+  "mass": 56400,
+  "component_share": {
+   "anchor": 0.1628,
+   "beattop": 0.3604,
+   "beatus": 0.0182,
+   "core": 0.1182,
+   "hard": 0.086,
+   "lbonly": 0.0094,
+   "league": 0.0139,
+   "majkel": 0.0511,
+   "mmpq": 0.0506,
+   "top12": 0.0742,
+   "top4": 0.0554
+  }
+ },
+ "after": {
+  "rows": 21132,
+  "mass": 56737,
+  "component_share": {
+   "anchor": 0.1618,
+   "beattop": 0.3622,
+   "beatus": 0.0181,
+   "core": 0.1174,
+   "hard": 0.0855,
+   "lbonly": 0.0093,
+   "league": 0.0138,
+   "majkel": 0.0507,
+   "mmpq": 0.0503,
+   "top12": 0.0757,
+   "top4": 0.0551
+  }
+ },
+ "priority_class_beat_top30_from_2026-09-25": {
+  "roster_rows": 6656,
+  "roster_mass": 22066,
+  "share_of_weighted_draws": 0.3889,
+  "top12_loser_subset_rows": 3218,
+  "top12_loser_subset_mass": 11175,
+  "top12_loser_subset_share": 0.197
+ },
+ "mmpq_games_in_roster": {
+  "rows": 2882,
+  "mass": 7510,
+  "mmpq_wins": 2408,
+  "mmpq_beater_wins": 474,
+  "share_of_weighted_draws": 0.1324
+ },
+ "classes": {
+  "beattop": {
+   "candidates": 7777,
+   "drop_not_train": 816,
+   "drop_leak_holdout": 209,
+   "drop_mmpq_val": 60,
+   "drop_blocked_sub": 5,
+   "hold_top4_pending": 31,
+   "already_in_roster": 6580,
+   "added": 76
+  },
+  "mmpq": {
+   "candidates": 3400,
+   "drop_not_train": 310,
+   "drop_sealed": 3,
+   "drop_mmpq_val": 145,
+   "drop_leak_holdout": 57,
+   "hold_top4_pending": 3,
+   "already_in_roster": 2876,
+   "added": 6
+  },
+  "majkel": {
+   "candidates": 2697,
+   "drop_not_train": 285,
+   "immature_no_bonus": 5,
+   "drop_leak_holdout": 3,
+   "already_in_roster": 2406,
+   "added": 3
+  },
+  "beatus": {
+   "candidates": 606,
+   "drop_not_train": 58,
+   "immature_no_bonus": 30,
+   "drop_leak_holdout": 5,
+   "drop_mmpq_val": 2,
+   "drop_blocked_sub": 2,
+   "already_in_roster": 531,
+   "added": 8
+  },
+  "top12": {
+   "candidates": 5014,
+   "drop_not_train": 527,
+   "drop_leak_holdout": 202,
+   "drop_mmpq_val": 145,
+   "drop_blocked_sub": 5,
+   "immature_no_bonus": 9,
+   "hold_top4_pending": 29,
+   "already_in_roster": 4012,
+   "added": 94
+  }
+ },
+ "majkel": {
+  "newest_subs_first_episode_utc": {
+   "56697597": "2026-09-30 04:52:23.539000"
+  },
+  "roster_rows": 2409,
+  "roster_mass": 5646,
+  "share_of_weighted_draws": 0.0995,
+  "newest_sub_rows": 5,
+  "newest_sub_mass": 15
+ },
+ "this_run": {
+  "added_rows": 111,
+  "added_by_first_class": {
+   "beattop": 76,
+   "mmpq": 2,
+   "top12": 33
+  },
+  "added_mass": 304,
+  "raised_rows": 88,
+  "raised_by_first_class": {
+   "beattop": 36,
+   "mmpq": 5,
+   "majkel": 6,
+   "top12": 41
+  },
+  "raised_mass_delta": -32,
+  "unchanged_present": 12170,
+  "unbuilt_touched_rows": 105
+ },
+ "opponent_strength": {
+  "min_games_submission": 20,
+  "rows_weight_changed_vs_file_at_load": 168,
+  "rows_where_tier_exceeds_base": 4045,
+  "mass_by_beaten_opponent_win_share": {
+   "0.55-0.70": {
+    "mass": 13957,
+    "share": 0.246
+   },
+   "<0.55": {
+    "mass": 28011,
+    "share": 0.4937
+   },
+   ">=0.70": {
+    "mass": 14769,
+    "share": 0.2603
+   }
+  },
+  "rows_by_share_source": {
+   "submission": 14860,
+   "team_fallback": 5625,
+   "league_version": 647
+  },
+  "mass_base_only": 47449
+ },
+ "holdout": {
+  "seeds": 131,
+  "catalog_episodes_on_holdout_seeds": 0,
+  "roster_rows_removed_this_run": 0,
+  "removed_by_reason": {},
+  "blocked_sources": [
+   "decode-h2h",
+   "decode-exp-0929"
+  ]
+ },
+ "maturity_capped_rows": 11,
+ "top4": {
+  "train_seats_listed": 3902,
+  "train_seats_in_roster_x4": 3902,
+  "val_episodes_excluded": 149
+ },
+ "roster_unbuilt_rows": 105,
+ "mass_by_day": {
+  "2026-09-07": {
+   "mass": 47,
+   "share": 0.0008
+  },
+  "2026-09-08": {
+   "mass": 57,
+   "share": 0.001
+  },
+  "2026-09-09": {
+   "mass": 234,
+   "share": 0.0041
+  },
+  "2026-09-10": {
+   "mass": 514,
+   "share": 0.0091
+  },
+  "2026-09-11": {
+   "mass": 798,
+   "share": 0.0141
+  },
+  "2026-09-12": {
+   "mass": 905,
+   "share": 0.016
+  },
+  "2026-09-13": {
+   "mass": 919,
+   "share": 0.0162
+  },
+  "2026-09-14": {
+   "mass": 893,
+   "share": 0.0157
+  },
+  "2026-09-15": {
+   "mass": 1126,
+   "share": 0.0198
+  },
+  "2026-09-16": {
+   "mass": 1476,
+   "share": 0.026
+  },
+  "2026-09-17": {
+   "mass": 1222,
+   "share": 0.0215
+  },
+  "2026-09-18": {
+   "mass": 1285,
+   "share": 0.0226
+  },
+  "2026-09-19": {
+   "mass": 1209,
+   "share": 0.0213
+  },
+  "2026-09-20": {
+   "mass": 1090,
+   "share": 0.0192
+  },
+  "2026-09-21": {
+   "mass": 1119,
+   "share": 0.0197
+  },
+  "2026-09-22": {
+   "mass": 1313,
+   "share": 0.0231
+  },
+  "2026-09-23": {
+   "mass": 1297,
+   "share": 0.0229
+  },
+  "2026-09-24": {
+   "mass": 1382,
+   "share": 0.0244
+  },
+  "2026-09-25": {
+   "mass": 4775,
+   "share": 0.0842
+  },
+  "2026-09-26": {
+   "mass": 6265,
+   "share": 0.1104
+  },
+  "2026-09-27": {
+   "mass": 7022,
+   "share": 0.1238
+  },
+  "2026-09-28": {
+   "mass": 9230,
+   "share": 0.1627
+  },
+  "2026-09-29": {
+   "mass": 8215,
+   "share": 0.1448
+  },
+  "2026-09-30": {
+   "mass": 4344,
+   "share": 0.0766
+  }
+ },
+ "not_tsv_ready_winner_seats_skipped": 75,
+ "passes_per_chunk_12p5M": 0.306,
+ "seconds": 11.9,
+ "mmpq_val": {
+  "newest_submission": 56711476,
+  "games": 207,
+  "by_reason": {
+   "historical-val": 138,
+   "heldout-split": 34,
+   "newest-even": 35
+  },
+  "mmpq_seat_in_roster": 0
+ },
+ "roster_sha256": "fbe535f92de83a1412ada11f3b89413d7d0c25daa462d50b70241fb799a59b82",
+ "snapshot": "/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/rows-c7-versions/rows-c7.fbe535f92de8.tsv"
+}

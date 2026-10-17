@@ -1,0 +1,115 @@
+{
+ "schema": "effective-shares/v1",
+ "generation": "ece234742343",
+ "recipe_sha256": "6438b877d1b2c9827c92a74d03b170b63cfaaf2581e9d05c5d035c00831968d7",
+ "rule": "r_A = share_A/n_A (recipe shares normalised over A..E, S excluded; n = cached seats); for k != A: share_k <= 4*r_A*n_k; all excess share goes to A; one pass from pre-cap r_A; recomputed every build",
+ "dynamic_shares": {
+  "L": {
+   "rule": "cap_max_vs_A",
+   "multiplier": 4.0,
+   "n": 214,
+   "n_A": 5582,
+   "share": 0.053476
+  }
+ },
+ "shares_incl_S_reserve": {
+  "A": 0.491016,
+  "BC": 0.218877,
+  "D": 0.141979,
+  "E": 0.047326,
+  "L": 0.050802,
+  "S": 0.05
+ },
+ "lineage_views": {
+  "B": {
+   "bucket": "W_B",
+   "n": 88,
+   "share": 0.031564,
+   "rate_vs_A": 4.0,
+   "effective_shares": {
+    "A": 0.500544,
+    "BC": 0.223125,
+    "D": 0.144734,
+    "E": 0.048245,
+    "L": 0.051788,
+    "W_B": 0.031564
+   }
+  },
+  "N": {
+   "bucket": "W_N",
+   "n": 4,
+   "share": 0.001479,
+   "rate_vs_A": 4.0,
+   "effective_shares": {
+    "A": 0.516094,
+    "BC": 0.230056,
+    "D": 0.14923,
+    "E": 0.049743,
+    "L": 0.053397,
+    "W_N": 0.001479
+   }
+  },
+  "O": {
+   "bucket": "W_O",
+   "n": 72,
+   "share": 0.025974,
+   "rate_vs_A": 4.0,
+   "effective_shares": {
+    "A": 0.503433,
+    "BC": 0.224413,
+    "D": 0.145569,
+    "E": 0.048523,
+    "L": 0.052087,
+    "W_O": 0.025974
+   }
+  }
+ },
+ "base_shares_normalised_A_to_E": {
+  "A": 0.348719,
+  "BC": 0.398536,
+  "D": 0.149451,
+  "E": 0.049817,
+  "L": 0.053476
+ },
+ "effective_shares": {
+  "A": 0.516859,
+  "BC": 0.230397,
+  "D": 0.149451,
+  "E": 0.049817,
+  "L": 0.053476
+ },
+ "capped": {
+  "BC": {
+   "base": 0.398536,
+   "cap": 0.230397
+  }
+ },
+ "per_seat_draw_rate_relative_to_A": {
+  "A": 1.0,
+  "BC": 2.6988,
+  "D": 1.395,
+  "E": 0.1131,
+  "L": 2.6988
+ },
+ "cached_seats": {
+  "A": 5582,
+  "L": 214,
+  "BC": 922,
+  "D": 1157,
+  "E": 4758,
+  "W_B": 88,
+  "W_N": 4,
+  "W_O": 72
+ },
+ "files": [
+  "A.tsv",
+  "L.tsv",
+  "BC.tsv",
+  "D.tsv",
+  "E.tsv",
+  "W_B.tsv",
+  "W_N.tsv",
+  "W_O.tsv"
+ ],
+ "note": "trainers sample buckets by effective_shares (not the raw recipe), then a seat uniformly within the bucket"
+}

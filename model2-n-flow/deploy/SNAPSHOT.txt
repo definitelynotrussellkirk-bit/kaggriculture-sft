@@ -1,0 +1,2 @@
+snapshot 2026-09-30T08:56:29-04:00
+bdbdfa70 harness: repo-snap (08:56) with model.py + nf_format.py from the nflow-u24000-t4 archive (E7 raw export)

@@ -1,0 +1,183 @@
+{
+ "schema": "league-episode-v1",
+ "episode_id": 998900002094,
+ "labels": [
+  "b-colab-u38760-d30-v9gsafe",
+  "n1-main-sprinkle"
+ ],
+ "archives": [
+  "/mnt/ai/scratch/farmNEAT/pbc-deploy/b-colab-u38760-d30-v9gsafe/b-colab-u38760-d30-v9gsafe.tar.gz",
+  "/mnt/ai/scratch/farmNEAT/pbc-deploy/n1-main-sprinkle/n1-main-sprinkle.tar.gz"
+ ],
+ "world_seed": 1014748580,
+ "sampler_seed": 7100,
+ "game": {
+  "seats": [
+   "b-colab-u38760-d30-v9gsafe",
+   "n1-main-sprinkle"
+  ],
+  "world_seed": 1014748580,
+  "cash": [
+   100000.0,
+   103357.0
+  ],
+  "steps": 719,
+  "fallbacks": [
+   0,
+   0
+  ],
+  "seconds": 308.6,
+  "ms_p50": [
+   203.1098409788683,
+   187.56847601616755
+  ],
+  "score": [
+   0.0,
+   1.0
+  ],
+  "status": [
+   "DONE",
+   "DONE"
+  ],
+  "failed_step": null,
+  "sampler_seed": 7100,
+  "temperature": 1.0,
+  "hosted": null,
+  "seat_stats": [
+   {
+    "status": "DONE",
+    "fallbacks": 0,
+    "hard_errors": 0,
+    "cold": true,
+    "calls": 719,
+    "step_log": {
+     "parser": "ladder",
+     "lines": 719,
+     "fallback_lines": 0,
+     "loading_lines": 0,
+     "deadline_hit_lines": 0,
+     "cut_lines": 0,
+     "load_ms": 856.0,
+     "wait_ms": null,
+     "load_error": null
+    },
+    "log_lines": 719,
+    "log_fallback_lines": 0,
+    "log_loading_lines": 0,
+    "log_load_ms": 856.0,
+    "ms_first": 1052.8,
+    "ms_p99": 817.6,
+    "ms_max": 1052.8
+   },
+   {
+    "status": "DONE",
+    "fallbacks": 0,
+    "hard_errors": 0,
+    "cold": true,
+    "calls": 719,
+    "step_log": {
+     "parser": "ladder",
+     "lines": 719,
+     "fallback_lines": 0,
+     "loading_lines": 0,
+     "deadline_hit_lines": 0,
+     "cut_lines": 0,
+     "load_ms": 1208.0,
+     "wait_ms": null,
+     "load_error": null
+    },
+    "log_lines": 719,
+    "log_fallback_lines": 0,
+    "log_loading_lines": 0,
+    "log_load_ms": 1208.0,
+    "ms_first": 1343.6,
+    "ms_p99": 469.4,
+    "ms_max": 1343.6
+   }
+  ],
+  "sources_changed": []
+ },
+ "actions_recorded": 719,
+ "replay": "replay.json.gz",
+ "replay_cash": [
+  100000.0,
+  103357.0
+ ],
+ "replay_rewards": [
+  100000.0,
+  103357.0
+ ],
+ "replay_verified": true,
+ "runtime": {
+  "python": "3.11.13",
+  "executable": "/mnt/ai/scratch/farmNEAT/runtime-hosted-py311/venv/bin/python",
+  "torch": "2.6.0+cpu",
+  "host": "russ-4090b",
+  "hosted_rules": false,
+  "crn_rng": true
+ },
+ "ladder_sha256": "fb2a09af436511e8abb19b1f97a0ec915795d990c2e0b98531bb9bfe2c4d57f0",
+ "wall_seconds": 316.3,
+ "crn_rng": true,
+ "runner": "gpu-served",
+ "gpu_serve": {
+  "served_seats": [
+   true,
+   true
+  ],
+  "declined": [],
+  "gap_threshold": 0.005,
+  "seats": [
+   {
+    "root": "/tmp/pbc-cold-oyhxrv6k/agent",
+    "seat": 0,
+    "acts": 719,
+    "guarded": 4,
+    "min_gap": 0.0031833648681640625,
+    "server_ms": 162267.69042247906,
+    "local_ms": 1081.0476599726826,
+    "gap_threshold": 0.005,
+    "hybrid_search_cpu": false,
+    "served": true,
+    "server": {
+     "key": "67a0978dcd026e5ce78a",
+     "backend": 0,
+     "device": "cuda",
+     "server_sha256": "f2bc8a19041a516a0be8f53ad46598cb226f26d09d7facc7f88203fde89211b1",
+     "sdp": "default",
+     "torch": "2.10.0+cu128",
+     "host": "russ-4090b"
+    }
+   },
+   {
+    "root": "/tmp/pbc-cold-wr_h0r3l/agent",
+    "seat": 1,
+    "acts": 719,
+    "guarded": 3,
+    "min_gap": 0.00030803680419921875,
+    "server_ms": 137830.07073390763,
+    "local_ms": 576.8258810276166,
+    "gap_threshold": 0.005,
+    "hybrid_search_cpu": false,
+    "served": true,
+    "server": {
+     "key": "8885032577d63afcf701",
+     "backend": 1,
+     "device": "cuda",
+     "server_sha256": "f2bc8a19041a516a0be8f53ad46598cb226f26d09d7facc7f88203fde89211b1",
+     "sdp": "default",
+     "torch": "2.10.0+cu128",
+     "host": "russ-4090b"
+    }
+   }
+  ],
+  "acts_served": 1438,
+  "acts_guarded_cpu": 7,
+  "server_sha256": "f2bc8a19041a516a0be8f53ad46598cb226f26d09d7facc7f88203fde89211b1",
+  "hook_sha256": "4460def6236ede086f58761a690cb21201a9f068e902bc300ec9bfe8a735cd5f",
+  "runner_sha256": "8719070b58fe170c458f915a05cb17c9edd18f2debf7b86d76972396804250f8",
+  "device": "russ-4090b:cuda",
+  "sdp": "default",
+  "slurm_job": "9587"
+ }
+}

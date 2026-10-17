@@ -1,0 +1,1 @@
+{"eid": 113981978, "seat": 1, "steps": 30, "decisions_compared": 248, "max_abs_logit_diff": 4.5418739318847656e-05, "tol": 0.002, "greedy_deterministic": true, "step0_farmer_argmax": [0, 0], "fails": []}

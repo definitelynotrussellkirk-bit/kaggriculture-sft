@@ -1,0 +1,105 @@
+{
+ "name": "n1-main-sprinkle",
+ "all_pass": true,
+ "links": {
+  "archive": {
+   "pass": true,
+   "detail": {
+    "archive_sha256": "932bb45d7fe9f0ebb486356285b43c5d079761c3905ce650d2e99c9c77986952",
+    "archive_bytes": 94080075
+   }
+  },
+  "hub_done": {
+   "pass": true,
+   "detail": {
+    "archive_sha256": "932bb45d7fe9f0ebb486356285b43c5d079761c3905ce650d2e99c9c77986952",
+    "checkpoint": "/mnt/ai/scratch/farmNEAT/t4w/runs/n1-main-sprinkle/raw/ckpt-0046484.pt",
+    "complete": true,
+    "fallbacks": 0,
+    "name": "n1-main-sprinkle",
+    "sha_match": true,
+    "verify_rerun": true
+   }
+  },
+  "cold": {
+   "pass": true,
+   "detail": {
+    "issues": [],
+    "waived_no_budget_receipt": false,
+    "games": [
+     {
+      "world_seed": 20260923,
+      "our_seat": 0,
+      "calls": 719,
+      "raw_used_bank_ms": 150.07586201469962,
+      "raw_remaining_bank_ms": 59849.9241379853,
+      "warm_max_ms": 208.269,
+      "first_step_ms": 1145.639
+     },
+     {
+      "world_seed": 20260923,
+      "our_seat": 1,
+      "calls": 719,
+      "raw_used_bank_ms": 223.3231190300546,
+      "raw_remaining_bank_ms": 59776.67688096994,
+      "warm_max_ms": 212.384,
+      "first_step_ms": 1219.425
+     }
+    ]
+   }
+  },
+  "export": {
+   "pass": true,
+   "detail": {
+    "tensors": 421,
+    "ema_tensors": 421,
+    "missing": [],
+    "extra": [],
+    "mismatched": [],
+    "checkpoint_sha256": "6f1eeff16fa52fdb6fa8cf98476408532450b9e6fc05d6509059ec173bd47092"
+   }
+  },
+  "effective": {
+   "pass": true,
+   "detail": {
+    "effective": "/mnt/ai/scratch/farmNEAT/t4w/runs/n1-main-sprinkle/EFFECTIVE-wash.json",
+    "sha256": "7920be547678aa4c5c2e91cfa8593adcca59daca9eadcd3e57dae23fde6b1bbd",
+    "keys": [
+     "base",
+     "base_sha256",
+     "cap_s",
+     "final_checkpoint",
+     "final_checkpoint_sha256",
+     "line",
+     "lr",
+     "raw_export",
+     "raw_export_sha256",
+     "roster",
+     "roster_sha256",
+     "trainer"
+    ]
+   }
+  },
+  "policy_fp16_ema": {
+   "pass": true,
+   "detail": {
+    "policy_sha256": "d3e1951b1b44ae186b4a6feb9d039ca77ad98cf185ae13a40669e41c8ae33440",
+    "tensors": 374,
+    "ema_tensors": 421,
+    "dtypes": [
+     "torch.float16"
+    ],
+    "stripped_ema_keys": 47,
+    "missing": [
+     "aux_lag.weight",
+     "aux_next.bias",
+     "aux_next.weight",
+     "aux_opp.bias",
+     "aux_opp.weight"
+    ],
+    "extra": [],
+    "mismatched": []
+   }
+  }
+ }
+}

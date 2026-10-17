@@ -1,0 +1,38 @@
+{
+ "schema": "effective-shares/v1",
+ "generation": "83f52b310ad5",
+ "recipe_sha256": "0dff1dfbcbc45c9c82bd9c24df39cd93df5d35d5427805058886fda44a824d90",
+ "rule": "r_A = share_A/n_A (recipe shares normalised over A..E, S excluded; n = cached seats); for k != A: share_k <= 4*r_A*n_k; all excess share goes to A; one pass from pre-cap r_A; recomputed every build",
+ "base_shares_normalised_A_to_E": {
+  "A": 0.368421,
+  "BC": 0.421053,
+  "D": 0.157895,
+  "E": 0.052632
+ },
+ "effective_shares": {
+  "A": 0.368421,
+  "BC": 0.421053,
+  "D": 0.157895,
+  "E": 0.052632
+ },
+ "capped": {},
+ "per_seat_draw_rate_relative_to_A": {
+  "A": 1.0,
+  "BC": 2.4392,
+  "D": 1.6484,
+  "E": 0.1336
+ },
+ "cached_seats": {
+  "A": 4450,
+  "BC": 2085,
+  "D": 1157,
+  "E": 4759
+ },
+ "files": [
+  "A.tsv",
+  "BC.tsv",
+  "D.tsv",
+  "E.tsv"
+ ],
+ "note": "trainers sample buckets by effective_shares (not the raw recipe), then a seat uniformly within the bucket"
+}

@@ -1,0 +1,14 @@
+2026-09-30 16:13:13 waiting for seats: missing 225 of 555
+2026-09-30 16:13:45 waiting for seats: missing 130 of 555
+2026-09-30 16:14:16 waiting for seats: missing 67 of 555
+2026-09-30 16:14:48 waiting for seats: missing 8 of 555
+2026-09-30 16:15:19 roster rows-n-8f08a69ea889.tsv (8f08a69ea889f2c9c8c4c7df7e85b397fc6961876a2c379257b3a22b387dc050) fully cached: missing 0 of 555
+2026-09-30 16:15:21 current LATEST ckpt-0045840.pt; waiting for the next checkpoint
+2026-09-30 16:16:05 new checkpoint ckpt-0045880.pt; stopping train.py
+2026-09-30 16:16:40 stop:   12736 python3 -B /content/code/primitive-bc-v6-20260927/work/runs/maintainer/p stopped ckpt-0045880.pt 
+2026-09-30 16:16:44 relaunch from ckpt-0045880.pt (u45880); old trainer's last logged update 45880
+N roster 8f08a69ea889 rows 555 cached on VM 555
+Running as unit: ncolab-exec-161645.service; invocation ID: 338d8088709342af9905737ad3ca71ec
+Running as unit: ncolab-pull.service; invocation ID: 1953f62eece14ec3b29b25033806a7d5
+2026-09-30T20:17:15Z launched n1-beven-colab on oldarch-g4: rows rows-n-8f08a69ea889.tsv (8f08a69ea889), workers 16, max-seconds 13694, exec pid 299045
+2026-09-30 16:20:28 FIRST-UPDATE u45890 (> 45880) on rows-n-8f08a69ea889.tsv; downtime 261 s; draws since relaunch: drawn 406 in-roster 406

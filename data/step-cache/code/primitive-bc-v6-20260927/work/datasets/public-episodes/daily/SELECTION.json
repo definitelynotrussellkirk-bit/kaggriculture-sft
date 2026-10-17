@@ -1,0 +1,152 @@
+{
+  "dataset": "kaggle/kaggriculture-episodes-2026-09-21",
+  "manifest_sha256": "a8243cecbe223eb4828db6f42b7cc9d0e5f7e760ce42d1716b70c9892f47b9c5",
+  "selection": "avg_score descending, min_score descending, episode_id ascending; first4 discovery, next16 confirmation",
+  "already_exposed_discovery_ids": [
+    111424871
+  ],
+  "total_source_bytes": 676441463,
+  "episodes": [
+    {
+      "episode_id": 111424871,
+      "file": "111424871.json",
+      "bytes": 33870075,
+      "split": "discovery",
+      "sha256": "b5391964a3b4a4d9caed8ca9eaf82e62cf2ff2ca3bb6f8ef98182c165bfa76b8"
+    },
+    {
+      "episode_id": 111446129,
+      "file": "111446129.json",
+      "bytes": 33981121,
+      "split": "discovery",
+      "sha256": "eb5982933e1fa38d68077b668969d97976d3d164532a7a1fbc23196d84691a0d"
+    },
+    {
+      "episode_id": 111440605,
+      "file": "111440605.json",
+      "bytes": 34103301,
+      "split": "discovery",
+      "sha256": "31b66920c99b406238d2338855f4d92306fb4ca512a8eccfb0acfccd289e5a4a"
+    },
+    {
+      "episode_id": 111611532,
+      "file": "111611532.json",
+      "bytes": 33454249,
+      "split": "discovery",
+      "sha256": "0f35d43330fb71993a8e03cd68610626fb3f3f3f81a759220e551eb803a45a8a"
+    },
+    {
+      "episode_id": 111591740,
+      "file": "111591740.json",
+      "bytes": 33991178,
+      "split": "confirmation",
+      "sha256": "4b6a250c44c0e31fcbc748f978d2503c92a828c3cabb6a31285a8732926ee5ca"
+    },
+    {
+      "episode_id": 111598282,
+      "file": "111598282.json",
+      "bytes": 33916037,
+      "split": "confirmation",
+      "sha256": "ce488e365d1cea34e3cc02e3a98127741217656bcdd6e294f341753271a90414"
+    },
+    {
+      "episode_id": 111565034,
+      "file": "111565034.json",
+      "bytes": 33765956,
+      "split": "confirmation",
+      "sha256": "f2f15ec8610e8a2295ee690acadee420351b7c1bbdfc9152a346801c98658c46"
+    },
+    {
+      "episode_id": 111779053,
+      "file": "111779053.json",
+      "bytes": 33256579,
+      "split": "confirmation",
+      "sha256": "f36f8983f28f3aa1fe25c2c35a56618f540091214c69ec4eab8fec2cbccbf3b8"
+    },
+    {
+      "episode_id": 111419545,
+      "file": "111419545.json",
+      "bytes": 34296247,
+      "split": "confirmation",
+      "sha256": "fa8a36101fdfb02eb6e1bdcf13da96689ab68566ea3aeca050d8e6fa0c5332e9"
+    },
+    {
+      "episode_id": 111558323,
+      "file": "111558323.json",
+      "bytes": 34100737,
+      "split": "confirmation",
+      "sha256": "bacf065fa1626e828a215a1a94aade4e059fca4edaf8b6d70442916898964cc7"
+    },
+    {
+      "episode_id": 111763411,
+      "file": "111763411.json",
+      "bytes": 33652487,
+      "split": "confirmation",
+      "sha256": "04f32f9c932f6727272a27020d4175061418f4d1a656ae2269075b19a17e37ba"
+    },
+    {
+      "episode_id": 111773653,
+      "file": "111773653.json",
+      "bytes": 33713750,
+      "split": "confirmation",
+      "sha256": "ee955cfa891810ce3b8cda99b555919dd43c934588f468ba117e99a9896cc2ee"
+    },
+    {
+      "episode_id": 111578349,
+      "file": "111578349.json",
+      "bytes": 34028246,
+      "split": "confirmation",
+      "sha256": "81a2969602557be6ffbb7f152c54979bdf8da3900fae0eec9594c88314cd14c9"
+    },
+    {
+      "episode_id": 111565038,
+      "file": "111565038.json",
+      "bytes": 33810420,
+      "split": "confirmation",
+      "sha256": "305916c88e0b85c77fc35d442f21b0bc1dd0b95af1f1bbb414669147ac54216e"
+    },
+    {
+      "episode_id": 111435167,
+      "file": "111435167.json",
+      "bytes": 33647674,
+      "split": "confirmation",
+      "sha256": "4c58f53da077408fe69cfcd290c4b131f6a47c855e4ae960b1ffce2b64dbc66f"
+    },
+    {
+      "episode_id": 111768261,
+      "file": "111768261.json",
+      "bytes": 34088775,
+      "split": "confirmation",
+      "sha256": "5d295b5084edc1992a058f6a46fdc98eadd8ed861fadd8fa18f0ee73b8503349"
+    },
+    {
+      "episode_id": 111538158,
+      "file": "111538158.json",
+      "bytes": 33643961,
+      "split": "confirmation",
+      "sha256": "20e3e84a9fee0f8f73fc8ac86c36c3d65947cf19366fd919a1291cc8b3e6cdd6"
+    },
+    {
+      "episode_id": 111752408,
+      "file": "111752408.json",
+      "bytes": 33992539,
+      "split": "confirmation",
+      "sha256": "1bfc22bdfa0efbcbc25036f04ef8a20baeb82c8cbcefa6499a49ceff5391f2bd"
+    },
+    {
+      "episode_id": 111757910,
+      "file": "111757910.json",
+      "bytes": 33679171,
+      "split": "confirmation",
+      "sha256": "e645ddfde2e32d60edbe076771400019aee6d9819ecb83b7e099d3c9d6d48229"
+    },
+    {
+      "episode_id": 111430318,
+      "file": "111430318.json",
+      "bytes": 33448960,
+      "split": "confirmation",
+      "sha256": "142d88000a30fe306e65bbe74395241a88dc35cc8bfd3cb3bd6f58a6fd1a5258"
+    }
+  ],
+  "acquisition_status": "20 files acquired; sizes verified; not new replay verification or training labels"
+}

@@ -1,0 +1,11 @@
+{
+ "all_pass": true,
+ "archive_bytes": 13605819,
+ "archive_sha256": "7661782af4ca815585945b019963b86586dbae490ba2554b592fdb080f0f4b3e",
+ "checkpoint": "/mnt/ai/scratch/farmNEAT/n-flow/release-ckpts/nflow-main-wash8014/ckpt-0056559.pt",
+ "checkpoint_sha256": "7dacc5983b96f5b68526bf4b6c8c55e71bb1455dbb3c4662157150e88f836953",
+ "completed_utc": "2026-09-30T22:37:45.654291+00:00",
+ "issues": [],
+ "links_sha256": "920d3065f18ec21eaac734167ab7cb474aa07d32a545d59ac1b89be301bf95c4",
+ "name": "nflow-main-wash8014"
+}

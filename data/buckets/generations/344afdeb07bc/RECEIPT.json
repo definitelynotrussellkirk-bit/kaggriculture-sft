@@ -1,0 +1,1639 @@
+{
+ "sha256": "344afdeb07bca0ba93721192ea046d168476809fe84b45e6389c630cf6af01a2",
+ "dir": "/mnt/ai/scratch/farmNEAT/broad/buckets/344afdeb07bc",
+ "built_utc": "2026-09-30T18:05:25Z",
+ "leaderboard_snapshot": "LEADERBOARD-20260930T1737.csv",
+ "top4_train": "/mnt/ai/scratch/farmNEAT/corpus-final/special/TOP4-BEATERS-LATEST/TRAIN.tsv",
+ "qualifying_winner_seats": 76173,
+ "excluded_unknown_opponent": 196,
+ "excluded_static_winner": 1482,
+ "excluded_blocked_submission": 6,
+ "excluded_beat_us_outside_days": 429,
+ "excluded_holdout": 754,
+ "excluded_non_train_split": 7036,
+ "not_tsv_ready": 1,
+ "excluded_D_no_finite_quality": 0,
+ "excluded_E_no_finite_quality": 168,
+ "own_win_selected": {
+  "W_B": 135,
+  "W_O": 81,
+  "W_N": 61
+ },
+ "buckets": {
+  "A": {
+   "share": 0.35,
+   "seats": 5584,
+   "cached": 5584,
+   "uncached": 0,
+   "days": [
+    "2026-09-07",
+    "2026-09-30"
+   ],
+   "quality_src": null
+  },
+  "L": {
+   "share": 0.0,
+   "seats": 234,
+   "cached": 234,
+   "uncached": 0,
+   "days": [
+    "2026-09-29",
+    "2026-09-30"
+   ],
+   "quality_src": null
+  },
+  "BC": {
+   "share": 0.4,
+   "seats": 1091,
+   "cached": 1091,
+   "uncached": 0,
+   "days": [
+    "2026-09-29",
+    "2026-09-30"
+   ],
+   "quality_src": null
+  },
+  "D": {
+   "share": 0.15,
+   "seats": 1156,
+   "cached": 1156,
+   "uncached": 0,
+   "days": [
+    "2026-09-24",
+    "2026-09-28"
+   ],
+   "quality_src": {
+    "leaderboard": 934,
+    "at-time": 222
+   }
+  },
+  "E": {
+   "share": 0.05,
+   "seats": 4732,
+   "cached": 4727,
+   "uncached": 5,
+   "days": [
+    "2026-09-03",
+    "2026-09-23"
+   ],
+   "quality_src": {
+    "at-time": 4616,
+    "leaderboard": 116
+   }
+  },
+  "W_B": {
+   "share": 0.0,
+   "seats": 135,
+   "cached": 135,
+   "uncached": 0,
+   "days": [
+    "2026-09-29",
+    "2026-09-30"
+   ],
+   "quality_src": null
+  },
+  "W_N": {
+   "share": 0.0,
+   "seats": 61,
+   "cached": 58,
+   "uncached": 3,
+   "days": [
+    "2026-09-30",
+    "2026-09-30"
+   ],
+   "quality_src": null
+  },
+  "W_O": {
+   "share": 0.0,
+   "seats": 81,
+   "cached": 81,
+   "uncached": 0,
+   "days": [
+    "2026-09-29",
+    "2026-09-30"
+   ],
+   "quality_src": null
+  }
+ },
+ "recipe": {
+  "path": "/mnt/ai/scratch/farmNEAT/broad/BUCKET-RECIPE.json",
+  "sha256": "ca717478fa7869d0ea5375a6bd9123e2d7cdb061513fdd2c1c6350f07ef84e69",
+  "shares": {
+   "A": 0.35,
+   "L": 0.0,
+   "BC": 0.4,
+   "D": 0.15,
+   "E": 0.05,
+   "W_B": 0.0,
+   "W_N": 0.0,
+   "W_O": 0.0
+  },
+  "reserved": {
+   "S": {
+    "share": 0.05,
+    "what": "self-play bucket (gpu-scout builds it); used only in test branches until it passes a gate",
+    "control": "control runs renormalise A..E",
+    "lists": "/mnt/ai/scratch/farmNEAT/selfplay-s/S-<L>.tsv (per lineage B/O/N; owner gpu-scout; receipt selfplay-s/S0-RECEIPT.json)",
+    "share_rule": "min(.05, n_S*share_A/n_A)",
+    "share_rule_terms": "n_S = cached seats in selfplay-s/S-<L>.tsv; n_A = cached seats in the same bucket generation A.tsv; no S seat drawn more often than an A seat",
+    "min_seats": 300,
+    "min_seats_rule": "no S test branch before n_S >= 300 per lineage",
+    "enforced_by": "selfplay-s/build_test_roster.py (refuses below min_seats; receipts the computed share); source of rule: coordinator 04:3x via gpu-scout"
+   }
+  }
+ },
+ "base_shares": {
+  "A": 0.346992,
+  "BC": 0.396563,
+  "D": 0.148711,
+  "E": 0.04957,
+  "L": 0.058163
+ },
+ "effective_shares": {
+  "A": 0.472374,
+  "BC": 0.271181,
+  "D": 0.148711,
+  "E": 0.04957,
+  "L": 0.058163
+ },
+ "capped": {
+  "BC": {
+   "base": 0.396563,
+   "cap": 0.271181
+  }
+ },
+ "dynamic_shares": {
+  "L": {
+   "rule": "cap_max_vs_A",
+   "multiplier": 4.0,
+   "n": 234,
+   "n_A": 5584,
+   "share": 0.058163
+  }
+ },
+ "omitted_zero_share_buckets": [],
+ "selfplay": {
+  "config": {},
+  "selection": {},
+  "shares": {},
+  "min_seats": null
+ },
+ "lineage_views": {
+  "B": {
+   "bucket": "W_B",
+   "n": 135,
+   "share": 0.043685,
+   "rate_vs_A": 4.0,
+   "effective_shares": {
+    "A": 0.451738,
+    "BC": 0.259334,
+    "D": 0.142215,
+    "E": 0.047405,
+    "L": 0.055623,
+    "W_B": 0.043685
+   }
+  },
+  "N": {
+   "bucket": "W_N",
+   "n": 58,
+   "share": 0.019248,
+   "rate_vs_A": 4.0,
+   "effective_shares": {
+    "A": 0.463282,
+    "BC": 0.265961,
+    "D": 0.145849,
+    "E": 0.048616,
+    "L": 0.057044,
+    "W_N": 0.019248
+   }
+  },
+  "O": {
+   "bucket": "W_O",
+   "n": 81,
+   "share": 0.026677,
+   "rate_vs_A": 4.0,
+   "effective_shares": {
+    "A": 0.459772,
+    "BC": 0.263947,
+    "D": 0.144744,
+    "E": 0.048248,
+    "L": 0.056612,
+    "W_O": 0.026677
+   }
+  }
+ },
+ "shares_incl_S_reserve": {
+  "A": 0.448755,
+  "BC": 0.257622,
+  "D": 0.141275,
+  "E": 0.047092,
+  "L": 0.055255,
+  "S": 0.05
+ },
+ "empty_buckets": [],
+ "top10_per_day": {
+  "2026-09-24": {
+   "pool": 2178,
+   "kept": 218,
+   "at_time_share": 1.0
+  },
+  "2026-09-25": {
+   "pool": 2012,
+   "kept": 201,
+   "at_time_share": 0.02
+  },
+  "2026-09-26": {
+   "pool": 2489,
+   "kept": 249,
+   "at_time_share": 0.0
+  },
+  "2026-09-27": {
+   "pool": 2490,
+   "kept": 249,
+   "at_time_share": 0.0
+  },
+  "2026-09-28": {
+   "pool": 2392,
+   "kept": 239,
+   "at_time_share": 0.0
+  },
+  "2026-09-03": {
+   "pool": 179,
+   "kept": 18,
+   "at_time_share": 0.0
+  },
+  "2026-09-04": {
+   "pool": 296,
+   "kept": 30,
+   "at_time_share": 0.0
+  },
+  "2026-09-05": {
+   "pool": 338,
+   "kept": 34,
+   "at_time_share": 0.0
+  },
+  "2026-09-06": {
+   "pool": 326,
+   "kept": 33,
+   "at_time_share": 0.0
+  },
+  "2026-09-07": {
+   "pool": 686,
+   "kept": 69,
+   "at_time_share": 0.986
+  },
+  "2026-09-08": {
+   "pool": 701,
+   "kept": 70,
+   "at_time_share": 1.0
+  },
+  "2026-09-09": {
+   "pool": 933,
+   "kept": 93,
+   "at_time_share": 1.0
+  },
+  "2026-09-10": {
+   "pool": 2018,
+   "kept": 202,
+   "at_time_share": 1.0
+  },
+  "2026-09-11": {
+   "pool": 2216,
+   "kept": 222,
+   "at_time_share": 1.0
+  },
+  "2026-09-12": {
+   "pool": 1728,
+   "kept": 173,
+   "at_time_share": 1.0
+  },
+  "2026-09-13": {
+   "pool": 2631,
+   "kept": 263,
+   "at_time_share": 1.0
+  },
+  "2026-09-14": {
+   "pool": 3450,
+   "kept": 345,
+   "at_time_share": 1.0
+  },
+  "2026-09-15": {
+   "pool": 3480,
+   "kept": 348,
+   "at_time_share": 1.0
+  },
+  "2026-09-16": {
+   "pool": 4090,
+   "kept": 409,
+   "at_time_share": 1.0
+  },
+  "2026-09-17": {
+   "pool": 4239,
+   "kept": 424,
+   "at_time_share": 1.0
+  },
+  "2026-09-18": {
+   "pool": 4035,
+   "kept": 404,
+   "at_time_share": 1.0
+  },
+  "2026-09-19": {
+   "pool": 3693,
+   "kept": 369,
+   "at_time_share": 1.0
+  },
+  "2026-09-20": {
+   "pool": 3508,
+   "kept": 351,
+   "at_time_share": 1.0
+  },
+  "2026-09-21": {
+   "pool": 3305,
+   "kept": 330,
+   "at_time_share": 1.0
+  },
+  "2026-09-22": {
+   "pool": 3136,
+   "kept": 314,
+   "at_time_share": 1.0
+  },
+  "2026-09-23": {
+   "pool": 2306,
+   "kept": 231,
+   "at_time_share": 1.0
+  }
+ },
+ "admission_gate": {
+  "families": {
+   "leak": 0,
+   "holdout_val_sealed_seed": 0,
+   "top4_val": 0,
+   "static": 0,
+   "blocked_sub": 0,
+   "ours": 0,
+   "mirror": 0,
+   "not_train_split": 0,
+   "duplicate_seat": 0,
+   "beat_us_outside_days": 0,
+   "exclusion_union": 0
+  },
+  "status": "PASS"
+ },
+ "opp_is_us_winners_kept": {
+  "A": 0,
+  "L": 234,
+  "BC": 0,
+  "D": 0,
+  "E": 0,
+  "W_B": 0,
+  "W_N": 0,
+  "W_O": 0
+ },
+ "opp_is_us_winners_selected": {
+  "A": 0,
+  "L": 234,
+  "BC": 0,
+  "D": 0,
+  "E": 0,
+  "W_B": 0,
+  "W_N": 0,
+  "W_O": 0
+ },
+ "hosted_ours_source_rows": {
+  "A": 0,
+  "L": 136,
+  "BC": 0,
+  "D": 0,
+  "E": 0,
+  "W_B": 135,
+  "W_N": 58,
+  "W_O": 80
+ },
+ "support_per_day": {
+  "A:2026-09-07": {
+   "selected": 3,
+   "cached": 3
+  },
+  "A:2026-09-08": {
+   "selected": 7,
+   "cached": 7
+  },
+  "A:2026-09-09": {
+   "selected": 18,
+   "cached": 18
+  },
+  "A:2026-09-10": {
+   "selected": 48,
+   "cached": 48
+  },
+  "A:2026-09-11": {
+   "selected": 68,
+   "cached": 68
+  },
+  "A:2026-09-12": {
+   "selected": 103,
+   "cached": 103
+  },
+  "A:2026-09-13": {
+   "selected": 74,
+   "cached": 74
+  },
+  "A:2026-09-14": {
+   "selected": 76,
+   "cached": 76
+  },
+  "A:2026-09-15": {
+   "selected": 94,
+   "cached": 94
+  },
+  "A:2026-09-16": {
+   "selected": 182,
+   "cached": 182
+  },
+  "A:2026-09-17": {
+   "selected": 148,
+   "cached": 148
+  },
+  "A:2026-09-18": {
+   "selected": 126,
+   "cached": 126
+  },
+  "A:2026-09-19": {
+   "selected": 122,
+   "cached": 122
+  },
+  "A:2026-09-20": {
+   "selected": 81,
+   "cached": 81
+  },
+  "A:2026-09-21": {
+   "selected": 59,
+   "cached": 59
+  },
+  "A:2026-09-22": {
+   "selected": 149,
+   "cached": 149
+  },
+  "A:2026-09-23": {
+   "selected": 170,
+   "cached": 170
+  },
+  "A:2026-09-24": {
+   "selected": 246,
+   "cached": 246
+  },
+  "A:2026-09-25": {
+   "selected": 324,
+   "cached": 324
+  },
+  "A:2026-09-26": {
+   "selected": 312,
+   "cached": 312
+  },
+  "A:2026-09-27": {
+   "selected": 355,
+   "cached": 355
+  },
+  "A:2026-09-28": {
+   "selected": 367,
+   "cached": 367
+  },
+  "A:2026-09-29": {
+   "selected": 1561,
+   "cached": 1561
+  },
+  "A:2026-09-30": {
+   "selected": 891,
+   "cached": 891
+  },
+  "BC:2026-09-29": {
+   "selected": 905,
+   "cached": 905
+  },
+  "BC:2026-09-30": {
+   "selected": 186,
+   "cached": 186
+  },
+  "D:2026-09-24": {
+   "selected": 218,
+   "cached": 218
+  },
+  "D:2026-09-25": {
+   "selected": 201,
+   "cached": 201
+  },
+  "D:2026-09-26": {
+   "selected": 249,
+   "cached": 249
+  },
+  "D:2026-09-27": {
+   "selected": 249,
+   "cached": 249
+  },
+  "D:2026-09-28": {
+   "selected": 239,
+   "cached": 239
+  },
+  "E:2026-09-03": {
+   "selected": 18,
+   "cached": 16
+  },
+  "E:2026-09-04": {
+   "selected": 30,
+   "cached": 27
+  },
+  "E:2026-09-05": {
+   "selected": 34,
+   "cached": 34
+  },
+  "E:2026-09-06": {
+   "selected": 33,
+   "cached": 33
+  },
+  "E:2026-09-07": {
+   "selected": 69,
+   "cached": 69
+  },
+  "E:2026-09-08": {
+   "selected": 70,
+   "cached": 70
+  },
+  "E:2026-09-09": {
+   "selected": 93,
+   "cached": 93
+  },
+  "E:2026-09-10": {
+   "selected": 202,
+   "cached": 202
+  },
+  "E:2026-09-11": {
+   "selected": 222,
+   "cached": 222
+  },
+  "E:2026-09-12": {
+   "selected": 173,
+   "cached": 173
+  },
+  "E:2026-09-13": {
+   "selected": 263,
+   "cached": 263
+  },
+  "E:2026-09-14": {
+   "selected": 345,
+   "cached": 345
+  },
+  "E:2026-09-15": {
+   "selected": 348,
+   "cached": 348
+  },
+  "E:2026-09-16": {
+   "selected": 409,
+   "cached": 409
+  },
+  "E:2026-09-17": {
+   "selected": 424,
+   "cached": 424
+  },
+  "E:2026-09-18": {
+   "selected": 404,
+   "cached": 404
+  },
+  "E:2026-09-19": {
+   "selected": 369,
+   "cached": 369
+  },
+  "E:2026-09-20": {
+   "selected": 351,
+   "cached": 351
+  },
+  "E:2026-09-21": {
+   "selected": 330,
+   "cached": 330
+  },
+  "E:2026-09-22": {
+   "selected": 314,
+   "cached": 314
+  },
+  "E:2026-09-23": {
+   "selected": 231,
+   "cached": 231
+  },
+  "L:2026-09-29": {
+   "selected": 120,
+   "cached": 120
+  },
+  "L:2026-09-30": {
+   "selected": 114,
+   "cached": 114
+  },
+  "W_B:2026-09-29": {
+   "selected": 60,
+   "cached": 60
+  },
+  "W_B:2026-09-30": {
+   "selected": 75,
+   "cached": 75
+  },
+  "W_N:2026-09-30": {
+   "selected": 61,
+   "cached": 58
+  },
+  "W_O:2026-09-29": {
+   "selected": 38,
+   "cached": 38
+  },
+  "W_O:2026-09-30": {
+   "selected": 43,
+   "cached": 43
+  }
+ },
+ "zero_support_days": [],
+ "inputs": {
+  "SEATS.parquet": {
+   "mtime_utc": "2026-09-30T17:22:27Z",
+   "bytes": 35568009
+  },
+  "build_start_utc": "2026-09-30T18:05:16Z",
+  "catalog_lag_min": 42.8,
+  "leaderboard": {
+   "file": "LEADERBOARD-20260930T1737.csv",
+   "mtime_utc": "2026-09-30T17:37:29Z"
+  },
+  "top4_latest": "/mnt/ai/scratch/farmNEAT/corpus-final/special/TOP4-BEATERS-1a931bd17315",
+  "a_top_team_ids": [
+   16681125,
+   16623559,
+   16621497,
+   16732748,
+   16736435,
+   16730612,
+   16684994,
+   16770421,
+   16698308,
+   16854176
+  ]
+ },
+ "hash_of": "sha256(identity_json + newline + exact bytes of the published bucket files (cached seats) concatenated in recipe order); UNCACHED-*.tsv, RECEIPT.json and EFFECTIVE-SHARES.json are sidecars outside the hash",
+ "identity_json": "{\"a_top\":{\"beaters\":true,\"days\":[\"2026-09-29\",\"2026-09-30\"],\"rule\":\"owner 09-30 08:3x \\\"lets prioritize top 10\\\": A = TOP4 TRAIN + wins of the live top-10 teams (build-time leaderboard, us excluded) on 09-29/30; L assigned after A overrides for winners over us; TOP10-BEATERS (owner 11:3x): winner seats of games whose LOSER is a current top-10 team (a_top days) also go to A\",\"teams\":10},\"beat_us_bucket\":\"L\",\"beat_us_days\":[\"2026-09-29\",\"2026-09-30\"],\"dynamic_shares\":{\"L\":\"cap_max_vs_A\",\"W_B\":\"lineage_only\",\"W_N\":\"lineage_only\",\"W_O\":\"lineage_only\"},\"merge\":{\"B\":\"BC\",\"C\":\"BC\"},\"own_win_buckets\":{\"buckets\":{\"W_B\":[56700722,56680227,56662199,56653279,56648842],\"W_N\":[56706235],\"W_O\":[56686420,56680244]},\"days\":[\"2026-09-29\",\"2026-09-30\"],\"lineages\":{\"B\":\"W_B\",\"N\":\"W_N\",\"O\":\"W_O\"},\"max_share\":0.05,\"rule\":\"owner 09-30 08:5x \\\"it reinforces our current policy\\\" / \\\"good against the crowd\\\": our own hosted winning seats (09-29/30) per lineage; W_B -> B and N B-even rosters, W_N -> N flow, W_O -> O; per-seat rate 4x A, at most .05 of draws; our losing seats never targets; lineages never see another lineage W\",\"version_subs\":{\"b-colab-u38760-d30-v9gsafe\":56700722,\"base1-b-u14487-v9d-a1-ema\":56662199,\"base1-b-u28500-v9d-a1-ema\":56680227,\"base1-b-u2981-v8-a1-ema\":56653279,\"base1-b-u6238-v8-a1-ema\":56648842,\"nflow-u16000-t4\":56706235,\"oldarch1-v4bg2-u59000-cd-ema\":56680244,\"oldarch1-v4bg2-u65000-cd-ema\":56686420}},\"reserved\":{\"S\":{\"control\":\"control runs renormalise A..E\",\"enforced_by\":\"selfplay-s/build_test_roster.py (refuses below min_seats; receipts the computed share); source of rule: coordinator 04:3x via gpu-scout\",\"lists\":\"/mnt/ai/scratch/farmNEAT/selfplay-s/S-<L>.tsv (per lineage B/O/N; owner gpu-scout; receipt selfplay-s/S0-RECEIPT.json)\",\"min_seats\":300,\"min_seats_rule\":\"no S test branch before n_S >= 300 per lineage\",\"share\":0.05,\"share_rule\":\"min(.05, n_S*share_A/n_A)\",\"share_rule_terms\":\"n_S = cached seats in selfplay-s/S-<L>.tsv; n_A = cached seats in the same bucket generation A.tsv; no S seat drawn more often than an A seat\",\"what\":\"self-play bucket (gpu-scout builds it); used only in test branches until it passes a gate\"}},\"sampling\":\"pick a bucket by share (A..E; control renormalises A..E; S only in test branches), then a seat uniformly within it\",\"schema\":\"bucket-recipe/v4\",\"shares\":{\"A\":0.35,\"BC\":0.4,\"D\":0.15,\"E\":0.05,\"L\":0.0,\"W_B\":0.0,\"W_N\":0.0,\"W_O\":0.0},\"small_bucket_cap\":{\"multiplier\":4,\"output\":\"buckets/<gen>/EFFECTIVE-SHARES.json; trainers sample from it, not from the raw shares\",\"rule\":\"r_A = share_A/n_A (recipe shares normalised over A..E, S excluded; n = cached seats); for k != A: share_k <= 4*r_A*n_k; all excess share goes to A; one pass from pre-cap r_A; recomputed every build\",\"source\":\"owner 04:39 \\\"YES, cap each small bucket\\\"\"},\"version\":null}",
+ "policy_sha256": "a049a24769147dff2424c9c657cb24dd80b3abc31534b80679e1c4cd1a24de77",
+ "breakage": {
+  "broken_winner_seats": 1,
+  "weak_sub_winner_seats": 336,
+  "weak_subs": 2878,
+  "weak_subs_removed": {
+   "56049670": {
+    "rating": 2005.1,
+    "age_h": 538.2,
+    "games": 1
+   },
+   "56065115": {
+    "rating": 1704.8,
+    "age_h": 456.2,
+    "games": 2
+   },
+   "56083697": {
+    "rating": 1964.8,
+    "age_h": 537.0,
+    "games": 2
+   },
+   "56094059": {
+    "rating": 2129.1,
+    "age_h": 502.5,
+    "games": 1
+   },
+   "56102094": {
+    "rating": 2106.4,
+    "age_h": 483.0,
+    "games": 1
+   },
+   "56107052": {
+    "rating": 2196.0,
+    "age_h": 510.7,
+    "games": 1
+   },
+   "56110714": {
+    "rating": 2220.1,
+    "age_h": 482.5,
+    "games": 2
+   },
+   "56115953": {
+    "rating": 1946.4,
+    "age_h": 510.9,
+    "games": 1
+   },
+   "56116016": {
+    "rating": 2264.6,
+    "age_h": 497.0,
+    "games": 1
+   },
+   "56117037": {
+    "rating": 1806.1,
+    "age_h": 509.7,
+    "games": 2
+   },
+   "56120701": {
+    "rating": 2385.6,
+    "age_h": 502.1,
+    "games": 1
+   },
+   "56124378": {
+    "rating": 1972.3,
+    "age_h": 414.6,
+    "games": 1
+   },
+   "56126264": {
+    "rating": 2139.4,
+    "age_h": 503.7,
+    "games": 1
+   },
+   "56130471": {
+    "rating": 2173.8,
+    "age_h": 451.1,
+    "games": 1
+   },
+   "56131036": {
+    "rating": 2189.2,
+    "age_h": 498.3,
+    "games": 6
+   },
+   "56131201": {
+    "rating": 2165.9,
+    "age_h": 464.2,
+    "games": 3
+   },
+   "56131352": {
+    "rating": 2385.4,
+    "age_h": 482.0,
+    "games": 1
+   },
+   "56135629": {
+    "rating": 1933.6,
+    "age_h": 489.7,
+    "games": 26
+   },
+   "56136220": {
+    "rating": 2079.0,
+    "age_h": 482.8,
+    "games": 1
+   },
+   "56136629": {
+    "rating": 1926.9,
+    "age_h": 424.6,
+    "games": 3
+   },
+   "56139663": {
+    "rating": 2199.2,
+    "age_h": 483.2,
+    "games": 1
+   },
+   "56142362": {
+    "rating": 2202.7,
+    "age_h": 482.6,
+    "games": 2
+   },
+   "56142840": {
+    "rating": 2300.1,
+    "age_h": 480.2,
+    "games": 9
+   },
+   "56143061": {
+    "rating": 1930.9,
+    "age_h": 483.4,
+    "games": 11
+   },
+   "56143116": {
+    "rating": 2132.6,
+    "age_h": 483.3,
+    "games": 1
+   },
+   "56144249": {
+    "rating": 2315.2,
+    "age_h": 457.7,
+    "games": 1
+   },
+   "56147133": {
+    "rating": 2051.4,
+    "age_h": 479.6,
+    "games": 2
+   },
+   "56147223": {
+    "rating": 1955.9,
+    "age_h": 479.4,
+    "games": 3
+   },
+   "56148291": {
+    "rating": 2366.2,
+    "age_h": 469.4,
+    "games": 1
+   },
+   "56151041": {
+    "rating": 2086.2,
+    "age_h": 473.9,
+    "games": 3
+   },
+   "56151255": {
+    "rating": 2147.6,
+    "age_h": 441.4,
+    "games": 3
+   },
+   "56151491": {
+    "rating": 2335.9,
+    "age_h": 464.9,
+    "games": 2
+   },
+   "56158124": {
+    "rating": 2388.5,
+    "age_h": 455.6,
+    "games": 3
+   },
+   "56160716": {
+    "rating": 2256.2,
+    "age_h": 446.8,
+    "games": 1
+   },
+   "56160729": {
+    "rating": 2328.9,
+    "age_h": 463.7,
+    "games": 4
+   },
+   "56160730": {
+    "rating": 2348.4,
+    "age_h": 460.7,
+    "games": 7
+   },
+   "56165778": {
+    "rating": 2067.2,
+    "age_h": 403.1,
+    "games": 1
+   },
+   "56165889": {
+    "rating": 2295.3,
+    "age_h": 448.7,
+    "games": 1
+   },
+   "56166519": {
+    "rating": 2231.1,
+    "age_h": 456.3,
+    "games": 2
+   },
+   "56171648": {
+    "rating": 1977.5,
+    "age_h": 433.2,
+    "games": 4
+   },
+   "56172526": {
+    "rating": 2242.2,
+    "age_h": 414.8,
+    "games": 1
+   },
+   "56176199": {
+    "rating": 2216.3,
+    "age_h": 425.3,
+    "games": 4
+   },
+   "56176943": {
+    "rating": 2318.5,
+    "age_h": 444.3,
+    "games": 4
+   },
+   "56177093": {
+    "rating": 2312.5,
+    "age_h": 443.8,
+    "games": 1
+   },
+   "56178498": {
+    "rating": 2025.8,
+    "age_h": 435.1,
+    "games": 3
+   },
+   "56178556": {
+    "rating": 2132.8,
+    "age_h": 442.7,
+    "games": 4
+   },
+   "56178943": {
+    "rating": 2294.9,
+    "age_h": 425.8,
+    "games": 4
+   },
+   "56179089": {
+    "rating": 1948.4,
+    "age_h": 441.0,
+    "games": 2
+   },
+   "56181059": {
+    "rating": 2337.3,
+    "age_h": 399.1,
+    "games": 1
+   },
+   "56184205": {
+    "rating": 2297.1,
+    "age_h": 435.8,
+    "games": 2
+   },
+   "56184530": {
+    "rating": 2119.6,
+    "age_h": 433.6,
+    "games": 13
+   },
+   "56185180": {
+    "rating": 2363.6,
+    "age_h": 423.9,
+    "games": 2
+   },
+   "56185952": {
+    "rating": 1805.2,
+    "age_h": 328.6,
+    "games": 2
+   },
+   "56186053": {
+    "rating": 2257.6,
+    "age_h": 415.6,
+    "games": 5
+   },
+   "56188164": {
+    "rating": 1876.7,
+    "age_h": 382.7,
+    "games": 2
+   },
+   "56190789": {
+    "rating": 2247.4,
+    "age_h": 424.0,
+    "games": 2
+   },
+   "56190798": {
+    "rating": 2273.8,
+    "age_h": 399.5,
+    "games": 2
+   },
+   "56191160": {
+    "rating": 2001.6,
+    "age_h": 423.1,
+    "games": 3
+   },
+   "56193628": {
+    "rating": 2314.8,
+    "age_h": 362.1,
+    "games": 1
+   },
+   "56194200": {
+    "rating": 2285.5,
+    "age_h": 390.8,
+    "games": 2
+   },
+   "56198333": {
+    "rating": 2376.6,
+    "age_h": 418.8,
+    "games": 3
+   },
+   "56198554": {
+    "rating": 1915.1,
+    "age_h": 419.4,
+    "games": 8
+   },
+   "56199447": {
+    "rating": 2240.0,
+    "age_h": 417.5,
+    "games": 10
+   },
+   "56199970": {
+    "rating": 2111.7,
+    "age_h": 415.9,
+    "games": 3
+   },
+   "56201627": {
+    "rating": 2259.3,
+    "age_h": 415.0,
+    "games": 2
+   },
+   "56201634": {
+    "rating": 1854.7,
+    "age_h": 415.0,
+    "games": 5
+   },
+   "56201641": {
+    "rating": 2367.1,
+    "age_h": 405.7,
+    "games": 3
+   },
+   "56201919": {
+    "rating": 1835.3,
+    "age_h": 411.1,
+    "games": 4
+   },
+   "56202762": {
+    "rating": 2329.3,
+    "age_h": 414.4,
+    "games": 1
+   },
+   "56205113": {
+    "rating": 2010.1,
+    "age_h": 413.5,
+    "games": 3
+   },
+   "56205270": {
+    "rating": 2185.6,
+    "age_h": 390.5,
+    "games": 1
+   },
+   "56206578": {
+    "rating": 1926.3,
+    "age_h": 322.0,
+    "games": 1
+   },
+   "56208407": {
+    "rating": 1804.1,
+    "age_h": 397.5,
+    "games": 3
+   },
+   "56208887": {
+    "rating": 2309.8,
+    "age_h": 407.8,
+    "games": 3
+   },
+   "56209051": {
+    "rating": 2376.3,
+    "age_h": 400.4,
+    "games": 1
+   },
+   "56209608": {
+    "rating": 2220.5,
+    "age_h": 407.1,
+    "games": 2
+   },
+   "56209713": {
+    "rating": 2095.7,
+    "age_h": 339.8,
+    "games": 1
+   },
+   "56209880": {
+    "rating": 2317.0,
+    "age_h": 402.9,
+    "games": 1
+   },
+   "56213573": {
+    "rating": 2255.9,
+    "age_h": 386.2,
+    "games": 2
+   },
+   "56214701": {
+    "rating": 2274.3,
+    "age_h": 361.8,
+    "games": 2
+   },
+   "56215439": {
+    "rating": 2201.4,
+    "age_h": 399.4,
+    "games": 3
+   },
+   "56215567": {
+    "rating": 2277.5,
+    "age_h": 401.6,
+    "games": 1
+   },
+   "56215628": {
+    "rating": 2203.8,
+    "age_h": 362.9,
+    "games": 2
+   },
+   "56218099": {
+    "rating": 2153.9,
+    "age_h": 366.0,
+    "games": 2
+   },
+   "56219802": {
+    "rating": 1922.3,
+    "age_h": 394.8,
+    "games": 6
+   },
+   "56220652": {
+    "rating": 1980.8,
+    "age_h": 377.3,
+    "games": 2
+   },
+   "56221876": {
+    "rating": 1915.4,
+    "age_h": 380.9,
+    "games": 4
+   },
+   "56222048": {
+    "rating": 2261.4,
+    "age_h": 360.3,
+    "games": 2
+   },
+   "56224398": {
+    "rating": 1966.3,
+    "age_h": 391.0,
+    "games": 6
+   },
+   "56225205": {
+    "rating": 1827.7,
+    "age_h": 382.5,
+    "games": 5
+   },
+   "56226076": {
+    "rating": 2322.1,
+    "age_h": 383.6,
+    "games": 3
+   },
+   "56226784": {
+    "rating": 1892.4,
+    "age_h": 381.7,
+    "games": 12
+   },
+   "56227840": {
+    "rating": 2051.8,
+    "age_h": 389.4,
+    "games": 2
+   },
+   "56227982": {
+    "rating": 2277.1,
+    "age_h": 389.1,
+    "games": 2
+   },
+   "56228099": {
+    "rating": 1897.8,
+    "age_h": 388.8,
+    "games": 4
+   },
+   "56228445": {
+    "rating": 2333.8,
+    "age_h": 361.7,
+    "games": 1
+   },
+   "56229355": {
+    "rating": 2199.6,
+    "age_h": 381.5,
+    "games": 3
+   },
+   "56229624": {
+    "rating": 2324.8,
+    "age_h": 387.0,
+    "games": 3
+   },
+   "56230136": {
+    "rating": 2223.8,
+    "age_h": 375.4,
+    "games": 3
+   },
+   "56232692": {
+    "rating": 2259.3,
+    "age_h": 385.4,
+    "games": 1
+   },
+   "56233114": {
+    "rating": 2398.1,
+    "age_h": 362.0,
+    "games": 11
+   },
+   "56234929": {
+    "rating": 2312.2,
+    "age_h": 384.4,
+    "games": 3
+   },
+   "56236229": {
+    "rating": 2267.6,
+    "age_h": 332.2,
+    "games": 1
+   },
+   "56236469": {
+    "rating": 2389.1,
+    "age_h": 364.8,
+    "games": 2
+   },
+   "56236794": {
+    "rating": 2315.7,
+    "age_h": 378.9,
+    "games": 3
+   },
+   "56238344": {
+    "rating": 2042.7,
+    "age_h": 366.2,
+    "games": 2
+   },
+   "56240121": {
+    "rating": 1883.4,
+    "age_h": 361.4,
+    "games": 12
+   },
+   "56240246": {
+    "rating": 1922.5,
+    "age_h": 365.4,
+    "games": 7
+   },
+   "56243873": {
+    "rating": 2379.3,
+    "age_h": 366.3,
+    "games": 2
+   },
+   "56244610": {
+    "rating": 2288.5,
+    "age_h": 350.3,
+    "games": 1
+   },
+   "56246657": {
+    "rating": 1989.0,
+    "age_h": 362.7,
+    "games": 4
+   },
+   "56247792": {
+    "rating": 2035.9,
+    "age_h": 272.2,
+    "games": 1
+   },
+   "56248217": {
+    "rating": 2327.1,
+    "age_h": 360.1,
+    "games": 2
+   },
+   "56249871": {
+    "rating": 1964.5,
+    "age_h": 363.4,
+    "games": 1
+   },
+   "56250122": {
+    "rating": 2173.2,
+    "age_h": 367.0,
+    "games": 1
+   },
+   "56251547": {
+    "rating": 2235.8,
+    "age_h": 353.5,
+    "games": 1
+   },
+   "56252518": {
+    "rating": 2048.2,
+    "age_h": 362.9,
+    "games": 1
+   },
+   "56253806": {
+    "rating": 2222.5,
+    "age_h": 362.3,
+    "games": 1
+   },
+   "56254316": {
+    "rating": 2365.0,
+    "age_h": 361.8,
+    "games": 1
+   },
+   "56255999": {
+    "rating": 2072.0,
+    "age_h": 361.1,
+    "games": 4
+   },
+   "56257421": {
+    "rating": 2076.8,
+    "age_h": 358.5,
+    "games": 3
+   },
+   "56258251": {
+    "rating": 2365.9,
+    "age_h": 358.5,
+    "games": 1
+   },
+   "56259128": {
+    "rating": 1821.2,
+    "age_h": 329.4,
+    "games": 2
+   },
+   "56261579": {
+    "rating": 2056.5,
+    "age_h": 327.1,
+    "games": 3
+   },
+   "56261697": {
+    "rating": 1846.6,
+    "age_h": 351.1,
+    "games": 4
+   },
+   "56266232": {
+    "rating": 1879.2,
+    "age_h": 347.9,
+    "games": 5
+   },
+   "56267490": {
+    "rating": 2076.4,
+    "age_h": 347.6,
+    "games": 6
+   },
+   "56268004": {
+    "rating": 1892.9,
+    "age_h": 345.8,
+    "games": 4
+   },
+   "56268008": {
+    "rating": 1629.7,
+    "age_h": 346.7,
+    "games": 5
+   },
+   "56268107": {
+    "rating": 2274.7,
+    "age_h": 293.9,
+    "games": 1
+   },
+   "56268242": {
+    "rating": 2201.5,
+    "age_h": 349.0,
+    "games": 4
+   },
+   "56268629": {
+    "rating": 2000.1,
+    "age_h": 347.1,
+    "games": 3
+   },
+   "56269394": {
+    "rating": 2375.2,
+    "age_h": 345.1,
+    "games": 62
+   },
+   "56271924": {
+    "rating": 2261.8,
+    "age_h": 323.0,
+    "games": 4
+   },
+   "56272210": {
+    "rating": 2396.6,
+    "age_h": 344.9,
+    "games": 5
+   },
+   "56272515": {
+    "rating": 2185.0,
+    "age_h": 333.0,
+    "games": 33
+   },
+   "56276716": {
+    "rating": 2161.0,
+    "age_h": 339.7,
+    "games": 1
+   },
+   "56276744": {
+    "rating": 1883.8,
+    "age_h": 339.6,
+    "games": 3
+   },
+   "56277036": {
+    "rating": 1988.7,
+    "age_h": 338.6,
+    "games": 2
+   },
+   "56278157": {
+    "rating": 2342.2,
+    "age_h": 291.1,
+    "games": 1
+   },
+   "56278699": {
+    "rating": 2065.4,
+    "age_h": 339.6,
+    "games": 3
+   },
+   "56285063": {
+    "rating": 1951.3,
+    "age_h": 327.0,
+    "games": 2
+   },
+   "56287565": {
+    "rating": 2137.5,
+    "age_h": 286.3,
+    "games": 1
+   },
+   "56290238": {
+    "rating": 2129.6,
+    "age_h": 325.2,
+    "games": 5
+   },
+   "56290626": {
+    "rating": 2365.2,
+    "age_h": 326.3,
+    "games": 1
+   },
+   "56292384": {
+    "rating": 2193.9,
+    "age_h": 324.2,
+    "games": 2
+   },
+   "56292502": {
+    "rating": 2384.8,
+    "age_h": 292.5,
+    "games": 3
+   },
+   "56293213": {
+    "rating": 2046.4,
+    "age_h": 321.5,
+    "games": 4
+   },
+   "56295059": {
+    "rating": 2294.3,
+    "age_h": 294.0,
+    "games": 2
+   },
+   "56306899": {
+    "rating": 2386.3,
+    "age_h": 310.5,
+    "games": 1
+   },
+   "56307190": {
+    "rating": 2300.5,
+    "age_h": 314.0,
+    "games": 1
+   },
+   "56309016": {
+    "rating": 2272.3,
+    "age_h": 267.1,
+    "games": 1
+   },
+   "56310933": {
+    "rating": 1990.5,
+    "age_h": 286.5,
+    "games": 2
+   },
+   "56311774": {
+    "rating": 2182.6,
+    "age_h": 277.3,
+    "games": 2
+   },
+   "56314735": {
+    "rating": 2213.4,
+    "age_h": 291.0,
+    "games": 3
+   },
+   "56317667": {
+    "rating": 1956.7,
+    "age_h": 301.9,
+    "games": 3
+   },
+   "56317725": {
+    "rating": 1941.2,
+    "age_h": 301.1,
+    "games": 9
+   },
+   "56318828": {
+    "rating": 2167.7,
+    "age_h": 301.4,
+    "games": 1
+   },
+   "56320246": {
+    "rating": 2174.1,
+    "age_h": 294.3,
+    "games": 2
+   },
+   "56323407": {
+    "rating": 2316.1,
+    "age_h": 259.0,
+    "games": 1
+   },
+   "56325976": {
+    "rating": 2028.1,
+    "age_h": 292.9,
+    "games": 1
+   },
+   "56328169": {
+    "rating": 2377.8,
+    "age_h": 293.9,
+    "games": 1
+   },
+   "56331219": {
+    "rating": 2333.6,
+    "age_h": 252.1,
+    "games": 1
+   },
+   "56334682": {
+    "rating": 2286.0,
+    "age_h": 287.2,
+    "games": 3
+   },
+   "56343204": {
+    "rating": 2317.9,
+    "age_h": 277.5,
+    "games": 2
+   },
+   "56348661": {
+    "rating": 2358.3,
+    "age_h": 275.3,
+    "games": 35
+   },
+   "56351649": {
+    "rating": 2393.6,
+    "age_h": 259.3,
+    "games": 1
+   },
+   "56353139": {
+    "rating": 2367.0,
+    "age_h": 264.5,
+    "games": 5
+   },
+   "56354824": {
+    "rating": 2126.9,
+    "age_h": 270.1,
+    "games": 2
+   },
+   "56369135": {
+    "rating": 1966.2,
+    "age_h": 239.3,
+    "games": 2
+   },
+   "56379924": {
+    "rating": 2332.5,
+    "age_h": 244.5,
+    "games": 1
+   },
+   "56383377": {
+    "rating": 2391.8,
+    "age_h": 216.6,
+    "games": 1
+   },
+   "56388799": {
+    "rating": 2351.3,
+    "age_h": 216.5,
+    "games": 1
+   },
+   "56392866": {
+    "rating": 2339.0,
+    "age_h": 244.1,
+    "games": 2
+   },
+   "56435115": {
+    "rating": 2235.0,
+    "age_h": 216.9,
+    "games": 1
+   },
+   "56449968": {
+    "rating": 2234.8,
+    "age_h": 200.0,
+    "games": 2
+   },
+   "56456752": {
+    "rating": 2013.5,
+    "age_h": 199.4,
+    "games": 2
+   },
+   "56460619": {
+    "rating": 1995.9,
+    "age_h": 196.2,
+    "games": 1
+   },
+   "56484772": {
+    "rating": 2002.4,
+    "age_h": 179.8,
+    "games": 487
+   },
+   "56486050": {
+    "rating": 2310.5,
+    "age_h": 168.4,
+    "games": 2
+   },
+   "56492879": {
+    "rating": 2368.8,
+    "age_h": 147.5,
+    "games": 1
+   },
+   "56494372": {
+    "rating": 1892.4,
+    "age_h": 170.7,
+    "games": 172
+   },
+   "56495686": {
+    "rating": 2198.8,
+    "age_h": 166.5,
+    "games": 2
+   },
+   "56496485": {
+    "rating": 2304.5,
+    "age_h": 168.5,
+    "games": 1
+   },
+   "56524392": {
+    "rating": 2387.9,
+    "age_h": 142.8,
+    "games": 3
+   }
+  },
+  "scanned_episodes": 14744
+ },
+ "exclusion_union": {
+  "sha256": "eb0094b96483c318449a5075575d05627086d6f9538e047cdc1b295c6506c0e5",
+  "path": "/mnt/ai/scratch/farmNEAT/broad/exclusions/EXCLUSIONS-eb0094b96483.tsv",
+  "families": {
+   "practice_val": 300,
+   "mmpq_val": 184,
+   "top4_val": 145,
+   "val_mmpq": 3,
+   "val_fresh": 29,
+   "sealed": 16,
+   "leak": 128,
+   "fixed": 1,
+   "holdout_seed": 0,
+   "hash_val_split": 17855,
+   "quarantine_sub_seats": 8
+  }
+ },
+ "top4_val": {
+  "episodes_reserved": 145,
+  "val_seats": 135,
+  "train_seats": 3901,
+  "val_pct_of_episodes": 3.34,
+  "target_pct": 20,
+  "contaminated": 0
+ },
+ "publish": "PUBLISHED",
+ "seconds": 9.7
+}

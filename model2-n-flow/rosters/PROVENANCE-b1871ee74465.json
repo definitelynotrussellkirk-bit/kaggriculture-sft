@@ -1,0 +1,16 @@
+{
+ "roster": "data/rows-nflow-v3.b1871ee74465.tsv",
+ "rows": 15820,
+ "mismatch": 0,
+ "by_kind": {
+  "act": 0,
+  "own-loss": 0,
+  "wdl-loser": 0
+ },
+ "sources": {
+  "nfz": 15636,
+  "stp": 184
+ },
+ "rule": "seat field every step; FARM cash own/opp at step 24*(d+1) == catalog SEAT_DAYS cash day d, d in (4, 9, 14, 19, 24, 28)",
+ "mismatch_rows": []
+}

@@ -1,0 +1,110 @@
+{
+ "M & M & P & Q": {
+  "team_id": 16681125,
+  "submission": 56701470,
+  "score": 3063.0,
+  "listing": "/mnt/ai/scratch/farmNEAT/primitive-bc-data/extra/copy-mmpq/LISTINGS-20260930T2200.json",
+  "included_subs": [
+   56701470
+  ]
+ },
+ "DECEM": {
+  "team_id": 16623559,
+  "submission": 56705174,
+  "score": 2947.0,
+  "listing": "/mnt/ai/scratch/farmNEAT/primitive-bc-data/extra/copy-decem/LISTINGS-20260930T2200.json",
+  "included_subs": [
+   56705174,
+   56716576
+  ]
+ },
+ "Victor @ Tufa Labs": {
+  "team_id": 16621497,
+  "submission": 56710008,
+  "score": 2941.5,
+  "listing": "/mnt/ai/scratch/farmNEAT/primitive-bc-data/extra/copy-team-16621497/LISTINGS-20260930T2156.json",
+  "included_subs": [
+   56704120,
+   56710008
+  ]
+ },
+ "DSM": {
+  "team_id": 16732748,
+  "submission": 56709623,
+  "score": 2900.7,
+  "listing": "/mnt/ai/scratch/farmNEAT/primitive-bc-data/extra/copy-dsm/LISTINGS-20260930T2159.json",
+  "included_subs": [
+   56709623
+  ]
+ },
+ "MarvinTMB": {
+  "team_id": 16714162,
+  "submission": 56712801,
+  "score": 2870.2,
+  "listing": "/mnt/ai/scratch/farmNEAT/primitive-bc-data/extra/copy-team-16714162/LISTINGS-20260930T2158.json",
+  "included_subs": [
+   56712801
+  ]
+ },
+ "Anton Tikhonov": {
+  "team_id": 16628664,
+  "submission": 56713726,
+  "score": 2828.2,
+  "listing": "/mnt/ai/scratch/farmNEAT/primitive-bc-data/extra/copy-team-16628664/LISTINGS-20260930T2103.json",
+  "included_subs": [
+   56713726
+  ]
+ },
+ "Unknown Mother-Goose": {
+  "team_id": 16730612,
+  "submission": 56689315,
+  "score": 2847.5,
+  "listing": "/mnt/ai/scratch/farmNEAT/primitive-bc-data/extra/copy-umg/LISTINGS-20260930T2102.json",
+  "included_subs": [
+   56689315
+  ]
+ },
+ "KawattaTaido": {
+  "team_id": 16654697,
+  "submission": 56590457,
+  "score": 2846.0,
+  "listing": "/mnt/ai/scratch/farmNEAT/primitive-bc-data/extra/copy-team-16654697/LISTINGS-20260928T0117.json",
+  "included_subs": [
+   56590457
+  ]
+ },
+ "Farmcore": {
+  "team_id": 16891902,
+  "submission": null,
+  "score": null,
+  "listing": null,
+  "included_subs": []
+ },
+ "Vadim Vasilenko": {
+  "team_id": 16770421,
+  "submission": 56678397,
+  "score": 2874.5,
+  "listing": "/mnt/ai/scratch/farmNEAT/primitive-bc-data/extra/copy-vadim/LISTINGS-20260930T0950.json",
+  "included_subs": [
+   56678397
+  ]
+ },
+ "TKNP": {
+  "team_id": 16684994,
+  "submission": 56704652,
+  "score": 2832.0,
+  "listing": "/mnt/ai/scratch/farmNEAT/primitive-bc-data/extra/copy-team-16684994/LISTINGS-20260930T2101.json",
+  "included_subs": [
+   56704652
+  ]
+ },
+ "Gemini IS ALL YOU NEED": {
+  "team_id": 16698308,
+  "submission": 56708721,
+  "score": 2844.5,
+  "listing": "/mnt/ai/scratch/farmNEAT/primitive-bc-data/extra/copy-team-16698308/LISTINGS-20260930T2102.json",
+  "included_subs": [
+   56708721
+  ]
+ }
+}

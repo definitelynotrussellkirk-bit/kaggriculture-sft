@@ -1,0 +1,5 @@
+# Python 3.12 (training runs used 3.12.3). These are the third-party packages the quickstart steps load.
+torch==2.10.0
+numpy==2.4.3
+# step 1 only (kaggle competitions replay); needs ~/.kaggle/kaggle.json
+kaggle==2.2.3

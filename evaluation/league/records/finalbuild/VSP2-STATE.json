@@ -1,0 +1,20 @@
+{
+ "cands": {
+  "nflow-main-wash8014": {
+   "sha": "7661782af4ca815585945b019963b86586dbae490ba2554b592fdb080f0f4b3e",
+   "manifest": "VS-P2-nflow-main-wash8014-vs-nflow-u16000-t4.json",
+   "n": 16
+  },
+  "nflow-main-1730": {
+   "sha": "55cc5cc8e68915f7a9a9326a86e979e728cb21b4198c3904f8f2d815ca680c81",
+   "manifest": "VS-P2-nflow-main-1730-vs-nflow-u16000-t4.json",
+   "n": 16
+  },
+  "nflow-u56070-t1w": {
+   "sha": "f9981e70278963f194755be80f6d7dd4cbaee15cf85d87db294767dcdc1c176d",
+   "manifest": "VS-P2-nflow-u56070-t1w-vs-nflow-u16000-t4.json",
+   "n": 15
+  }
+ },
+ "rule": "Owner 18:5x \"make sure whatever we submit is better than\" P2 nflow-u16000-t4 (6033c855, hosted 2776.1): each N flow candidate vs P2 on\nONE shared fresh 16-world bank (banks/VS-P2.json, both seats), CPU-native, all lanes: spark 6 / gpu-skynet 4 / laptop 3 / gpu-4090b 3 worlds.\nCandidates: nflow-main-wash8014, nflow-main-1730, nflow-u56070-t1w now; nflow-main-washnew when R-WASH-READY-nflow-main-washnew carries the\ndeployed sha. R-VS-P2 per candidate whenever its complete-world count grows (still moving until 16): share, 95% world-clustered CI."
+}

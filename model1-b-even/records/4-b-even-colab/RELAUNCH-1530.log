@@ -1,0 +1,16 @@
+/mnt/ai/scratch/farmNEAT/pbc-colab-v6-results/launch-ncolab/c1_relaunch.sh: line 5: warning: command substitution: ignored null byte in input
+/mnt/ai/scratch/farmNEAT/pbc-colab-v6-results/launch-ncolab/c1_relaunch.sh: line 5: warning: command substitution: ignored null byte in input
+/mnt/ai/scratch/farmNEAT/pbc-colab-v6-results/launch-ncolab/c1_relaunch.sh: line 5: warning: command substitution: ignored null byte in input
+/mnt/ai/scratch/farmNEAT/pbc-colab-v6-results/launch-ncolab/c1_relaunch.sh: line 5: warning: command substitution: ignored null byte in input
+/mnt/ai/scratch/farmNEAT/pbc-colab-v6-results/launch-ncolab/c1_relaunch.sh: line 5: warning: command substitution: ignored null byte in input
+/mnt/ai/scratch/farmNEAT/pbc-colab-v6-results/launch-ncolab/c1_relaunch.sh: line 5: warning: command substitution: ignored null byte in input
+/mnt/ai/scratch/farmNEAT/pbc-colab-v6-results/launch-ncolab/c1_relaunch.sh: line 5: warning: command substitution: ignored null byte in input
+/mnt/ai/scratch/farmNEAT/pbc-colab-v6-results/launch-ncolab/c1_relaunch.sh: line 5: warning: command substitution: ignored null byte in input
+/mnt/ai/scratch/farmNEAT/pbc-colab-v6-results/launch-ncolab/c1_relaunch.sh: line 5: warning: command substitution: ignored null byte in input
+/mnt/ai/scratch/farmNEAT/pbc-colab-v6-results/launch-ncolab/c1_relaunch.sh: line 5: warning: command substitution: ignored null byte in input
+15:29:23 fetch done: {"files": 3862, "bytes": 42347256346, "bad": 0, "manifest_rows": 3862, "already": 0, "seconds": 1182, "done": true}
+N roster 60327cd812e7 rows 3862 cached on VM 3862
+Running as unit: ncolab-exec-152924.service; invocation ID: d594cf0dc88d4685884724aa39313488
+Running as unit: ncolab-pull.service; invocation ID: 53358d16eebf445e98525ab80afe4a04
+2026-09-30T19:29:55Z launched n1-beven-colab on oldarch-g4: rows rows-n-60327cd812e7.tsv (60327cd812e7), workers 16, max-seconds 16535, exec pid 147310
+15:35:00 first update 45690

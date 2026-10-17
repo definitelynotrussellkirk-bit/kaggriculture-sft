@@ -1,0 +1,8 @@
+2026-09-30 13:08:51 roster rows-n-050183bc7ef3.tsv (050183bc7ef3d9bc5c5cdd7571584b06a2b614419dcbbb0b0c9d1a6ebb427fab) fully cached: missing 0 of 12881
+2026-09-30 13:08:53 current LATEST ckpt-0043500.pt; waiting for the next checkpoint
+2026-09-30 13:23:14 new checkpoint ckpt-0044000.pt; stopping train.py
+2026-09-30 13:23:44 stop:  408389 python3 -B /content/code/primitive-bc-v6-20260927/work/runs/maintainer/p stopped ckpt-0044000.pt 
+2026-09-30 13:23:47 relaunch from ckpt-0044000.pt (u44000); old trainer's last logged update 44010
+N roster 050183bc7ef3 rows 12881 cached on VM 12881
+Running as unit: ncolab-exec-132348.service; invocation ID: 937bb666fe5d480982e7545d72279d33
+2026-09-30 13:24:18 n-launch failed

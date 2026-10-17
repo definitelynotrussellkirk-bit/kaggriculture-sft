@@ -1,0 +1,78 @@
+{
+ "lb": "LEADERBOARD-20260928T0005.csv",
+ "b4": 0.0,
+ "tau_days": 3.0,
+ "sigma": 41.0,
+ "r0": 2880.0,
+ "min_margin": 0.0,
+ "candidates": 29686,
+ "kept": 9000,
+ "beat_us_rows": 163,
+ "u_cut": 1.1853038457787421,
+ "main_weighted_rows": 18000,
+ "beat_us_weighted_rows": 326,
+ "weighted_rows": 18326,
+ "by_day": {
+  "2026-09-27": {
+   "n": 1058,
+   "min_rating": 2921
+  },
+  "2026-09-26": {
+   "n": 1155,
+   "min_rating": 2921
+  },
+  "2026-09-25": {
+   "n": 732,
+   "min_rating": 2936
+  },
+  "2026-09-24": {
+   "n": 806,
+   "min_rating": 2942
+  },
+  "2026-09-23": {
+   "n": 1003,
+   "min_rating": 2956
+  },
+  "2026-09-22": {
+   "n": 1083,
+   "min_rating": 2969
+  },
+  "2026-09-21": {
+   "n": 1049,
+   "min_rating": 2983
+  },
+  "2026-09-20": {
+   "n": 1011,
+   "min_rating": 2996
+  },
+  "2026-09-19": {
+   "n": 1103,
+   "min_rating": 3010
+  }
+ },
+ "skipped": {
+  "unrated": 487,
+  "margin": 0,
+  "format": 25
+ },
+ "service": null,
+ "four_quadrant_winners": {
+  "kept": 1823,
+  "candidates": 6288,
+  "unscanned_candidates": 6282
+ },
+ "top_teams": {
+  "DSM": 1655,
+  "Unknown Mother-Goose": 974,
+  "Vadim Vasilenko": 958,
+  "M & M & P & Q": 807,
+  "DECEM": 772,
+  "Majkel1337": 476,
+  "THIRD FARM CLUB": 474,
+  "Kaggledew Valley \ud83c\udfc6": 369,
+  "ymg_aq": 367,
+  "mtmr_s1": 270,
+  "Otter Vibe": 217,
+  "QQ": 211
+ }
+}

@@ -1,0 +1,807 @@
+path	eid	seat	weight	tier	wdl	act_loss	final_cash	opp_cash	bucket
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115669607-1.stp	115669607	1	1.0	1	2	1	79437.0	78464.0	BEAT1
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115672992-0.stp	115672992	0	1.0	1	2	1	124905.0	44736.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115674541-1.stp	115674541	1	1.0	1	2	1	132275.0	38403.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115676027-1.stp	115676027	1	1.0	1	2	1	118735.0	51635.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115677552-0.stp	115677552	0	1.0	1	2	1	161786.0	54680.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115679027-1.stp	115679027	1	1.0	1	2	1	123172.0	45643.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115680538-1.stp	115680538	1	1.0	1	2	1	192730.0	119090.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115682042-0.stp	115682042	0	1.0	1	2	1	141777.0	86010.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115683559-1.stp	115683559	1	1.0	1	2	1	140914.0	87074.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115685074-0.stp	115685074	0	1.0	1	2	1	115110.0	73724.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115686583-1.stp	115686583	1	1.0	1	2	1	125520.0	95574.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115686913-0.stp	115686913	0	1.0	1	2	1	124301.0	94325.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115688082-0.stp	115688082	0	1.0	1	2	1	156387.0	106980.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115688354-1.stp	115688354	1	1.0	1	2	1	95133.0	50791.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115689596-1.stp	115689596	1	1.0	1	2	1	137488.0	106412.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115691114-1.stp	115691114	1	1.0	1	2	1	95814.0	70653.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115692641-1.stp	115692641	1	1.0	1	2	1	97505.0	59515.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115693140-1.stp	115693140	1	1.0	1	2	1	107724.0	74313.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115694152-1.stp	115694152	1	1.0	1	2	1	95770.0	57593.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115695674-1.stp	115695674	1	1.0	1	2	1	101269.0	57755.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115697217-1.stp	115697217	1	1.0	1	2	1	98683.0	68901.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115698069-1.stp	115698069	1	1.0	1	2	1	120218.0	85261.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115698757-0.stp	115698757	0	1.0	1	2	1	131497.0	98577.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115699842-0.stp	115699842	0	1.0	1	2	1	88636.0	51976.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115700343-1.stp	115700343	1	1.0	1	2	1	114894.0	97355.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115701894-0.stp	115701894	0	1.0	1	2	1	148588.0	107069.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115703450-0.stp	115703450	0	1.0	1	2	1	120418.0	92576.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115705001-1.stp	115705001	1	1.0	1	2	1	113664.0	81009.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115705905-1.stp	115705905	1	1.0	1	2	1	147922.0	104951.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115706561-1.stp	115706561	1	1.0	1	2	1	103786.0	76836.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115708089-1.stp	115708089	1	1.0	1	2	1	121885.0	99814.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115709617-1.stp	115709617	1	1.0	1	2	1	87683.0	71447.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115711142-1.stp	115711142	1	1.0	1	2	1	114697.0	94711.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115712686-0.stp	115712686	0	1.0	1	2	1	126965.0	104729.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115714226-0.stp	115714226	0	1.0	1	2	1	125424.0	110393.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115715758-1.stp	115715758	1	1.0	1	2	1	91568.0	61821.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115716860-0.stp	115716860	0	1.0	1	2	1	76258.0	75523.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115717296-0.stp	115717296	0	1.0	1	2	1	137769.0	117191.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115718832-1.stp	115718832	1	1.0	1	2	1	106799.0	100194.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115719374-1.stp	115719374	1	1.0	1	2	1	99459.0	89568.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115719566-0.stp	115719566	0	1.0	1	2	1	129416.0	101455.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115720373-0.stp	115720373	0	1.0	1	2	1	102600.0	80992.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115720456-0.stp	115720456	0	1.0	1	2	1	130891.0	116640.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115721819-1.stp	115721819	1	1.0	1	2	1	176323.0	62444.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115721989-1.stp	115721989	1	1.0	1	2	1	107693.0	88060.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115723392-0.stp	115723392	0	1.0	1	2	1	133767.0	59838.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115723584-0.stp	115723584	0	1.0	1	2	1	99205.0	84309.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115723880-1.stp	115723880	1	1.0	1	2	1	141721.0	119820.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115725008-1.stp	115725008	1	1.0	1	2	1	168672.0	78387.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115725132-0.stp	115725132	0	1.0	1	2	1	103884.0	100137.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115726379-1.stp	115726379	1	1.0	1	2	1	105667.0	76097.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115726400-0.stp	115726400	0	1.0	1	2	1	154721.0	52930.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115726690-1.stp	115726690	1	1.0	1	2	1	98124.0	92769.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115727928-1.stp	115727928	1	1.0	1	2	1	116193.0	48652.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115728253-1.stp	115728253	1	1.0	1	2	1	93436.0	88508.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115729430-0.stp	115729430	0	1.0	1	2	1	115590.0	66587.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115729770-0.stp	115729770	0	1.0	1	2	1	157748.0	141570.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115730669-0.stp	115730669	0	1.0	1	2	1	95488.0	86810.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115730930-1.stp	115730930	1	1.0	1	2	1	99058.0	54020.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115731313-0.stp	115731313	0	1.0	1	2	1	129929.0	119629.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115732490-1.stp	115732490	1	1.0	1	2	1	157649.0	106976.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115732909-1.stp	115732909	1	1.0	1	2	1	134301.0	124044.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115733988-0.stp	115733988	0	1.0	1	2	1	133652.0	96591.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115734415-1.stp	115734415	1	1.0	1	2	1	98932.0	95269.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115735538-1.stp	115735538	1	1.0	1	2	1	98415.0	66133.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115735989-1.stp	115735989	1	1.0	1	2	1	110406.0	101705.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115736641-0.stp	115736641	0	1.0	1	2	1	132341.0	118849.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115737046-0.stp	115737046	0	1.0	1	2	1	132204.0	101166.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115737216-0.stp	115737216	0	1.0	1	2	1	143941.0	59077.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115737529-1.stp	115737529	1	1.0	1	2	1	96844.0	92476.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115737851-1.stp	115737851	1	1.0	1	2	1	139664.0	129222.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115738586-1.stp	115738586	1	1.0	1	2	1	103004.0	70926.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115738762-0.stp	115738762	0	1.0	1	2	1	154560.0	18113.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115739095-1.stp	115739095	1	1.0	1	2	1	137078.0	119943.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115740127-1.stp	115740127	1	1.0	1	2	1	146453.0	112134.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115740261-1.stp	115740261	1	1.0	1	2	1	107143.0	20963.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115740648-0.stp	115740648	0	1.0	1	2	1	109928.0	96397.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115741650-1.stp	115741650	1	1.0	1	2	1	116852.0	96828.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115741803-0.stp	115741803	0	1.0	1	2	1	111046.0	51676.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115741942-1.stp	115741942	1	1.0	1	2	1	133568.0	113474.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115742330-0.stp	115742330	0	1.0	1	2	1	76810.0	74302.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115742747-0.stp	115742747	0	1.0	1	2	1	88605.0	76444.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115743185-0.stp	115743185	0	1.0	1	2	1	93312.0	51962.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115743304-1.stp	115743304	1	1.0	1	2	1	157681.0	102060.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115743760-0.stp	115743760	0	1.0	1	2	1	117545.0	113761.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115744689-0.stp	115744689	0	1.0	1	2	1	120934.0	85457.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115744818-0.stp	115744818	0	1.0	1	2	1	170108.0	87355.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115745289-0.stp	115745289	0	1.0	1	2	1	96558.0	94941.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115746225-0.stp	115746225	0	1.0	1	2	1	102603.0	80472.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115746305-0.stp	115746305	0	1.0	1	2	1	97944.0	62195.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115746849-0.stp	115746849	0	1.0	1	2	1	117452.0	106471.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115747758-0.stp	115747758	0	1.0	1	2	1	98255.0	80483.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115747821-1.stp	115747821	1	1.0	1	2	1	132417.0	92571.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115748396-0.stp	115748396	0	1.0	1	2	1	89465.0	82352.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115749324-1.stp	115749324	1	1.0	1	2	1	98586.0	60602.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115749343-0.stp	115749343	0	1.0	1	2	1	109528.0	68661.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115749947-1.stp	115749947	1	1.0	1	2	1	94977.0	92242.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115750831-1.stp	115750831	1	1.0	1	2	1	92329.0	61296.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115750860-0.stp	115750860	0	1.0	1	2	1	95308.0	66016.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115751467-0.stp	115751467	0	1.0	1	2	1	106043.0	100971.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115751481-1.stp	115751481	1	1.0	1	2	1	78747.0	75217.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115752037-0.stp	115752037	0	1.0	1	2	1	99766.0	68446.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115752370-0.stp	115752370	0	1.0	1	2	1	114599.0	64546.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115752412-0.stp	115752412	0	1.0	1	2	1	98921.0	56073.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115752504-0.stp	115752504	0	1.0	1	2	1	123659.0	97378.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115752993-0.stp	115752993	0	1.0	1	2	1	99647.0	93157.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115753537-1.stp	115753537	1	1.0	1	2	1	119362.0	78574.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115753887-0.stp	115753887	0	1.0	1	2	1	87910.0	71379.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115753934-0.stp	115753934	0	1.0	1	2	1	142027.0	108223.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115754552-0.stp	115754552	0	1.0	1	2	1	93213.0	88486.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115755410-1.stp	115755410	1	1.0	1	2	1	125978.0	96161.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115755542-0.stp	115755542	0	1.0	1	2	1	118269.0	76939.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115756099-0.stp	115756099	0	1.0	1	2	1	105185.0	95080.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115756517-1.stp	115756517	1	1.0	1	2	1	97213.0	84098.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115756522-0.stp	115756522	0	1.0	1	2	1	98744.0	65945.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115756923-0.stp	115756923	0	1.0	1	2	1	127463.0	106522.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115757138-0.stp	115757138	0	1.0	1	2	1	100825.0	71342.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115757641-1.stp	115757641	1	1.0	1	2	1	118954.0	109841.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115758447-1.stp	115758447	1	1.0	1	2	1	122233.0	94676.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115758675-1.stp	115758675	1	1.0	1	2	1	119928.0	89648.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115759153-1.stp	115759153	1	1.0	1	2	1	95406.0	91842.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115759635-0.stp	115759635	0	1.0	1	2	1	117171.0	101867.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115759967-0.stp	115759967	0	1.0	1	2	1	161572.0	118430.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115760220-0.stp	115760220	0	1.0	1	2	1	122072.0	98596.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115760692-0.stp	115760692	0	1.0	1	2	1	102878.0	96061.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115761485-1.stp	115761485	1	1.0	1	2	1	112257.0	75339.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115761756-0.stp	115761756	0	1.0	1	2	1	113083.0	93838.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115762133-1.stp	115762133	1	1.0	1	2	1	125653.0	123067.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115762211-1.stp	115762211	1	1.0	1	2	1	105749.0	104582.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115762659-0.stp	115762659	0	1.0	1	2	1	120203.0	109600.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115763025-0.stp	115763025	0	1.0	1	2	1	103319.0	75625.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115763303-0.stp	115763303	0	1.0	1	2	1	129173.0	118334.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115763762-1.stp	115763762	1	1.0	1	2	1	91605.0	87849.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115764305-0.stp	115764305	0	1.0	1	2	1	95871.0	93384.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115764308-1.stp	115764308	1	1.0	1	2	1	148956.0	143307.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115764336-0.stp	115764336	0	1.0	1	2	1	140749.0	110254.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115764576-1.stp	115764576	1	1.0	1	2	1	108668.0	67869.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115764837-0.stp	115764837	0	1.0	1	2	1	104716.0	89434.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115765303-0.stp	115765303	0	1.0	1	2	1	98463.0	95176.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115765556-0.stp	115765556	0	1.0	1	2	1	109261.0	89131.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115766120-0.stp	115766120	0	1.0	1	2	1	104399.0	74126.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115766420-0.stp	115766420	0	1.0	1	2	1	106842.0	87498.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115766884-0.stp	115766884	0	1.0	1	2	1	105535.0	102904.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115767326-0.stp	115767326	0	1.0	1	2	1	73291.0	71953.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115767757-0.stp	115767757	0	1.0	1	2	1	93190.0	64935.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115768010-1.stp	115768010	1	1.0	1	2	1	86372.0	78995.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115768454-0.stp	115768454	0	1.0	1	2	1	76229.0	72958.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115768494-0.stp	115768494	0	1.0	1	2	1	95283.0	88214.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115768685-0.stp	115768685	0	1.0	1	2	1	141023.0	122436.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115768695-0.stp	115768695	0	1.0	1	2	1	113302.0	90383.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115769299-0.stp	115769299	0	1.0	1	2	1	103936.0	75293.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115769527-1.stp	115769527	1	1.0	1	2	1	119317.0	91980.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115769992-0.stp	115769992	0	1.0	1	2	1	97535.0	92348.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115770893-1.stp	115770893	1	1.0	1	2	1	156198.0	130501.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115771038-1.stp	115771038	1	1.0	1	2	1	121487.0	112276.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115771523-0.stp	115771523	0	1.0	1	2	1	113551.0	108389.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115772409-0.stp	115772409	0	1.0	1	2	1	127804.0	106068.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115772558-0.stp	115772558	0	1.0	1	2	1	115243.0	103029.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115773043-1.stp	115773043	1	1.0	1	2	1	77414.0	75378.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115773917-1.stp	115773917	1	1.0	1	2	1	120365.0	78035.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115774067-0.stp	115774067	0	1.0	1	2	1	79833.0	77257.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115774550-0.stp	115774550	0	1.0	1	2	1	101569.0	95868.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115775435-0.stp	115775435	0	1.0	1	2	1	112216.0	95053.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115775585-0.stp	115775585	0	1.0	1	2	1	102326.0	90262.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115776107-0.stp	115776107	0	1.0	1	2	1	111134.0	106692.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115776967-0.stp	115776967	0	1.0	1	2	1	117692.0	103829.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115777091-0.stp	115777091	0	1.0	1	2	1	108317.0	98579.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115778476-1.stp	115778476	1	1.0	1	2	1	85840.0	75445.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115778625-0.stp	115778625	0	1.0	1	2	1	88129.0	86778.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115778912-0.stp	115778912	0	1.0	1	2	1	101462.0	85631.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115779467-0.stp	115779467	0	1.0	1	2	1	110779.0	107843.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115780041-1.stp	115780041	1	1.0	1	2	1	89809.0	83867.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115780185-1.stp	115780185	1	1.0	1	2	1	93339.0	86557.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115781558-1.stp	115781558	1	1.0	1	2	1	110225.0	90466.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115781705-1.stp	115781705	1	1.0	1	2	1	94062.0	87743.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115783111-1.stp	115783111	1	1.0	1	2	1	117603.0	101056.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115783246-1.stp	115783246	1	1.0	1	2	1	100642.0	96698.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115783979-0.stp	115783979	0	1.0	1	2	1	94287.0	81351.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115784658-0.stp	115784658	0	1.0	1	2	1	105144.0	97837.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115784790-0.stp	115784790	0	1.0	1	2	1	105211.0	101332.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115785487-1.stp	115785487	1	1.0	1	2	1	108027.0	105215.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115785511-1.stp	115785511	1	1.0	1	2	1	91150.0	90605.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115786184-0.stp	115786184	0	1.0	1	2	1	95326.0	80176.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115786312-1.stp	115786312	1	1.0	1	2	1	100750.0	98434.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115786885-1.stp	115786885	1	1.0	1	2	1	101589.0	97048.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115787690-0.stp	115787690	0	1.0	1	2	1	98880.0	85809.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115787822-1.stp	115787822	1	1.0	1	2	1	114307.0	108559.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115789243-0.stp	115789243	0	1.0	1	2	1	100629.0	91103.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115789366-0.stp	115789366	0	1.0	1	2	1	123396.0	119117.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115790756-1.stp	115790756	1	1.0	1	2	1	119677.0	112154.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115790900-0.stp	115790900	0	1.0	1	2	1	134810.0	119660.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115792285-1.stp	115792285	1	1.0	1	2	1	116750.0	111588.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115792416-1.stp	115792416	1	1.0	1	2	1	128257.0	110249.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115792886-0.stp	115792886	0	1.0	1	2	1	107504.0	102133.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115793820-0.stp	115793820	0	1.0	1	2	1	103196.0	96901.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115793939-1.stp	115793939	1	1.0	1	2	1	106042.0	96937.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115795336-0.stp	115795336	0	1.0	1	2	1	130259.0	128157.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115795757-1.stp	115795757	1	1.0	1	2	1	92005.0	90220.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115796852-1.stp	115796852	1	1.0	1	2	1	127883.0	124520.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115796967-0.stp	115796967	0	1.0	1	2	1	78531.0	75938.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115798375-1.stp	115798375	1	1.0	1	2	1	79546.0	79043.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115798492-0.stp	115798492	0	1.0	1	2	1	91540.0	88113.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115798926-1.stp	115798926	1	1.0	1	2	1	99392.0	89644.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115799087-1.stp	115799087	1	1.0	1	2	1	119149.0	116714.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115799919-1.stp	115799919	1	1.0	1	2	1	93276.0	91578.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115800036-1.stp	115800036	1	1.0	1	2	1	84048.0	82643.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115800601-1.stp	115800601	1	1.0	1	2	1	112795.0	109926.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115801434-1.stp	115801434	1	1.0	1	2	1	124244.0	121741.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115801574-1.stp	115801574	1	1.0	1	2	1	81533.0	79476.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115802982-0.stp	115802982	0	1.0	1	2	1	108604.0	106305.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115803124-0.stp	115803124	0	1.0	1	2	1	87001.0	82485.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115804501-0.stp	115804501	0	1.0	1	2	1	119072.0	112382.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115804631-1.stp	115804631	1	1.0	1	2	1	115470.0	113565.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115806024-0.stp	115806024	0	1.0	1	2	1	104567.0	101428.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115806148-1.stp	115806148	1	1.0	1	2	1	109547.0	104741.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115806554-1.stp	115806554	1	1.0	1	2	1	104208.0	100458.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115807551-0.stp	115807551	0	1.0	1	2	1	97520.0	91722.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115807664-0.stp	115807664	0	1.0	1	2	1	102760.0	102608.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115808061-1.stp	115808061	1	1.0	1	2	1	120324.0	115048.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115809091-1.stp	115809091	1	1.0	1	2	1	121900.0	117857.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115809194-0.stp	115809194	0	1.0	1	2	1	99274.0	94410.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115810607-0.stp	115810607	0	1.0	1	2	1	95426.0	88488.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115810733-1.stp	115810733	1	1.0	1	2	1	110112.0	108105.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115812143-0.stp	115812143	0	1.0	1	2	1	108892.0	102371.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115813681-1.stp	115813681	1	1.0	1	2	1	117051.0	112433.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115813806-0.stp	115813806	0	1.0	1	2	1	109758.0	105457.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115815240-0.stp	115815240	0	1.0	1	2	1	121898.0	119619.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115815376-1.stp	115815376	1	1.0	1	2	1	99484.0	96126.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115815692-0.stp	115815692	0	1.0	1	2	1	105428.0	102803.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115816457-1.stp	115816457	1	1.0	1	2	1	108866.0	106876.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115816561-0.stp	115816561	0	1.0	1	2	1	107793.0	106151.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115817381-0.stp	115817381	0	1.0	1	2	1	103838.0	103584.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115818302-0.stp	115818302	0	1.0	1	2	1	91131.0	86868.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115818434-1.stp	115818434	1	1.0	1	2	1	109554.0	100787.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115819824-1.stp	115819824	1	1.0	1	2	1	126634.0	123740.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115819968-0.stp	115819968	0	1.0	1	2	1	94820.0	94249.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115822882-1.stp	115822882	1	1.0	1	2	1	93418.0	90743.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115823011-0.stp	115823011	0	1.0	1	2	1	79852.0	76785.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115823367-0.stp	115823367	0	1.0	1	2	1	123077.0	120313.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115823798-1.stp	115823798	1	1.0	1	2	1	102890.0	39929.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115824549-1.stp	115824549	1	1.0	1	2	1	70520.0	69640.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115825342-1.stp	115825342	1	1.0	1	2	1	148705.0	79452.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115825969-0.stp	115825969	0	1.0	1	2	1	100150.0	99824.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115826082-0.stp	115826082	0	1.0	1	2	1	93968.0	90346.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115826877-1.stp	115826877	1	1.0	1	2	1	132989.0	56616.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115827500-0.stp	115827500	0	1.0	1	2	1	119417.0	114877.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115827630-0.stp	115827630	0	1.0	1	2	1	112521.0	100842.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115828299-0.stp	115828299	0	1.0	1	2	1	151520.0	52507.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115829051-0.stp	115829051	0	1.0	1	2	1	95854.0	93691.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115829163-1.stp	115829163	1	1.0	1	2	1	100245.0	98211.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115829766-1.stp	115829766	1	1.0	1	2	1	124860.0	52230.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115830587-0.stp	115830587	0	1.0	1	2	1	144182.0	135569.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115830696-1.stp	115830696	1	1.0	1	2	1	93794.0	93439.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115831264-1.stp	115831264	1	1.0	1	2	1	104537.0	31519.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115832230-1.stp	115832230	1	1.0	1	2	1	111638.0	108568.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115832744-1.stp	115832744	1	1.0	1	2	1	134634.0	70408.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115833632-1.stp	115833632	1	1.0	1	2	1	140443.0	133955.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115833808-1.stp	115833808	1	1.0	1	2	1	111296.0	107880.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115834225-1.stp	115834225	1	1.0	1	2	1	113040.0	67783.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115835162-1.stp	115835162	1	1.0	1	2	1	103657.0	98499.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115835706-0.stp	115835706	0	1.0	1	2	1	116424.0	84964.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115836668-0.stp	115836668	0	1.0	1	2	1	133348.0	130577.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115837226-0.stp	115837226	0	1.0	1	2	1	146967.0	104557.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115838526-1.stp	115838526	1	1.0	1	2	1	85600.0	85507.0	BEAT1
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115838718-1.stp	115838718	1	1.0	1	2	1	104410.0	64102.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115839713-0.stp	115839713	0	1.0	1	2	1	141625.0	139097.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115840184-0.stp	115840184	0	1.0	1	2	1	147449.0	103689.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115841249-1.stp	115841249	1	1.0	1	2	1	95390.0	91687.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115841703-1.stp	115841703	1	1.0	1	2	1	170994.0	148572.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115842786-1.stp	115842786	1	1.0	1	2	1	106899.0	104172.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115843192-0.stp	115843192	0	1.0	1	2	1	138891.0	101113.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115844322-0.stp	115844322	0	1.0	1	2	1	101915.0	97953.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115844471-1.stp	115844471	1	1.0	1	2	1	104780.0	102079.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115844699-0.stp	115844699	0	1.0	1	2	1	113658.0	85453.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115846201-0.stp	115846201	0	1.0	1	2	1	118199.0	78826.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115846746-1.stp	115846746	1	1.0	1	2	1	86019.0	66987.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115847712-0.stp	115847712	0	1.0	1	2	1	139520.0	101537.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115849226-0.stp	115849226	0	1.0	1	2	1	144742.0	112679.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115850755-1.stp	115850755	1	1.0	1	2	1	108450.0	75404.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115852261-0.stp	115852261	0	1.0	1	2	1	98726.0	83866.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115853804-0.stp	115853804	0	1.0	1	2	1	100655.0	59096.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115855515-1.stp	115855515	1	1.0	1	2	1	105323.0	78334.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115855797-1.stp	115855797	1	1.0	1	2	1	101381.0	76985.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115855809-1.stp	115855809	1	1.0	1	2	1	134863.0	112360.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115857009-0.stp	115857009	0	1.0	1	2	1	102450.0	83911.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115858086-1.stp	115858086	1	1.0	1	2	1	108945.0	65978.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115858138-1.stp	115858138	1	1.0	1	2	1	139647.0	136351.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115858538-0.stp	115858538	0	1.0	1	2	1	113987.0	99717.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115859601-1.stp	115859601	1	1.0	1	2	1	97182.0	92981.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115859611-0.stp	115859611	0	1.0	1	2	1	104779.0	102206.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115860155-0.stp	115860155	0	1.0	1	2	1	98624.0	79354.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115860224-1.stp	115860224	1	1.0	1	2	1	144106.0	113855.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115861707-1.stp	115861707	1	1.0	1	2	1	122263.0	96293.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115863232-0.stp	115863232	0	1.0	1	2	1	96082.0	87013.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115864768-1.stp	115864768	1	1.0	1	2	1	100350.0	86434.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115866289-0.stp	115866289	0	1.0	1	2	1	96937.0	80868.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115867913-1.stp	115867913	1	1.0	1	2	1	112017.0	90142.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115869561-0.stp	115869561	0	1.0	1	2	1	106811.0	97514.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115871179-0.stp	115871179	0	1.0	1	2	1	119725.0	105831.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115872784-1.stp	115872784	1	1.0	1	2	1	111883.0	95178.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115874359-0.stp	115874359	0	1.0	1	2	1	95443.0	84702.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115875154-1.stp	115875154	1	1.0	1	2	1	103119.0	101888.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115875927-0.stp	115875927	0	1.0	1	2	1	126500.0	114950.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115876218-0.stp	115876218	0	1.0	1	2	1	107077.0	103343.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115876711-1.stp	115876711	1	1.0	1	2	1	141174.0	136713.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115877445-0.stp	115877445	0	1.0	1	2	1	84536.0	80897.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115877450-1.stp	115877450	1	1.0	1	2	1	100105.0	89688.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115878988-1.stp	115878988	1	1.0	1	2	1	142096.0	129183.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115880364-1.stp	115880364	1	1.0	1	2	1	82580.0	80621.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115880917-0.stp	115880917	0	1.0	1	2	1	127537.0	118667.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115882061-0.stp	115882061	0	1.0	1	2	1	108737.0	91233.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115883722-1.stp	115883722	1	1.0	1	2	1	91400.0	90345.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115884313-1.stp	115884313	1	1.0	1	2	1	119159.0	115269.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115885246-0.stp	115885246	0	1.0	1	2	1	100792.0	88933.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115886776-0.stp	115886776	0	1.0	1	2	1	99869.0	92067.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115888285-0.stp	115888285	0	1.0	1	2	1	98411.0	88538.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115889839-1.stp	115889839	1	1.0	1	2	1	121841.0	115739.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115892936-0.stp	115892936	0	1.0	1	2	1	138946.0	130752.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115893456-1.stp	115893456	1	1.0	1	2	1	96151.0	94738.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115893457-0.stp	115893457	0	1.0	1	2	1	112882.0	112356.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115893458-0.stp	115893458	0	1.0	1	2	1	109897.0	109721.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115894433-0.stp	115894433	0	1.0	1	2	1	122366.0	117262.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115895874-0.stp	115895874	0	1.0	1	2	1	143250.0	120843.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115897496-0.stp	115897496	0	1.0	1	2	1	115197.0	108175.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115899046-1.stp	115899046	1	1.0	1	2	1	133606.0	124284.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115900542-1.stp	115900542	1	1.0	1	2	1	98753.0	90549.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115901048-1.stp	115901048	1	1.0	1	2	1	96436.0	87704.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115902109-0.stp	115902109	0	1.0	1	2	1	111367.0	110407.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115902465-1.stp	115902465	1	1.0	1	2	1	81910.0	75956.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115903624-1.stp	115903624	1	1.0	1	2	1	125737.0	113993.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115905163-1.stp	115905163	1	1.0	1	2	1	90715.0	86500.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115905277-0.stp	115905277	0	1.0	1	2	1	137944.0	135533.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115906676-1.stp	115906676	1	1.0	1	2	1	105970.0	102116.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115908202-0.stp	115908202	0	1.0	1	2	1	137590.0	122886.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115908302-1.stp	115908302	1	1.0	1	2	1	97357.0	94062.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115909722-1.stp	115909722	1	1.0	1	2	1	110544.0	107456.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115911200-1.stp	115911200	1	1.0	1	2	1	114183.0	112722.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115911577-1.stp	115911577	1	1.0	1	2	1	113407.0	109054.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115911580-1.stp	115911580	1	1.0	1	2	1	102017.0	96738.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115913161-1.stp	115913161	1	1.0	1	2	1	107931.0	103096.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115914301-0.stp	115914301	0	1.0	1	2	1	104267.0	101331.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115914415-0.stp	115914415	0	1.0	1	2	1	72743.0	70385.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115915847-0.stp	115915847	0	1.0	1	2	1	120630.0	114652.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115915898-0.stp	115915898	0	1.0	1	2	1	107149.0	105689.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115917080-0.stp	115917080	0	1.0	1	2	1	117202.0	116548.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115918589-1.stp	115918589	1	1.0	1	2	1	97837.0	92428.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115919047-1.stp	115919047	1	1.0	1	2	1	98559.0	98457.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115921555-1.stp	115921555	1	1.0	1	2	1	100787.0	98337.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115924068-0.stp	115924068	0	1.0	1	2	1	170320.0	94034.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115924918-1.stp	115924918	1	1.0	1	2	1	120574.0	119089.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115924997-0.stp	115924997	0	1.0	1	2	1	90749.0	90313.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115925103-1.stp	115925103	1	1.0	1	2	1	78925.0	75040.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115925107-1.stp	115925107	1	1.0	1	2	1	86636.0	85735.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115925584-0.stp	115925584	0	1.0	1	2	1	187924.0	92529.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115926444-1.stp	115926444	1	1.0	1	2	1	123402.0	122444.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115926625-0.stp	115926625	0	1.0	1	2	1	103662.0	99236.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115927050-0.stp	115927050	0	1.0	1	2	1	141138.0	77914.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115927959-1.stp	115927959	1	1.0	1	2	1	116812.0	109861.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115928544-1.stp	115928544	1	1.0	1	2	1	112736.0	61103.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115929517-0.stp	115929517	0	1.0	1	2	1	93919.0	92749.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115930045-1.stp	115930045	1	1.0	1	2	1	140763.0	89325.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115931516-0.stp	115931516	0	1.0	1	2	1	99091.0	61617.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115933036-1.stp	115933036	1	1.0	1	2	1	137806.0	97722.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115934527-1.stp	115934527	1	1.0	1	2	1	110436.0	78546.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115935708-1.stp	115935708	1	1.0	1	2	1	107133.0	106595.0	BEAT1
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115936016-0.stp	115936016	0	1.0	1	2	1	140341.0	107539.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115937216-0.stp	115937216	0	1.0	1	2	1	98183.0	92898.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115937516-1.stp	115937516	1	1.0	1	2	1	109206.0	60352.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115938831-1.stp	115938831	1	1.0	1	2	1	81413.0	80870.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115939021-1.stp	115939021	1	1.0	1	2	1	118708.0	95175.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115940523-1.stp	115940523	1	1.0	1	2	1	127046.0	87465.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115942035-1.stp	115942035	1	1.0	1	2	1	134097.0	103540.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115942778-1.stp	115942778	1	1.0	1	2	1	124702.0	90476.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115943529-0.stp	115943529	0	1.0	1	2	1	107428.0	82593.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115944801-0.stp	115944801	0	1.0	1	2	1	124394.0	120198.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115945032-0.stp	115945032	0	1.0	1	2	1	104233.0	73887.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115945756-0.stp	115945756	0	1.0	1	2	1	88264.0	53965.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115946248-0.stp	115946248	0	1.0	1	2	1	88470.0	88158.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115946546-0.stp	115946546	0	1.0	1	2	1	118942.0	84318.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115948069-0.stp	115948069	0	1.0	1	2	1	103987.0	81283.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115949252-1.stp	115949252	1	1.0	1	2	1	100982.0	97042.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115949281-1.stp	115949281	1	1.0	1	2	1	141916.0	107780.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115949710-0.stp	115949710	0	1.0	1	2	1	133354.0	102576.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115951226-1.stp	115951226	1	1.0	1	2	1	123671.0	86395.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115952799-0.stp	115952799	0	1.0	1	2	1	117052.0	102276.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115953860-1.stp	115953860	1	1.0	1	2	1	90170.0	89384.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115954397-1.stp	115954397	1	1.0	1	2	1	137728.0	62563.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115954928-0.stp	115954928	0	1.0	1	2	1	83795.0	69150.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115955894-1.stp	115955894	1	1.0	1	2	1	104036.0	81952.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115957423-1.stp	115957423	1	1.0	1	2	1	124111.0	114974.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115958957-0.stp	115958957	0	1.0	1	2	1	114056.0	97203.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115960442-0.stp	115960442	0	1.0	1	2	1	177469.0	154383.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115961487-1.stp	115961487	1	1.0	1	2	1	94665.0	90550.0	T1W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115961968-0.stp	115961968	0	1.0	1	2	1	129614.0	109426.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115963502-1.stp	115963502	1	1.0	1	2	1	103432.0	99355.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115964482-1.stp	115964482	1	1.0	1	2	1	87130.0	83117.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115965013-1.stp	115965013	1	1.0	1	2	1	137337.0	111856.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115966559-0.stp	115966559	0	1.0	1	2	1	137149.0	120237.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115967962-1.stp	115967962	1	1.0	1	2	1	89711.0	85089.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115968368-1.stp	115968368	1	1.0	1	2	1	99816.0	98281.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115968852-0.stp	115968852	0	1.0	1	2	1	120818.0	113855.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115969610-1.stp	115969610	1	1.0	1	2	1	131599.0	123309.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115969698-0.stp	115969698	0	1.0	1	2	1	95601.0	92601.0	T2W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115972006-1.stp	115972006	1	1.0	1	2	1	84205.0	82213.0	T3W
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115669607-0.stp	115669607	0	1.0	1	0	0	78464.0	79437.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115672992-1.stp	115672992	1	1.0	1	0	0	44736.0	124905.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115674541-0.stp	115674541	0	1.0	1	0	0	38403.0	132275.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115676027-0.stp	115676027	0	1.0	1	0	0	51635.0	118735.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115677552-1.stp	115677552	1	1.0	1	0	0	54680.0	161786.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115679027-0.stp	115679027	0	1.0	1	0	0	45643.0	123172.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115680538-0.stp	115680538	0	1.0	1	0	0	119090.0	192730.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115682042-1.stp	115682042	1	1.0	1	0	0	86010.0	141777.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115683559-0.stp	115683559	0	1.0	1	0	0	87074.0	140914.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115685074-1.stp	115685074	1	1.0	1	0	0	73724.0	115110.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115686583-0.stp	115686583	0	1.0	1	0	0	95574.0	125520.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115686913-1.stp	115686913	1	1.0	1	0	0	94325.0	124301.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115688082-1.stp	115688082	1	1.0	1	0	0	106980.0	156387.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115688354-0.stp	115688354	0	1.0	1	0	0	50791.0	95133.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115689596-0.stp	115689596	0	1.0	1	0	0	106412.0	137488.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115691114-0.stp	115691114	0	1.0	1	0	0	70653.0	95814.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115692641-0.stp	115692641	0	1.0	1	0	0	59515.0	97505.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115693140-0.stp	115693140	0	1.0	1	0	0	74313.0	107724.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115694152-0.stp	115694152	0	1.0	1	0	0	57593.0	95770.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115695674-0.stp	115695674	0	1.0	1	0	0	57755.0	101269.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115697217-0.stp	115697217	0	1.0	1	0	0	68901.0	98683.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115698069-0.stp	115698069	0	1.0	1	0	0	85261.0	120218.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115698757-1.stp	115698757	1	1.0	1	0	0	98577.0	131497.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115699842-1.stp	115699842	1	1.0	1	0	0	51976.0	88636.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115700343-0.stp	115700343	0	1.0	1	0	0	97355.0	114894.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115701894-1.stp	115701894	1	1.0	1	0	0	107069.0	148588.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115703450-1.stp	115703450	1	1.0	1	0	0	92576.0	120418.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115705001-0.stp	115705001	0	1.0	1	0	0	81009.0	113664.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115705905-0.stp	115705905	0	1.0	1	0	0	104951.0	147922.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115706561-0.stp	115706561	0	1.0	1	0	0	76836.0	103786.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115708089-0.stp	115708089	0	1.0	1	0	0	99814.0	121885.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115709617-0.stp	115709617	0	1.0	1	0	0	71447.0	87683.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115711142-0.stp	115711142	0	1.0	1	0	0	94711.0	114697.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115712686-1.stp	115712686	1	1.0	1	0	0	104729.0	126965.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115714226-1.stp	115714226	1	1.0	1	0	0	110393.0	125424.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115715758-0.stp	115715758	0	1.0	1	0	0	61821.0	91568.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115716860-1.stp	115716860	1	1.0	1	0	0	75523.0	76258.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115717296-1.stp	115717296	1	1.0	1	0	0	117191.0	137769.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115718832-0.stp	115718832	0	1.0	1	0	0	100194.0	106799.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115719374-0.stp	115719374	0	1.0	1	0	0	89568.0	99459.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115719566-1.stp	115719566	1	1.0	1	0	0	101455.0	129416.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115720373-1.stp	115720373	1	1.0	1	0	0	80992.0	102600.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115720456-1.stp	115720456	1	1.0	1	0	0	116640.0	130891.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115721819-0.stp	115721819	0	1.0	1	0	0	62444.0	176323.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115721989-0.stp	115721989	0	1.0	1	0	0	88060.0	107693.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115723392-1.stp	115723392	1	1.0	1	0	0	59838.0	133767.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115723584-1.stp	115723584	1	1.0	1	0	0	84309.0	99205.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115723880-0.stp	115723880	0	1.0	1	0	0	119820.0	141721.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115725008-0.stp	115725008	0	1.0	1	0	0	78387.0	168672.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115725132-1.stp	115725132	1	1.0	1	0	0	100137.0	103884.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115726379-0.stp	115726379	0	1.0	1	0	0	76097.0	105667.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115726400-1.stp	115726400	1	1.0	1	0	0	52930.0	154721.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115726690-0.stp	115726690	0	1.0	1	0	0	92769.0	98124.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115727928-0.stp	115727928	0	1.0	1	0	0	48652.0	116193.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115728253-0.stp	115728253	0	1.0	1	0	0	88508.0	93436.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115729430-1.stp	115729430	1	1.0	1	0	0	66587.0	115590.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115729770-1.stp	115729770	1	1.0	1	0	0	141570.0	157748.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115730669-1.stp	115730669	1	1.0	1	0	0	86810.0	95488.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115730930-0.stp	115730930	0	1.0	1	0	0	54020.0	99058.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115731313-1.stp	115731313	1	1.0	1	0	0	119629.0	129929.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115732490-0.stp	115732490	0	1.0	1	0	0	106976.0	157649.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115732909-0.stp	115732909	0	1.0	1	0	0	124044.0	134301.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115733988-1.stp	115733988	1	1.0	1	0	0	96591.0	133652.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115734415-0.stp	115734415	0	1.0	1	0	0	95269.0	98932.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115735538-0.stp	115735538	0	1.0	1	0	0	66133.0	98415.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115735989-0.stp	115735989	0	1.0	1	0	0	101705.0	110406.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115736641-1.stp	115736641	1	1.0	1	0	0	118849.0	132341.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115737046-1.stp	115737046	1	1.0	1	0	0	101166.0	132204.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115737216-1.stp	115737216	1	1.0	1	0	0	59077.0	143941.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115737529-0.stp	115737529	0	1.0	1	0	0	92476.0	96844.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115737851-0.stp	115737851	0	1.0	1	0	0	129222.0	139664.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115738586-0.stp	115738586	0	1.0	1	0	0	70926.0	103004.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115738762-1.stp	115738762	1	1.0	1	0	0	18113.0	154560.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115739095-0.stp	115739095	0	1.0	1	0	0	119943.0	137078.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115740127-0.stp	115740127	0	1.0	1	0	0	112134.0	146453.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115740261-0.stp	115740261	0	1.0	1	0	0	20963.0	107143.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115740648-1.stp	115740648	1	1.0	1	0	0	96397.0	109928.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115741650-0.stp	115741650	0	1.0	1	0	0	96828.0	116852.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115741803-1.stp	115741803	1	1.0	1	0	0	51676.0	111046.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115741942-0.stp	115741942	0	1.0	1	0	0	113474.0	133568.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115742330-1.stp	115742330	1	1.0	1	0	0	74302.0	76810.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115742747-1.stp	115742747	1	1.0	1	0	0	76444.0	88605.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115743185-1.stp	115743185	1	1.0	1	0	0	51962.0	93312.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115743304-0.stp	115743304	0	1.0	1	0	0	102060.0	157681.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115743760-1.stp	115743760	1	1.0	1	0	0	113761.0	117545.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115744689-1.stp	115744689	1	1.0	1	0	0	85457.0	120934.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115744818-1.stp	115744818	1	1.0	1	0	0	87355.0	170108.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115745289-1.stp	115745289	1	1.0	1	0	0	94941.0	96558.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115746225-1.stp	115746225	1	1.0	1	0	0	80472.0	102603.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115746305-1.stp	115746305	1	1.0	1	0	0	62195.0	97944.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115746849-1.stp	115746849	1	1.0	1	0	0	106471.0	117452.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115747758-1.stp	115747758	1	1.0	1	0	0	80483.0	98255.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115747821-0.stp	115747821	0	1.0	1	0	0	92571.0	132417.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115748396-1.stp	115748396	1	1.0	1	0	0	82352.0	89465.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115749324-0.stp	115749324	0	1.0	1	0	0	60602.0	98586.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115749343-1.stp	115749343	1	1.0	1	0	0	68661.0	109528.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115749947-0.stp	115749947	0	1.0	1	0	0	92242.0	94977.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115750831-0.stp	115750831	0	1.0	1	0	0	61296.0	92329.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115750860-1.stp	115750860	1	1.0	1	0	0	66016.0	95308.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115751467-1.stp	115751467	1	1.0	1	0	0	100971.0	106043.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115751481-0.stp	115751481	0	1.0	1	0	0	75217.0	78747.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115752037-1.stp	115752037	1	1.0	1	0	0	68446.0	99766.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115752370-1.stp	115752370	1	1.0	1	0	0	64546.0	114599.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115752412-1.stp	115752412	1	1.0	1	0	0	56073.0	98921.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115752504-1.stp	115752504	1	1.0	1	0	0	97378.0	123659.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115752993-1.stp	115752993	1	1.0	1	0	0	93157.0	99647.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115753537-0.stp	115753537	0	1.0	1	0	0	78574.0	119362.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115753887-1.stp	115753887	1	1.0	1	0	0	71379.0	87910.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115753934-1.stp	115753934	1	1.0	1	0	0	108223.0	142027.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115754552-1.stp	115754552	1	1.0	1	0	0	88486.0	93213.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115755410-0.stp	115755410	0	1.0	1	0	0	96161.0	125978.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115755542-1.stp	115755542	1	1.0	1	0	0	76939.0	118269.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115756099-1.stp	115756099	1	1.0	1	0	0	95080.0	105185.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115756517-0.stp	115756517	0	1.0	1	0	0	84098.0	97213.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115756522-1.stp	115756522	1	1.0	1	0	0	65945.0	98744.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115756923-1.stp	115756923	1	1.0	1	0	0	106522.0	127463.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115757138-1.stp	115757138	1	1.0	1	0	0	71342.0	100825.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115757641-0.stp	115757641	0	1.0	1	0	0	109841.0	118954.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115758447-0.stp	115758447	0	1.0	1	0	0	94676.0	122233.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115758675-0.stp	115758675	0	1.0	1	0	0	89648.0	119928.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115759153-0.stp	115759153	0	1.0	1	0	0	91842.0	95406.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115759635-1.stp	115759635	1	1.0	1	0	0	101867.0	117171.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115759967-1.stp	115759967	1	1.0	1	0	0	118430.0	161572.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115760220-1.stp	115760220	1	1.0	1	0	0	98596.0	122072.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115760692-1.stp	115760692	1	1.0	1	0	0	96061.0	102878.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115761485-0.stp	115761485	0	1.0	1	0	0	75339.0	112257.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115761756-1.stp	115761756	1	1.0	1	0	0	93838.0	113083.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115762133-0.stp	115762133	0	1.0	1	0	0	123067.0	125653.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115762211-0.stp	115762211	0	1.0	1	0	0	104582.0	105749.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115762659-1.stp	115762659	1	1.0	1	0	0	109600.0	120203.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115763025-1.stp	115763025	1	1.0	1	0	0	75625.0	103319.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115763303-1.stp	115763303	1	1.0	1	0	0	118334.0	129173.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115763762-0.stp	115763762	0	1.0	1	0	0	87849.0	91605.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115764305-1.stp	115764305	1	1.0	1	0	0	93384.0	95871.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115764308-0.stp	115764308	0	1.0	1	0	0	143307.0	148956.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115764336-1.stp	115764336	1	1.0	1	0	0	110254.0	140749.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115764576-0.stp	115764576	0	1.0	1	0	0	67869.0	108668.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115764837-1.stp	115764837	1	1.0	1	0	0	89434.0	104716.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115765303-1.stp	115765303	1	1.0	1	0	0	95176.0	98463.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115765556-1.stp	115765556	1	1.0	1	0	0	89131.0	109261.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115766120-1.stp	115766120	1	1.0	1	0	0	74126.0	104399.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115766420-1.stp	115766420	1	1.0	1	0	0	87498.0	106842.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115766884-1.stp	115766884	1	1.0	1	0	0	102904.0	105535.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115767326-1.stp	115767326	1	1.0	1	0	0	71953.0	73291.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115767757-1.stp	115767757	1	1.0	1	0	0	64935.0	93190.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115768010-0.stp	115768010	0	1.0	1	0	0	78995.0	86372.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115768454-1.stp	115768454	1	1.0	1	0	0	72958.0	76229.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115768494-1.stp	115768494	1	1.0	1	0	0	88214.0	95283.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115768685-1.stp	115768685	1	1.0	1	0	0	122436.0	141023.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115768695-1.stp	115768695	1	1.0	1	0	0	90383.0	113302.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115769299-1.stp	115769299	1	1.0	1	0	0	75293.0	103936.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115769527-0.stp	115769527	0	1.0	1	0	0	91980.0	119317.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115769992-1.stp	115769992	1	1.0	1	0	0	92348.0	97535.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115770893-0.stp	115770893	0	1.0	1	0	0	130501.0	156198.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115771038-0.stp	115771038	0	1.0	1	0	0	112276.0	121487.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115771523-1.stp	115771523	1	1.0	1	0	0	108389.0	113551.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115772409-1.stp	115772409	1	1.0	1	0	0	106068.0	127804.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115772558-1.stp	115772558	1	1.0	1	0	0	103029.0	115243.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115773043-0.stp	115773043	0	1.0	1	0	0	75378.0	77414.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115773917-0.stp	115773917	0	1.0	1	0	0	78035.0	120365.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115774067-1.stp	115774067	1	1.0	1	0	0	77257.0	79833.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115774550-1.stp	115774550	1	1.0	1	0	0	95868.0	101569.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115775435-1.stp	115775435	1	1.0	1	0	0	95053.0	112216.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115775585-1.stp	115775585	1	1.0	1	0	0	90262.0	102326.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115776107-1.stp	115776107	1	1.0	1	0	0	106692.0	111134.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115776967-1.stp	115776967	1	1.0	1	0	0	103829.0	117692.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115777091-1.stp	115777091	1	1.0	1	0	0	98579.0	108317.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115778476-0.stp	115778476	0	1.0	1	0	0	75445.0	85840.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115778625-1.stp	115778625	1	1.0	1	0	0	86778.0	88129.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115778912-1.stp	115778912	1	1.0	1	0	0	85631.0	101462.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115779467-1.stp	115779467	1	1.0	1	0	0	107843.0	110779.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115780041-0.stp	115780041	0	1.0	1	0	0	83867.0	89809.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115780185-0.stp	115780185	0	1.0	1	0	0	86557.0	93339.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115781558-0.stp	115781558	0	1.0	1	0	0	90466.0	110225.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115781705-0.stp	115781705	0	1.0	1	0	0	87743.0	94062.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115783111-0.stp	115783111	0	1.0	1	0	0	101056.0	117603.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115783246-0.stp	115783246	0	1.0	1	0	0	96698.0	100642.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115783979-1.stp	115783979	1	1.0	1	0	0	81351.0	94287.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115784658-1.stp	115784658	1	1.0	1	0	0	97837.0	105144.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115784790-1.stp	115784790	1	1.0	1	0	0	101332.0	105211.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115785487-0.stp	115785487	0	1.0	1	0	0	105215.0	108027.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115785511-0.stp	115785511	0	1.0	1	0	0	90605.0	91150.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115786184-1.stp	115786184	1	1.0	1	0	0	80176.0	95326.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115786312-0.stp	115786312	0	1.0	1	0	0	98434.0	100750.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115786885-0.stp	115786885	0	1.0	1	0	0	97048.0	101589.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115787690-1.stp	115787690	1	1.0	1	0	0	85809.0	98880.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115787822-0.stp	115787822	0	1.0	1	0	0	108559.0	114307.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115789243-1.stp	115789243	1	1.0	1	0	0	91103.0	100629.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115789366-1.stp	115789366	1	1.0	1	0	0	119117.0	123396.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115790756-0.stp	115790756	0	1.0	1	0	0	112154.0	119677.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115790900-1.stp	115790900	1	1.0	1	0	0	119660.0	134810.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115792285-0.stp	115792285	0	1.0	1	0	0	111588.0	116750.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115792416-0.stp	115792416	0	1.0	1	0	0	110249.0	128257.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115792886-1.stp	115792886	1	1.0	1	0	0	102133.0	107504.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115793820-1.stp	115793820	1	1.0	1	0	0	96901.0	103196.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115793939-0.stp	115793939	0	1.0	1	0	0	96937.0	106042.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115795336-1.stp	115795336	1	1.0	1	0	0	128157.0	130259.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115795757-0.stp	115795757	0	1.0	1	0	0	90220.0	92005.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115796852-0.stp	115796852	0	1.0	1	0	0	124520.0	127883.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115796967-1.stp	115796967	1	1.0	1	0	0	75938.0	78531.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115798375-0.stp	115798375	0	1.0	1	0	0	79043.0	79546.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115798492-1.stp	115798492	1	1.0	1	0	0	88113.0	91540.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115798926-0.stp	115798926	0	1.0	1	0	0	89644.0	99392.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115799087-0.stp	115799087	0	1.0	1	0	0	116714.0	119149.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115799919-0.stp	115799919	0	1.0	1	0	0	91578.0	93276.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115800036-0.stp	115800036	0	1.0	1	0	0	82643.0	84048.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115800601-0.stp	115800601	0	1.0	1	0	0	109926.0	112795.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115801434-0.stp	115801434	0	1.0	1	0	0	121741.0	124244.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115801574-0.stp	115801574	0	1.0	1	0	0	79476.0	81533.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115802982-1.stp	115802982	1	1.0	1	0	0	106305.0	108604.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115803124-1.stp	115803124	1	1.0	1	0	0	82485.0	87001.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115804501-1.stp	115804501	1	1.0	1	0	0	112382.0	119072.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115804631-0.stp	115804631	0	1.0	1	0	0	113565.0	115470.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115806024-1.stp	115806024	1	1.0	1	0	0	101428.0	104567.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115806148-0.stp	115806148	0	1.0	1	0	0	104741.0	109547.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115806554-0.stp	115806554	0	1.0	1	0	0	100458.0	104208.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115807551-1.stp	115807551	1	1.0	1	0	0	91722.0	97520.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115807664-1.stp	115807664	1	1.0	1	0	0	102608.0	102760.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115808061-0.stp	115808061	0	1.0	1	0	0	115048.0	120324.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115809091-0.stp	115809091	0	1.0	1	0	0	117857.0	121900.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115809194-1.stp	115809194	1	1.0	1	0	0	94410.0	99274.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115810607-1.stp	115810607	1	1.0	1	0	0	88488.0	95426.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115810733-0.stp	115810733	0	1.0	1	0	0	108105.0	110112.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115812143-1.stp	115812143	1	1.0	1	0	0	102371.0	108892.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115813681-0.stp	115813681	0	1.0	1	0	0	112433.0	117051.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115813806-1.stp	115813806	1	1.0	1	0	0	105457.0	109758.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115815240-1.stp	115815240	1	1.0	1	0	0	119619.0	121898.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115815376-0.stp	115815376	0	1.0	1	0	0	96126.0	99484.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115815692-1.stp	115815692	1	1.0	1	0	0	102803.0	105428.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115816457-0.stp	115816457	0	1.0	1	0	0	106876.0	108866.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115816561-1.stp	115816561	1	1.0	1	0	0	106151.0	107793.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115817381-1.stp	115817381	1	1.0	1	0	0	103584.0	103838.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115818302-1.stp	115818302	1	1.0	1	0	0	86868.0	91131.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115818434-0.stp	115818434	0	1.0	1	0	0	100787.0	109554.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115819824-0.stp	115819824	0	1.0	1	0	0	123740.0	126634.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115819968-1.stp	115819968	1	1.0	1	0	0	94249.0	94820.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115822882-0.stp	115822882	0	1.0	1	0	0	90743.0	93418.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115823011-1.stp	115823011	1	1.0	1	0	0	76785.0	79852.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115823367-1.stp	115823367	1	1.0	1	0	0	120313.0	123077.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115823798-0.stp	115823798	0	1.0	1	0	0	39929.0	102890.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115824549-0.stp	115824549	0	1.0	1	0	0	69640.0	70520.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115825342-0.stp	115825342	0	1.0	1	0	0	79452.0	148705.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115825969-1.stp	115825969	1	1.0	1	0	0	99824.0	100150.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115826082-1.stp	115826082	1	1.0	1	0	0	90346.0	93968.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115826877-0.stp	115826877	0	1.0	1	0	0	56616.0	132989.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115827500-1.stp	115827500	1	1.0	1	0	0	114877.0	119417.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115827630-1.stp	115827630	1	1.0	1	0	0	100842.0	112521.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115828299-1.stp	115828299	1	1.0	1	0	0	52507.0	151520.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115829051-1.stp	115829051	1	1.0	1	0	0	93691.0	95854.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115829163-0.stp	115829163	0	1.0	1	0	0	98211.0	100245.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115829766-0.stp	115829766	0	1.0	1	0	0	52230.0	124860.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115830587-1.stp	115830587	1	1.0	1	0	0	135569.0	144182.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115830696-0.stp	115830696	0	1.0	1	0	0	93439.0	93794.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115831264-0.stp	115831264	0	1.0	1	0	0	31519.0	104537.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115832230-0.stp	115832230	0	1.0	1	0	0	108568.0	111638.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115832744-0.stp	115832744	0	1.0	1	0	0	70408.0	134634.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115833632-0.stp	115833632	0	1.0	1	0	0	133955.0	140443.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115833808-0.stp	115833808	0	1.0	1	0	0	107880.0	111296.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115834225-0.stp	115834225	0	1.0	1	0	0	67783.0	113040.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115835162-0.stp	115835162	0	1.0	1	0	0	98499.0	103657.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115835706-1.stp	115835706	1	1.0	1	0	0	84964.0	116424.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115836668-1.stp	115836668	1	1.0	1	0	0	130577.0	133348.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115837226-1.stp	115837226	1	1.0	1	0	0	104557.0	146967.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115838526-0.stp	115838526	0	1.0	1	0	0	85507.0	85600.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115838718-0.stp	115838718	0	1.0	1	0	0	64102.0	104410.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115839713-1.stp	115839713	1	1.0	1	0	0	139097.0	141625.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115840184-1.stp	115840184	1	1.0	1	0	0	103689.0	147449.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115841249-0.stp	115841249	0	1.0	1	0	0	91687.0	95390.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115841703-0.stp	115841703	0	1.0	1	0	0	148572.0	170994.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115842786-0.stp	115842786	0	1.0	1	0	0	104172.0	106899.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115843192-1.stp	115843192	1	1.0	1	0	0	101113.0	138891.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115844322-1.stp	115844322	1	1.0	1	0	0	97953.0	101915.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115844471-0.stp	115844471	0	1.0	1	0	0	102079.0	104780.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115844699-1.stp	115844699	1	1.0	1	0	0	85453.0	113658.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115846201-1.stp	115846201	1	1.0	1	0	0	78826.0	118199.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115846746-0.stp	115846746	0	1.0	1	0	0	66987.0	86019.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115847712-1.stp	115847712	1	1.0	1	0	0	101537.0	139520.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115849226-1.stp	115849226	1	1.0	1	0	0	112679.0	144742.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115850755-0.stp	115850755	0	1.0	1	0	0	75404.0	108450.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115852261-1.stp	115852261	1	1.0	1	0	0	83866.0	98726.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115853804-1.stp	115853804	1	1.0	1	0	0	59096.0	100655.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115855515-0.stp	115855515	0	1.0	1	0	0	78334.0	105323.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115855797-0.stp	115855797	0	1.0	1	0	0	76985.0	101381.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115855809-0.stp	115855809	0	1.0	1	0	0	112360.0	134863.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115857009-1.stp	115857009	1	1.0	1	0	0	83911.0	102450.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115858086-0.stp	115858086	0	1.0	1	0	0	65978.0	108945.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115858138-0.stp	115858138	0	1.0	1	0	0	136351.0	139647.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115858538-1.stp	115858538	1	1.0	1	0	0	99717.0	113987.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115859601-0.stp	115859601	0	1.0	1	0	0	92981.0	97182.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115859611-1.stp	115859611	1	1.0	1	0	0	102206.0	104779.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115860155-1.stp	115860155	1	1.0	1	0	0	79354.0	98624.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115860224-0.stp	115860224	0	1.0	1	0	0	113855.0	144106.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115861707-0.stp	115861707	0	1.0	1	0	0	96293.0	122263.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115863232-1.stp	115863232	1	1.0	1	0	0	87013.0	96082.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115864768-0.stp	115864768	0	1.0	1	0	0	86434.0	100350.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115866289-1.stp	115866289	1	1.0	1	0	0	80868.0	96937.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115867913-0.stp	115867913	0	1.0	1	0	0	90142.0	112017.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115869561-1.stp	115869561	1	1.0	1	0	0	97514.0	106811.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115871179-1.stp	115871179	1	1.0	1	0	0	105831.0	119725.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115872784-0.stp	115872784	0	1.0	1	0	0	95178.0	111883.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115874359-1.stp	115874359	1	1.0	1	0	0	84702.0	95443.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115875154-0.stp	115875154	0	1.0	1	0	0	101888.0	103119.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115875927-1.stp	115875927	1	1.0	1	0	0	114950.0	126500.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115876218-1.stp	115876218	1	1.0	1	0	0	103343.0	107077.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115876711-0.stp	115876711	0	1.0	1	0	0	136713.0	141174.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115877445-1.stp	115877445	1	1.0	1	0	0	80897.0	84536.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115877450-0.stp	115877450	0	1.0	1	0	0	89688.0	100105.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115878988-0.stp	115878988	0	1.0	1	0	0	129183.0	142096.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115880364-0.stp	115880364	0	1.0	1	0	0	80621.0	82580.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115880917-1.stp	115880917	1	1.0	1	0	0	118667.0	127537.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115882061-1.stp	115882061	1	1.0	1	0	0	91233.0	108737.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115883722-0.stp	115883722	0	1.0	1	0	0	90345.0	91400.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115884313-0.stp	115884313	0	1.0	1	0	0	115269.0	119159.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115885246-1.stp	115885246	1	1.0	1	0	0	88933.0	100792.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115886776-1.stp	115886776	1	1.0	1	0	0	92067.0	99869.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115888285-1.stp	115888285	1	1.0	1	0	0	88538.0	98411.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115889839-0.stp	115889839	0	1.0	1	0	0	115739.0	121841.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115892936-1.stp	115892936	1	1.0	1	0	0	130752.0	138946.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115893456-0.stp	115893456	0	1.0	1	0	0	94738.0	96151.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115893457-1.stp	115893457	1	1.0	1	0	0	112356.0	112882.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115893458-1.stp	115893458	1	1.0	1	0	0	109721.0	109897.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115894433-1.stp	115894433	1	1.0	1	0	0	117262.0	122366.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115895874-1.stp	115895874	1	1.0	1	0	0	120843.0	143250.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115897496-1.stp	115897496	1	1.0	1	0	0	108175.0	115197.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115899046-0.stp	115899046	0	1.0	1	0	0	124284.0	133606.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115900542-0.stp	115900542	0	1.0	1	0	0	90549.0	98753.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115901048-0.stp	115901048	0	1.0	1	0	0	87704.0	96436.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115902109-1.stp	115902109	1	1.0	1	0	0	110407.0	111367.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115902465-0.stp	115902465	0	1.0	1	0	0	75956.0	81910.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115903624-0.stp	115903624	0	1.0	1	0	0	113993.0	125737.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115905163-0.stp	115905163	0	1.0	1	0	0	86500.0	90715.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115905277-1.stp	115905277	1	1.0	1	0	0	135533.0	137944.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115906676-0.stp	115906676	0	1.0	1	0	0	102116.0	105970.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115908202-1.stp	115908202	1	1.0	1	0	0	122886.0	137590.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115908302-0.stp	115908302	0	1.0	1	0	0	94062.0	97357.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115909722-0.stp	115909722	0	1.0	1	0	0	107456.0	110544.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115911200-0.stp	115911200	0	1.0	1	0	0	112722.0	114183.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115911577-0.stp	115911577	0	1.0	1	0	0	109054.0	113407.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115911580-0.stp	115911580	0	1.0	1	0	0	96738.0	102017.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115913161-0.stp	115913161	0	1.0	1	0	0	103096.0	107931.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115914301-1.stp	115914301	1	1.0	1	0	0	101331.0	104267.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115914415-1.stp	115914415	1	1.0	1	0	0	70385.0	72743.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115915847-1.stp	115915847	1	1.0	1	0	0	114652.0	120630.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115915898-1.stp	115915898	1	1.0	1	0	0	105689.0	107149.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115917080-1.stp	115917080	1	1.0	1	0	0	116548.0	117202.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115918589-0.stp	115918589	0	1.0	1	0	0	92428.0	97837.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115919047-0.stp	115919047	0	1.0	1	0	0	98457.0	98559.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115921555-0.stp	115921555	0	1.0	1	0	0	98337.0	100787.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115924068-1.stp	115924068	1	1.0	1	0	0	94034.0	170320.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115924918-0.stp	115924918	0	1.0	1	0	0	119089.0	120574.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115924997-1.stp	115924997	1	1.0	1	0	0	90313.0	90749.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115925103-0.stp	115925103	0	1.0	1	0	0	75040.0	78925.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115925107-0.stp	115925107	0	1.0	1	0	0	85735.0	86636.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115925584-1.stp	115925584	1	1.0	1	0	0	92529.0	187924.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115926444-0.stp	115926444	0	1.0	1	0	0	122444.0	123402.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115926625-1.stp	115926625	1	1.0	1	0	0	99236.0	103662.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115927050-1.stp	115927050	1	1.0	1	0	0	77914.0	141138.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115927959-0.stp	115927959	0	1.0	1	0	0	109861.0	116812.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115928544-0.stp	115928544	0	1.0	1	0	0	61103.0	112736.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115929517-1.stp	115929517	1	1.0	1	0	0	92749.0	93919.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115930045-0.stp	115930045	0	1.0	1	0	0	89325.0	140763.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115931516-1.stp	115931516	1	1.0	1	0	0	61617.0	99091.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115933036-0.stp	115933036	0	1.0	1	0	0	97722.0	137806.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115934527-0.stp	115934527	0	1.0	1	0	0	78546.0	110436.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115935708-0.stp	115935708	0	1.0	1	0	0	106595.0	107133.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115936016-1.stp	115936016	1	1.0	1	0	0	107539.0	140341.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115937216-1.stp	115937216	1	1.0	1	0	0	92898.0	98183.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115937516-0.stp	115937516	0	1.0	1	0	0	60352.0	109206.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115938831-0.stp	115938831	0	1.0	1	0	0	80870.0	81413.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115939021-0.stp	115939021	0	1.0	1	0	0	95175.0	118708.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115940523-0.stp	115940523	0	1.0	1	0	0	87465.0	127046.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115942035-0.stp	115942035	0	1.0	1	0	0	103540.0	134097.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115942778-0.stp	115942778	0	1.0	1	0	0	90476.0	124702.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115943529-1.stp	115943529	1	1.0	1	0	0	82593.0	107428.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115944801-1.stp	115944801	1	1.0	1	0	0	120198.0	124394.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115945032-1.stp	115945032	1	1.0	1	0	0	73887.0	104233.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115945756-1.stp	115945756	1	1.0	1	0	0	53965.0	88264.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115946546-1.stp	115946546	1	1.0	1	0	0	84318.0	118942.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115948069-1.stp	115948069	1	1.0	1	0	0	81283.0	103987.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115949252-0.stp	115949252	0	1.0	1	0	0	97042.0	100982.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115949281-0.stp	115949281	0	1.0	1	0	0	107780.0	141916.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115949710-1.stp	115949710	1	1.0	1	0	0	102576.0	133354.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115951226-0.stp	115951226	0	1.0	1	0	0	86395.0	123671.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115952799-1.stp	115952799	1	1.0	1	0	0	102276.0	117052.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115953860-0.stp	115953860	0	1.0	1	0	0	89384.0	90170.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115954397-0.stp	115954397	0	1.0	1	0	0	62563.0	137728.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115954928-1.stp	115954928	1	1.0	1	0	0	69150.0	83795.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115955894-0.stp	115955894	0	1.0	1	0	0	81952.0	104036.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115957423-0.stp	115957423	0	1.0	1	0	0	114974.0	124111.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115958957-1.stp	115958957	1	1.0	1	0	0	97203.0	114056.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115960442-1.stp	115960442	1	1.0	1	0	0	154383.0	177469.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115961968-1.stp	115961968	1	1.0	1	0	0	109426.0	129614.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115963502-0.stp	115963502	0	1.0	1	0	0	99355.0	103432.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115964482-0.stp	115964482	0	1.0	1	0	0	83117.0	87130.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115965013-0.stp	115965013	0	1.0	1	0	0	111856.0	137337.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115966559-1.stp	115966559	1	1.0	1	0	0	120237.0	137149.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115967962-0.stp	115967962	0	1.0	1	0	0	85089.0	89711.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115968368-0.stp	115968368	0	1.0	1	0	0	98281.0	99816.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115968852-1.stp	115968852	1	1.0	1	0	0	113855.0	120818.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115969610-0.stp	115969610	0	1.0	1	0	0	123309.0	131599.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115969698-1.stp	115969698	1	1.0	1	0	0	92601.0	95601.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115972006-0.stp	115972006	0	1.0	1	0	0	82213.0	84205.0	

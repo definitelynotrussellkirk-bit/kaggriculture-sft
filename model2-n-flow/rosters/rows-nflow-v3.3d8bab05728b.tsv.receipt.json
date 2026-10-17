@@ -1,0 +1,239 @@
+{
+ "source_rows": "/mnt/ai/scratch/farmNEAT/broad/buckets/3d8bab05728b/A.tsv",
+ "source_sha256": "61c9d5e9010821f65bbdfbde48fb84e3c949e16790e65ea2b0fba9e8d924934a",
+ "source_files_sha256": {
+  "A.tsv": "61c9d5e9010821f65bbdfbde48fb84e3c949e16790e65ea2b0fba9e8d924934a",
+  "BC.tsv": "906368a2c24b73c5475d1331bfab7b0085a5bd8c755caaf95b94372b6ca2b1cf",
+  "D.tsv": "bbd4eba881bd473668352db593c0cc0ec8d6cd562c62dcb1871017cb9bb1c227",
+  "E.tsv": "379748884603d88ea05946ebe9be037be55e4b927eccf739020a7d52190b9f86",
+  "L.tsv": "d529cfcfc2852d258ba9c3381b12d76cb4af252044a0ae3fd5bd486e67e83cd7",
+  "W_N.tsv": "b2b78b939a44d92cfdf7046bed967ac8c00834a7187ce66c1e128a1183e127e7",
+  "EFFECTIVE-SHARES.json": "0ab7176ffc5b86fd0a6ccaeb4e265795139d7d3fd176bda5202aa8962387a32d",
+  "RECEIPT.json": "95bda47382256df47ea76077bb0af96d78ae7b90e599939f273513ed4d2a5b2e"
+ },
+ "out": "/mnt/ai/scratch/farmNEAT/n-flow/roster/rows-nflow-v3.3d8bab05728b.tsv",
+ "out_sha256": "81b9ca2dce00ac254a873dcf828ee563184b566154619b23ca70fb18734041a3",
+ "catalog": "/mnt/ai/scratch/farmNEAT/primitive-bc-data/catalog/SEATS.parquet",
+ "groups": {
+  "act:tier1": {
+   "rows": 5742,
+   "mass": 5742.0,
+   "share": 0.4492
+  },
+  "wdl-loser:tier1": {
+   "rows": 2777,
+   "mass": 2777.0
+  },
+  "act:tier2": {
+   "rows": 885,
+   "mass": 885.0,
+   "share": 0.0692
+  },
+  "wdl-loser:tier2": {
+   "rows": 885,
+   "mass": 885.0
+  },
+  "act:tier3": {
+   "rows": 1156,
+   "mass": 1156.0,
+   "share": 0.0904
+  },
+  "wdl-loser:tier3": {
+   "rows": 147,
+   "mass": 147.0
+  },
+  "act:tier4": {
+   "rows": 4732,
+   "mass": 4732.0,
+   "share": 0.3702
+  },
+  "act:tier5": {
+   "rows": 231,
+   "mass": 231.0,
+   "share": 0.0181
+  },
+  "wdl-loser:tier5": {
+   "rows": 216,
+   "mass": 216.0
+  },
+  "act:tier6": {
+   "rows": 36,
+   "mass": 36.0,
+   "share": 0.0028
+  },
+  "wdl-loser:tier6": {
+   "rows": 15,
+   "mass": 15.0
+  },
+  "own-loss:tier2": {
+   "rows": 4,
+   "mass": 4.0
+  }
+ },
+ "kinds": {
+  "act": 12782,
+  "wdl-loser": 4040,
+  "own-loss": 4
+ },
+ "refused": 129,
+ "refused_sample": [
+  {
+   "eid": 106888935,
+   "seat": 1,
+   "why": "wdl-loser dropped: static tape"
+  },
+  {
+   "eid": 106893207,
+   "seat": 1,
+   "why": "wdl-loser dropped: static tape"
+  },
+  {
+   "eid": 106896524,
+   "seat": 1,
+   "why": "wdl-loser dropped: static tape"
+  },
+  {
+   "eid": 106910787,
+   "seat": 1,
+   "why": "wdl-loser dropped: static tape"
+  },
+  {
+   "eid": 106913955,
+   "seat": 1,
+   "why": "wdl-loser dropped: static tape"
+  },
+  {
+   "eid": 106925258,
+   "seat": 1,
+   "why": "wdl-loser dropped: static tape"
+  },
+  {
+   "eid": 106935361,
+   "seat": 1,
+   "why": "wdl-loser dropped: static tape"
+  },
+  {
+   "eid": 107218298,
+   "seat": 0,
+   "why": "wdl-loser dropped: static tape"
+  },
+  {
+   "eid": 112582992,
+   "seat": 1,
+   "why": "wdl-loser dropped: static tape"
+  },
+  {
+   "eid": 112585731,
+   "seat": 1,
+   "why": "wdl-loser dropped: static tape"
+  },
+  {
+   "eid": 112598862,
+   "seat": 1,
+   "why": "wdl-loser dropped: static tape"
+  },
+  {
+   "eid": 112598865,
+   "seat": 0,
+   "why": "wdl-loser dropped: static tape"
+  },
+  {
+   "eid": 112604796,
+   "seat": 1,
+   "why": "wdl-loser dropped: static tape"
+  },
+  {
+   "eid": 112610614,
+   "seat": 0,
+   "why": "wdl-loser dropped: static tape"
+  },
+  {
+   "eid": 112610629,
+   "seat": 1,
+   "why": "wdl-loser dropped: static tape"
+  },
+  {
+   "eid": 112616249,
+   "seat": 0,
+   "why": "wdl-loser dropped: static tape"
+  },
+  {
+   "eid": 112621362,
+   "seat": 0,
+   "why": "wdl-loser dropped: static tape"
+  },
+  {
+   "eid": 112626859,
+   "seat": 1,
+   "why": "wdl-loser dropped: static tape"
+  },
+  {
+   "eid": 112626860,
+   "seat": 1,
+   "why": "wdl-loser dropped: static tape"
+  },
+  {
+   "eid": 112631429,
+   "seat": 0,
+   "why": "wdl-loser dropped: static tape"
+  }
+ ],
+ "refused_by_reason": {
+  "wdl-loser dropped: static tape": 129
+ },
+ "own_loss": {
+  "teams": [
+   "有辣条有权",
+   "Russell Kirk"
+  ],
+  "catalog_L_seats": 782,
+  "kept": 4,
+  "dropped": {
+   "day not 09-29/09-30": 515,
+   "already a row": 216,
+   "excluded: leak,union:leak": 5,
+   "excluded: union:hash_val_split,heldout_split": 25,
+   "excluded: leak,mmpq_val,union:leak,union:mmpq_val": 2,
+   "no v11 .stp (listed for build)": 15
+  },
+  "sampling_weight": 1.0,
+  "days": [
+   "2026-09-29",
+   "2026-09-30"
+  ],
+  "unbuilt_listed": 15
+ },
+ "wdl_labels": {
+  "L": 4044,
+  "D": 0,
+  "W": 12782
+ },
+ "buckets": {
+  "A": 5742,
+  "BC": 885,
+  "D": 1156,
+  "E": 4732,
+  "L": 231,
+  "W_N": 36
+ },
+ "fingerprinted_rows": 16826,
+ "bucket_probs_arg": "A=0.5239,BC=0.2116,D=0.1471,E=0.0490,L=0.0552,W_N=0.0131",
+ "margin_abs": {
+  "median_M": 4631.0,
+  "q1": 1960.0,
+  "q2": 4631.0,
+  "q3": 9644.75,
+  "min": 1.0,
+  "max": 199080.0,
+  "share_lt_2000": 0.2535,
+  "share_gt_20000": 0.115
+ },
+ "wdl_weight": {
+  "rule": "w = 1/(1+|margin|/M), M = median |margin| of all rows, mean-normalised to 1",
+  "min": 0.044411,
+  "max": 1.953156,
+  "mean": 1.0,
+  "ess": 13638.8,
+  "rows": 16826
+ }
+}

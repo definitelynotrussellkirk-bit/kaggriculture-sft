@@ -1,0 +1,64 @@
+{
+ "roster": "/mnt/ai/scratch/farmNEAT/broad/rows-buckets.b98b0f4f232a.tsv",
+ "sha256": "b98b0f4f232a1ca4cc953acdd9adec3dbbc048f6f615293f45032e4d59ee6942",
+ "bucket_dir": "/mnt/ai/scratch/farmNEAT/broad/buckets/e1721238ab95",
+ "bucket_files": {
+  "A": {
+   "path": "/mnt/ai/scratch/farmNEAT/broad/buckets/e1721238ab95/A.tsv",
+   "sha256": "1792abe945bcebe294a2f5dab2a96498124361d47f2ec11b2018975381488040",
+   "cached_seats": 4095
+  },
+  "B": {
+   "path": "/mnt/ai/scratch/farmNEAT/broad/buckets/e1721238ab95/B.tsv",
+   "sha256": "3c056a65794f3848ca1291632f603c6d0d0970e5b737c8eb82082bb5d692ebb8",
+   "cached_seats": 71
+  },
+  "C": {
+   "path": "/mnt/ai/scratch/farmNEAT/broad/buckets/e1721238ab95/C.tsv",
+   "sha256": "7cb099ea939636153c62c5f36110d4f8392a3a8ea16980decade219d72ed0128",
+   "cached_seats": 2060
+  },
+  "D": {
+   "path": "/mnt/ai/scratch/farmNEAT/broad/buckets/e1721238ab95/D.tsv",
+   "sha256": "8b1f5b363c800e36498782c3ccd33dea45a346be6cacda8e954e73a7db55fadc",
+   "cached_seats": 1157
+  },
+  "E": {
+   "path": "/mnt/ai/scratch/farmNEAT/broad/buckets/e1721238ab95/E.tsv",
+   "sha256": "4838eb34a202a6e2e091500d34c1b52874b363f1a49ffaee0c0af82a32bffd5e",
+   "cached_seats": 4772
+  }
+ },
+ "recipe_sha256": "6ede9ae94aabfa1ebc04f20c6704b618db8487e9825af4621868c2cdf2a9b79e",
+ "requested_share_renormalised": {
+  "A": 0.3684,
+  "B": 0.2105,
+  "C": 0.2105,
+  "D": 0.1579,
+  "E": 0.0526
+ },
+ "empty_buckets_dropped": [],
+ "seats": {
+  "A": 4095,
+  "B": 71,
+  "C": 2060,
+  "D": 1157,
+  "E": 4772
+ },
+ "integer_weight": {
+  "A": 8,
+  "B": 269,
+  "C": 9,
+  "D": 12,
+  "E": 1
+ },
+ "effective_share": {
+  "A": 0.3679,
+  "B": 0.2145,
+  "C": 0.2082,
+  "D": 0.1559,
+  "E": 0.0536
+ },
+ "max_abs_share_error": 0.004,
+ "per_seat_weights": "none (owner: uniform within bucket)"
+}

@@ -1,0 +1,458 @@
+{
+ "sha256": "ca5101d3833c7e5b1ac27c83c90e36f2b35e915208bc02dbb10cef12b7e2f5e2",
+ "dir": "/mnt/ai/scratch/farmNEAT/broad/buckets/ca5101d3833c",
+ "built_utc": "2026-09-30T08:06:02Z",
+ "leaderboard_snapshot": "LEADERBOARD-20260930T0747.csv",
+ "top4_train": "/mnt/ai/scratch/farmNEAT/corpus-final/special/TOP4-BEATERS-LATEST/TRAIN.tsv",
+ "qualifying_winner_seats": 75154,
+ "excluded_static_winner": 1541,
+ "excluded_blocked_submission": 6,
+ "excluded_holdout": 529,
+ "excluded_non_train_split": 7045,
+ "not_tsv_ready": 29,
+ "buckets": {
+  "A": {
+   "share": 0.35,
+   "seats": 4095,
+   "cached": 4095,
+   "uncached": 0,
+   "days": [
+    "2026-09-07",
+    "2026-09-30"
+   ],
+   "quality_src": null
+  },
+  "B": {
+   "share": 0.2,
+   "seats": 71,
+   "cached": 71,
+   "uncached": 0,
+   "days": [
+    "2026-09-30",
+    "2026-09-30"
+   ],
+   "quality_src": null
+  },
+  "C": {
+   "share": 0.2,
+   "seats": 2060,
+   "cached": 2060,
+   "uncached": 0,
+   "days": [
+    "2026-09-29",
+    "2026-09-29"
+   ],
+   "quality_src": null
+  },
+  "D": {
+   "share": 0.15,
+   "seats": 1192,
+   "cached": 1192,
+   "uncached": 0,
+   "days": [
+    "2026-09-24",
+    "2026-09-28"
+   ],
+   "quality_src": {
+    "leaderboard": 971,
+    "at-time": 221
+   }
+  },
+  "E": {
+   "share": 0.05,
+   "seats": 4785,
+   "cached": 4770,
+   "uncached": 15,
+   "days": [
+    "2026-09-03",
+    "2026-09-23"
+   ],
+   "quality_src": {
+    "at-time": 4644,
+    "leaderboard": 141
+   }
+  }
+ },
+ "effective_shares": {
+  "A": 0.3684,
+  "B": 0.2105,
+  "C": 0.2105,
+  "D": 0.1579,
+  "E": 0.0526
+ },
+ "empty_buckets": [],
+ "top10_per_day": {
+  "2026-09-24": {
+   "pool": 2194,
+   "kept": 219,
+   "at_time_share": 0.991
+  },
+  "2026-09-25": {
+   "pool": 2067,
+   "kept": 207,
+   "at_time_share": 0.019
+  },
+  "2026-09-26": {
+   "pool": 2589,
+   "kept": 259,
+   "at_time_share": 0.0
+  },
+  "2026-09-27": {
+   "pool": 2573,
+   "kept": 257,
+   "at_time_share": 0.0
+  },
+  "2026-09-28": {
+   "pool": 2499,
+   "kept": 250,
+   "at_time_share": 0.0
+  },
+  "2026-09-03": {
+   "pool": 192,
+   "kept": 19,
+   "at_time_share": 0.0
+  },
+  "2026-09-04": {
+   "pool": 314,
+   "kept": 31,
+   "at_time_share": 0.0
+  },
+  "2026-09-05": {
+   "pool": 365,
+   "kept": 36,
+   "at_time_share": 0.0
+  },
+  "2026-09-06": {
+   "pool": 545,
+   "kept": 54,
+   "at_time_share": 0.0
+  },
+  "2026-09-07": {
+   "pool": 698,
+   "kept": 70,
+   "at_time_share": 0.986
+  },
+  "2026-09-08": {
+   "pool": 703,
+   "kept": 70,
+   "at_time_share": 1.0
+  },
+  "2026-09-09": {
+   "pool": 938,
+   "kept": 94,
+   "at_time_share": 1.0
+  },
+  "2026-09-10": {
+   "pool": 2032,
+   "kept": 203,
+   "at_time_share": 1.0
+  },
+  "2026-09-11": {
+   "pool": 2229,
+   "kept": 223,
+   "at_time_share": 1.0
+  },
+  "2026-09-12": {
+   "pool": 1739,
+   "kept": 174,
+   "at_time_share": 1.0
+  },
+  "2026-09-13": {
+   "pool": 2653,
+   "kept": 265,
+   "at_time_share": 1.0
+  },
+  "2026-09-14": {
+   "pool": 3464,
+   "kept": 346,
+   "at_time_share": 1.0
+  },
+  "2026-09-15": {
+   "pool": 3498,
+   "kept": 350,
+   "at_time_share": 1.0
+  },
+  "2026-09-16": {
+   "pool": 4117,
+   "kept": 412,
+   "at_time_share": 1.0
+  },
+  "2026-09-17": {
+   "pool": 4266,
+   "kept": 427,
+   "at_time_share": 1.0
+  },
+  "2026-09-18": {
+   "pool": 4050,
+   "kept": 405,
+   "at_time_share": 1.0
+  },
+  "2026-09-19": {
+   "pool": 3707,
+   "kept": 371,
+   "at_time_share": 1.0
+  },
+  "2026-09-20": {
+   "pool": 3512,
+   "kept": 351,
+   "at_time_share": 1.0
+  },
+  "2026-09-21": {
+   "pool": 3308,
+   "kept": 331,
+   "at_time_share": 1.0
+  },
+  "2026-09-22": {
+   "pool": 3136,
+   "kept": 314,
+   "at_time_share": 1.0
+  },
+  "2026-09-23": {
+   "pool": 2390,
+   "kept": 239,
+   "at_time_share": 1.0
+  }
+ },
+ "admission_gate": {
+  "families": {
+   "leak": 0,
+   "holdout_val_sealed_seed": 0,
+   "top4_val": 0,
+   "static": 0,
+   "blocked_sub": 0,
+   "ours": 0,
+   "mirror": 0,
+   "not_train_split": 0,
+   "duplicate_seat": 0
+  },
+  "status": "PASS"
+ },
+ "opp_is_us_winners_kept": {
+  "A": 8,
+  "B": 33,
+  "C": 108,
+  "D": 5,
+  "E": 0
+ },
+ "hosted_ours_source_rows": {
+  "A": 7,
+  "B": 33,
+  "C": 41,
+  "D": 1,
+  "E": 0
+ },
+ "support_per_day": {
+  "A:2026-09-07": {
+   "selected": 3,
+   "cached": 3
+  },
+  "A:2026-09-08": {
+   "selected": 7,
+   "cached": 7
+  },
+  "A:2026-09-09": {
+   "selected": 19,
+   "cached": 19
+  },
+  "A:2026-09-10": {
+   "selected": 49,
+   "cached": 49
+  },
+  "A:2026-09-11": {
+   "selected": 68,
+   "cached": 68
+  },
+  "A:2026-09-12": {
+   "selected": 103,
+   "cached": 103
+  },
+  "A:2026-09-13": {
+   "selected": 77,
+   "cached": 77
+  },
+  "A:2026-09-14": {
+   "selected": 77,
+   "cached": 77
+  },
+  "A:2026-09-15": {
+   "selected": 94,
+   "cached": 94
+  },
+  "A:2026-09-16": {
+   "selected": 185,
+   "cached": 185
+  },
+  "A:2026-09-17": {
+   "selected": 148,
+   "cached": 148
+  },
+  "A:2026-09-18": {
+   "selected": 126,
+   "cached": 126
+  },
+  "A:2026-09-19": {
+   "selected": 124,
+   "cached": 124
+  },
+  "A:2026-09-20": {
+   "selected": 82,
+   "cached": 82
+  },
+  "A:2026-09-21": {
+   "selected": 59,
+   "cached": 59
+  },
+  "A:2026-09-22": {
+   "selected": 149,
+   "cached": 149
+  },
+  "A:2026-09-23": {
+   "selected": 187,
+   "cached": 187
+  },
+  "A:2026-09-24": {
+   "selected": 247,
+   "cached": 247
+  },
+  "A:2026-09-25": {
+   "selected": 324,
+   "cached": 324
+  },
+  "A:2026-09-26": {
+   "selected": 315,
+   "cached": 315
+  },
+  "A:2026-09-27": {
+   "selected": 355,
+   "cached": 355
+  },
+  "A:2026-09-28": {
+   "selected": 367,
+   "cached": 367
+  },
+  "A:2026-09-29": {
+   "selected": 479,
+   "cached": 479
+  },
+  "A:2026-09-30": {
+   "selected": 451,
+   "cached": 451
+  },
+  "B:2026-09-30": {
+   "selected": 71,
+   "cached": 71
+  },
+  "C:2026-09-29": {
+   "selected": 2060,
+   "cached": 2060
+  },
+  "D:2026-09-24": {
+   "selected": 219,
+   "cached": 219
+  },
+  "D:2026-09-25": {
+   "selected": 207,
+   "cached": 207
+  },
+  "D:2026-09-26": {
+   "selected": 259,
+   "cached": 259
+  },
+  "D:2026-09-27": {
+   "selected": 257,
+   "cached": 257
+  },
+  "D:2026-09-28": {
+   "selected": 250,
+   "cached": 250
+  },
+  "E:2026-09-03": {
+   "selected": 19,
+   "cached": 13
+  },
+  "E:2026-09-04": {
+   "selected": 31,
+   "cached": 31
+  },
+  "E:2026-09-05": {
+   "selected": 36,
+   "cached": 33
+  },
+  "E:2026-09-06": {
+   "selected": 54,
+   "cached": 48
+  },
+  "E:2026-09-07": {
+   "selected": 70,
+   "cached": 70
+  },
+  "E:2026-09-08": {
+   "selected": 70,
+   "cached": 70
+  },
+  "E:2026-09-09": {
+   "selected": 94,
+   "cached": 94
+  },
+  "E:2026-09-10": {
+   "selected": 203,
+   "cached": 203
+  },
+  "E:2026-09-11": {
+   "selected": 223,
+   "cached": 223
+  },
+  "E:2026-09-12": {
+   "selected": 174,
+   "cached": 174
+  },
+  "E:2026-09-13": {
+   "selected": 265,
+   "cached": 265
+  },
+  "E:2026-09-14": {
+   "selected": 346,
+   "cached": 346
+  },
+  "E:2026-09-15": {
+   "selected": 350,
+   "cached": 350
+  },
+  "E:2026-09-16": {
+   "selected": 412,
+   "cached": 412
+  },
+  "E:2026-09-17": {
+   "selected": 427,
+   "cached": 427
+  },
+  "E:2026-09-18": {
+   "selected": 405,
+   "cached": 405
+  },
+  "E:2026-09-19": {
+   "selected": 371,
+   "cached": 371
+  },
+  "E:2026-09-20": {
+   "selected": 351,
+   "cached": 351
+  },
+  "E:2026-09-21": {
+   "selected": 331,
+   "cached": 331
+  },
+  "E:2026-09-22": {
+   "selected": 314,
+   "cached": 314
+  },
+  "E:2026-09-23": {
+   "selected": 239,
+   "cached": 239
+  }
+ },
+ "zero_support_days": [],
+ "hash_of": "bytes of the published A..E.tsv (cached seats), concatenated in A..E order",
+ "publish": "PUBLISHED",
+ "seconds": 22.8
+}

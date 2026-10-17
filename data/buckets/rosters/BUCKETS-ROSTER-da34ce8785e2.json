@@ -1,0 +1,62 @@
+{
+ "roster": "/mnt/ai/scratch/farmNEAT/broad/rows-buckets.da34ce8785e2.tsv",
+ "sha256": "da34ce8785e22673aa2111c11d2b6c1d2bfbe5dbeb05cb7273d3e4c10e7e73df",
+ "bucket_dir": "/mnt/ai/scratch/farmNEAT/broad/buckets/5cc67a4f11bb",
+ "bucket_files": {
+  "A": {
+   "path": "/mnt/ai/scratch/farmNEAT/broad/buckets/5cc67a4f11bb/A.tsv",
+   "sha256": "765f08f61b6ca092b4f9b75b5e3c1946181a81c9f36ea2d07fb312bc9d6aed6e",
+   "cached_seats": 4220
+  },
+  "BC": {
+   "path": "/mnt/ai/scratch/farmNEAT/broad/buckets/5cc67a4f11bb/BC.tsv",
+   "sha256": "13e3c247ebd2e1ddc601a013837fb80db792fc12adc33160f918883f1e1779a3",
+   "cached_seats": 2195
+  },
+  "D": {
+   "path": "/mnt/ai/scratch/farmNEAT/broad/buckets/5cc67a4f11bb/D.tsv",
+   "sha256": "9f903d07a08f0722541d8694b5c970ca6b24c01f5c67c437fc9b4f4e40c49b0b",
+   "cached_seats": 1157
+  },
+  "E": {
+   "path": "/mnt/ai/scratch/farmNEAT/broad/buckets/5cc67a4f11bb/E.tsv",
+   "sha256": "627a6115962ab063140855df1cdfab1cc6522c2abdc4470db67dd3191734e14d",
+   "cached_seats": 4759
+  }
+ },
+ "recipe_sha256": "6ba5214caadb32866f47fc913aab77b9c0012d8a84a895c71e080c8aea724bb2",
+ "requested_share_renormalised": {
+  "A": 0.3684,
+  "BC": 0.4211,
+  "D": 0.1579,
+  "E": 0.0526
+ },
+ "empty_buckets_dropped": [],
+ "seats": {
+  "A": 4220,
+  "BC": 2195,
+  "D": 1157,
+  "E": 4759
+ },
+ "integer_weight": {
+  "A": 16,
+  "BC": 35,
+  "D": 25,
+  "E": 2
+ },
+ "effective_share": {
+  "A": 0.3694,
+  "BC": 0.4203,
+  "D": 0.1582,
+  "E": 0.0521
+ },
+ "max_abs_share_error": 0.001,
+ "shares_source": "/mnt/ai/scratch/farmNEAT/broad/buckets/5cc67a4f11bb/EFFECTIVE-SHARES.json",
+ "shares_in": {
+  "A": 0.368421,
+  "BC": 0.421053,
+  "D": 0.157895,
+  "E": 0.052632
+ },
+ "per_seat_weights": "none (owner: uniform within bucket)"
+}

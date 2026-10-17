@@ -1,0 +1,17 @@
+effective written
+2026-09-30T18:36:08-04:00 nflow-main-wash8014 from /mnt/ai/scratch/farmNEAT/n-flow/release-ckpts/nflow-main-wash8014/ckpt-0056559.pt -> /mnt/ai/scratch/farmNEAT/pbc-deploy/nflow-main-wash8014 on russ-4090b load 3.64 4.16 4.50
+start 2026-09-30T18:36:08-04:00 nflow-main-wash8014 /mnt/ai/scratch/farmNEAT/n-flow/release-ckpts/nflow-main-wash8014/ckpt-0056559.pt russ-4090b
+/mnt/ai/scratch/farmNEAT/pbc-deploy/nflow-main-wash8014/ema.pt: update 56559 (ema)
+{"archive": "/mnt/ai/scratch/farmNEAT/pbc-deploy/nflow-main-wash8014/nflow-main-wash8014.tar.gz", "archive_sha256": "7661782af4ca815585945b019963b86586dbae490ba2554b592fdb080f0f4b3e", "archive_bytes": 13605819, "members": 38, "uncompressed_bytes": 15202181, "weights_bytes": 14536956}
+PASS seat0 W steps=719 own=129604 rival=3000 fallbacks=0 hard=0 log_lines=719 child_p50=48.077 p95=50.145 max=756.453 load_ms=627.0 complete=True
+PASS seat1 W steps=719 own=205286 rival=3000 fallbacks=0 hard=0 log_lines=719 child_p50=48.084 p95=50.082 max=763.032 load_ms=638.0 complete=True
+done 2026-09-30T18:37:35-04:00
+{"effective": "/mnt/ai/scratch/farmNEAT/pbc-deploy/nflow-main-wash8014/EFFECTIVE-RELEASE.json", "release_checkpoint": "/mnt/ai/scratch/farmNEAT/n-flow/release-ckpts/nflow-main-wash8014/ckpt-0056559.pt", "release_checkpoint_sha256": "7dacc5983b96f5b68526bf4b6c8c55e71bb1455dbb3c4662157150e88f836953", "source_effective_sha256": "688d40d747fd7fcef373cccb7d3de27b758ec2399384791ebc2b25ae31471949"}
+{"eid": 113981978, "seat": 1, "steps": 30, "decisions_compared": 248, "max_abs_logit_diff": 4.5418739318847656e-05, "tol": 0.002, "greedy_deterministic": true, "step0_farmer_argmax": [0, 0], "fails": []}
+PASS
+{"pass": true, "effective_nonempty": true, "effective_binds_checkpoint": true, "policy_equals_fp16_ema": true, "tensors": 127, "policy_pt_sha256": "56fdb45068d8f1ab26fa8bb22f57c4bdb7d090f0fff6428a5867c1ee827d08a6"}
+{"name": "nflow-main-wash8014", "all_pass": true, "links": {"archive": true, "hub_done": true, "cold": true, "export": true, "effective": true, "policy_fp16_ema": true}, "archive_sha256": "7661782af4ca815585945b019963b86586dbae490ba2554b592fdb080f0f4b3e", "archive_bytes": 13605819, "checkpoint_sha256": "7dacc5983b96f5b68526bf4b6c8c55e71bb1455dbb3c4662157150e88f836953"}
+{"all_pass": true, "archive_bytes": 13605819, "archive_sha256": "7661782af4ca815585945b019963b86586dbae490ba2554b592fdb080f0f4b3e", "checkpoint": "/mnt/ai/scratch/farmNEAT/n-flow/release-ckpts/nflow-main-wash8014/ckpt-0056559.pt", "checkpoint_sha256": "7dacc5983b96f5b68526bf4b6c8c55e71bb1455dbb3c4662157150e88f836953", "completed_utc": "2026-09-30T22:37:45.654291+00:00", "issues": [], "links_sha256": "920d3065f18ec21eaac734167ab7cb474aa07d32a545d59ac1b89be301bf95c4", "name": "nflow-main-wash8014"}
+{"name": "nflow-main-wash8014", "checkpoint": "/mnt/ai/scratch/farmNEAT/n-flow/release-ckpts/nflow-main-wash8014/ckpt-0056559.pt", "checkpoint_sha256": "7dacc5983b96f5b68526bf4b6c8c55e71bb1455dbb3c4662157150e88f836953", "archive_sha256": "7661782af4ca815585945b019963b86586dbae490ba2554b592fdb080f0f4b3e", "complete": true, "fallbacks": 0, "sha_match": true, "lineage": "checkpoint-bound", "checkpoint_update": 56559, "fresh_init_run": false, "base_checkpoint": "/mnt/ai/scratch/farmNEAT/n-flow/keeps/ckpt-0056259.pt", "base_checkpoint_sha256": "c27324605a88e3b4a754b1f31877041a1c95b5b6ab3740db09bd49ec0f08188e", "seed_raw_from": "ema"}
+attempt 1 ok 2026-09-30T18:37:34-04:00 host russ-4090b load 1.66 3.39 4.19
+2026-09-30T18:37:45-04:00 done nflow-main-wash8014

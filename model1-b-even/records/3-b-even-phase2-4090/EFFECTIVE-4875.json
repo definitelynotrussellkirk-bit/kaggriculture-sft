@@ -1,0 +1,29 @@
+{
+ "model": "N = B-even (B u31047 EMA, encoder heads 36 -> 18)",
+ "init": "/mnt/ai/scratch/farmNEAT/b-even/beven-h18-init.pt",
+ "init_sha256": "9ee7a6713df9c1f7a9ffa77e74034dfb2f358320ff5a339c5c5b4429fd63755e",
+ "teacher": "/mnt/ai/scratch/farmNEAT/base-v1/runs/b/chunks/chunk9-ckpt-0031047.pt",
+ "teacher_sha256": "08a058abd9b807e02be6505dab2f42277222020a3cea9ea489d153385f1117a9",
+ "phase1": {
+  "runner": "/mnt/ai/scratch/farmNEAT/oa3-astra/tools-cont/oa3/cache_train.py",
+  "runner_sha256": "621f26151956b42e54c5dd2ceb778890f9c857c9df8536ccc29b6e1c023b3aa5",
+  "trainer_model_sha256": "21ad7872ceed789fb0b3958d1f724ff9f6074b122cc65fc492795ff92f402675",
+  "frozen_train_sha256": "3491da7e50691afbb3a28aeb1a8eb430ac8fb98df8de0f992c2725c853742460",
+  "step_w": "/mnt/ai/scratch/farmNEAT/oa3-astra/cont-step-w.94bc8331b271.tsv",
+  "step_w_sha256": "94bc8331b2715962bd24abd4948544c44f9c458ac5c36fa6fc62c3ee241907e8",
+  "loss": "0.5 BC + 0.5 KD(B31 EMA, T 1.5), unit mask",
+  "lr": "3e-5 flat (100 warmup)",
+  "updates": 1000
+ },
+ "phase2": {
+  "trainer_train_sha256": "2a41cec311ae37bb0da87c519d4560e3ab45726edb4e95dd0275000413be723f",
+  "trainer_model_sha256": "21ad7872ceed789fb0b3958d1f724ff9f6074b122cc65fc492795ff92f402675",
+  "roster": "/mnt/ai/scratch/farmNEAT/base-v1-oa3plan/rows-b-final-clean.63e57662a18f.tsv",
+  "roster_sha256": "63e57662a18f22bb59aac0d356efdbc05867ce2c5bde50bac20e2cbb0bf2d16a",
+  "step_w": "/mnt/ai/scratch/farmNEAT/oa3-astra/cont-step-w.94bc8331b271.tsv",
+  "lr": "3e-5",
+  "recipe": "chunk-10 (RUN-10 PBC env), pack 256, batch 128 windows, ckpt 500, trainer u = N u + 30000"
+ },
+ "archives": "n1-u<N>-v8g-a1-ema greedy EMA via hub_deploy (what ships); N u3000 and every 2k",
+ "skip_state": "none (no annealed skip in B-even)"
+}

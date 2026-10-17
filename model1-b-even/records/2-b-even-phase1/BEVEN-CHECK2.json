@@ -1,0 +1,124 @@
+{
+ "steps": 160,
+ "parent": "/mnt/ai/scratch/farmNEAT/base-v1/runs/b/chunks/chunk9-ckpt-0031047.pt",
+ "free_decode": "decode_free greedy, no prefix callback (same for every net)",
+ "variants": {
+  "asbuilt_18x24": {
+   "tf_whole_step_change": 0.5563,
+   "tf_unit": 0.9366,
+   "tf_unit_qty": 0.814,
+   "tf_order": 0.9149,
+   "tf_order_qty": 0.7316,
+   "free_whole_step_change": 0.5312,
+   "free_unit_tok": 0.9435,
+   "free_unit_qty": 0.7317,
+   "free_order_tok": 0.8104,
+   "free_order_qty": 0.5389,
+   "group_similarity_adjacent_vs_selected": null
+  },
+  "cluster_18x24_meanlogit": {
+   "tf_whole_step_change": 0.7188,
+   "tf_unit": 0.9246,
+   "tf_unit_qty": 0.8372,
+   "tf_order": 0.7862,
+   "tf_order_qty": 0.5684,
+   "free_whole_step_change": 0.7375,
+   "free_unit_tok": 0.9209,
+   "free_unit_qty": 0.6,
+   "free_order_tok": 0.6438,
+   "free_order_qty": 0.3445,
+   "group_similarity_adjacent_vs_selected": [
+    [
+     0.0039,
+     0.0363
+    ],
+    [
+     0.0029,
+     0.0153
+    ],
+    [
+     0.0034,
+     0.0254
+    ]
+   ]
+  },
+  "cluster_12x36_meanlogit": {
+   "tf_whole_step_change": 0.8,
+   "tf_unit": 0.8876,
+   "tf_unit_qty": 0.7907,
+   "tf_order": 0.7471,
+   "tf_order_qty": 0.4632,
+   "free_whole_step_change": 0.7937,
+   "free_unit_tok": 0.8819,
+   "free_unit_qty": 0.5102,
+   "free_order_tok": 0.5084,
+   "free_order_qty": 0.1803,
+   "group_similarity_adjacent_vs_selected": [
+    [
+     0.004,
+     0.0249
+    ],
+    [
+     0.0043,
+     0.0125
+    ],
+    [
+     0.0038,
+     0.0192
+    ]
+   ]
+  },
+  "cluster_18x24_noscale": {
+   "tf_whole_step_change": 0.7063,
+   "tf_unit": 0.9322,
+   "tf_unit_qty": 0.7907,
+   "tf_order": 0.8092,
+   "tf_order_qty": 0.6368,
+   "free_whole_step_change": 0.7,
+   "free_unit_tok": 0.9265,
+   "free_unit_qty": 0.6136,
+   "free_order_tok": 0.6199,
+   "free_order_qty": 0.375,
+   "group_similarity_adjacent_vs_selected": [
+    [
+     0.0039,
+     0.0363
+    ],
+    [
+     0.0029,
+     0.0153
+    ],
+    [
+     0.0034,
+     0.0254
+    ]
+   ]
+  },
+  "asbuilt_18x24_meanlogit": {
+   "tf_whole_step_change": 0.7375,
+   "tf_unit": 0.9064,
+   "tf_unit_qty": 0.814,
+   "tf_order": 0.8,
+   "tf_order_qty": 0.6105,
+   "free_whole_step_change": 0.7,
+   "free_unit_tok": 0.9095,
+   "free_unit_qty": 0.6809,
+   "free_order_tok": 0.685,
+   "free_order_qty": 0.4069,
+   "group_similarity_adjacent_vs_selected": null
+  },
+  "job4308_u1000_ema": {
+   "tf_whole_step_change": 0.3812,
+   "tf_unit": 0.9667,
+   "tf_unit_qty": 0.9302,
+   "tf_order": 0.9563,
+   "tf_order_qty": 0.8632,
+   "free_whole_step_change": 0.3563,
+   "free_unit_tok": 0.968,
+   "free_unit_qty": 0.7381,
+   "free_order_tok": 0.8914,
+   "free_order_qty": 0.738
+  }
+ },
+ "seconds": 189.8
+}

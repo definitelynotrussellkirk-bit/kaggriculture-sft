@@ -1,0 +1,1 @@
+2026-09-27 16:58 EDT: removed 4 rows that were our own team's winning seats (bug hunt, pbc-bugcheck-20260927 bug 4; 7 of 18,000 weight). Pilots A/B and the from-scratch runs 1065/1066 trained on the file with these rows (backup PRIORITY-V5S.tsv.bak-with-own-rows).

@@ -1,0 +1,79 @@
+{
+ "games": [
+  {
+   "episode_id": 115987062,
+   "mmpq_seat": 0,
+   "seat": 0,
+   "rewards": [
+    107550.0,
+    104168.0
+   ],
+   "archive": "/mnt/ai/scratch/farmNEAT/primitive-bc-data/extra/manual-ingest/archives/manual-115987062.zip",
+   "member": "115987062.json",
+   "team_names": [
+    "M & M & P & Q",
+    "DECEM"
+   ]
+  },
+  {
+   "episode_id": 115984030,
+   "mmpq_seat": 1,
+   "seat": 1,
+   "rewards": [
+    106138.0,
+    106231.0
+   ],
+   "archive": "/mnt/ai/scratch/farmNEAT/primitive-bc-data/extra/copy-mmpq/archives/kaggriculture-topteams-2026-09-30-20260930T221148.zip",
+   "member": "115984030.json",
+   "team_names": [
+    "DECEM",
+    "M & M & P & Q"
+   ]
+  },
+  {
+   "episode_id": 115991669,
+   "mmpq_seat": 0,
+   "seat": 0,
+   "rewards": [
+    113323.0,
+    107427.0
+   ],
+   "archive": "/mnt/ai/scratch/farmNEAT/primitive-bc-data/extra/manual-ingest/archives/manual-115991669.zip",
+   "member": "115991669.json",
+   "team_names": [
+    "M & M & P & Q",
+    "DECEM"
+   ]
+  },
+  {
+   "episode_id": 115994724,
+   "mmpq_seat": 0,
+   "seat": 0,
+   "rewards": [
+    106625.0,
+    104438.0
+   ],
+   "archive": "/mnt/ai/scratch/farmNEAT/primitive-bc-data/extra/manual-ingest/archives/manual-115994724.zip",
+   "member": "115994724.json",
+   "team_names": [
+    "M & M & P & Q",
+    "DSM"
+   ]
+  },
+  {
+   "episode_id": 115999365,
+   "mmpq_seat": 0,
+   "seat": 0,
+   "rewards": [
+    106795.0,
+    101668.0
+   ],
+   "archive": "/mnt/ai/scratch/farmNEAT/primitive-bc-data/extra/manual-ingest/archives/manual-115999365.zip",
+   "member": "115999365.json",
+   "team_names": [
+    "M & M & P & Q",
+    "DECEM"
+   ]
+  }
+ ]
+}

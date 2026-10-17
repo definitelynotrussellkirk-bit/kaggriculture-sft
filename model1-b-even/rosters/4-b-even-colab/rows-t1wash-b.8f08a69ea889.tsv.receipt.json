@@ -1,0 +1,138 @@
+{
+ "schema": "t1wash-b/v2",
+ "roster": "/mnt/ai/scratch/farmNEAT/broad/t1/wash/rows-t1wash-b.8f08a69ea889.tsv",
+ "sha256": "8f08a69ea889f2c9c8c4c7df7e85b397fc6961876a2c379257b3a22b387dc050",
+ "rows": 555,
+ "bucket_rows": {
+  "T1W-BEST": 1,
+  "T1W": 100,
+  "T2W": 87,
+  "T3W": 77,
+  "T4X": 290
+ },
+ "integer_weight": {
+  "T1W-BEST": 1338,
+  "T1W": 335,
+  "T2W": 100,
+  "T3W": 113,
+  "T4X": 20
+ },
+ "target_share": {
+  "T1W-BEST": 0.0231,
+  "T1W": 0.5769,
+  "T2W": 0.15,
+  "T3W": 0.15,
+  "T4X": 0.1
+ },
+ "realised_share": {
+  "T1W-BEST": 0.0231,
+  "T1W": 0.5772,
+  "T2W": 0.1499,
+  "T3W": 0.1499,
+  "T4X": 0.0999
+ },
+ "mix_flag": [],
+ "top3": [
+  [
+   16681125,
+   "M & M & P & Q",
+   3049.8
+  ],
+  [
+   16621497,
+   "Victor @ Tufa Labs",
+   2955.1
+  ],
+  [
+   16623559,
+   "DECEM",
+   2947.7
+  ],
+  [
+   16732748,
+   "DSM",
+   2910.0
+  ],
+  [
+   16736435,
+   "CDE",
+   2881.5
+  ],
+  [
+   16730612,
+   "Unknown Mother-Goose",
+   2870.0
+  ],
+  [
+   16654697,
+   "KawattaTaido",
+   2855.6
+  ],
+  [
+   16770421,
+   "Vadim Vasilenko",
+   2845.6
+  ],
+  [
+   16698308,
+   "Gemini IS ALL YOU NEED",
+   2845.5
+  ],
+  [
+   16684994,
+   "TKNP",
+   2842.4
+  ],
+  [
+   16628664,
+   "Anton Tikhonov",
+   2814.1
+  ],
+  [
+   16854176,
+   "\u5403\u767d\u996d\u7684\u5927\u80a5\u9c7c",
+   2813.9
+  ],
+  [
+   16718819,
+   "Majkel1337",
+   2798.1
+  ],
+  [
+   16717665,
+   "Christoffer Thimsen",
+   2797.4
+  ],
+  [
+   16760699,
+   "Luca",
+   2796.0
+  ],
+  [
+   16714162,
+   "MarvinTMB",
+   2781.8
+  ],
+  [
+   16623716,
+   "tetsuya & yuanzhe & guoqin",
+   2781.6
+  ],
+  [
+   16623580,
+   "matu997",
+   2781.4
+  ],
+  [
+   16736838,
+   "\ud83d\ude17\u30a2\u30ca\u30b3\u30f3\u30c0\ud83e\udd2d",
+   2780.3
+  ],
+  [
+   16891902,
+   "Farmcore",
+   2779.1
+  ]
+ ],
+ "best_submission": 56701470
+}

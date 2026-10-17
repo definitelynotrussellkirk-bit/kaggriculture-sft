@@ -1,0 +1,565 @@
+{
+ "sha256": "a4b0ac42e1ae4dcaf3ff8ba71696384086e7a95fb84cd51fe5b8733d92afc0e2",
+ "dir": "/mnt/ai/scratch/farmNEAT/broad/buckets/a4b0ac42e1ae",
+ "built_utc": "2026-09-30T11:22:36Z",
+ "leaderboard_snapshot": "LEADERBOARD-20260930T1108.csv",
+ "top4_train": "/mnt/ai/scratch/farmNEAT/corpus-final/special/TOP4-BEATERS-LATEST/TRAIN.tsv",
+ "qualifying_winner_seats": 75569,
+ "excluded_unknown_opponent": 196,
+ "excluded_static_winner": 1482,
+ "excluded_blocked_submission": 6,
+ "excluded_beat_us_outside_days": 435,
+ "excluded_holdout": 595,
+ "excluded_non_train_split": 7027,
+ "not_tsv_ready": 0,
+ "excluded_D_no_finite_quality": 0,
+ "excluded_E_no_finite_quality": 168,
+ "buckets": {
+  "A": {
+   "share": 0.35,
+   "seats": 4294,
+   "cached": 4292,
+   "uncached": 2,
+   "days": [
+    "2026-09-07",
+    "2026-09-30"
+   ],
+   "quality_src": null
+  },
+  "L": {
+   "share": 0.0,
+   "seats": 158,
+   "cached": 158,
+   "uncached": 0,
+   "days": [
+    "2026-09-29",
+    "2026-09-30"
+   ],
+   "quality_src": null
+  },
+  "BC": {
+   "share": 0.4,
+   "seats": 2086,
+   "cached": 2085,
+   "uncached": 1,
+   "days": [
+    "2026-09-29",
+    "2026-09-30"
+   ],
+   "quality_src": null
+  },
+  "D": {
+   "share": 0.15,
+   "seats": 1157,
+   "cached": 1157,
+   "uncached": 0,
+   "days": [
+    "2026-09-24",
+    "2026-09-28"
+   ],
+   "quality_src": {
+    "leaderboard": 935,
+    "at-time": 222
+   }
+  },
+  "E": {
+   "share": 0.05,
+   "seats": 4759,
+   "cached": 4759,
+   "uncached": 0,
+   "days": [
+    "2026-09-03",
+    "2026-09-23"
+   ],
+   "quality_src": {
+    "at-time": 4643,
+    "leaderboard": 116
+   }
+  }
+ },
+ "recipe": {
+  "path": "/mnt/ai/scratch/farmNEAT/broad/BUCKET-RECIPE.json",
+  "sha256": "a364408facb775304c4fa7ab998ec59c3e8075dc893aaf9154fbceb140ed17be",
+  "shares": {
+   "A": 0.35,
+   "L": 0.0,
+   "BC": 0.4,
+   "D": 0.15,
+   "E": 0.05
+  },
+  "reserved": {
+   "S": {
+    "share": 0.05,
+    "what": "self-play bucket (gpu-scout builds it); used only in test branches until it passes a gate",
+    "control": "control runs renormalise A..E",
+    "lists": "/mnt/ai/scratch/farmNEAT/selfplay-s/S-<L>.tsv (per lineage B/O/N; owner gpu-scout; receipt selfplay-s/S0-RECEIPT.json)",
+    "share_rule": "min(.05, n_S*share_A/n_A)",
+    "share_rule_terms": "n_S = cached seats in selfplay-s/S-<L>.tsv; n_A = cached seats in the same bucket generation A.tsv; no S seat drawn more often than an A seat",
+    "min_seats": 300,
+    "min_seats_rule": "no S test branch before n_S >= 300 per lineage",
+    "enforced_by": "selfplay-s/build_test_roster.py (refuses below min_seats; receipts the computed share); source of rule: coordinator 04:3x via gpu-scout"
+   }
+  }
+ },
+ "base_shares": {
+  "A": 0.349463,
+  "BC": 0.399386,
+  "D": 0.14977,
+  "E": 0.049923,
+  "L": 0.051459
+ },
+ "effective_shares": {
+  "A": 0.349463,
+  "BC": 0.399386,
+  "D": 0.14977,
+  "E": 0.049923,
+  "L": 0.051459
+ },
+ "capped": {},
+ "dynamic_shares": {
+  "L": {
+   "rule": "cap_max_vs_A",
+   "multiplier": 4.0,
+   "n": 158,
+   "n_A": 4292,
+   "share": 0.051459
+  }
+ },
+ "shares_incl_S_reserve": {
+  "A": 0.331989,
+  "BC": 0.379417,
+  "D": 0.142281,
+  "E": 0.047427,
+  "L": 0.048886,
+  "S": 0.05
+ },
+ "empty_buckets": [],
+ "top10_per_day": {
+  "2026-09-24": {
+   "pool": 2178,
+   "kept": 218,
+   "at_time_share": 1.0
+  },
+  "2026-09-25": {
+   "pool": 2017,
+   "kept": 202,
+   "at_time_share": 0.02
+  },
+  "2026-09-26": {
+   "pool": 2490,
+   "kept": 249,
+   "at_time_share": 0.0
+  },
+  "2026-09-27": {
+   "pool": 2490,
+   "kept": 249,
+   "at_time_share": 0.0
+  },
+  "2026-09-28": {
+   "pool": 2392,
+   "kept": 239,
+   "at_time_share": 0.0
+  },
+  "2026-09-03": {
+   "pool": 179,
+   "kept": 18,
+   "at_time_share": 0.0
+  },
+  "2026-09-04": {
+   "pool": 296,
+   "kept": 30,
+   "at_time_share": 0.0
+  },
+  "2026-09-05": {
+   "pool": 338,
+   "kept": 34,
+   "at_time_share": 0.0
+  },
+  "2026-09-06": {
+   "pool": 327,
+   "kept": 33,
+   "at_time_share": 0.0
+  },
+  "2026-09-07": {
+   "pool": 686,
+   "kept": 69,
+   "at_time_share": 0.986
+  },
+  "2026-09-08": {
+   "pool": 703,
+   "kept": 70,
+   "at_time_share": 1.0
+  },
+  "2026-09-09": {
+   "pool": 937,
+   "kept": 94,
+   "at_time_share": 1.0
+  },
+  "2026-09-10": {
+   "pool": 2030,
+   "kept": 203,
+   "at_time_share": 1.0
+  },
+  "2026-09-11": {
+   "pool": 2228,
+   "kept": 223,
+   "at_time_share": 1.0
+  },
+  "2026-09-12": {
+   "pool": 1739,
+   "kept": 174,
+   "at_time_share": 1.0
+  },
+  "2026-09-13": {
+   "pool": 2650,
+   "kept": 265,
+   "at_time_share": 1.0
+  },
+  "2026-09-14": {
+   "pool": 3463,
+   "kept": 346,
+   "at_time_share": 1.0
+  },
+  "2026-09-15": {
+   "pool": 3498,
+   "kept": 350,
+   "at_time_share": 1.0
+  },
+  "2026-09-16": {
+   "pool": 4117,
+   "kept": 412,
+   "at_time_share": 1.0
+  },
+  "2026-09-17": {
+   "pool": 4266,
+   "kept": 427,
+   "at_time_share": 1.0
+  },
+  "2026-09-18": {
+   "pool": 4049,
+   "kept": 405,
+   "at_time_share": 1.0
+  },
+  "2026-09-19": {
+   "pool": 3707,
+   "kept": 371,
+   "at_time_share": 1.0
+  },
+  "2026-09-20": {
+   "pool": 3512,
+   "kept": 351,
+   "at_time_share": 1.0
+  },
+  "2026-09-21": {
+   "pool": 3308,
+   "kept": 331,
+   "at_time_share": 1.0
+  },
+  "2026-09-22": {
+   "pool": 3136,
+   "kept": 314,
+   "at_time_share": 1.0
+  },
+  "2026-09-23": {
+   "pool": 2386,
+   "kept": 239,
+   "at_time_share": 1.0
+  }
+ },
+ "admission_gate": {
+  "families": {
+   "leak": 0,
+   "holdout_val_sealed_seed": 0,
+   "top4_val": 0,
+   "static": 0,
+   "blocked_sub": 0,
+   "ours": 0,
+   "mirror": 0,
+   "not_train_split": 0,
+   "duplicate_seat": 0,
+   "beat_us_outside_days": 0,
+   "exclusion_union": 0
+  },
+  "status": "PASS"
+ },
+ "opp_is_us_winners_kept": {
+  "A": 0,
+  "L": 158,
+  "BC": 0,
+  "D": 0,
+  "E": 0
+ },
+ "opp_is_us_winners_selected": {
+  "A": 0,
+  "L": 158,
+  "BC": 0,
+  "D": 0,
+  "E": 0
+ },
+ "hosted_ours_source_rows": {
+  "A": 0,
+  "L": 86,
+  "BC": 0,
+  "D": 0,
+  "E": 0
+ },
+ "support_per_day": {
+  "A:2026-09-07": {
+   "selected": 3,
+   "cached": 3
+  },
+  "A:2026-09-08": {
+   "selected": 7,
+   "cached": 7
+  },
+  "A:2026-09-09": {
+   "selected": 19,
+   "cached": 19
+  },
+  "A:2026-09-10": {
+   "selected": 49,
+   "cached": 49
+  },
+  "A:2026-09-11": {
+   "selected": 68,
+   "cached": 68
+  },
+  "A:2026-09-12": {
+   "selected": 103,
+   "cached": 103
+  },
+  "A:2026-09-13": {
+   "selected": 77,
+   "cached": 77
+  },
+  "A:2026-09-14": {
+   "selected": 77,
+   "cached": 77
+  },
+  "A:2026-09-15": {
+   "selected": 94,
+   "cached": 94
+  },
+  "A:2026-09-16": {
+   "selected": 185,
+   "cached": 185
+  },
+  "A:2026-09-17": {
+   "selected": 148,
+   "cached": 148
+  },
+  "A:2026-09-18": {
+   "selected": 126,
+   "cached": 126
+  },
+  "A:2026-09-19": {
+   "selected": 124,
+   "cached": 124
+  },
+  "A:2026-09-20": {
+   "selected": 82,
+   "cached": 82
+  },
+  "A:2026-09-21": {
+   "selected": 59,
+   "cached": 59
+  },
+  "A:2026-09-22": {
+   "selected": 149,
+   "cached": 149
+  },
+  "A:2026-09-23": {
+   "selected": 187,
+   "cached": 187
+  },
+  "A:2026-09-24": {
+   "selected": 247,
+   "cached": 247
+  },
+  "A:2026-09-25": {
+   "selected": 324,
+   "cached": 324
+  },
+  "A:2026-09-26": {
+   "selected": 315,
+   "cached": 315
+  },
+  "A:2026-09-27": {
+   "selected": 355,
+   "cached": 355
+  },
+  "A:2026-09-28": {
+   "selected": 367,
+   "cached": 367
+  },
+  "A:2026-09-29": {
+   "selected": 479,
+   "cached": 479
+  },
+  "A:2026-09-30": {
+   "selected": 650,
+   "cached": 648
+  },
+  "BC:2026-09-29": {
+   "selected": 1963,
+   "cached": 1963
+  },
+  "BC:2026-09-30": {
+   "selected": 123,
+   "cached": 122
+  },
+  "D:2026-09-24": {
+   "selected": 218,
+   "cached": 218
+  },
+  "D:2026-09-25": {
+   "selected": 202,
+   "cached": 202
+  },
+  "D:2026-09-26": {
+   "selected": 249,
+   "cached": 249
+  },
+  "D:2026-09-27": {
+   "selected": 249,
+   "cached": 249
+  },
+  "D:2026-09-28": {
+   "selected": 239,
+   "cached": 239
+  },
+  "E:2026-09-03": {
+   "selected": 18,
+   "cached": 18
+  },
+  "E:2026-09-04": {
+   "selected": 30,
+   "cached": 30
+  },
+  "E:2026-09-05": {
+   "selected": 34,
+   "cached": 34
+  },
+  "E:2026-09-06": {
+   "selected": 33,
+   "cached": 33
+  },
+  "E:2026-09-07": {
+   "selected": 69,
+   "cached": 69
+  },
+  "E:2026-09-08": {
+   "selected": 70,
+   "cached": 70
+  },
+  "E:2026-09-09": {
+   "selected": 94,
+   "cached": 94
+  },
+  "E:2026-09-10": {
+   "selected": 203,
+   "cached": 203
+  },
+  "E:2026-09-11": {
+   "selected": 223,
+   "cached": 223
+  },
+  "E:2026-09-12": {
+   "selected": 174,
+   "cached": 174
+  },
+  "E:2026-09-13": {
+   "selected": 265,
+   "cached": 265
+  },
+  "E:2026-09-14": {
+   "selected": 346,
+   "cached": 346
+  },
+  "E:2026-09-15": {
+   "selected": 350,
+   "cached": 350
+  },
+  "E:2026-09-16": {
+   "selected": 412,
+   "cached": 412
+  },
+  "E:2026-09-17": {
+   "selected": 427,
+   "cached": 427
+  },
+  "E:2026-09-18": {
+   "selected": 405,
+   "cached": 405
+  },
+  "E:2026-09-19": {
+   "selected": 371,
+   "cached": 371
+  },
+  "E:2026-09-20": {
+   "selected": 351,
+   "cached": 351
+  },
+  "E:2026-09-21": {
+   "selected": 331,
+   "cached": 331
+  },
+  "E:2026-09-22": {
+   "selected": 314,
+   "cached": 314
+  },
+  "E:2026-09-23": {
+   "selected": 239,
+   "cached": 239
+  },
+  "L:2026-09-29": {
+   "selected": 111,
+   "cached": 111
+  },
+  "L:2026-09-30": {
+   "selected": 47,
+   "cached": 47
+  }
+ },
+ "zero_support_days": [],
+ "inputs": {
+  "SEATS.parquet": {
+   "mtime_utc": "2026-09-30T10:24:36Z",
+   "bytes": 35351650
+  },
+  "build_start_utc": "2026-09-30T11:22:25Z",
+  "catalog_lag_min": 57.8,
+  "leaderboard": {
+   "file": "LEADERBOARD-20260930T1108.csv",
+   "mtime_utc": "2026-09-30T11:08:16Z"
+  },
+  "top4_latest": "/mnt/ai/scratch/farmNEAT/corpus-final/special/TOP4-BEATERS-48e3067de3a8"
+ },
+ "hash_of": "sha256(identity_json + newline + exact bytes of the published bucket files (cached seats) concatenated in recipe order); UNCACHED-*.tsv, RECEIPT.json and EFFECTIVE-SHARES.json are sidecars outside the hash",
+ "identity_json": "{\"beat_us_bucket\":\"L\",\"beat_us_days\":[\"2026-09-29\",\"2026-09-30\"],\"dynamic_shares\":{\"L\":\"cap_max_vs_A\"},\"merge\":{\"B\":\"BC\",\"C\":\"BC\"},\"reserved\":{\"S\":{\"control\":\"control runs renormalise A..E\",\"enforced_by\":\"selfplay-s/build_test_roster.py (refuses below min_seats; receipts the computed share); source of rule: coordinator 04:3x via gpu-scout\",\"lists\":\"/mnt/ai/scratch/farmNEAT/selfplay-s/S-<L>.tsv (per lineage B/O/N; owner gpu-scout; receipt selfplay-s/S0-RECEIPT.json)\",\"min_seats\":300,\"min_seats_rule\":\"no S test branch before n_S >= 300 per lineage\",\"share\":0.05,\"share_rule\":\"min(.05, n_S*share_A/n_A)\",\"share_rule_terms\":\"n_S = cached seats in selfplay-s/S-<L>.tsv; n_A = cached seats in the same bucket generation A.tsv; no S seat drawn more often than an A seat\",\"what\":\"self-play bucket (gpu-scout builds it); used only in test branches until it passes a gate\"}},\"sampling\":\"pick a bucket by share (A..E; control renormalises A..E; S only in test branches), then a seat uniformly within it\",\"schema\":\"bucket-recipe/v4\",\"shares\":{\"A\":0.35,\"BC\":0.4,\"D\":0.15,\"E\":0.05,\"L\":0.0},\"small_bucket_cap\":{\"multiplier\":4,\"output\":\"buckets/<gen>/EFFECTIVE-SHARES.json; trainers sample from it, not from the raw shares\",\"rule\":\"r_A = share_A/n_A (recipe shares normalised over A..E, S excluded; n = cached seats); for k != A: share_k <= 4*r_A*n_k; all excess share goes to A; one pass from pre-cap r_A; recomputed every build\",\"source\":\"owner 04:39 \\\"YES, cap each small bucket\\\"\"},\"version\":null}",
+ "exclusion_union": {
+  "sha256": "7e47c8cf9ebdd0030136ce9aefced83e2d8a7287254fbded3b6152f8c11d7618",
+  "path": "/mnt/ai/scratch/farmNEAT/broad/exclusions/EXCLUSIONS-7e47c8cf9ebd.tsv",
+  "families": {
+   "practice_val": 300,
+   "mmpq_val": 135,
+   "top4_val": 44,
+   "sealed": 16,
+   "leak": 128,
+   "fixed": 1,
+   "holdout_seed": 0,
+   "hash_val_split": 17793,
+   "quarantine_sub_seats": 8
+  }
+ },
+ "top4_val": {
+  "episodes_reserved": 44,
+  "val_seats": 44,
+  "train_seats": 3863,
+  "val_pct_of_episodes": 1.13,
+  "target_pct": 20,
+  "contaminated": 0
+ },
+ "publish": "skipped (--no-publish)",
+ "seconds": 11.7
+}

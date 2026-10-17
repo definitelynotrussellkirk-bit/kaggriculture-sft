@@ -1,0 +1,48 @@
+{
+  "schema": "public-winner-bc-comparison-spec-v1",
+  "world_seeds": [
+    1808225101,
+    1808225102
+  ],
+  "sampler_seed": 814001,
+  "opponents": [
+    "PASS",
+    "FIRST_BC",
+    "SHOP_ROUTER"
+  ],
+  "rules": [
+    {
+      "id": "original",
+      "kind": "ORIGINAL"
+    },
+    {
+      "id": "fixed-balanced",
+      "kind": "FIXED_SHOP",
+      "random_weeds": true,
+      "shops": [
+        "FARMERS_MARKET",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "YARN_STORE",
+        "BAKERY",
+        "PIZZA_SHOP",
+        "PET_CAFE",
+        "SMOOTHIE_SHOP"
+      ]
+    }
+  ],
+  "controls": {
+    "publication_steps": [
+      0,
+      144,
+      288,
+      432,
+      576
+    ],
+    "command_budget": 8,
+    "temperature": 1.0,
+    "seconds_per_game": 300,
+    "trace_byte_limit": 128000000,
+    "device": "cpu"
+  }
+}

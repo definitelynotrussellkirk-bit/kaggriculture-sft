@@ -1,0 +1,7 @@
+phase 1 seg0 from init
+{'completed_updates': 1000, 'termination': 'update_cap', 'wall_seconds': 1064.716430024011, 'last_sha256': '1b0d147f1b8e482bdc6d2d6e3b4433ebadafcd492972f421d963808118547345', 'game_strength_verified': False}
+Traceback (most recent call last):
+  File "/mnt/ai/scratch/farmNEAT/b-even/to_btrain.py", line 3, in <module>
+    import json, sys, torch
+ModuleNotFoundError: No module named 'torch'
+cp: cannot stat '/mnt/ai/scratch/farmNEAT/b-even/p2-seed.pt': No such file or directory

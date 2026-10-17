@@ -1,0 +1,29 @@
+{
+ "schema": "farm-run-receipt/v1",
+ "archives": [
+  "/mnt/ai/scratch/farmNEAT/pbc-deploy/nflow-main-wash8014/nflow-main-wash8014.tar.gz",
+  "/mnt/ai/scratch/farmNEAT/pbc-deploy/nflow-u16000-t4/nflow-u16000-t4.tar.gz"
+ ],
+ "archive_sha256_pre": [
+  "7661782af4ca815585945b019963b86586dbae490ba2554b592fdb080f0f4b3e",
+  "6033c855a47fd296b0c462f2f55a39f6539c4236cc972ae067739df069095547"
+ ],
+ "archive_sha256_post": [
+  "7661782af4ca815585945b019963b86586dbae490ba2554b592fdb080f0f4b3e",
+  "6033c855a47fd296b0c462f2f55a39f6539c4236cc972ae067739df069095547"
+ ],
+ "archive_bytes": [
+  13605819,
+  13595148
+ ],
+ "started_utc": "2026-09-30T22:57:37Z",
+ "finished_utc": "2026-09-30T23:03:49Z",
+ "runner_sha256": "4f9e4867d27b694fc19a221cab7de4fe47139a55bd479249a99f4f1a382e62ca",
+ "engine_tree_sha256": "43a878a64826dbdff7d763cce50947f7692a0771890627560eed234a66b1156d",
+ "engine": "engine-20260927-d91cbd52",
+ "game_json_sha256": "cfa1f01c173c653464d64b7fb426c537da73f8e9fc4f327b9a6c7cbb6a7ad58b",
+ "replay_sha256": "85397a3c5f0d7136b5083f8827e2cc86d90acfd383aaddd485ddecf75c9baf11",
+ "host": "spark-bfbd",
+ "slurm_job": "9466",
+ "slurm_task": "10"
+}

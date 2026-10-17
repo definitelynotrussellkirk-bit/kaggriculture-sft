@@ -1,0 +1,147 @@
+{
+  "content_sha256": "89927c2b24019f97cfabc1227eca19597328f8943fad17f8ac75e36d32a3ebf2",
+  "entries": {
+    "A5362D13": {
+      "assets": {
+        "work/runs/deployment/public-source-screen/public-a5362d13/PROVENANCE.json": "8e0b40d8f0bcca9eb5f9542db2f2fc11ba4fd22e001203897ac9574fe9223b59",
+        "work/runs/deployment/public-source-screen/public-a5362d13/main.py": "a5362d138ed3933a8204d467ffa0d2fd8fe121fc8eb42a8648c53ade91c1fbe3"
+      },
+      "entrypoint": "agent(observation, configuration)",
+      "forbidden_environment": [
+        "V92_SELL_LIB"
+      ],
+      "kind": "FROZEN_RESPONSIVE_SCRIPT",
+      "license": "Source retains Apache-2.0 text/notices. PROVENANCE.json asserts license/notice hashes; standalone files are not shipped here.",
+      "main_path": "work/runs/deployment/public-source-screen/public-a5362d13/main.py",
+      "main_sha256": "a5362d138ed3933a8204d467ffa0d2fd8fe121fc8eb42a8648c53ade91c1fbe3",
+      "provenance": {
+        "evidence": "work/runs/deployment/public-source-screen/public-a5362d13/PROVENANCE.json",
+        "extraction": "AST parsed literal base64.b64decode argument; notebook code was not executed",
+        "kernels": [
+          {
+            "notebook_sha256": "f27f4e4c3773d6bbf39db977441891a935610f4531f303fd24aa4a84ea74ebca",
+            "ref": "dmitriigluzdov/kaggriculture-more-wheat-smarter-sales"
+          },
+          {
+            "notebook_sha256": "154b74c9a996ef2ceb58cb071c37c28aa99498a8a0a9de3c96ab62f05edfe04f",
+            "ref": "guruprasaathas111/kaggriculture-top-2-master-engine-v4"
+          }
+        ]
+      },
+      "state": "NEW_MODULE_PER_GAME_AND_SEAT"
+    },
+    "FIRST_BC": {
+      "kind": "REQUIRED_FROZEN_CHECKPOINT",
+      "license": "Not asserted; use checkpoint provenance",
+      "missing_policy": "BLOCKED, never PASS",
+      "provenance": "Caller must supply exact checkpoint_adapter binding and artifact/manifest bytes"
+    },
+    "K0006": {
+      "assets": {
+        "src/farm_neat/evaluation/k0006_v43/PROVENANCE.json": "fa559183bc2370822f53dd2a97452d8e5005bba20fb029fa6aca58e52f1b4ad5",
+        "src/farm_neat/evaluation/k0006_v43/main.py": "4757f3f5b28db8a2f4614bb08993a8a567a7d49bae1ac324fbcfbcc1af60e95e"
+      },
+      "entrypoint": "agent(observation, configuration)",
+      "forbidden_environment": [],
+      "kind": "FROZEN_RESPONSIVE_SCRIPT",
+      "license": "No separate license file in the notebook; parent Apache-2.0 notices retained verbatim; wrapper published publicly on Kaggle",
+      "main_path": "src/farm_neat/evaluation/k0006_v43/main.py",
+      "main_sha256": "4757f3f5b28db8a2f4614bb08993a8a567a7d49bae1ac324fbcfbcc1af60e95e",
+      "provenance": {
+        "author": "sdy623 (Kaggle jaxa623)",
+        "evidence": "src/farm_neat/evaluation/k0006_v43/PROVENANCE.json",
+        "parent": {
+          "author": "Ahmed Berat Ozer",
+          "embedded_sha256": "919fc1d61050cd96f799979e49177ae3ac7bce98ec9835724238bea73f4a08ed",
+          "license": "Apache-2.0; full license text and upstream notices embedded in main.py",
+          "lineage_credits": "thomastschinkel, yhay81 (shop-router 0909/0911), destbreso, aurax7, tetsutani, prvsiyan, Rayk Kretzschmar, Dmitrii Gluzdov",
+          "name": "Kaggriculture V43: Recovering Lost Harvests"
+        },
+        "source": "https://www.kaggle.com/code/jaxa623/2780-beyond-48-0-128-128-worlds-with-95-cis"
+      },
+      "state": "NEW_MODULE_PER_GAME_AND_SEAT"
+    },
+    "MELON": {
+      "assets": {
+        "work/runs/deployment/public-source-screen/melon-threshold-2749/main.py": "1f5c7a18035e522ee91f10674e0007ceaebe8e523f2fe9440324d27d6525fd49"
+      },
+      "entrypoint": "agent(observation, configuration)",
+      "forbidden_environment": [],
+      "kind": "FROZEN_RESPONSIVE_SCRIPT",
+      "license": "Header identifies Ahmed Berat Ozer V45 as Apache-2.0; license text and upstream notices embedded. Separate wrapper licensing not asserted.",
+      "main_path": "work/runs/deployment/public-source-screen/melon-threshold-2749/main.py",
+      "main_sha256": "1f5c7a18035e522ee91f10674e0007ceaebe8e523f2fe9440324d27d6525fd49",
+      "provenance": {
+        "evidence": "work/runs/deployment/public-source-screen/melon-threshold-2749/main.py",
+        "notes": "Header credits Ahmed Berat Ozer V45 and sdy623 sale-race layer. No acquisition PROVENANCE.json shipped in this directory; notebook URL and extraction date UNKNOWN.",
+        "source": "Exact assigned public-source-screen/melon-threshold-2749/main.py"
+      },
+      "state": "NEW_MODULE_PER_GAME_AND_SEAT"
+    },
+    "PASS": {
+      "action": {
+        "farmer": [
+          "PASS"
+        ],
+        "hands": [],
+        "market": []
+      },
+      "assets": {},
+      "kind": "CONSTANT_PASS",
+      "license": "Repository-defined action constant; no external code copied",
+      "provenance": "Bundled exact_engine.PASS_ACTION"
+    },
+    "SHOP_ROUTER": {
+      "assets": {
+        "src/farm_neat/evaluation/shop_router_0909/LICENSE.txt": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+        "src/farm_neat/evaluation/shop_router_0909/PROVENANCE.json": "d4cb11ba8cd346022f06e2c0fc12ea321510ee876f6a005a8869a460cbc92b09",
+        "src/farm_neat/evaluation/shop_router_0909/actions.json": "17d503f2fd20d59f9c0f14024d1e74a8add8bb9b5561d4d908b45deecb5495ef",
+        "src/farm_neat/evaluation/shop_router_0909/main.py": "d6d74997dc5b483db63d8e39cafa1afeec0f366824e75107e109123f111e866b"
+      },
+      "entrypoint": "agent(observation, configuration)",
+      "forbidden_environment": [],
+      "kind": "FROZEN_RESPONSIVE_SCRIPT",
+      "license": "Apache-2.0; original LICENSE.txt shipped and hash-pinned",
+      "main_path": "src/farm_neat/evaluation/shop_router_0909/main.py",
+      "main_sha256": "d6d74997dc5b483db63d8e39cafa1afeec0f366824e75107e109123f111e866b",
+      "provenance": {
+        "evidence": "src/farm_neat/evaluation/shop_router_0909/PROVENANCE.json",
+        "notes": "Frozen responsive 13-tape runtime; sale logic credited to aurax7",
+        "source": "yhay81/shop-router-0909"
+      },
+      "state": "NEW_MODULE_PER_GAME_AND_SEAT"
+    },
+    "XMAN": {
+      "assets": {
+        "work/runs/deployment/public-xman-auto-top1/MATCHUP.json": "3fef78f22cd48f6183b316db2c8e338cc31bff0fa3b1ae18fb6f53922ed0533c",
+        "work/runs/deployment/public-xman-auto-top1/source/main.py": "fd39dffa68e2171fe6fc016b79804b52b862dc5c2af3427e9ca4c54e9fb410d8"
+      },
+      "entrypoint": "agent(observation, configuration)",
+      "forbidden_environment": [],
+      "kind": "FROZEN_RESPONSIVE_SCRIPT",
+      "license": "Apache-2.0 text and upstream notices embedded in exact main.py; no separate license for local packaging asserted here",
+      "main_path": "work/runs/deployment/public-xman-auto-top1/source/main.py",
+      "main_sha256": "fd39dffa68e2171fe6fc016b79804b52b862dc5c2af3427e9ca4c54e9fb410d8",
+      "provenance": {
+        "evidence": [
+          "work/runs/deployment/public-xman-auto-top1/source/main.py",
+          "work/runs/deployment/public-xman-auto-top1/MATCHUP.json"
+        ],
+        "notes": "Header: Pipe-16 HybridOpening and local packaging 2026-09-20; public V39/v9 lineage credits retained. No separate acquisition record in assigned directory.",
+        "source": "Exact assigned public-xman-auto-top1/source/main.py; not a derived approximation"
+      },
+      "state": "NEW_MODULE_PER_GAME_AND_SEAT"
+    }
+  },
+  "license_note": "Recorded source statements, not independent legal clearance; frozen inputs are imported read-only and not redistributed in the delta.",
+  "order": [
+    "PASS",
+    "FIRST_BC",
+    "SHOP_ROUTER",
+    "K0006",
+    "XMAN",
+    "MELON",
+    "A5362D13"
+  ],
+  "schema": "farm-opponent-league-registry-v1"
+}

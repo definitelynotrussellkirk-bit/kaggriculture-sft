@@ -1,0 +1,11 @@
+path	eid	seat	weight	tier	wdl	act_loss	final_cash	opp_cash	bucket
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115984030-1.stp	115984030	1	1.0	1	2	1	106231.0	106138.0	NEW
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115984030-0.stp	115984030	0	1.0	1	0	0	106138.0	106231.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115987062-0.stp	115987062	0	1.0	1	2	1	107550.0	104168.0	NEW
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115987062-1.stp	115987062	1	1.0	1	0	0	104168.0	107550.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115991669-0.stp	115991669	0	1.0	1	2	1	113323.0	107427.0	NEW
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115991669-1.stp	115991669	1	1.0	1	0	0	107427.0	113323.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115994724-0.stp	115994724	0	1.0	1	2	1	106625.0	104438.0	NEW
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115994724-1.stp	115994724	1	1.0	1	0	0	104438.0	106625.0	
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115999365-0.stp	115999365	0	1.0	1	2	1	106795.0	101668.0	NEW
+/mnt/ai/scratch/farmNEAT/base-v1-stepcache-v11/115999365-1.stp	115999365	1	1.0	1	0	0	101668.0	106795.0	

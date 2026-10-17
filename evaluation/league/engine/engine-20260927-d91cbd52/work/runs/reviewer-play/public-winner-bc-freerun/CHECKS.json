@@ -1,0 +1,133 @@
+{
+  "checks": [
+    {
+      "command": [
+        "python3",
+        "-B",
+        "-m",
+        "pytest",
+        "-q",
+        "work/runs/reviewer-play/public-winner-bc-freerun/test_freerun.py",
+        "-p",
+        "no:cacheprovider",
+        "--junitxml=work/runs/reviewer-play/public-winner-bc-freerun/CHECKS.junit.xml"
+      ],
+      "name": "focused_tests",
+      "returncode": 0,
+      "stdout": "...............................                                          [100%]\n31 passed in 3.24s\n"
+    },
+    {
+      "command": [
+        "bash",
+        "-n",
+        "work/runs/reviewer-play/public-winner-bc-freerun/run_maintainer.sh"
+      ],
+      "name": "maintainer_shell_syntax",
+      "returncode": 0,
+      "stdout": ""
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "work/runs/reviewer-play/public-winner-bc-freerun/freerun.py",
+        "--help"
+      ],
+      "name": "evaluator_cli_help",
+      "returncode": 0,
+      "stdout": "usage: freerun.py [-h] {bind,prepare,inspect,run} ...\n\nPlan-first replay-BC free-running evaluation, task-local to slot 81. prepare\nreads metadata only; run is an explicit maintainer native-game operation. The\ninjectable Python backend is for reduced software fixtures, never strength.\n\npositional arguments:\n  {bind,prepare,inspect,run}\n    bind                read-only exact full-economic checkpoint binding;\n                        pinned runtime required\n    prepare             freeze worlds/streams/opponents/settings without\n                        opening weights\n    inspect             validate a plan without checkpoint or native-game\n                        execution\n    run                 MAINTAINER ONLY: execute the complete prospectively\n                        fixed comparison\n\noptions:\n  -h, --help            show this help message and exit\n"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "-m",
+        "farm_neat.training.moe_lab",
+        "--help"
+      ],
+      "name": "required_training_cli_help",
+      "returncode": 0,
+      "stdout": "usage: moe_lab.py [-h]\n                  {teacher,teacher-witness,public-replay,public-check,bc,bc-current,selfplay} ...\n\nBounded full-economics MoE/teacher lab using the existing exact engine.\nTeacher imitation is PARTIAL ACTION BC, never fabricated latent plan labels or\nterminal RL admission. Production PPO continuation is a separate next step.\nAll outputs are new, source-bound work/runs children; no frozen actor is\nedited. Public replay imports instead use the declared separate corpus mount.\nThey reuse observed-prefix BC, not fabricated full-plan targets or old BC\nresume identities.\n\npositional arguments:\n  {teacher,teacher-witness,public-replay,public-check,bc,bc-current,selfplay}\n    public-replay       winner SFT prefixes from the declared external replay\n                        corpus\n    public-check        fresh raw reconstruction and tensor re-extraction, no\n                        fit\n    bc-current          supervised stage preserving current fast-model\n                        Adam/RNG/age, then resume RL\n\noptions:\n  -h, --help            show this help message and exit\n"
+    }
+  ],
+  "expected_red_observations": [
+    {
+      "result": "1 failed and 12 setup errors before the two task-local modules existed",
+      "test": "initial implementation interface"
+    },
+    {
+      "result": "3 failed and 24 passed before their scoped fixes",
+      "test": "device type, interruption, evidence closure"
+    },
+    {
+      "result": "1 failed and 29 passed before device became part of the sealed plan",
+      "test": "prospective device binding"
+    },
+    {
+      "result": "1 failed and 30 deselected before preserving marketParams overrides",
+      "test": "public market configuration parity"
+    }
+  ],
+  "fixture_limit": "Three-transition injected environments with invented cash labels; genuine tiny Graph sampling/replay. Not native game or playing-strength evidence.",
+  "native_execution_inputs_required": [
+    "Explicit authentic old model.pt and sidecar",
+    "Explicit authentic new BC model.pt and sidecar",
+    "Explicit authentic frozen first-BC model.pt and sidecar",
+    "Registered training interpreter from project/runtime/interpreter.toml"
+  ],
+  "python_ast_parse_passed": [
+    "work/runs/reviewer-play/public-winner-bc-freerun/checkpoint_adapter.py",
+    "work/runs/reviewer-play/public-winner-bc-freerun/freerun.py",
+    "work/runs/reviewer-play/public-winner-bc-freerun/test_freerun.py"
+  ],
+  "registered_reviewer_runtime_available": false,
+  "resource_scope": {
+    "full_suite_run": false,
+    "gpu_operations": 0,
+    "native_games": 0,
+    "optimizer_updates": 0,
+    "production_checkpoint_loads": 0
+  },
+  "review_runtime": {
+    "fixture_device": "cpu",
+    "numpy": "2.3.5",
+    "python": "3.13.5",
+    "torch": "2.10.0+cpu"
+  },
+  "schema": "public-winner-bc-freerun-review-checks-v1",
+  "scientific_status": "NOT_RUN",
+  "slot": 81,
+  "source_identity_check": {
+    "method": "Byte SHA-256 comparison against every non-directory source ZIP member; only task additions and the helper-issued assignment exist.",
+    "missing_original_files": [],
+    "modified_original_files": []
+  },
+  "source_zip": "FARM-REVIEW(20260922-122900).zip",
+  "source_zip_sha256": "5061f83c953c75d336b4fc845b77204a53fb776e34f7cbf3687a2efc017980ac",
+  "status": "PASS",
+  "strength_claim": false,
+  "task_id": "PUBLIC-WINNER-BC-FREERUN",
+  "test_totals": {
+    "errors": 0,
+    "failures": 0,
+    "skipped": 0,
+    "tests": 31
+  },
+  "tiny_graph_parameter_report": {
+    "active_unique_parameters_per_valid_token": 34232,
+    "always_on_including_shared": 31160,
+    "entity_tokens": "DYNAMIC",
+    "full_economic_factor_sampling": true,
+    "gdn_shared_weight_directions": 2,
+    "layers": 4,
+    "not_flops_or_runtime": true,
+    "not_whole_candidate_set_active_union": true,
+    "parameter_accounting_is_training_evidence": false,
+    "parameter_tensors": 127,
+    "routed_expert_parameters": 384,
+    "routed_parameters_total": 6144,
+    "schema": "farm-full-economic-moe-policy-v1",
+    "total_trainable_parameters": 37304
+  },
+  "verified_at_utc": "2026-09-22T12:59:02.346549+00:00"
+}

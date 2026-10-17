@@ -1,0 +1,100 @@
+{
+ "schema": "bucket-recipe/v4",
+ "source": "base-v1/DATA-PLAN-0930.md section 7 (owner 02:38-04:43)",
+ "shares": {
+  "A": 0.35,
+  "L": 0.0,
+  "BC": 0.4,
+  "M": 0.1,
+  "X": 0.15
+ },
+ "buckets": {
+  "A": "TOP4-BEATERS TRAIN (dynamic top 4) + 09-30 wins by current top-12 teams",
+  "BC": "other 09-30 wins + all 09-29 wins (owner 04:43 \"group 29 and 30\")",
+  "D": "09-24..09-28 wins, top 10% per day",
+  "E": "09-03..09-23 wins, top 10% per day"
+ },
+ "qualifying": [
+  "Kaggle",
+  "winner seat",
+  "not ours",
+  "not a mirror",
+  "day >= 2026-09-03",
+  "tsv_ready",
+  "trainer train split",
+  "not leak / MMPQ-VAL / sealed / practice-VAL / decode holdout seed / TOP4-BEATERS VAL"
+ ],
+ "top10_rank": "mean(game_score, opp_game_score) at game time; else mean(rating, opp_rating) leaderboard; per day",
+ "sampling": "pick a bucket by share (A..E; control renormalises A..E; S only in test branches), then a seat uniformly within it",
+ "publish_refusal": "any bucket that is non-empty upstream but loses > 10% of its seats to missing cache",
+ "reserved": {
+  "S": {
+   "share": 0.0,
+   "what": "self-play bucket (gpu-scout builds it); used only in test branches until it passes a gate",
+   "control": "control runs renormalise A..E",
+   "lists": "/mnt/ai/scratch/farmNEAT/selfplay-s/S-<L>.tsv (per lineage B/O/N; owner gpu-scout; receipt selfplay-s/S0-RECEIPT.json)",
+   "share_rule": "min(.05, n_S*share_A/n_A)",
+   "share_rule_terms": "n_S = cached seats in selfplay-s/S-<L>.tsv; n_A = cached seats in the same bucket generation A.tsv; no S seat drawn more often than an A seat",
+   "min_seats": 300,
+   "min_seats_rule": "no S test branch before n_S >= 300 per lineage",
+   "enforced_by": "selfplay-s/build_test_roster.py (refuses below min_seats; receipts the computed share); source of rule: coordinator 04:3x via gpu-scout"
+  }
+ },
+ "beat_us_days": [
+  "2026-09-29",
+  "2026-09-30"
+ ],
+ "beat_us_rule": "winner seats with opp_is_us (they beat our hosted bots) are kept only for game days 09-29/09-30; earlier days dropped from every bucket (owner 04:1x)",
+ "small_bucket_cap": {
+  "multiplier": 4,
+  "rule": "r_A = share_A/n_A (recipe shares normalised over A..E, S excluded; n = cached seats); for k != A: share_k <= 4*r_A*n_k; all excess share goes to A; one pass from pre-cap r_A; recomputed every build",
+  "source": "owner 04:39 \"YES, cap each small bucket\"",
+  "output": "buckets/<gen>/EFFECTIVE-SHARES.json; trainers sample from it, not from the raw shares"
+ },
+ "merge": {
+  "B": "BC",
+  "C": "BC"
+ },
+ "beat_us_bucket_rule": "coordinator 07:2x (owner \"make sure we're training on our losses too\"): bucket L = the WINNER seat of every game one of our submissions lost on beat_us_days (09-29/30), any source; assigned before A/TOP4/BC so no seat counts twice; our losing seat is never an action target. L share is dynamic: per-seat draw rate = 4 x A per-seat rate after rescaling A/BC/D/E proportionally (x = k/(1+k), k = 4*base_A*n_L/n_A)",
+ "beat_us_bucket": "L",
+ "dynamic_shares": {
+  "L": "cap_max_vs_A"
+ },
+ "a_top": {
+  "teams": 20,
+  "days": [
+   "2026-09-29",
+   "2026-09-30"
+  ],
+  "rule": "owner 09-30 08:3x \"lets prioritize top 10\": A = TOP4 TRAIN + wins of the live top-10 teams (build-time leaderboard, us excluded) on 09-29/30; L assigned after A overrides for winners over us; TOP10-BEATERS (owner 11:3x): winner seats of games whose LOSER is a current top-10 team (a_top days) also go to A",
+  "beaters": true
+ },
+ "days_window": [
+  "2026-09-29",
+  "2026-09-30"
+ ],
+ "m_bucket": {
+  "ranks": [
+   15,
+   40
+  ],
+  "days": [
+   "2026-09-30"
+  ],
+  "share": 0.1,
+  "rule": "owner 14:2x: winner seats of 09-30 games with a seat ranked 15-40 (us excluded); L keeps priority; A first"
+ },
+ "window_rule": "owner 14:1x: only 09-29/30 games from now on (D/E removed); t1 keeps all MMPQ dates",
+ "x_bucket": {
+  "ranks": [
+   1,
+   40
+  ],
+  "days": [
+   "2026-09-30"
+  ],
+  "share": 0.15,
+  "rule": "owner 14:4x: winner seat of 09-30 games whose LOSER was the newest submission (max submission id in the catalog) of a team ranked 1-40 (us excluded); X over A/M/BC; L keeps us"
+ },
+ "own_rule": "D-1613own 16:1x: no own or self-play winning seats in any bucket; S reserve 0; L (others beating us) kept"
+}
