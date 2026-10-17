@@ -32,7 +32,7 @@ I enter each competition to win or learn as much as possible, within a budget. H
 
 If I had more compute, I would have used it.
 
-Team name: **有辣条有权** ("you la tiao you quan"). La tiao is a famous cheap spicy snack, and the name is a play on **有钱有权** ("you qian you quan"): "To have money is to have power." Swap 钱 (qian, money) for 辣条 (la tiao) and you get the team name. I don't have a lot of money, but I have snacks and time! On the forum I got promoted to 辣条王子 ("la tiao wang zi", la tiao prince), after the [la tiao heir](https://www.scmp.com/news/people-culture/trending-china/article/3254186/owner-well-known-chinese-spicy-snack-brand-keeps-family-wealth-secret-son-until-he-20s-wants-him-be) whose father let him believe the family was in debt until he graduated, so he'd learn to work hard. No hidden fortune here, though.
+Team name: **有辣条有权** ("you la tiao you quan"). La tiao is a famous cheap spicy snack, and the name is a play on **有钱有权** ("you qian you quan"): "To have money is to have power." Swap 钱 (qian, money) for 辣条 (la tiao) and you get the team name.
 
 <img src="images/03-latiao-photo.png" alt="Two bags of Shuangjiao ruan la tiao and a plate of the spicy strips" width="260">
 ## Models
@@ -115,9 +115,7 @@ Keep 2-3 ideas alive. Each has a fallback, a current best and a current experime
 
 ![Workflow: ideas with fallback, best and experiment; this competition's idea tree](images/19-figF-workflow.png)
 
-I spent way more time on macro than on micro, and all of it was killed. Many micro branches were killed too.
-
-"Beats the best" is decided by paired games:
+Finally, we used a special version of the engine for matched games, so that shop rolls depend only on the initial seed.
 
 ![Paired games on shared worlds](images/20-fig7-paired.png)
 
